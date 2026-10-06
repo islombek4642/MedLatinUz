@@ -46,16 +46,25 @@ class MedLatinApp {
     const counts = {
       all: entries.length,
       prescription: entries.filter(e => e.category === 'prescription').length,
-      anatomy: entries.filter(e => e.category === 'anatomy').length,
+      anatomy: entries.filter(e => e.category === 'anatomy' || (e.category && e.category.startsWith('anatomy_'))).length,
       clinical: entries.filter(e => e.category === 'clinical').length,
-      general: entries.filter(e => e.category === 'general').length
+      general: entries.filter(e => e.category === 'general').length,
+      anatomy_organ: entries.filter(e => e.category === 'anatomy_organ').length,
+      anatomy_bone: entries.filter(e => e.category === 'anatomy_bone').length,
+      anatomy_nerve: entries.filter(e => e.category === 'anatomy_nerve').length,
+      anatomy_vessel: entries.filter(e => e.category === 'anatomy_vessel').length,
+      anatomy_muscle: entries.filter(e => e.category === 'anatomy_muscle').length,
+      anatomy_gland: entries.filter(e => e.category === 'anatomy_gland').length,
+      anatomy_joint: entries.filter(e => e.category === 'anatomy_joint').length,
+      anatomy_ligament: entries.filter(e => e.category === 'anatomy_ligament').length,
+      anatomy_tendon: entries.filter(e => e.category === 'anatomy_tendon').length
     };
 
     this.filterButtons.forEach(btn => {
       const cat = btn.dataset.category;
       const countEl = btn.querySelector('.filter-count');
       if (countEl && counts[cat] !== undefined) {
-        countEl.textContent = counts[cat];
+        countEl.textContent = counts[cat].toLocaleString();
       }
     });
   }
@@ -112,11 +121,11 @@ class MedLatinApp {
     
     // Update counter
     if (this.resultsCount) {
-      this.resultsCount.textContent = `${results.length} ta atama topildi`;
+      this.resultsCount.textContent = `${results.length.toLocaleString()} ta atama topildi`;
     }
 
-    // Render cards
-    UIRenderer.renderCards(this.resultsGrid, results, this.currentQuery);
+    // Render cards with pagination/limit
+    UIRenderer.renderCards(this.resultsGrid, results, this.currentQuery, 60);
   }
 
   async initServiceWorker() {

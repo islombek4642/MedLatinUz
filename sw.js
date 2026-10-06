@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v1';
+const CACHE_NAME = 'medlatin-v2';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -19,7 +19,16 @@ const ASSETS_TO_CACHE = [
   './data/prescriptions.json',
   './data/anatomy.json',
   './data/clinical.json',
-  './data/general.json'
+  './data/general.json',
+  './data/anatomy_organs.json',
+  './data/anatomy_bones.json',
+  './data/anatomy_nerves.json',
+  './data/anatomy_vessels.json',
+  './data/anatomy_muscles.json',
+  './data/anatomy_glands.json',
+  './data/anatomy_joints.json',
+  './data/anatomy_ligaments.json',
+  './data/anatomy_tendons.json'
 ];
 
 // Install: Cache all static assets and data files

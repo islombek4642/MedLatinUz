@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
   <title>MedLatin UZ — Shifokorlar Lotincha Yozuvlari Lug'ati</title>
-  <meta name="description" content="Oddiy fuqarolar uchun tibbiy lotincha yozuvlar va shifokorlar retseptlari lug'ati. Retsept qisqartmalari, anatomik a'zolar va kasalliklarning o'zbekcha sodda tushuntirishi.">
+  <meta name="description" content="Oddiy fuqarolar uchun tibbiy lotincha yozuvlar va shifokorlar retseptlari lug'ati. 14 000+ retsept qisqartmalari, anatomik a'zolar va kasalliklarning o'zbekcha sodda tushuntirishi.">
   <meta name="theme-color" content="#0284c7">
 
   <!-- PWA Manifest -->
@@ -37,7 +37,7 @@
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#059669">
               <circle cx="12" cy="12" r="10"/>
             </svg>
-            Tayyor
+            14 700+ atama
           </span>
         </div>
       </div>
@@ -51,7 +51,7 @@
           Shifokorlar yozuvini <span>oson tushuning</span>
         </h1>
         <p class="hero-subtitle">
-          Retsept qisqartmalari, anatomik a'zolar va tibbiy tashxislarning o'zbek tilidagi sodda va xalqona izohli lug'ati.
+          Retsept qisqartmalari, anatomik a'zolar (mushak, suyak, nerv, tomir) va tibbiy tashxislarning o'zbek tilidagi izohli lug'ati.
         </p>
       </section>
 
@@ -69,7 +69,7 @@
             type="search" 
             id="searchInput" 
             class="search-input" 
-            placeholder="Lotincha yoki o'zbekcha so'z kiriting (masalan: Rp., Cor, Gastritis, yurak)..."
+            placeholder="Lotincha, inglizcha yoki o'zbekcha atama kiriting (masalan: Rp., biceps, aorta, femur)..."
             autocomplete="off"
             spellcheck="false"
           >
@@ -86,10 +86,11 @@
         <div class="search-quick-tags">
           <span>Tezkor namunalar:</span>
           <button type="button" class="quick-tag" data-query="Rp.">Rp. (Retsept)</button>
-          <button type="button" class="quick-tag" data-query="in tab.">in tab. (Tabletkada)</button>
+          <button type="button" class="quick-tag" data-query="in tab.">in tab.</button>
+          <button type="button" class="quick-tag" data-query="adductor">adductor (Mushak)</button>
+          <button type="button" class="quick-tag" data-query="aorta">aorta (Tomir)</button>
           <button type="button" class="quick-tag" data-query="Cor">Cor (Yurak)</button>
           <button type="button" class="quick-tag" data-query="Gastritis">Gastritis</button>
-          <button type="button" class="quick-tag" data-query="Cephalalgia">Cephalalgia (Bosh og'rig'i)</button>
         </div>
       </section>
 
@@ -102,7 +103,22 @@
           Retseptlar <span class="filter-count">0</span>
         </button>
         <button type="button" class="filter-btn" data-category="anatomy" id="filterAnatomy">
-          Anatomiya <span class="filter-count">0</span>
+          Barcha Anatomiya <span class="filter-count">0</span>
+        </button>
+        <button type="button" class="filter-btn" data-category="anatomy_muscle" id="filterMuscles">
+          Mushaklar <span class="filter-count">0</span>
+        </button>
+        <button type="button" class="filter-btn" data-category="anatomy_bone" id="filterBones">
+          Suyaklar <span class="filter-count">0</span>
+        </button>
+        <button type="button" class="filter-btn" data-category="anatomy_vessel" id="filterVessels">
+          Qon tomirlari <span class="filter-count">0</span>
+        </button>
+        <button type="button" class="filter-btn" data-category="anatomy_nerve" id="filterNerves">
+          Nervlar <span class="filter-count">0</span>
+        </button>
+        <button type="button" class="filter-btn" data-category="anatomy_organ" id="filterOrgans">
+          A'zolar <span class="filter-count">0</span>
         </button>
         <button type="button" class="filter-btn" data-category="clinical" id="filterClinical">
           Klinika <span class="filter-count">0</span>

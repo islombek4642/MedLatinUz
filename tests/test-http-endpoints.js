@@ -13,6 +13,15 @@ const endpoints = [
   { url: 'http://localhost:3000/data/anatomy.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/clinical.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/general.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_organs.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_bones.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_nerves.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_vessels.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_muscles.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_glands.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_joints.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_ligaments.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/anatomy_tendons.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/manifest.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/sw.js', expectedMime: 'application/javascript' }
 ];
@@ -40,7 +49,7 @@ async function run() {
   for (const ep of endpoints) {
     try {
       const res = await checkEndpoint(ep);
-      console.log(`✓ OK: ${ep.url} (${res.size} bytes)`);
+      console.log(`✓ OK: ${ep.url} (${res.size.toLocaleString()} bytes)`);
     } catch (err) {
       console.error(`✗ FAIL: ${ep.url} - ${err.message}`);
       process.exit(1);

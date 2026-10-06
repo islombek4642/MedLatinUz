@@ -43,9 +43,14 @@ export class SearchEngine {
     const hasCategory = categoryFilter && categoryFilter !== 'all';
 
     // Base filtering by category
-    let pool = hasCategory
-      ? this.entries.filter(e => e.category === categoryFilter)
-      : this.entries;
+    let pool = this.entries;
+    if (hasCategory) {
+      if (categoryFilter === 'anatomy') {
+        pool = this.entries.filter(e => e.category === 'anatomy' || (e.category && e.category.startsWith('anatomy_')));
+      } else {
+        pool = this.entries.filter(e => e.category === categoryFilter);
+      }
+    }
 
     if (!normQuery) {
       return pool;

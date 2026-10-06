@@ -4,9 +4,18 @@
 export class UIRenderer {
   static CATEGORY_LABELS = {
     prescription: 'Retsept / Dori',
-    anatomy: 'Anatomiya',
+    anatomy: 'Asosiy anatomiya',
     clinical: 'Klinik tashxis',
-    general: 'Umumiy lotincha'
+    general: 'Umumiy lotincha',
+    anatomy_organ: "A'zo (Organ)",
+    anatomy_bone: 'Suyak (Bone)',
+    anatomy_nerve: 'Nerv (Nerve)',
+    anatomy_vessel: 'Qon tomiri (Vessel)',
+    anatomy_muscle: 'Mushak (Muscle)',
+    anatomy_gland: 'Bez (Gland)',
+    anatomy_joint: "Bo'g'im (Joint)",
+    anatomy_ligament: 'Boylam (Ligament)',
+    anatomy_tendon: 'Pay (Tendon)'
   };
 
   /**
@@ -23,26 +32,34 @@ export class UIRenderer {
   }
 
   /**
-   * Renders dictionary word cards into the container
+   * Renders dictionary word cards into the container with pagination/slice
    * @param {HTMLElement} container
    * @param {Array} entries
    * @param {string} query
+   * @param {number} limit
    */
-  static renderCards(container, entries, query = '') {
+  static renderCards(container, entries, query = '', limit = 60) {
     if (!entries || entries.length === 0) {
       this.renderEmpty(container, query);
       return;
     }
 
-    const html = entries.map(item => {
-      const categoryLabel = this.CATEGORY_LABELS[item.category] || item.category;
-      const categoryClass = `category-${item.category}`;
+    const visibleEntries = entries.slice(0, limit);
+    const hasMore = entries.length > limit;
+
+    const cardsHtml = visibleEntries.map(item => {
+      const categoryLabel = this.CATEGORY_LABELS[item.category] || item.type_uz || item.category;
+      
+      let badgeClass = 'category-general';
+      if (item.category === 'prescription') badgeClass = 'category-prescription';
+      else if (item.category === 'clinical') badgeClass = 'category-clinical';
+      else if (item.category && item.category.startsWith('anatomy')) badgeClass = 'category-anatomy';
 
       return `
         <article class="word-card" data-id="${this.escapeHtml(item.id)}">
           <div class="word-card-header">
             <h3 class="latin-term">${this.escapeHtml(item.latin)}</h3>
-            <span class="category-badge ${categoryClass}">${categoryLabel}</span>
+            <span class="category-badge ${badgeClass}">${categoryLabel}</span>
           </div>
           
           <div class="uzbek-translation">
@@ -59,7 +76,27 @@ export class UIRenderer {
       `;
     }).join('');
 
-    container.innerHTML = html;
+    const moreHtml = hasMore ? `
+      <div class="load-more-container" style="grid-column: 1 / -1; text-align: center; margin-top: 1.5rem;">
+        <p style="color: var(--text-muted); margin-bottom: 0.75rem; font-size: 0.9rem;">
+          Jami ${entries.length.toLocaleString()} ta natijadan dastlabki ${limit} tasi ko'rsatilmoqda.
+        </p>
+        <button type="button" id="loadMoreBtn" class="filter-btn active" style="padding: 0.65rem 1.75rem; font-size: 0.95rem;">
+          Yana 60 tasini ko'rsatish
+        </button>
+      </div>
+    ` : '';
+
+    container.innerHTML = cardsHtml + moreHtml;
+
+    if (hasMore) {
+      const loadMoreBtn = document.getElementById('loadMoreBtn');
+      if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', () => {
+          this.renderCards(container, entries, query, limit + 60);
+        });
+      }
+    }
   }
 
   /**
@@ -74,7 +111,7 @@ export class UIRenderer {
         <h3 class="empty-title">Hech qanday atama topilmadi</h3>
         <p class="empty-desc">
           ${query ? `<strong>"${this.escapeHtml(query)}"</strong> bo'yicha ma'lumot topilmadi.` : ''}
-          Iltimos, so'zning yozilishini tekshiring yoki umumiyroq so'z (masalan: <em>Rp</em>, <em>sol</em>, <em>yurak</em>) bilan qidirib ko'ring.
+          Iltimos, so'zning yozilishini tekshiring yoki umumiyroq so'z (masalan: <em>Rp</em>, <em>biceps</em>, <em>femur</em>, <em>aorta</em>) bilan qidirib ko'ring.
         </p>
       </div>
     `;
@@ -88,7 +125,7 @@ export class UIRenderer {
     container.innerHTML = `
       <div class="loading-state">
         <div class="spinner"></div>
-        <p>Tibbiy lug'at yuklanmoqda...</p>
+        <p>14 000+ dan ortiq tibbiy va anatomik atamalar yuklanmoqda...</p>
       </div>
     `;
   }
