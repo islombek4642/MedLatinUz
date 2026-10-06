@@ -1,0 +1,8 @@
+/* MedLatin UZ - Modular CSS Main Entry */
+@import './variables.css';
+@import './base.css';
+@import './layout.css';
+@import './components/search-bar.css';
+@import './components/filters.css';
+@import './components/word-card.css';
+@import './components/responsive.css';
