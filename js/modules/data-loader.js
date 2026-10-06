@@ -9,6 +9,9 @@ export class DataLoader {
     './data/clinical.json',
     './data/general.json',
 
+    // 12 Human body systems
+    './data/anatomy_systems.json',
+
     // Anatomical structure categories
     './data/anatomy_organs.json',
     './data/anatomy_bones.json',

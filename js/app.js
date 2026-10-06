@@ -46,6 +46,7 @@ class MedLatinApp {
       all: entries.length,
       prescription: entries.filter(e => e.category === 'prescription').length,
       anatomy: entries.filter(e => e.category === 'anatomy' || (e.category && e.category.startsWith('anatomy_'))).length,
+      anatomy_system: entries.filter(e => e.category === 'anatomy_system').length,
       clinical: entries.filter(e => e.category === 'clinical').length,
       general: entries.filter(e => e.category === 'general' || (e.category && e.category.startsWith('latin_'))).length,
       anatomy_organ: entries.filter(e => e.category === 'anatomy_organ').length,

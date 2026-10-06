@@ -16,6 +16,9 @@ const endpoints = [
   { url: 'http://localhost:3000/data/clinical.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/general.json', expectedMime: 'application/json' },
   
+  // 12 Human body systems
+  { url: 'http://localhost:3000/data/anatomy_systems.json', expectedMime: 'application/json' },
+
   // Anatomical categories
   { url: 'http://localhost:3000/data/anatomy_organs.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/anatomy_bones.json', expectedMime: 'application/json' },

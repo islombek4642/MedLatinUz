@@ -5,6 +5,7 @@ export class UIRenderer {
   static CATEGORY_LABELS = {
     prescription: 'Retsept / Dori',
     anatomy: 'Asosiy anatomiya',
+    anatomy_system: 'Tana tizimi (System)',
     clinical: 'Klinik tashxis',
     general: 'Umumiy lotincha',
     anatomy_organ: "A'zo (Organ)",
@@ -118,7 +119,7 @@ export class UIRenderer {
         <h3 class="empty-title">Hech qanday atama topilmadi</h3>
         <p class="empty-desc">
           ${query ? `<strong>"${this.escapeHtml(query)}"</strong> bo'yicha ma'lumot topilmadi.` : ''}
-          Iltimos, so'zning yozilishini tekshiring yoki umumiyroq so'z (masalan: <em>Rp</em>, <em>biceps</em>, <em>femur</em>, <em>abacus</em>) bilan qidirib ko'ring.
+          Iltimos, so'zning yozilishini tekshiring yoki umumiyroq so'z (masalan: <em>Rp</em>, <em>systema</em>, <em>biceps</em>, <em>femur</em>) bilan qidirib ko'ring.
         </p>
       </div>
     `;
@@ -132,7 +133,7 @@ export class UIRenderer {
     container.innerHTML = `
       <div class="loading-state">
         <div class="spinner"></div>
-        <p>20 000+ dan ortiq tibbiy va lotincha atamalar yuklanmoqda...</p>
+        <p>20 700+ dan ortiq tibbiy, anatomik va lotincha atamalar yuklanmoqda...</p>
       </div>
     `;
   }

@@ -23,6 +23,9 @@ const requiredFiles = [
   { file: 'data/anatomy_ligaments.json', category: 'anatomy_ligament' },
   { file: 'data/anatomy_tendons.json', category: 'anatomy_tendon' },
 
+  // Human body systems from systems.html
+  { file: 'data/anatomy_systems.json', category: 'anatomy_system' },
+
   // Specific Latin categories from latin.html
   { file: 'data/latin_nouns.json', category: 'latin_noun' },
   { file: 'data/latin_adjectives.json', category: 'latin_adjective' },
