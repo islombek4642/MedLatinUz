@@ -1,0 +1,170 @@
+[
+  {
+    "id": "cln_001",
+    "latin": "Cephalalgia",
+    "category": "clinical",
+    "translation_uz": "Bosh og'rig'i",
+    "definition_uz": "Bosh sohasidagi turli sabablar (charchoq, bosim, spazm) tufayli kelib chiqadigan og'riq belgisi."
+  },
+  {
+    "id": "cln_002",
+    "latin": "Gastritis",
+    "category": "clinical",
+    "translation_uz": "Gastrit (Oshqozon shilliq qavati yallig'lanishi)",
+    "definition_uz": "Oshqozon devorining ichki shilliq qavati yallig'lanishi. Qorin yuqori qismida og'riq, kekirish, ko'ngil aynishi bilan kechadi."
+  },
+  {
+    "id": "cln_003",
+    "latin": "Ulcus (Ulcus ventriculi)",
+    "category": "clinical",
+    "translation_uz": "Yara (Oshqozon yarasi)",
+    "definition_uz": "Oshqozon yoki 12 barmoqli ichak shilliq qavatining chuqur jarohatlanishi natijasida hosil bo'ladigan surunkali yara kasalligi."
+  },
+  {
+    "id": "cln_004",
+    "latin": "Bronchitis",
+    "category": "clinical",
+    "translation_uz": "Bronxit",
+    "definition_uz": "Bronxlarning yallig'lanishi. Yo'tal, balg'am ko'chishi va nafas qisishi bilan kechadigan nafas yo'llari kasalligi."
+  },
+  {
+    "id": "cln_005",
+    "latin": "Pneumonia",
+    "category": "clinical",
+    "translation_uz": "Zotiljam (O'pka yallig'lanishi)",
+    "definition_uz": "O'pka to'qimalarining infeksiya (bakteriya yoki virus) natijasida o'tkir yallig'lanishi. Yuqori harorat va nafas qisishi bilan kechadi."
+  },
+  {
+    "id": "cln_006",
+    "latin": "Hypertonia (Hypertensio)",
+    "category": "clinical",
+    "translation_uz": "Gipertoniya (Qon bosimi ko'tarilishi)",
+    "definition_uz": "Arterial qon bosimining me'yordan (120/80 dan) doimiy ravishda baland bo'lishi holati."
+  },
+  {
+    "id": "cln_007",
+    "latin": "Hypotonia (Hypotensio)",
+    "category": "clinical",
+    "translation_uz": "Gipotoniya (Qon bosimi tushishi)",
+    "definition_uz": "Arterial qon bosimining odatdagidan past bo'lishi. Bosh aylanishi va holsizlik keltirib chiqarishi mumkin."
+  },
+  {
+    "id": "cln_008",
+    "latin": "Tachycardia",
+    "category": "clinical",
+    "translation_uz": "Taxikardiya (Yurak tez urishi)",
+    "definition_uz": "Yurak qisqarishlari sonining daqiqasiga 90-100 tadan ortib ketishi holati."
+  },
+  {
+    "id": "cln_009",
+    "latin": "Bradycardia",
+    "category": "clinical",
+    "translation_uz": "Bradikardiya (Yurak sekin urishi)",
+    "definition_uz": "Yurak urish tezligining daqiqasiga 60 tadan kamayib ketishi holati."
+  },
+  {
+    "id": "cln_010",
+    "latin": "Ischaemia",
+    "category": "clinical",
+    "translation_uz": "Ishemiya (Qon yetishmovchiligi)",
+    "definition_uz": "Qon tomirlari torayishi yoki tiqilishi oqibatida ma'lum a'zoga (masalan, yurak yoki miyaga) yetarli qon bormay qolishi."
+  },
+  {
+    "id": "cln_011",
+    "latin": "Appendicitis",
+    "category": "clinical",
+    "translation_uz": "Appenditsit (Ko'richak yallig'lanishi)",
+    "definition_uz": "Ko'richak chuvalchangsimon o'simtasining o'tkir yallig'lanishi. Qorinning o'ng pastki qismida kuchli og'riq beradi va jarrohlik talab etadi."
+  },
+  {
+    "id": "cln_012",
+    "latin": "Hepatitis",
+    "category": "clinical",
+    "translation_uz": "Gepatit (Jigar yallig'lanishi)",
+    "definition_uz": "Viruslar, toksinlar yoki dorilar ta'sirida jigar to'qimasining yallig'lanishi."
+  },
+  {
+    "id": "cln_013",
+    "latin": "Nephritis",
+    "category": "clinical",
+    "translation_uz": "Nefrit (Buyrak yallig'lanishi)",
+    "definition_uz": "Buyrak to'qimalarining infeksion yoki autoimmun yallig'lanishi."
+  },
+  {
+    "id": "cln_014",
+    "latin": "Otitis",
+    "category": "clinical",
+    "translation_uz": "Otit (Quloq yallig'lanishi)",
+    "definition_uz": "Tashqi, o'rta yoki ichki quloqning yallig'lanishi. Quloqda og'riq va eshitish pasayishi bilan namoyon bo'ladi."
+  },
+  {
+    "id": "cln_015",
+    "latin": "Rhinitis",
+    "category": "clinical",
+    "translation_uz": "Rinit (Tumov / Burun yallig'lanishi)",
+    "definition_uz": "Burun bo'shlig'i shilliq qavatining yallig'lanishi. Burun bitishi, oqishi va aksirishga sabab bo'ladi."
+  },
+  {
+    "id": "cln_016",
+    "latin": "Dermatitis",
+    "category": "clinical",
+    "translation_uz": "Dermatit (Teri yallig'lanishi)",
+    "definition_uz": "Teri qoplamining qizarishi, qichishi va toshmalar toshishi bilan kechadigan yallig'lanish reaksiyasi."
+  },
+  {
+    "id": "cln_017",
+    "latin": "Arthritis",
+    "category": "clinical",
+    "translation_uz": "Artrit (Bo'g'im yallig'lanishi)",
+    "definition_uz": "Bir yoki bir nechta bo'g'imlarning yallig'lanishi. Harakatlanish paytida qattiq og'riq va shish beradi."
+  },
+  {
+    "id": "cln_018",
+    "latin": "Fractura",
+    "category": "clinical",
+    "translation_uz": "Suyak sinishi (Fraktura)",
+    "definition_uz": "Jarohat natijasida suyak butunligining to'liq yoki qisman buzilishi."
+  },
+  {
+    "id": "cln_019",
+    "latin": "Febris",
+    "category": "clinical",
+    "translation_uz": "Isitma (Tana harorati ko'tarilishi)",
+    "definition_uz": "Organizmning infeksiyaga qarshi himoya reaksiyasi sifatida tana haroratining 37°C dan oshishi."
+  },
+  {
+    "id": "cln_020",
+    "latin": "Dolor",
+    "category": "clinical",
+    "translation_uz": "Og'riq",
+    "definition_uz": "To'qimalar zararlanishi yoki kasallik haqida miyaga xabar beruvchi yoqimsiz sezgi."
+  },
+  {
+    "id": "cln_021",
+    "latin": "Spasmus",
+    "category": "clinical",
+    "translation_uz": "Spazm (Tirishish)",
+    "definition_uz": "Mushaklarning yoki tomirlarning to'satdan ixtiyorsiz va og'riqli qisqarishi."
+  },
+  {
+    "id": "cln_022",
+    "latin": "Oedema",
+    "category": "clinical",
+    "translation_uz": "Shish",
+    "definition_uz": "To'qimalarda ortiqcha suyuqlik to'planishi natijasida hajmning kattalashishi."
+  },
+  {
+    "id": "cln_023",
+    "latin": "Haemorrhagia",
+    "category": "clinical",
+    "translation_uz": "Qon ketishi",
+    "definition_uz": "Tomir butunligi buzilishi natijasida qonning tashqariga yoki ichki bo'shliqlarga oqishi."
+  },
+  {
+    "id": "cln_024",
+    "latin": "Anemia",
+    "category": "clinical",
+    "translation_uz": "Anemiya (Kamqonlik)",
+    "definition_uz": "Qonda gemoglobin va qizil qon tanachalari (eritrotsitlar) miqdorining kamayib ketishi. Holsizlik va terining oqarishi kuzatiladi."
+  }
+]

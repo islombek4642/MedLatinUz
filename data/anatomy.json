@@ -1,0 +1,198 @@
+[
+  {
+    "id": "ant_001",
+    "latin": "Cor (cordis)",
+    "category": "anatomy",
+    "translation_uz": "Yurak",
+    "definition_uz": "Qon aylanish tizimining markaziy mushak a'zosi. Ko'krak qafasining chap qismida joylashgan."
+  },
+  {
+    "id": "ant_002",
+    "latin": "Pulmo (pulmonis)",
+    "category": "anatomy",
+    "translation_uz": "O'pka",
+    "definition_uz": "Nafas olish tizimining asosiy a'zosi, qonni kislorod bilan to'yintiradi va karbonat angidridni chiqaradi."
+  },
+  {
+    "id": "ant_003",
+    "latin": "Hepar (hepatis)",
+    "category": "anatomy",
+    "translation_uz": "Jigar",
+    "definition_uz": "Inson tanasidagi eng katta ichki bez. Moddalar almashinuvi, qonni filtrlash va safro ishlab chiqarishda qatnashadi."
+  },
+  {
+    "id": "ant_004",
+    "latin": "Ren (renis)",
+    "category": "anatomy",
+    "translation_uz": "Buyrak",
+    "definition_uz": "Qonni tozalab, ortiqcha suyuqlik va zararli moddalarni siydik ko'rinishida chiqaruvchi juft a'zo."
+  },
+  {
+    "id": "ant_005",
+    "latin": "Cranium",
+    "category": "anatomy",
+    "translation_uz": "Kalla suyagi (Bosh suyagi)",
+    "definition_uz": "Bosh miyani tashqi zarbalardan himoya qiluvchi suyaklar majmuasi."
+  },
+  {
+    "id": "ant_006",
+    "latin": "Cerebrum (Encephalon)",
+    "category": "anatomy",
+    "translation_uz": "Bosh miya",
+    "definition_uz": "Markaziy asab tizimining oliy organi, barcha tana a'zolari va sezgilarni boshqaradi."
+  },
+  {
+    "id": "ant_007",
+    "latin": "Gaster (Ventriculus)",
+    "category": "anatomy",
+    "translation_uz": "Oshqozon",
+    "definition_uz": "Ovqat hazm qilish trakti a'zosi, ovqatni kimyoviy va mexanik qayta ishlaydi."
+  },
+  {
+    "id": "ant_008",
+    "latin": "Intestinum",
+    "category": "anatomy",
+    "translation_uz": "Ichak",
+    "definition_uz": "Oshqozondan keyin boshlanuvchi, ozuqa moddalarini qonga so'ruvchi uzun hazm a'zosi (ingichka va yo'g'on ichak)."
+  },
+  {
+    "id": "ant_009",
+    "latin": "Musculus",
+    "category": "anatomy",
+    "translation_uz": "Mushak (Muskul)",
+    "definition_uz": "Tana harakati va ichki a'zolar qisqarishini ta'minlovchi to'qima."
+  },
+  {
+    "id": "ant_010",
+    "latin": "Os (ossis)",
+    "category": "anatomy",
+    "translation_uz": "Suyak",
+    "definition_uz": "Tananing qattiq skelet tayanchini tashkil etuvchi mustahkam to'qima."
+  },
+  {
+    "id": "ant_011",
+    "latin": "Articulatio",
+    "category": "anatomy",
+    "translation_uz": "Bo'g'im",
+    "definition_uz": "Ikki yoki undan ortiq suyaklarning o'zaro harakatchan birikkan joyi."
+  },
+  {
+    "id": "ant_012",
+    "latin": "Sanguis",
+    "category": "anatomy",
+    "translation_uz": "Qon",
+    "definition_uz": "Tomirlar bo'ylab harakatlanib, hujayralarga kislorod va oziq yetkazib beruvchi qizil suyuqlik."
+  },
+  {
+    "id": "ant_013",
+    "latin": "Arteria",
+    "category": "anatomy",
+    "translation_uz": "Arteriya tomiri",
+    "definition_uz": "Kislorodga boy qonni yurakdan boshqa a'zo va to'qimalarga tashiydigan tomir."
+  },
+  {
+    "id": "ant_014",
+    "latin": "Vena",
+    "category": "anatomy",
+    "translation_uz": "Vena tomiri",
+    "definition_uz": "Qonni tana a'zolaridan yurak tomon qaytarib olib keluvchi tomir."
+  },
+  {
+    "id": "ant_015",
+    "latin": "Nervus",
+    "category": "anatomy",
+    "translation_uz": "Asab tolasi (Nerv)",
+    "definition_uz": "Tana a'zolari va miya o'rtasida impulslar (signallar) o'tkazuvchi tola."
+  },
+  {
+    "id": "ant_016",
+    "latin": "Cutis",
+    "category": "anatomy",
+    "translation_uz": "Teri",
+    "definition_uz": "Inson tanasining tashqi qoplamasi, himoya va haroratni saqlash vazifasini bajaradi."
+  },
+  {
+    "id": "ant_017",
+    "latin": "Oculus",
+    "category": "anatomy",
+    "translation_uz": "Ko'z",
+    "definition_uz": "Ko'rish sezgi a'zosi."
+  },
+  {
+    "id": "ant_018",
+    "latin": "Auris",
+    "category": "anatomy",
+    "translation_uz": "Quloq",
+    "definition_uz": "Eshitish va muvozanat saqlash a'zosi."
+  },
+  {
+    "id": "ant_019",
+    "latin": "Nasus",
+    "category": "anatomy",
+    "translation_uz": "Burun",
+    "definition_uz": "Nafas olish va hid bilish sezgi a'zosi."
+  },
+  {
+    "id": "ant_020",
+    "latin": "Dens (dentis)",
+    "category": "anatomy",
+    "translation_uz": "Tish",
+    "definition_uz": "Jag' suyagida joylashgan, ovqatni maydalash uchun xizmat qiladigan qattiq hosila."
+  },
+  {
+    "id": "ant_021",
+    "latin": "Lingua",
+    "category": "anatomy",
+    "translation_uz": "Til",
+    "definition_uz": "Og'iz bo'shlig'idagi ta'm bilish va nutq so'zlash mushak a'zosi."
+  },
+  {
+    "id": "ant_022",
+    "latin": "Larynx",
+    "category": "anatomy",
+    "translation_uz": "Hiqildoq",
+    "definition_uz": "Nafas yo'li va ovoz hosil qiluvchi tog'ay a'zo."
+  },
+  {
+    "id": "ant_023",
+    "latin": "Trachea",
+    "category": "anatomy",
+    "translation_uz": "Kekirdak (Nafas nayi)",
+    "definition_uz": "Hiqildoqdan o'pkaga havo o'tkazuvchi havo nayi."
+  },
+  {
+    "id": "ant_024",
+    "latin": "Bronchus",
+    "category": "anatomy",
+    "translation_uz": "Bronx",
+    "definition_uz": "Kekirdakdan o'pka to'qimalariga tarmoqlanib ketuvchi havo o'tkazgich naylar."
+  },
+  {
+    "id": "ant_025",
+    "latin": "Thorax",
+    "category": "anatomy",
+    "translation_uz": "Ko'krak qafasi",
+    "definition_uz": "Qovurg'alar va to'sh suyagidan iborat, yurak va o'pkani himoya qiluvchi qism."
+  },
+  {
+    "id": "ant_026",
+    "latin": "Abdomen",
+    "category": "anatomy",
+    "translation_uz": "Qorin",
+    "definition_uz": "Oshqozon, jigar, ichaklar joylashgan tana qismi."
+  },
+  {
+    "id": "ant_027",
+    "latin": "Vertebra",
+    "category": "anatomy",
+    "translation_uz": "Umurtqa suyagi",
+    "definition_uz": "Umurtqa pog'onasini tashkil qiluvchi alohida suyak bo'g'inlari."
+  },
+  {
+    "id": "ant_028",
+    "latin": "Glandula",
+    "category": "anatomy",
+    "translation_uz": "Bez",
+    "definition_uz": "Organizm uchun kerakli maxsus suyuqlik yoki gormonlar ajratuvchi a'zo."
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": "rx_001",
+    "latin": "Rp.",
+    "category": "prescription",
+    "translation_uz": "Ol / Oling (Retsept)",
+    "definition_uz": "Shifokor farmatsevtga (dorixonaga) ushbu dori vositasini berishni buyuruvchi asosiy so'z. Barcha retseptlar shu so'z bilan boshlanadi."
+  },
+  {
+    "id": "rx_002",
+    "latin": "D.t.d.N.",
+    "category": "prescription",
+    "translation_uz": "Shunday dozalardan shuncha miqdorda bering",
+    "definition_uz": "Retseptda dorining bir martalik dozasi yozilgandan so'ng, bemorga undan necha dona yoki ampula berish kerakligini ko'rsatuvchi qisqartma (Da tales doses numero)."
+  },
+  {
+    "id": "rx_003",
+    "latin": "S. (Signa)",
+    "category": "prescription",
+    "translation_uz": "Belgilang / Yozib bering",
+    "definition_uz": "Dorini qanday tartibda, qachon va qancha miqdorda ichish yoki qabul qilish kerakligi bemor tushunadigan tilda ko'rsatiladigan qism."
+  },
+  {
+    "id": "rx_004",
+    "latin": "M.f.",
+    "category": "prescription",
+    "translation_uz": "Aralashtiring, hosil bo'lsin",
+    "definition_uz": "Dorixonada tayyorlanadigan dorilar uchun ko'rsatma (Misce, fiat). Masalan, kukun, malham yoki eritma tayyorlash buyrug'i."
+  },
+  {
+    "id": "rx_005",
+    "latin": "in tab. (Tab.)",
+    "category": "prescription",
+    "translation_uz": "Tabletkada",
+    "definition_uz": "Dori vositasining qattiq tabletka shaklida chiqarilgani va berilishi kerakligini bildiradi (in tabulettis)."
+  },
+  {
+    "id": "rx_006",
+    "latin": "Sol.",
+    "category": "prescription",
+    "translation_uz": "Eritma (Solutio)",
+    "definition_uz": "Suyuq dori shakli. Tomirga, mushakka yuborish yoki ichish uchun mo'ljallangan suyultirilgan dori."
+  },
+  {
+    "id": "rx_007",
+    "latin": "in amp.",
+    "category": "prescription",
+    "translation_uz": "Ampulada (in ampullis)",
+    "definition_uz": "Steril shisha ampulada saqlanadigan, ineksiya (ukol) uchun mo'ljallangan dori shakli."
+  },
+  {
+    "id": "rx_008",
+    "latin": "in caps.",
+    "category": "prescription",
+    "translation_uz": "Kapsulada (in capsulis)",
+    "definition_uz": "Ichida kukun yoki suyuq modda bo'lgan, oshqozon yoki ichakda eruvchan qobiqli dori shakli."
+  },
+  {
+    "id": "rx_009",
+    "latin": "Susp.",
+    "category": "prescription",
+    "translation_uz": "Suspenziya (Suspensio)",
+    "definition_uz": "Suyuqlik ichida to'liq erimagan mayda dori zarralari bo'lgan suyuqlik. Ichishdan oldin chayqatiladi."
+  },
+  {
+    "id": "rx_010",
+    "latin": "Ung.",
+    "category": "prescription",
+    "translation_uz": "Malham / Maz (Unguentum)",
+    "definition_uz": "Teri yoki shilliq qavatlarga surtish uchun mo'ljallangan quyuq yog'simon dori shakli."
+  },
+  {
+    "id": "rx_011",
+    "latin": "Gtt.",
+    "category": "prescription",
+    "translation_uz": "Tomchilar (Guttae)",
+    "definition_uz": "Ko'z, quloq, burun yoki ichish uchun mo'ljallangan tomchi holidagi dori shakli."
+  },
+  {
+    "id": "rx_012",
+    "latin": "per os",
+    "category": "prescription",
+    "translation_uz": "Og'iz orqali (ichishga)",
+    "definition_uz": "Dorini yutish, og'iz orqali ichish kerakligini ko'rsatuvchi eng ko'p uchraydigan qabul qilish usuli."
+  },
+  {
+    "id": "rx_013",
+    "latin": "sub linguam",
+    "category": "prescription",
+    "translation_uz": "Til ostiga",
+    "definition_uz": "Dorini yutmasdan, til ostiga qo'yib so'rish kerakligini bildiradi (masalan, Validol yoki Glitserin)."
+  },
+  {
+    "id": "rx_014",
+    "latin": "per rectum",
+    "category": "prescription",
+    "translation_uz": "To'g'ri ichak orqali",
+    "definition_uz": "Shamcha (svecha) yoki klizma vositalarini to'g'ri ichakka qo'llash usuli."
+  },
+  {
+    "id": "rx_015",
+    "latin": "i.m. (intramusculare)",
+    "category": "prescription",
+    "translation_uz": "Mushak ichiga",
+    "definition_uz": "Ukolni mushak to'qimasiga (odatda dumba yoki yelka sohasiga) yuborish ko'rsatmasi."
+  },
+  {
+    "id": "rx_016",
+    "latin": "i.v. (intravenosum)",
+    "category": "prescription",
+    "translation_uz": "Vena ichiga",
+    "definition_uz": "Dorini bevosita qon tomiriga (venaga ukol yoki kapelnitsa orqali) quyish ko'rsatmasi."
+  },
+  {
+    "id": "rx_017",
+    "latin": "s.c. (subcutaneum)",
+    "category": "prescription",
+    "translation_uz": "Teri ostiga",
+    "definition_uz": "Ukolni teri osti yog' qatlamiga yuborish (masalan, insulin preparatlari)."
+  },
+  {
+    "id": "rx_018",
+    "latin": "q.s. (quantum satis)",
+    "category": "prescription",
+    "translation_uz": "Yetarli miqdorda",
+    "definition_uz": "Kerakli konsistensiya yoki hajm hosil bo'lishi uchun kerakcha qo'shilsin degan ma'noda ishlatiladi."
+  },
+  {
+    "id": "rx_019",
+    "latin": "a.c. (ante coenam)",
+    "category": "prescription",
+    "translation_uz": "Ovqatdan oldin",
+    "definition_uz": "Dorini ovqatlanishdan 20-30 daqiqa oldin ichish kerakligini anglatuvchi qisqartma."
+  },
+  {
+    "id": "rx_020",
+    "latin": "p.c. (post coenam)",
+    "category": "prescription",
+    "translation_uz": "Ovqatdan keyin",
+    "definition_uz": "Dorini ovqatlangandan so'ng qabul qilish kerakligini ko'rsatadi."
+  },
+  {
+    "id": "rx_021",
+    "latin": "Cito!",
+    "category": "prescription",
+    "translation_uz": "Tezda! / Zudlik bilan!",
+    "definition_uz": "Shifokor dorixonaga ushbu dori zudlik bilan navbatsiz tayyorlanishi va berilishi kerakligini bildiruvchi belgi."
+  },
+  {
+    "id": "rx_022",
+    "latin": "Statim!",
+    "category": "prescription",
+    "translation_uz": "Darhol! / Kechiktirmasdan!",
+    "definition_uz": "O'ta shoshilinch holatlarda dorini birinchi navbatda berish haqidagi buyruq."
+  },
+  {
+    "id": "rx_023",
+    "latin": "Da",
+    "category": "prescription",
+    "translation_uz": "Ber / Bering",
+    "definition_uz": "Farmatsevtga dorini chiqarib berishni buyuruvchi lotincha fe'l."
+  },
+  {
+    "id": "rx_024",
+    "latin": "Extr. (Extractum)",
+    "category": "prescription",
+    "translation_uz": "Ekstrakt / Ajratma",
+    "definition_uz": "Dorivor o'simlik yoki xomashyodan olingan quyuq yoki suyuq konsentrlangan modda."
+  },
+  {
+    "id": "rx_025",
+    "latin": "T-ra / Tinct.",
+    "category": "prescription",
+    "translation_uz": "Damlama / Nastoyka (Tinctura)",
+    "definition_uz": "Odatda spirtda tayyorlangan dorivor o'simlik damlamasi."
+  },
+  {
+    "id": "rx_026",
+    "latin": "Pulv. (Pulvis)",
+    "category": "prescription",
+    "translation_uz": "Kukun (Poroshok)",
+    "definition_uz": "Maydalangan quruq dori moddasi."
+  },
+  {
+    "id": "rx_027",
+    "latin": "Syr. (Sirupus)",
+    "category": "prescription",
+    "translation_uz": "Sirop / Qiyom",
+    "definition_uz": "Ko'pincha bolalar uchun tayyorlanadigan shirin quyuq suyuq dori shakli."
+  },
+  {
+    "id": "rx_028",
+    "latin": "Supp. (Suppositorium)",
+    "category": "prescription",
+    "translation_uz": "Shamcha / Svecha",
+    "definition_uz": "Tana haroratida eriydigan, to'g'ri ichakka yoki qinga qo'yiladigan dori vositasi."
+  },
+  {
+    "id": "rx_029",
+    "latin": "Emuls. (Emulsio)",
+    "category": "prescription",
+    "translation_uz": "Emulsiya",
+    "definition_uz": "Bir-birida erimaydigan ikki suyuqlik (masalan, yog' va suv) aralashmasi."
+  },
+  {
+    "id": "rx_030",
+    "latin": "Aq. destill. (Aqua destillata)",
+    "category": "prescription",
+    "translation_uz": "Distillangan suv",
+    "definition_uz": "Tuzlar va aralashmalardan tozalangan, dori tayyorlashda ishlatiladigan maxsus suv."
+  },
+  {
+    "id": "rx_031",
+    "latin": "Semel in die",
+    "category": "prescription",
+    "translation_uz": "Kuniga bir marta",
+    "definition_uz": "Dorini bir kunda faqat bir mahal ichish kerakligi ko'rsatmasi."
+  },
+  {
+    "id": "rx_032",
+    "latin": "Bis in die",
+    "category": "prescription",
+    "translation_uz": "Kuniga ikki marta",
+    "definition_uz": "Dorini sutkada 2 mahal (ertalab va kechqurun) qabul qilish tartibi."
+  },
+  {
+    "id": "rx_033",
+    "latin": "Ter in die",
+    "category": "prescription",
+    "translation_uz": "Kuniga uch marta",
+    "definition_uz": "Dorini kuniga 3 mahal qabul qilish kerakligini anglatuvchi ko'rsatma."
+  },
+  {
+    "id": "rx_034",
+    "latin": "Pro dosi",
+    "category": "prescription",
+    "translation_uz": "Bir qabul qilish uchun doza",
+    "definition_uz": "Dorining bir marta ichiladigan yoki qilinadigan miqdori."
+  },
+  {
+    "id": "rx_035",
+    "latin": "Pro die",
+    "category": "prescription",
+    "translation_uz": "Bir kecha-kunduzlik doza",
+    "definition_uz": "Bemor 24 soat (bir kun) davomida qabul qilishi mumkin bo'lgan maksimal umumiy dori miqdori."
+  }
+]
