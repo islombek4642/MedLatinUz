@@ -14,7 +14,6 @@ class MedLatinApp {
     this.resultsGrid = document.getElementById('resultsGrid');
     this.resultsCount = document.getElementById('resultsCount');
     this.filterButtons = document.querySelectorAll('.filter-btn');
-    this.quickTags = document.querySelectorAll('.quick-tag');
   }
 
   async init() {
@@ -96,17 +95,6 @@ class MedLatinApp {
         this.filterButtons.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         this.currentCategory = btn.dataset.category;
-        this.performSearch();
-      });
-    });
-
-    // Quick suggestion tags
-    this.quickTags.forEach(tag => {
-      tag.addEventListener('click', () => {
-        const query = tag.dataset.query;
-        this.searchInput.value = query;
-        this.currentQuery = query;
-        this.toggleClearButton();
         this.performSearch();
       });
     });
