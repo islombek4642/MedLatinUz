@@ -7,8 +7,9 @@
     "type_uz": "Bo'g'im",
     "english": "acetabular margin",
     "translation_uz": "acetabular margin (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (acetabular margin).",
-    "slug": "/structure/acetabular-rim/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A prominent unever rim that bounds the acetabulum, serving as the attachment for the acetabular labrum, which reduces its opening, and deepens the...",
+    "slug": "/structure/acetabular-rim/",
+    "description_en": "A prominent unever rim that bounds the acetabulum, serving as the attachment for the acetabular labrum, which reduces its opening, and deepens the..."
   },
   {
     "id": "jnt_00002",
@@ -18,8 +19,9 @@
     "type_uz": "Bo'g'im",
     "english": "amphiarthrodial",
     "translation_uz": "amphiarthrodial (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (amphiarthrodial).",
-    "slug": "/structure/amphiarthrosis/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Amphiarthrosis is a type of continuous, slightly movable joint.",
+    "slug": "/structure/amphiarthrosis/",
+    "description_en": "Amphiarthrosis is a type of continuous, slightly movable joint."
   },
   {
     "id": "jnt_00003",
@@ -29,8 +31,9 @@
     "type_uz": "Bo'g'im",
     "english": "gambrel",
     "translation_uz": "gambrel (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (gambrel).",
-    "slug": "/structure/ankle-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that connects the hindlimb autopod and zeugopod skeletons.",
+    "slug": "/structure/ankle-joint/",
+    "description_en": "A joint that connects the hindlimb autopod and zeugopod skeletons."
   },
   {
     "id": "jnt_00004",
@@ -40,8 +43,9 @@
     "type_uz": "Bo'g'im",
     "english": "feeler",
     "translation_uz": "feeler (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (feeler).",
-    "slug": "/structure/antenna/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The paired, usually multiple jointed, sensory organs articulating on the procephalic region of the head capsule; its highly versatile sensory...",
+    "slug": "/structure/antenna/",
+    "description_en": "The paired, usually multiple jointed, sensory organs articulating on the procephalic region of the head capsule; its highly versatile sensory..."
   },
   {
     "id": "jnt_00005",
@@ -51,8 +55,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "anterior process of vomer (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/anterior-process-of-vomer/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Process that extends anterolaterally toward the maxilla-premaxilla articulation.",
+    "slug": "/structure/anterior-process-of-vomer/",
+    "description_en": "Process that extends anterolaterally toward the maxilla-premaxilla articulation."
   },
   {
     "id": "jnt_00006",
@@ -62,8 +67,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "appendicular skeletal system (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/appendicular-skeletal-system/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Subdivision of the skeletal system which consists of the appendicular skeleton plus associated joints.",
+    "slug": "/structure/appendicular-skeletal-system/",
+    "description_en": "Subdivision of the skeletal system which consists of the appendicular skeleton plus associated joints."
   },
   {
     "id": "jnt_00007",
@@ -73,8 +79,9 @@
     "type_uz": "Bo'g'im",
     "english": "capsula articularis",
     "translation_uz": "capsula articularis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (capsula articularis).",
-    "slug": "/structure/articular-capsule/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An articular capsule (or joint capsule) is an envelope surrounding a synovial joint. [WP,unvetted].",
+    "slug": "/structure/articular-capsule/",
+    "description_en": "An articular capsule (or joint capsule) is an envelope surrounding a synovial joint. [WP,unvetted]."
   },
   {
     "id": "jnt_00008",
@@ -84,8 +91,9 @@
     "type_uz": "Bo'g'im",
     "english": "articular capsule of humerus",
     "translation_uz": "articular capsule of humerus (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articular capsule of humerus).",
-    "slug": "/structure/articular-capsule-of-glenohumeral-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An articular capsule that is part of the glenohumeral joint.",
+    "slug": "/structure/articular-capsule-of-glenohumeral-joint/",
+    "description_en": "An articular capsule that is part of the glenohumeral joint."
   },
   {
     "id": "jnt_00009",
@@ -95,8 +103,9 @@
     "type_uz": "Bo'g'im",
     "english": "capsula articularis coxae",
     "translation_uz": "capsula articularis coxae (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (capsula articularis coxae).",
-    "slug": "/structure/articular-capsule-of-hip-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An articular capsule that is part of the hip joint.",
+    "slug": "/structure/articular-capsule-of-hip-joint/",
+    "description_en": "An articular capsule that is part of the hip joint."
   },
   {
     "id": "jnt_00010",
@@ -106,8 +115,9 @@
     "type_uz": "Bo'g'im",
     "english": "joint system",
     "translation_uz": "joint system (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (joint system).",
-    "slug": "/structure/articular-system/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Anatomical system that consists of all the joints of the body.",
+    "slug": "/structure/articular-system/",
+    "description_en": "Anatomical system that consists of all the joints of the body."
   },
   {
     "id": "jnt_00011",
@@ -117,8 +127,9 @@
     "type_uz": "Bo'g'im",
     "english": "joint",
     "translation_uz": "joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (joint).",
-    "slug": "/structure/articulation/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Anatomical structure that connects two or more adjacent skeletal elements or hardened body parts.",
+    "slug": "/structure/articulation/",
+    "description_en": "Anatomical structure that connects two or more adjacent skeletal elements or hardened body parts."
   },
   {
     "id": "jnt_00012",
@@ -128,8 +139,9 @@
     "type_uz": "Bo'g'im",
     "english": "cavitas glenoidalis",
     "translation_uz": "cavitas glenoidalis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (cavitas glenoidalis).",
-    "slug": "/structure/atlantal-cotyle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Anterior, single or paired concave facets for articulation with the condyle(s) of the urostyle.",
+    "slug": "/structure/atlantal-cotyle/",
+    "description_en": "Anterior, single or paired concave facets for articulation with the condyle(s) of the urostyle."
   },
   {
     "id": "jnt_00013",
@@ -139,8 +151,9 @@
     "type_uz": "Bo'g'im",
     "english": "autopod joint of limb",
     "translation_uz": "autopod joint of limb (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (autopod joint of limb).",
-    "slug": "/structure/autopod-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A limb joint that is part of an autopod [Automatically generated definition].",
+    "slug": "/structure/autopod-joint/",
+    "description_en": "A limb joint that is part of an autopod [Automatically generated definition]."
   },
   {
     "id": "jnt_00014",
@@ -150,8 +163,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "axial skeletal system (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/axial-skeletal-system/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Subdivision of the skeletal system which consists of the axial skeleton plus associated joints.",
+    "slug": "/structure/axial-skeletal-system/",
+    "description_en": "Subdivision of the skeletal system which consists of the axial skeleton plus associated joints."
   },
   {
     "id": "jnt_00015",
@@ -161,8 +175,9 @@
     "type_uz": "Bo'g'im",
     "english": "arm pit",
     "translation_uz": "arm pit (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (arm pit).",
-    "slug": "/structure/axilla/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The axilla is the area directly under the joint where the forelimb connects to the shoulder.",
+    "slug": "/structure/axilla/",
+    "description_en": "The axilla is the area directly under the joint where the forelimb connects to the shoulder."
   },
   {
     "id": "jnt_00016",
@@ -172,8 +187,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "basioccipital-exoccipital joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/basioccipital-exoccipital-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the basioccipital and exoccipital. Basioccipital-exoccipital joint is paired.",
+    "slug": "/structure/basioccipital-exoccipital-joint/",
+    "description_en": "Joint that articulates the basioccipital and exoccipital. Basioccipital-exoccipital joint is paired."
   },
   {
     "id": "jnt_00017",
@@ -183,8 +199,9 @@
     "type_uz": "Bo'g'im",
     "english": "carpometacarpal joint of digit I",
     "translation_uz": "carpometacarpal joint of digit I (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (carpometacarpal joint of digit I).",
-    "slug": "/structure/carpometacarpal-joint-of-digit-1/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A carpometacarpal joint that connects to metacarpal 1.",
+    "slug": "/structure/carpometacarpal-joint-of-digit-1/",
+    "description_en": "A carpometacarpal joint that connects to metacarpal 1."
   },
   {
     "id": "jnt_00018",
@@ -194,8 +211,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio cartilaginea cranial suture",
     "translation_uz": "articulatio cartilaginea cranial suture (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio cartilaginea cranial suture).",
-    "slug": "/structure/cartilaginous-joint-suture/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A cranial suture that is part of a cartilaginous joint [Automatically generated definition].",
+    "slug": "/structure/cartilaginous-joint-suture/",
+    "description_en": "A cranial suture that is part of a cartilaginous joint [Automatically generated definition]."
   },
   {
     "id": "jnt_00019",
@@ -205,8 +223,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio ellipsoidea",
     "translation_uz": "articulatio ellipsoidea (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio ellipsoidea).",
-    "slug": "/structure/condylar-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): In a condyloid joint (condyloid articulation, ellipsoidal joint) an ovoid articular surface, or condyle, is received into an elliptical cavity. This...",
+    "slug": "/structure/condylar-joint/",
+    "description_en": "In a condyloid joint (condyloid articulation, ellipsoidal joint) an ovoid articular surface, or condyle, is received into an elliptical cavity. This..."
   },
   {
     "id": "jnt_00020",
@@ -216,8 +235,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "cranial synchondrosis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/cranial-synchondrosis/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The cartilaginous joints of the skull; these include sphenoethmoidal synchondrosis, sphenooccipital synchondrosis, sphenopetrosal synchondrosis,...",
+    "slug": "/structure/cranial-synchondrosis/",
+    "description_en": "The cartilaginous joints of the skull; these include sphenoethmoidal synchondrosis, sphenooccipital synchondrosis, sphenopetrosal synchondrosis,..."
   },
   {
     "id": "jnt_00021",
@@ -227,8 +247,9 @@
     "type_uz": "Bo'g'im",
     "english": "crico-arytenoid joint",
     "translation_uz": "crico-arytenoid joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (crico-arytenoid joint).",
-    "slug": "/structure/cricoarytenoid-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The cricoarytenoid articulation (or joint) is a joint connecting the cricoid cartilage and the arytenoid cartilage.",
+    "slug": "/structure/cricoarytenoid-joint/",
+    "description_en": "The cricoarytenoid articulation (or joint) is a joint connecting the cricoid cartilage and the arytenoid cartilage."
   },
   {
     "id": "jnt_00022",
@@ -238,8 +259,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "crista hypertrophica ischium (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/crista-hypertrophica-ischium/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Large protuberance on the dorsal aspect of the ischium that extends from the ischio-ilium articulation to the spina pelvis posterior.",
+    "slug": "/structure/crista-hypertrophica-ischium/",
+    "description_en": "Large protuberance on the dorsal aspect of the ischium that extends from the ischio-ilium articulation to the spina pelvis posterior."
   },
   {
     "id": "jnt_00023",
@@ -249,8 +271,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "dentary-anguloarticular joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/dentary-anguloarticular-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the dentary and anguloarticular. Dentary-anguloarticular joint is paired.",
+    "slug": "/structure/dentary-anguloarticular-joint/",
+    "description_en": "Joint that articulates the dentary and anguloarticular. Dentary-anguloarticular joint is paired."
   },
   {
     "id": "jnt_00024",
@@ -260,8 +283,9 @@
     "type_uz": "Bo'g'im",
     "english": "dento-alveolar syndesmosis",
     "translation_uz": "dento-alveolar syndesmosis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (dento-alveolar syndesmosis).",
-    "slug": "/structure/dento-alveolar-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that binds the teeth to the alveolar ridge.",
+    "slug": "/structure/dento-alveolar-joint/",
+    "description_en": "A joint that binds the teeth to the alveolar ridge."
   },
   {
     "id": "jnt_00025",
@@ -271,8 +295,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "dermal intracranial joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/dermal-intracranial-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Hinge in the skull skeleton to allow for kinetic movement of different parts.",
+    "slug": "/structure/dermal-intracranial-joint/",
+    "description_en": "Hinge in the skull skeleton to allow for kinetic movement of different parts."
   },
   {
     "id": "jnt_00026",
@@ -282,8 +307,9 @@
     "type_uz": "Bo'g'im",
     "english": "cervical neck joint",
     "translation_uz": "cervical neck joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (cervical neck joint).",
-    "slug": "/structure/dermal-neck-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Dermal articulation between skull and shoulder girdle localized to paired dermal neck-joint between anterior dorsolateral plate (ADL) and paranuchal...",
+    "slug": "/structure/dermal-neck-joint/",
+    "description_en": "Dermal articulation between skull and shoulder girdle localized to paired dermal neck-joint between anterior dorsolateral plate (ADL) and paranuchal..."
   },
   {
     "id": "jnt_00027",
@@ -293,8 +319,9 @@
     "type_uz": "Bo'g'im",
     "english": "acropodial pad",
     "translation_uz": "acropodial pad (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (acropodial pad).",
-    "slug": "/structure/digital-pad/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A thick spongy structure at the base of the autopod, centred over the flexor surfaces of the distal interphalangeal joints.",
+    "slug": "/structure/digital-pad/",
+    "description_en": "A thick spongy structure at the base of the autopod, centred over the flexor surfaces of the distal interphalangeal joints."
   },
   {
     "id": "jnt_00028",
@@ -304,8 +331,9 @@
     "type_uz": "Bo'g'im",
     "english": "articular disc of temporomandibular joint",
     "translation_uz": "articular disc of temporomandibular joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articular disc of temporomandibular joint).",
-    "slug": "/structure/disk-of-temporomandibular-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The fibrocartilaginous plate that separates the joint into upper and lower cavities.",
+    "slug": "/structure/disk-of-temporomandibular-joint/",
+    "description_en": "The fibrocartilaginous plate that separates the joint into upper and lower cavities."
   },
   {
     "id": "jnt_00029",
@@ -315,8 +343,9 @@
     "type_uz": "Bo'g'im",
     "english": "DIJ joint",
     "translation_uz": "DIJ joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (DIJ joint).",
-    "slug": "/structure/distal-interphalangeal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An inter-phalangeal joint that connects a distal phalanx to either a medial or proximal phalanx.",
+    "slug": "/structure/distal-interphalangeal-joint/",
+    "description_en": "An inter-phalangeal joint that connects a distal phalanx to either a medial or proximal phalanx."
   },
   {
     "id": "jnt_00030",
@@ -326,8 +355,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint 2",
     "translation_uz": "distal interphalangeal joint 2 (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint 2).",
-    "slug": "/structure/distal-interphalangeal-joint-of-digit-2/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A distal interphalangeal joint that is part of a digit 2.",
+    "slug": "/structure/distal-interphalangeal-joint-of-digit-2/",
+    "description_en": "A distal interphalangeal joint that is part of a digit 2."
   },
   {
     "id": "jnt_00031",
@@ -337,8 +367,9 @@
     "type_uz": "Bo'g'im",
     "english": "coffin joint",
     "translation_uz": "coffin joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (coffin joint).",
-    "slug": "/structure/distal-interphalangeal-joint-of-digit-3/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A distal inter-phalangeal joint that is part of the 3rd digit.",
+    "slug": "/structure/distal-interphalangeal-joint-of-digit-3/",
+    "description_en": "A distal inter-phalangeal joint that is part of the 3rd digit."
   },
   {
     "id": "jnt_00032",
@@ -348,8 +379,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint 4",
     "translation_uz": "distal interphalangeal joint 4 (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint 4).",
-    "slug": "/structure/distal-interphalangeal-joint-of-digit-4/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A distal interphalangeal joint that is part of a digit 4.",
+    "slug": "/structure/distal-interphalangeal-joint-of-digit-4/",
+    "description_en": "A distal interphalangeal joint that is part of a digit 4."
   },
   {
     "id": "jnt_00033",
@@ -359,8 +391,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint 5",
     "translation_uz": "distal interphalangeal joint 5 (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint 5).",
-    "slug": "/structure/distal-interphalangeal-joint-of-digit-5/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A distal interphalangeal joint that is part of a digit 5.",
+    "slug": "/structure/distal-interphalangeal-joint-of-digit-5/",
+    "description_en": "A distal interphalangeal joint that is part of a digit 5."
   },
   {
     "id": "jnt_00034",
@@ -370,8 +403,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of index finger",
     "translation_uz": "distal interphalangeal joint of index finger (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of index finger).",
-    "slug": "/structure/distal-interphalangeal-joint-of-manual-digit-2/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (distal interphalangeal joint of manual digit 2).",
+    "slug": "/structure/distal-interphalangeal-joint-of-manual-digit-2/",
+    "description_en": "An anatomical structure classified as joint (distal interphalangeal joint of manual digit 2)."
   },
   {
     "id": "jnt_00035",
@@ -381,8 +415,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of manual digit III",
     "translation_uz": "distal interphalangeal joint of manual digit III (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of manual digit III).",
-    "slug": "/structure/distal-interphalangeal-joint-of-manual-digit-3/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A distal inter-phalangeal joint that is part of the 3rd manual digit.",
+    "slug": "/structure/distal-interphalangeal-joint-of-manual-digit-3/",
+    "description_en": "A distal inter-phalangeal joint that is part of the 3rd manual digit."
   },
   {
     "id": "jnt_00036",
@@ -392,8 +427,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of manual digit IV",
     "translation_uz": "distal interphalangeal joint of manual digit IV (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of manual digit IV).",
-    "slug": "/structure/distal-interphalangeal-joint-of-manual-digit-4/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (distal interphalangeal joint of manual digit 4).",
+    "slug": "/structure/distal-interphalangeal-joint-of-manual-digit-4/",
+    "description_en": "An anatomical structure classified as joint (distal interphalangeal joint of manual digit 4)."
   },
   {
     "id": "jnt_00037",
@@ -403,8 +439,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of little finger",
     "translation_uz": "distal interphalangeal joint of little finger (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of little finger).",
-    "slug": "/structure/distal-interphalangeal-joint-of-manural-digit-5/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (distal interphalangeal joint of manural digit 5).",
+    "slug": "/structure/distal-interphalangeal-joint-of-manural-digit-5/",
+    "description_en": "An anatomical structure classified as joint (distal interphalangeal joint of manural digit 5)."
   },
   {
     "id": "jnt_00038",
@@ -414,8 +451,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of pedal digit II",
     "translation_uz": "distal interphalangeal joint of pedal digit II (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of pedal digit II).",
-    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-2/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (distal interphalangeal joint of pedal digit 2).",
+    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-2/",
+    "description_en": "An anatomical structure classified as joint (distal interphalangeal joint of pedal digit 2)."
   },
   {
     "id": "jnt_00039",
@@ -425,8 +463,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of pedal digit III",
     "translation_uz": "distal interphalangeal joint of pedal digit III (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of pedal digit III).",
-    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-3/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A distal inter-phalangeal joint that is part of the 3rd pedal digit.",
+    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-3/",
+    "description_en": "A distal inter-phalangeal joint that is part of the 3rd pedal digit."
   },
   {
     "id": "jnt_00040",
@@ -436,8 +475,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of fourth digit of foot",
     "translation_uz": "distal interphalangeal joint of fourth digit of foot (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of fourth digit of foot).",
-    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-4/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (distal interphalangeal joint of pedal digit 4).",
+    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-4/",
+    "description_en": "An anatomical structure classified as joint (distal interphalangeal joint of pedal digit 4)."
   },
   {
     "id": "jnt_00041",
@@ -447,8 +487,9 @@
     "type_uz": "Bo'g'im",
     "english": "distal interphalangeal joint of fifth digit of foot",
     "translation_uz": "distal interphalangeal joint of fifth digit of foot (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (distal interphalangeal joint of fifth digit of foot).",
-    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-5/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (distal interphalangeal joint of pedal digit 5).",
+    "slug": "/structure/distal-interphalangeal-joint-of-pedal-digit-5/",
+    "description_en": "An anatomical structure classified as joint (distal interphalangeal joint of pedal digit 5)."
   },
   {
     "id": "jnt_00042",
@@ -458,8 +499,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulation radioulnaris distalis",
     "translation_uz": "articulation radioulnaris distalis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulation radioulnaris distalis).",
-    "slug": "/structure/distal-radio-ulnar-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The Distal Radioulnar Articulation (inferior radioulnar joint) is a pivot-joint formed between the head of the ulna and the ulnar notch on the distal...",
+    "slug": "/structure/distal-radio-ulnar-joint/",
+    "description_en": "The Distal Radioulnar Articulation (inferior radioulnar joint) is a pivot-joint formed between the head of the ulna and the ulnar notch on the distal..."
   },
   {
     "id": "jnt_00043",
@@ -469,8 +511,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio cubiti",
     "translation_uz": "articulatio cubiti (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio cubiti).",
-    "slug": "/structure/elbow-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that connects the forelimb zeugopod and stylopod skeletons[Obol].",
+    "slug": "/structure/elbow-joint/",
+    "description_en": "A joint that connects the forelimb zeugopod and stylopod skeletons[Obol]."
   },
   {
     "id": "jnt_00044",
@@ -480,8 +523,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "elbow joint primordium (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/elbow-joint-primordium/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (elbow joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs.",
+    "slug": "/structure/elbow-joint-primordium/",
+    "description_en": "An embryological structure (elbow joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs."
   },
   {
     "id": "jnt_00045",
@@ -491,8 +535,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "epipodial facet (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/epipodial-facet/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Facets for the articulation of the epipodial (zeugopodial) elements.",
+    "slug": "/structure/epipodial-facet/",
+    "description_en": "Facets for the articulation of the epipodial (zeugopodial) elements."
   },
   {
     "id": "jnt_00046",
@@ -502,8 +547,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "femoral head cartilage (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/femoral-head-cartilage/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A hyaline articular cartilage that covers the head of femur. Provides cushioning, softness and low friction for the hip joint.",
+    "slug": "/structure/femoral-head-cartilage/",
+    "description_en": "A hyaline articular cartilage that covers the head of femur. Provides cushioning, softness and low friction for the hip joint."
   },
   {
     "id": "jnt_00047",
@@ -513,8 +559,9 @@
     "type_uz": "Bo'g'im",
     "english": "femoratibial joint",
     "translation_uz": "femoratibial joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (femoratibial joint).",
-    "slug": "/structure/femorotibial-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): One of the two primary bendings of a typical leg, pertains to the femur and the tibia.",
+    "slug": "/structure/femorotibial-joint/",
+    "description_en": "One of the two primary bendings of a typical leg, pertains to the femur and the tibia."
   },
   {
     "id": "jnt_00048",
@@ -524,8 +571,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "foramen C (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/foramen-c/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Foramen located on the scapulocoracoid, located just behind the cleithral anteroventral process(the articulation with the cleithrum). Modified from...",
+    "slug": "/structure/foramen-c/",
+    "description_en": "Foramen located on the scapulocoracoid, located just behind the cleithral anteroventral process(the articulation with the cleithrum). Modified from..."
   },
   {
     "id": "jnt_00049",
@@ -535,8 +583,9 @@
     "type_uz": "Bo'g'im",
     "english": "anteriormost limb joint of limb",
     "translation_uz": "anteriormost limb joint of limb (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (anteriormost limb joint of limb).",
-    "slug": "/structure/forelimb-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A limb joint that is part of a forelimb [Automatically generated definition].",
+    "slug": "/structure/forelimb-joint/",
+    "description_en": "A limb joint that is part of a forelimb [Automatically generated definition]."
   },
   {
     "id": "jnt_00050",
@@ -546,8 +595,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "frontal-pterotic joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/frontal-pterotic-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the frontal and pterotic. Frontal-pterotic joint is paired.",
+    "slug": "/structure/frontal-pterotic-joint/",
+    "description_en": "Joint that articulates the frontal and pterotic. Frontal-pterotic joint is paired."
   },
   {
     "id": "jnt_00051",
@@ -557,8 +607,9 @@
     "type_uz": "Bo'g'im",
     "english": "hind limb joint of limb",
     "translation_uz": "hind limb joint of limb (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (hind limb joint of limb).",
-    "slug": "/structure/hindlimb-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A limb joint that is part of a hindlimb [Automatically generated definition].",
+    "slug": "/structure/hindlimb-joint/",
+    "description_en": "A limb joint that is part of a hindlimb [Automatically generated definition]."
   },
   {
     "id": "jnt_00052",
@@ -568,8 +619,9 @@
     "type_uz": "Bo'g'im",
     "english": "ginglymus",
     "translation_uz": "ginglymus (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (ginglymus).",
-    "slug": "/structure/hinge-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that allows motion around an axis.",
+    "slug": "/structure/hinge-joint/",
+    "description_en": "A joint that allows motion around an axis."
   },
   {
     "id": "jnt_00053",
@@ -579,8 +631,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "hip joint primordium (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/hip-joint-primordium/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (hip joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs.",
+    "slug": "/structure/hip-joint-primordium/",
+    "description_en": "An embryological structure (hip joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs."
   },
   {
     "id": "jnt_00054",
@@ -590,8 +643,9 @@
     "type_uz": "Bo'g'im",
     "english": "proximal articular surface of radius",
     "translation_uz": "proximal articular surface of radius (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (proximal articular surface of radius).",
-    "slug": "/structure/humeral-facet-on-radius/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Facet on the radius for articulation with the radial condyle of the humerus.",
+    "slug": "/structure/humeral-facet-on-radius/",
+    "description_en": "Facet on the radius for articulation with the radial condyle of the humerus."
   },
   {
     "id": "jnt_00055",
@@ -601,8 +655,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "humeral facet on the ulna (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/humeral-facet-on-the-ulna/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Facet on the ulna for articulation with the ulnar condyle of the humerus.",
+    "slug": "/structure/humeral-facet-on-the-ulna/",
+    "description_en": "Facet on the ulna for articulation with the ulnar condyle of the humerus."
   },
   {
     "id": "jnt_00056",
@@ -612,8 +667,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio humeroradialis",
     "translation_uz": "articulatio humeroradialis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio humeroradialis).",
-    "slug": "/structure/humeroradial-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A hinge joint between the head of the radius and the capitulum of the humerus.",
+    "slug": "/structure/humeroradial-joint/",
+    "description_en": "A hinge joint between the head of the radius and the capitulum of the humerus."
   },
   {
     "id": "jnt_00057",
@@ -623,8 +679,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "hyoid articular area (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/hyoid-articular-area/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Area on the otic capsule for the articulation of the hyoid.",
+    "slug": "/structure/hyoid-articular-area/",
+    "description_en": "Area on the otic capsule for the articulation of the hyoid."
   },
   {
     "id": "jnt_00058",
@@ -634,8 +691,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "hyomandibula-opercle joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/hyomandibula-opercle-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Synovial joint that articulates the hyomandibula and the opercle.",
+    "slug": "/structure/hyomandibula-opercle-joint/",
+    "description_en": "Synovial joint that articulates the hyomandibula and the opercle."
   },
   {
     "id": "jnt_00059",
@@ -645,8 +703,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio incudomallearis",
     "translation_uz": "articulatio incudomallearis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio incudomallearis).",
-    "slug": "/structure/incudomallear-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The saddle-shaped synovial joint connecting the incus and the malleus.",
+    "slug": "/structure/incudomallear-joint/",
+    "description_en": "The saddle-shaped synovial joint connecting the incus and the malleus."
   },
   {
     "id": "jnt_00060",
@@ -656,8 +715,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio incudostapedialis",
     "translation_uz": "articulatio incudostapedialis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio incudostapedialis).",
-    "slug": "/structure/incudostapedial-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The small synovial joint connecting the inclus and the stapes, located between the lenticular process on the long crus of the incus and the head of the...",
+    "slug": "/structure/incudostapedial-joint/",
+    "description_en": "The small synovial joint connecting the inclus and the stapes, located between the lenticular process on the long crus of the incus and the head of the..."
   },
   {
     "id": "jnt_00061",
@@ -667,8 +727,9 @@
     "type_uz": "Bo'g'im",
     "english": "stylohyal cartilage",
     "translation_uz": "stylohyal cartilage (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (stylohyal cartilage).",
-    "slug": "/structure/interhyal-cartilage/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Pharyngeal arch cartilage that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula...",
+    "slug": "/structure/interhyal-cartilage/",
+    "description_en": "Pharyngeal arch cartilage that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula..."
   },
   {
     "id": "jnt_00062",
@@ -678,8 +739,9 @@
     "type_uz": "Bo'g'im",
     "english": "stylohyal",
     "translation_uz": "stylohyal (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (stylohyal).",
-    "slug": "/structure/interhyal-element/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Skeletal element that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and...",
+    "slug": "/structure/interhyal-element/",
+    "description_en": "Skeletal element that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and..."
   },
   {
     "id": "jnt_00063",
@@ -689,8 +751,9 @@
     "type_uz": "Bo'g'im",
     "english": "intermetacarpal",
     "translation_uz": "intermetacarpal (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (intermetacarpal).",
-    "slug": "/structure/intermetacarpal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A skeletal joint that connects two adjacent metacarpals[FMA,modified].",
+    "slug": "/structure/intermetacarpal-joint/",
+    "description_en": "A skeletal joint that connects two adjacent metacarpals[FMA,modified]."
   },
   {
     "id": "jnt_00064",
@@ -700,8 +763,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "intermetatarsal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/intermetatarsal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that connects two adjacent metatarsals.",
+    "slug": "/structure/intermetatarsal-joint/",
+    "description_en": "A joint that connects two adjacent metatarsals."
   },
   {
     "id": "jnt_00065",
@@ -711,8 +775,9 @@
     "type_uz": "Bo'g'im",
     "english": "inter-phalangeal joint",
     "translation_uz": "inter-phalangeal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (inter-phalangeal joint).",
-    "slug": "/structure/interphalangeal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that connects one phalanx to another along a proximodistal axis.",
+    "slug": "/structure/interphalangeal-joint/",
+    "description_en": "A joint that connects one phalanx to another along a proximodistal axis."
   },
   {
     "id": "jnt_00066",
@@ -722,8 +787,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of first digit of hand",
     "translation_uz": "interphalangeal joint of first digit of hand (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of first digit of hand).",
-    "slug": "/structure/interphalangeal-joint-of-manual-digit-1/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of manus that is part of a manual digit 1.",
+    "slug": "/structure/interphalangeal-joint-of-manual-digit-1/",
+    "description_en": "An interphalangeal joint of manus that is part of a manual digit 1."
   },
   {
     "id": "jnt_00067",
@@ -733,8 +799,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of index finger",
     "translation_uz": "interphalangeal joint of index finger (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of index finger).",
-    "slug": "/structure/interphalangeal-joint-of-manual-digit-2/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of manus that is part of a manual digit 2.",
+    "slug": "/structure/interphalangeal-joint-of-manual-digit-2/",
+    "description_en": "An interphalangeal joint of manus that is part of a manual digit 2."
   },
   {
     "id": "jnt_00068",
@@ -744,8 +811,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of manual digit III",
     "translation_uz": "interphalangeal joint of manual digit III (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of manual digit III).",
-    "slug": "/structure/interphalangeal-joint-of-manual-digit-3/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of manus that is part of a manual digit 3.",
+    "slug": "/structure/interphalangeal-joint-of-manual-digit-3/",
+    "description_en": "An interphalangeal joint of manus that is part of a manual digit 3."
   },
   {
     "id": "jnt_00069",
@@ -755,8 +823,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of fourth digit of hand",
     "translation_uz": "interphalangeal joint of fourth digit of hand (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of fourth digit of hand).",
-    "slug": "/structure/interphalangeal-joint-of-manual-digit-4/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of manus that is part of a manual digit 4.",
+    "slug": "/structure/interphalangeal-joint-of-manual-digit-4/",
+    "description_en": "An interphalangeal joint of manus that is part of a manual digit 4."
   },
   {
     "id": "jnt_00070",
@@ -766,8 +835,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of fifth digit of hand",
     "translation_uz": "interphalangeal joint of fifth digit of hand (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of fifth digit of hand).",
-    "slug": "/structure/interphalangeal-joint-of-manual-digit-5/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of manus that is part of a manual digit 5.",
+    "slug": "/structure/interphalangeal-joint-of-manual-digit-5/",
+    "description_en": "An interphalangeal joint of manus that is part of a manual digit 5."
   },
   {
     "id": "jnt_00071",
@@ -777,8 +847,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulationes digitorum manus",
     "translation_uz": "articulationes digitorum manus (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulationes digitorum manus).",
-    "slug": "/structure/interphalangeal-joint-of-manus/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The interphalangeal articulations of hand are hinge-joints of the phalanges of the hand. There are two sets (except in the thumb): &#x27;proximal...",
+    "slug": "/structure/interphalangeal-joint-of-manus/",
+    "description_en": "The interphalangeal articulations of hand are hinge-joints of the phalanges of the hand. There are two sets (except in the thumb): &#x27;proximal..."
   },
   {
     "id": "jnt_00072",
@@ -788,8 +859,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of big toe",
     "translation_uz": "interphalangeal joint of big toe (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of big toe).",
-    "slug": "/structure/interphalangeal-joint-of-pedal-digit-1/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of pes that is part of a pedal digit 1.",
+    "slug": "/structure/interphalangeal-joint-of-pedal-digit-1/",
+    "description_en": "An interphalangeal joint of pes that is part of a pedal digit 1."
   },
   {
     "id": "jnt_00073",
@@ -799,8 +871,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of pedal digit II",
     "translation_uz": "interphalangeal joint of pedal digit II (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of pedal digit II).",
-    "slug": "/structure/interphalangeal-joint-of-pedal-digit-2/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of pes that is part of a pedal digit 2.",
+    "slug": "/structure/interphalangeal-joint-of-pedal-digit-2/",
+    "description_en": "An interphalangeal joint of pes that is part of a pedal digit 2."
   },
   {
     "id": "jnt_00074",
@@ -810,8 +883,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of pedal digit III",
     "translation_uz": "interphalangeal joint of pedal digit III (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of pedal digit III).",
-    "slug": "/structure/interphalangeal-joint-of-pedal-digit-3/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of pes that is part of a pedal digit 3.",
+    "slug": "/structure/interphalangeal-joint-of-pedal-digit-3/",
+    "description_en": "An interphalangeal joint of pes that is part of a pedal digit 3."
   },
   {
     "id": "jnt_00075",
@@ -821,8 +895,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of fourth digit of foot",
     "translation_uz": "interphalangeal joint of fourth digit of foot (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of fourth digit of foot).",
-    "slug": "/structure/interphalangeal-joint-of-pedal-digit-4/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of pes that is part of a pedal digit 4.",
+    "slug": "/structure/interphalangeal-joint-of-pedal-digit-4/",
+    "description_en": "An interphalangeal joint of pes that is part of a pedal digit 4."
   },
   {
     "id": "jnt_00076",
@@ -832,8 +907,9 @@
     "type_uz": "Bo'g'im",
     "english": "interphalangeal joint of fifth digit of foot",
     "translation_uz": "interphalangeal joint of fifth digit of foot (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (interphalangeal joint of fifth digit of foot).",
-    "slug": "/structure/interphalangeal-joint-of-pedal-digit-5/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An interphalangeal joint of pes that is part of a pedal digit 5.",
+    "slug": "/structure/interphalangeal-joint-of-pedal-digit-5/",
+    "description_en": "An interphalangeal joint of pes that is part of a pedal digit 5."
   },
   {
     "id": "jnt_00077",
@@ -843,8 +919,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulationes intertarsale",
     "translation_uz": "articulationes intertarsale (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulationes intertarsale).",
-    "slug": "/structure/intertarsal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Intertarsal articulations are the joints of the tarsus. The specific intertarsal articulations are: Talocalcaneal articulation Talocalcaneonavicular...",
+    "slug": "/structure/intertarsal-joint/",
+    "description_en": "Intertarsal articulations are the joints of the tarsus. The specific intertarsal articulations are: Talocalcaneal articulation Talocalcaneonavicular..."
   },
   {
     "id": "jnt_00078",
@@ -854,8 +931,9 @@
     "type_uz": "Bo'g'im",
     "english": "crurotarsal joint",
     "translation_uz": "crurotarsal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (crurotarsal joint).",
-    "slug": "/structure/intertarsal-type-crurotarsal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An ankle joint that passes between the astragalus and calcaneum.",
+    "slug": "/structure/intertarsal-type-crurotarsal-joint/",
+    "description_en": "An ankle joint that passes between the astragalus and calcaneum."
   },
   {
     "id": "jnt_00079",
@@ -865,8 +943,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "intraramal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/intraramal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint in the lower jaw that enhances kinesis and for swallowing prey. Allows enhanced mobility and intraramal bending to increase gape.",
+    "slug": "/structure/intraramal-joint/",
+    "description_en": "A joint in the lower jaw that enhances kinesis and for swallowing prey. Allows enhanced mobility and intraramal bending to increase gape."
   },
   {
     "id": "jnt_00080",
@@ -876,8 +955,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "joint articular surface (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/joint-articular-surface/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (joint articular surface).",
+    "slug": "/structure/joint-articular-surface/",
+    "description_en": "An anatomical structure classified as joint (joint articular surface)."
   },
   {
     "id": "jnt_00081",
@@ -887,8 +967,9 @@
     "type_uz": "Bo'g'im",
     "english": "girdle joint",
     "translation_uz": "girdle joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (girdle joint).",
-    "slug": "/structure/joint-of-girdle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A skeletal joint that is part of a appendage girdle region.",
+    "slug": "/structure/joint-of-girdle/",
+    "description_en": "A skeletal joint that is part of a appendage girdle region."
   },
   {
     "id": "jnt_00082",
@@ -898,8 +979,9 @@
     "type_uz": "Bo'g'im",
     "english": "knee region",
     "translation_uz": "knee region (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (knee region).",
-    "slug": "/structure/knee/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A segment of the hindlimb that corresponds to the joint connecting a hindlimb stylopod and zeugopod.",
+    "slug": "/structure/knee/",
+    "description_en": "A segment of the hindlimb that corresponds to the joint connecting a hindlimb stylopod and zeugopod."
   },
   {
     "id": "jnt_00083",
@@ -909,8 +991,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "knee joint primordium (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/knee-joint-primordium/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (knee joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs.",
+    "slug": "/structure/knee-joint-primordium/",
+    "description_en": "An embryological structure (knee joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs."
   },
   {
     "id": "jnt_00084",
@@ -920,8 +1003,9 @@
     "type_uz": "Bo'g'im",
     "english": "joint of larynx",
     "translation_uz": "joint of larynx (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (joint of larynx).",
-    "slug": "/structure/laryngeal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A skeletal joint that connects a laryngeal cartilage.",
+    "slug": "/structure/laryngeal-joint/",
+    "description_en": "A skeletal joint that connects a laryngeal cartilage."
   },
   {
     "id": "jnt_00085",
@@ -931,8 +1015,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "lateral ethmoid-frontal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/lateral-ethmoid-frontal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the lateral ethmoid and frontal. lateral ethmoid-frontal joint is paired.",
+    "slug": "/structure/lateral-ethmoid-frontal-joint/",
+    "description_en": "Joint that articulates the lateral ethmoid and frontal. lateral ethmoid-frontal joint is paired."
   },
   {
     "id": "jnt_00086",
@@ -942,8 +1027,9 @@
     "type_uz": "Bo'g'im",
     "english": "antorbital process",
     "translation_uz": "antorbital process (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (antorbital process).",
-    "slug": "/structure/lateral-ethmoid-palatine-process/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Lateral bony projection proximal to lateral ethmoid-palatine joint, and located anterior to orbital region and posterior to olfactory region.",
+    "slug": "/structure/lateral-ethmoid-palatine-process/",
+    "description_en": "Lateral bony projection proximal to lateral ethmoid-palatine joint, and located anterior to orbital region and posterior to olfactory region."
   },
   {
     "id": "jnt_00087",
@@ -953,8 +1039,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "lateral-intermediate intercuneiform joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/lateral-intermediate-intercuneiform-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (lateral-intermediate intercuneiform joint).",
+    "slug": "/structure/lateral-intermediate-intercuneiform-joint/",
+    "description_en": "An anatomical structure classified as joint (lateral-intermediate intercuneiform joint)."
   },
   {
     "id": "jnt_00088",
@@ -964,8 +1051,9 @@
     "type_uz": "Bo'g'im",
     "english": "joint of limb",
     "translation_uz": "joint of limb (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (joint of limb).",
-    "slug": "/structure/limb-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Any joint that is part of a (free) limb.",
+    "slug": "/structure/limb-joint/",
+    "description_en": "Any joint that is part of a (free) limb."
   },
   {
     "id": "jnt_00089",
@@ -975,8 +1063,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulationes manus",
     "translation_uz": "articulationes manus (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulationes manus).",
-    "slug": "/structure/manus-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A skeletal joint that is part of a manus (hand) [Automatically generated definition].",
+    "slug": "/structure/manus-joint/",
+    "description_en": "A skeletal joint that is part of a manus (hand) [Automatically generated definition]."
   },
   {
     "id": "jnt_00090",
@@ -986,8 +1075,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "medial cartilage of palatine (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/medial-cartilage-of-palatine/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Pharyngeal cartilage that caps the medial margin of the palatine at the autopalatine-lateral ethmoid joint.",
+    "slug": "/structure/medial-cartilage-of-palatine/",
+    "description_en": "Pharyngeal cartilage that caps the medial margin of the palatine at the autopalatine-lateral ethmoid joint."
   },
   {
     "id": "jnt_00091",
@@ -997,8 +1087,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "medial cotyla (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/medial-cotyla/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The medialmost of the cotyla of the lower jaw, for articulation with the cranium.",
+    "slug": "/structure/medial-cotyla/",
+    "description_en": "The medialmost of the cotyla of the lower jaw, for articulation with the cranium."
   },
   {
     "id": "jnt_00092",
@@ -1008,8 +1099,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "medial-intermediate intercuneiform joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/medial-intermediate-intercuneiform-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (medial-intermediate intercuneiform joint).",
+    "slug": "/structure/medial-intermediate-intercuneiform-joint/",
+    "description_en": "An anatomical structure classified as joint (medial-intermediate intercuneiform joint)."
   },
   {
     "id": "jnt_00093",
@@ -1019,8 +1111,9 @@
     "type_uz": "Bo'g'im",
     "english": "articular disc",
     "translation_uz": "articular disc (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articular disc).",
-    "slug": "/structure/meniscus/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Crescent-shaped fibrocartilaginous structure present in the knee, acromioclavicular, sternoclavicular, and temporomandibular joints[2] that, in...",
+    "slug": "/structure/meniscus/",
+    "description_en": "Crescent-shaped fibrocartilaginous structure present in the knee, acromioclavicular, sternoclavicular, and temporomandibular joints[2] that, in..."
   },
   {
     "id": "jnt_00094",
@@ -1030,8 +1123,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "mesethmoid-frontal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/mesethmoid-frontal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the mesethmoid and frontal. Mesethmoid-frontal joint is paired.",
+    "slug": "/structure/mesethmoid-frontal-joint/",
+    "description_en": "Joint that articulates the mesethmoid and frontal. Mesethmoid-frontal joint is paired."
   },
   {
     "id": "jnt_00095",
@@ -1041,8 +1135,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "mesethmoid-lateral ethmoid joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/mesethmoid-lateral-ethmoid-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the mesethmoid and lateral ethmoid. Mesethmoid-lateral ethmoid joint is paired.",
+    "slug": "/structure/mesethmoid-lateral-ethmoid-joint/",
+    "description_en": "Joint that articulates the mesethmoid and lateral ethmoid. Mesethmoid-lateral ethmoid joint is paired."
   },
   {
     "id": "jnt_00096",
@@ -1052,8 +1147,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "mesethmoid-nasal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/mesethmoid-nasal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the mesethmoid and nasal. Mesethmoid-nasal joint is paired.",
+    "slug": "/structure/mesethmoid-nasal-joint/",
+    "description_en": "Joint that articulates the mesethmoid and nasal. Mesethmoid-nasal joint is paired."
   },
   {
     "id": "jnt_00097",
@@ -1063,8 +1159,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "mesethmoid-premaxillary joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/mesethmoid-premaxillary-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the mesethmoid and premaxilla. Mesethmoid-premaxillary joint is paired.",
+    "slug": "/structure/mesethmoid-premaxillary-joint/",
+    "description_en": "Joint that articulates the mesethmoid and premaxilla. Mesethmoid-premaxillary joint is paired."
   },
   {
     "id": "jnt_00098",
@@ -1074,8 +1171,9 @@
     "type_uz": "Bo'g'im",
     "english": "mesethmoid-prevomer joint",
     "translation_uz": "mesethmoid-prevomer joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (mesethmoid-prevomer joint).",
-    "slug": "/structure/mesethmoid-vomer-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the mesethmoid and vomer. Mesethmoid-vomer joint is unpaired.",
+    "slug": "/structure/mesethmoid-vomer-joint/",
+    "description_en": "Joint that articulates the mesethmoid and vomer. Mesethmoid-vomer joint is unpaired."
   },
   {
     "id": "jnt_00099",
@@ -1085,8 +1183,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "mesotarsal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/mesotarsal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An ankle joint that passes between the proximal and distal tarsals.",
+    "slug": "/structure/mesotarsal-joint/",
+    "description_en": "An ankle joint that passes between the proximal and distal tarsals."
   },
   {
     "id": "jnt_00100",
@@ -1096,8 +1195,9 @@
     "type_uz": "Bo'g'im",
     "english": "foot pad",
     "translation_uz": "foot pad (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (foot pad).",
-    "slug": "/structure/metapodial-pad/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A thick, spongy layer of tissue located under the metacarpal and metatarsal joints of the autopod.",
+    "slug": "/structure/metapodial-pad/",
+    "description_en": "A thick, spongy layer of tissue located under the metacarpal and metatarsal joints of the autopod."
   },
   {
     "id": "jnt_00101",
@@ -1107,8 +1207,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "M. ileo-fibularis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/m-ileo-fibularis/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Originates from the ventral border of the ala ossis ilei just posterior to the origin of M. glutaeus maximus. Insterts in the aponeurosis covering the...",
+    "slug": "/structure/m-ileo-fibularis/",
+    "description_en": "Originates from the ventral border of the ala ossis ilei just posterior to the origin of M. glutaeus maximus. Insterts in the aponeurosis covering the..."
   },
   {
     "id": "jnt_00102",
@@ -1118,8 +1219,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "opercle-interopercle joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/opercle-interopercle-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the opercle and interopercle. Opercle-interopercle joint is paired.",
+    "slug": "/structure/opercle-interopercle-joint/",
+    "description_en": "Joint that articulates the opercle and interopercle. Opercle-interopercle joint is paired."
   },
   {
     "id": "jnt_00103",
@@ -1129,8 +1231,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "parasphenoid-basioccipital joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/parasphenoid-basioccipital-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the parasphenoid and basioccipital. Parasphenoid-basioccipital joint is unpaired.",
+    "slug": "/structure/parasphenoid-basioccipital-joint/",
+    "description_en": "Joint that articulates the parasphenoid and basioccipital. Parasphenoid-basioccipital joint is unpaired."
   },
   {
     "id": "jnt_00104",
@@ -1140,8 +1243,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "parasphenoid-pterosphenoid joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/parasphenoid-pterosphenoid-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (parasphenoid-pterosphenoid joint).",
+    "slug": "/structure/parasphenoid-pterosphenoid-joint/",
+    "description_en": "An anatomical structure classified as joint (parasphenoid-pterosphenoid joint)."
   },
   {
     "id": "jnt_00105",
@@ -1151,8 +1255,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "paries nasi (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/paries-nasi/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Paired, elongate, ventrolaterally-orieted cartilaginous structures that extend to the premaxilla-maxilla articulation.",
+    "slug": "/structure/paries-nasi/",
+    "description_en": "Paired, elongate, ventrolaterally-orieted cartilaginous structures that extend to the premaxilla-maxilla articulation."
   },
   {
     "id": "jnt_00106",
@@ -1162,8 +1267,9 @@
     "type_uz": "Bo'g'im",
     "english": "femorapatellar joint",
     "translation_uz": "femorapatellar joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (femorapatellar joint).",
-    "slug": "/structure/patellofemoral-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (patellofemoral joint).",
+    "slug": "/structure/patellofemoral-joint/",
+    "description_en": "An anatomical structure classified as joint (patellofemoral joint)."
   },
   {
     "id": "jnt_00107",
@@ -1173,8 +1279,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "pectoral flipper tubercle (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/pectoral-flipper-tubercle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A bump or swelling adorining the head and leading edge of a pectoral flipper, associated with the multiple joints and terminal phalanges as found in...",
+    "slug": "/structure/pectoral-flipper-tubercle/",
+    "description_en": "A bump or swelling adorining the head and leading edge of a pectoral flipper, associated with the multiple joints and terminal phalanges as found in..."
   },
   {
     "id": "jnt_00108",
@@ -1184,8 +1291,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulationes pedis",
     "translation_uz": "articulationes pedis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulationes pedis).",
-    "slug": "/structure/pes-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A skeletal joint that is part of a pes [Automatically generated definition].",
+    "slug": "/structure/pes-joint/",
+    "description_en": "A skeletal joint that is part of a pes [Automatically generated definition]."
   },
   {
     "id": "jnt_00109",
@@ -1195,8 +1303,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio ossis pisiformis",
     "translation_uz": "articulatio ossis pisiformis (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio ossis pisiformis).",
-    "slug": "/structure/pisiform-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): It is a joint between the pisiform and triquetrum.",
+    "slug": "/structure/pisiform-joint/",
+    "description_en": "It is a joint between the pisiform and triquetrum."
   },
   {
     "id": "jnt_00110",
@@ -1206,8 +1315,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "pisotriquetral joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/pisotriquetral-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (pisotriquetral joint).",
+    "slug": "/structure/pisotriquetral-joint/",
+    "description_en": "An anatomical structure classified as joint (pisotriquetral joint)."
   },
   {
     "id": "jnt_00111",
@@ -1217,8 +1327,9 @@
     "type_uz": "Bo'g'im",
     "english": "knee pit",
     "translation_uz": "knee pit (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (knee pit).",
-    "slug": "/structure/popliteal-area/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A depression on the ventral side of the femur, at the knee joint, between the condyles.",
+    "slug": "/structure/popliteal-area/",
+    "description_en": "A depression on the ventral side of the femur, at the knee joint, between the condyles."
   },
   {
     "id": "jnt_00112",
@@ -1228,8 +1339,9 @@
     "type_uz": "Bo'g'im",
     "english": "axial skeletal system",
     "translation_uz": "axial skeletal system (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (axial skeletal system).",
-    "slug": "/structure/postcranial-axial-skeletal-system/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Subdivision of the skeletal system which consists of the postcranial axial skeleton plus associated joints.",
+    "slug": "/structure/postcranial-axial-skeletal-system/",
+    "description_en": "Subdivision of the skeletal system which consists of the postcranial axial skeleton plus associated joints."
   },
   {
     "id": "jnt_00113",
@@ -1239,8 +1351,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "posterior ramus of pterygoid (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/posterior-ramus-of-pterygoid/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): In a triradiate pterygoid, the process that extends posterolaterally towards the jaw articulation.",
+    "slug": "/structure/posterior-ramus-of-pterygoid/",
+    "description_en": "In a triradiate pterygoid, the process that extends posterolaterally towards the jaw articulation."
   },
   {
     "id": "jnt_00114",
@@ -1250,8 +1363,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "posttemporal-parietal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/posttemporal-parietal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (posttemporal-parietal joint).",
+    "slug": "/structure/posttemporal-parietal-joint/",
+    "description_en": "An anatomical structure classified as joint (posttemporal-parietal joint)."
   },
   {
     "id": "jnt_00115",
@@ -1261,8 +1375,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "premaxillary-maxillary joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/premaxillary-maxillary-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the premaxilla and maxilla. Premaxillary-maxillary joint is paired.",
+    "slug": "/structure/premaxillary-maxillary-joint/",
+    "description_en": "Joint that articulates the premaxilla and maxilla. Premaxillary-maxillary joint is paired."
   },
   {
     "id": "jnt_00116",
@@ -1272,8 +1387,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "preopercle horizontal limb-symplectic joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/preopercle-horizontal-limb-symplectic-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the posterior edge of the preopercle horizontal limb with the symplectic.",
+    "slug": "/structure/preopercle-horizontal-limb-symplectic-joint/",
+    "description_en": "Joint that articulates the posterior edge of the preopercle horizontal limb with the symplectic."
   },
   {
     "id": "jnt_00117",
@@ -1283,8 +1399,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "preopercle-opercle joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/preopercle-opercle-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the preopercle and opercle. Preopercle-opercle joint is paired.",
+    "slug": "/structure/preopercle-opercle-joint/",
+    "description_en": "Joint that articulates the preopercle and opercle. Preopercle-opercle joint is paired."
   },
   {
     "id": "jnt_00118",
@@ -1294,8 +1411,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "preopercle vertical limb-hyomandibula joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/preopercle-vertical-limb-hyomandibula-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the anterior edge of the preopercle vertical limb and the hyomandibula.",
+    "slug": "/structure/preopercle-vertical-limb-hyomandibula-joint/",
+    "description_en": "Joint that articulates the anterior edge of the preopercle vertical limb and the hyomandibula."
   },
   {
     "id": "jnt_00119",
@@ -1305,8 +1423,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "prootic-exoccipital joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/prootic-exoccipital-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the prootic and exoccipital. Prootic-exoccipital joint is paired.",
+    "slug": "/structure/prootic-exoccipital-joint/",
+    "description_en": "Joint that articulates the prootic and exoccipital. Prootic-exoccipital joint is paired."
   },
   {
     "id": "jnt_00120",
@@ -1316,8 +1435,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "prootic-pterosphenoid joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/prootic-pterosphenoid-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the prootic and pterosphenoid. prootic-pterosphenoid joint is paired.",
+    "slug": "/structure/prootic-pterosphenoid-joint/",
+    "description_en": "Joint that articulates the prootic and pterosphenoid. prootic-pterosphenoid joint is paired."
   },
   {
     "id": "jnt_00121",
@@ -1327,8 +1447,9 @@
     "type_uz": "Bo'g'im",
     "english": "caput ulnae",
     "translation_uz": "caput ulnae (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (caput ulnae).",
-    "slug": "/structure/proximal-epiphysis-of-ulna/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The head of ulna presents an articular surface, part of which, of an oval or semilunar form, is directed downward, and articulates with the upper...",
+    "slug": "/structure/proximal-epiphysis-of-ulna/",
+    "description_en": "The head of ulna presents an articular surface, part of which, of an oval or semilunar form, is directed downward, and articulates with the upper..."
   },
   {
     "id": "jnt_00122",
@@ -1338,8 +1459,9 @@
     "type_uz": "Bo'g'im",
     "english": "PIJ joint",
     "translation_uz": "PIJ joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (PIJ joint).",
-    "slug": "/structure/proximal-interphalangeal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An inter-phalangeal joint that connects a proximal phalanx to either a medial or distal phalanx.",
+    "slug": "/structure/proximal-interphalangeal-joint/",
+    "description_en": "An inter-phalangeal joint that connects a proximal phalanx to either a medial or distal phalanx."
   },
   {
     "id": "jnt_00123",
@@ -1349,8 +1471,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "proximal interphalangeal joint of little finger (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/proximal-interphalangeal-joint-of-little-finger/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (proximal interphalangeal joint of little finger).",
+    "slug": "/structure/proximal-interphalangeal-joint-of-little-finger/",
+    "description_en": "An anatomical structure classified as joint (proximal interphalangeal joint of little finger)."
   },
   {
     "id": "jnt_00124",
@@ -1360,8 +1483,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "pterosphenoid-orbitosphenoid joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/pterosphenoid-orbitosphenoid-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint that articulates the pterosphenoid and orbitosphenoid. Pterosphenoid-orbitosphenoid joint is paired.",
+    "slug": "/structure/pterosphenoid-orbitosphenoid-joint/",
+    "description_en": "Joint that articulates the pterosphenoid and orbitosphenoid. Pterosphenoid-orbitosphenoid joint is paired."
   },
   {
     "id": "jnt_00125",
@@ -1371,8 +1495,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "quadrate condyle (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/quadrate-condyle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The convex articular surface on the qudrate, part of the craniomandibular joint.",
+    "slug": "/structure/quadrate-condyle/",
+    "description_en": "The convex articular surface on the qudrate, part of the craniomandibular joint."
   },
   {
     "id": "jnt_00126",
@@ -1382,8 +1507,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulation of the radus and ulna",
     "translation_uz": "articulation of the radus and ulna (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulation of the radus and ulna).",
-    "slug": "/structure/radio-ulnar-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that connects the radius and the ulna. Examples: proximal and distal radio-ulnar joints.",
+    "slug": "/structure/radio-ulnar-joint/",
+    "description_en": "A joint that connects the radius and the ulna. Examples: proximal and distal radio-ulnar joints."
   },
   {
     "id": "jnt_00127",
@@ -1393,8 +1519,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "sacral condyle (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/sacral-condyle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Anterior, paired convex facets for articulation with the cotyle(s) of the urostyle.",
+    "slug": "/structure/sacral-condyle/",
+    "description_en": "Anterior, paired convex facets for articulation with the cotyle(s) of the urostyle."
   },
   {
     "id": "jnt_00128",
@@ -1404,8 +1531,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulation by reciprocal reception",
     "translation_uz": "articulation by reciprocal reception (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulation by reciprocal reception).",
-    "slug": "/structure/saddle-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): In a saddle joint (sellar joint, articulation by reciprocal reception) the opposing surfaces are reciprocally concave-convex.",
+    "slug": "/structure/saddle-joint/",
+    "description_en": "In a saddle joint (sellar joint, articulation by reciprocal reception) the opposing surfaces are reciprocally concave-convex."
   },
   {
     "id": "jnt_00129",
@@ -1415,8 +1543,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "shoulder joint primordium (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/shoulder-joint-primordium/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (shoulder joint primordium) that forms during early development and contributes to the formation of definitive tissues and...",
+    "slug": "/structure/shoulder-joint-primordium/",
+    "description_en": "An embryological structure (shoulder joint primordium) that forms during early development and contributes to the formation of definitive tissues and..."
   },
   {
     "id": "jnt_00130",
@@ -1426,8 +1555,9 @@
     "type_uz": "Bo'g'im",
     "english": "articular joint",
     "translation_uz": "articular joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articular joint).",
-    "slug": "/structure/skeletal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Anatomical structure that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO].",
+    "slug": "/structure/skeletal-joint/",
+    "description_en": "Anatomical structure that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]."
   },
   {
     "id": "jnt_00131",
@@ -1437,8 +1567,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "spina acromioidea (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/spina-acromioidea/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Small process of the lamina recurvata that extends laterally toward the scapular-suprascapular articulation.",
+    "slug": "/structure/spina-acromioidea/",
+    "description_en": "Small process of the lamina recurvata that extends laterally toward the scapular-suprascapular articulation."
   },
   {
     "id": "jnt_00132",
@@ -1448,8 +1579,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "spina pelvis posterior (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/spina-pelvis-posterior/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Small, rounded process on the anterodorsal margin of the ischium, just posterior to the area of articulation with the ilium.",
+    "slug": "/structure/spina-pelvis-posterior/",
+    "description_en": "Small, rounded process on the anterodorsal margin of the ischium, just posterior to the area of articulation with the ilium."
   },
   {
     "id": "jnt_00133",
@@ -1459,8 +1591,9 @@
     "type_uz": "Bo'g'im",
     "english": "femoropatellar joint",
     "translation_uz": "femoropatellar joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (femoropatellar joint).",
-    "slug": "/structure/stifle-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A complex joint in the hind limbs of quadruped mammals such as the sheep, horse or dog. It is the equivalent joint to the human knee. It is often the...",
+    "slug": "/structure/stifle-joint/",
+    "description_en": "A complex joint in the hind limbs of quadruped mammals such as the sheep, horse or dog. It is the equivalent joint to the human knee. It is often the..."
   },
   {
     "id": "jnt_00134",
@@ -1470,8 +1603,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "styliform element (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/styliform-element/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An unjointed, rod-like bony or cartilaginous structures that extend from distal limb joints in tetrapods.",
+    "slug": "/structure/styliform-element/",
+    "description_en": "An unjointed, rod-like bony or cartilaginous structures that extend from distal limb joints in tetrapods."
   },
   {
     "id": "jnt_00135",
@@ -1481,8 +1615,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio subtalaris",
     "translation_uz": "articulatio subtalaris (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio subtalaris).",
-    "slug": "/structure/subtalar-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint of the pes that connects the talus and the calcaneus.",
+    "slug": "/structure/subtalar-joint/",
+    "description_en": "A joint of the pes that connects the talus and the calcaneus."
   },
   {
     "id": "jnt_00136",
@@ -1492,8 +1627,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "supraglenoid buttress (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/supraglenoid-buttress/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A bony projection dorsal to the glenoid articulation on the scapulocoracoid.",
+    "slug": "/structure/supraglenoid-buttress/",
+    "description_en": "A bony projection dorsal to the glenoid articulation on the scapulocoracoid."
   },
   {
     "id": "jnt_00137",
@@ -1503,8 +1639,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "supraoccipital-parietal joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/supraoccipital-parietal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical structure classified as joint (supraoccipital-parietal joint).",
+    "slug": "/structure/supraoccipital-parietal-joint/",
+    "description_en": "An anatomical structure classified as joint (supraoccipital-parietal joint)."
   },
   {
     "id": "jnt_00138",
@@ -1514,8 +1651,9 @@
     "type_uz": "Bo'g'im",
     "english": "synarthrodial",
     "translation_uz": "synarthrodial (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (synarthrodial).",
-    "slug": "/structure/synarthrosis/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A synarthrosis is a type of joint which permits very little or no movement under normal conditions. Most synarthrosis joints are fibrous. Suture joints...",
+    "slug": "/structure/synarthrosis/",
+    "description_en": "A synarthrosis is a type of joint which permits very little or no movement under normal conditions. Most synarthrosis joints are fibrous. Suture joints..."
   },
   {
     "id": "jnt_00139",
@@ -1525,8 +1663,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "synovial cavity of hip joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/synovial-cavity-of-hip-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A synovial cavity of joint that is part of a hip joint.",
+    "slug": "/structure/synovial-cavity-of-hip-joint/",
+    "description_en": "A synovial cavity of joint that is part of a hip joint."
   },
   {
     "id": "jnt_00140",
@@ -1536,8 +1675,9 @@
     "type_uz": "Bo'g'im",
     "english": "articular cavity (synovial joint)",
     "translation_uz": "articular cavity (synovial joint) (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articular cavity (synovial joint)).",
-    "slug": "/structure/synovial-cavity-of-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An anatomical cavity that surrounded_by a synovial joint.",
+    "slug": "/structure/synovial-cavity-of-joint/",
+    "description_en": "An anatomical cavity that surrounded_by a synovial joint."
   },
   {
     "id": "jnt_00141",
@@ -1547,8 +1687,9 @@
     "type_uz": "Bo'g'im",
     "english": "joint fluid",
     "translation_uz": "joint fluid (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (joint fluid).",
-    "slug": "/structure/synovial-fluid/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Joint fluid is a transudate of plasma that is actively secreted by synovial cells.",
+    "slug": "/structure/synovial-fluid/",
+    "description_en": "Joint fluid is a transudate of plasma that is actively secreted by synovial cells."
   },
   {
     "id": "jnt_00142",
@@ -1558,8 +1699,9 @@
     "type_uz": "Bo'g'im",
     "english": "joint of shoulder girdle",
     "translation_uz": "joint of shoulder girdle (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (joint of shoulder girdle).",
-    "slug": "/structure/synovial-joint-of-pectoral-girdle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A synovial joint that is part of a pectoral girdle region.",
+    "slug": "/structure/synovial-joint-of-pectoral-girdle/",
+    "description_en": "A synovial joint that is part of a pectoral girdle region."
   },
   {
     "id": "jnt_00143",
@@ -1569,8 +1711,9 @@
     "type_uz": "Bo'g'im",
     "english": "joint of pelvic girdle",
     "translation_uz": "joint of pelvic girdle (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (joint of pelvic girdle).",
-    "slug": "/structure/synovial-joint-of-pelvic-girdle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A synovial joint that is part of a pelvic girdle region.",
+    "slug": "/structure/synovial-joint-of-pelvic-girdle/",
+    "description_en": "A synovial joint that is part of a pelvic girdle region."
   },
   {
     "id": "jnt_00144",
@@ -1580,8 +1723,9 @@
     "type_uz": "Bo'g'im",
     "english": "synovial joint of free limb segment",
     "translation_uz": "synovial joint of free limb segment (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (synovial joint of free limb segment).",
-    "slug": "/structure/synovial-limb-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Any synovial joint that is part of a (free) limb.",
+    "slug": "/structure/synovial-limb-joint/",
+    "description_en": "Any synovial joint that is part of a (free) limb."
   },
   {
     "id": "jnt_00145",
@@ -1591,8 +1735,9 @@
     "type_uz": "Bo'g'im",
     "english": "membrana synovialis (capsula articularis)",
     "translation_uz": "membrana synovialis (capsula articularis) (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (membrana synovialis (capsula articularis)).",
-    "slug": "/structure/synovial-membrane-of-synovial-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Soft tissue that lines the non-cartilaginous surfaces within joints with cavities (synovial joints).",
+    "slug": "/structure/synovial-membrane-of-synovial-joint/",
+    "description_en": "Soft tissue that lines the non-cartilaginous surfaces within joints with cavities (synovial joints)."
   },
   {
     "id": "jnt_00146",
@@ -1602,8 +1747,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulationes tarsometatarsales",
     "translation_uz": "articulationes tarsometatarsales (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulationes tarsometatarsales).",
-    "slug": "/structure/tarsometatarsal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The tarsometatarsal articulations are arthrodial joints in the pes.",
+    "slug": "/structure/tarsometatarsal-joint/",
+    "description_en": "The tarsometatarsal articulations are arthrodial joints in the pes."
   },
   {
     "id": "jnt_00147",
@@ -1613,8 +1759,9 @@
     "type_uz": "Bo'g'im",
     "english": "temporo-mandibular joint primordium",
     "translation_uz": "temporo-mandibular joint primordium (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (temporo-mandibular joint primordium).",
-    "slug": "/structure/temporomandibular-joint-primordium/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (temporomandibular joint primordium) that forms during early development and contributes to the formation of definitive...",
+    "slug": "/structure/temporomandibular-joint-primordium/",
+    "description_en": "An embryological structure (temporomandibular joint primordium) that forms during early development and contributes to the formation of definitive..."
   },
   {
     "id": "jnt_00148",
@@ -1624,8 +1771,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "tibial facet of astragalus (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/tibial-facet-of-astragalus/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Facet for the articulation of the tibia on the astragalus (talus).",
+    "slug": "/structure/tibial-facet-of-astragalus/",
+    "description_en": "Facet for the articulation of the tibia on the astragalus (talus)."
   },
   {
     "id": "jnt_00149",
@@ -1635,8 +1783,9 @@
     "type_uz": "Bo'g'im",
     "english": "fibulatibial joint",
     "translation_uz": "fibulatibial joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (fibulatibial joint).",
-    "slug": "/structure/tibiofibular-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint that connects the tibia and the fibula.",
+    "slug": "/structure/tibiofibular-joint/",
+    "description_en": "A joint that connects the tibia and the fibula."
   },
   {
     "id": "jnt_00150",
@@ -1646,8 +1795,9 @@
     "type_uz": "Bo'g'im",
     "english": "ankle joint",
     "translation_uz": "ankle joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (ankle joint).",
-    "slug": "/structure/tibiotalar-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A skeletal joint that connects a tibia and connects a talus.",
+    "slug": "/structure/tibiotalar-joint/",
+    "description_en": "A skeletal joint that connects a tibia and connects a talus."
   },
   {
     "id": "jnt_00151",
@@ -1657,8 +1807,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio tarsi transversa",
     "translation_uz": "articulatio tarsi transversa (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (articulatio tarsi transversa).",
-    "slug": "/structure/transverse-tarsal-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The transverse tarsal joint is formed by the articulation of the calcaneus with the cuboid, and the articulation of the talus with the navicular. The...",
+    "slug": "/structure/transverse-tarsal-joint/",
+    "description_en": "The transverse tarsal joint is formed by the articulation of the calcaneus with the cuboid, and the articulation of the talus with the navicular. The..."
   },
   {
     "id": "jnt_00152",
@@ -1668,8 +1819,9 @@
     "type_uz": "Bo'g'im",
     "english": "incisura semilunaris ulnae",
     "translation_uz": "incisura semilunaris ulnae (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (incisura semilunaris ulnae).",
-    "slug": "/structure/trochlear-notch/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The semilunar notch of the ulna (trochlear notch of ulna, greater sigmoid cavity) is a large depression, formed by the olecranon and the coronoid...",
+    "slug": "/structure/trochlear-notch/",
+    "description_en": "The semilunar notch of the ulna (trochlear notch of ulna, greater sigmoid cavity) is a large depression, formed by the olecranon and the coronoid..."
   },
   {
     "id": "jnt_00153",
@@ -1679,8 +1831,9 @@
     "type_uz": "Bo'g'im",
     "english": "fossa condyloidea ossis coccygei",
     "translation_uz": "fossa condyloidea ossis coccygei (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (fossa condyloidea ossis coccygei).",
-    "slug": "/structure/urostyle-cotyle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Anterior, single or paired concave facets for articulation with the sacral condyle(s).",
+    "slug": "/structure/urostyle-cotyle/",
+    "description_en": "Anterior, single or paired concave facets for articulation with the sacral condyle(s)."
   },
   {
     "id": "jnt_00154",
@@ -1690,8 +1843,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "ventral keel of coracoid (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/ventral-keel-of-coracoid/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Process on the ventral surface of the horizontal limb of the coracoid, close to and parallel to the coracoid-cleithrum joint. Ventral keel of coracoid...",
+    "slug": "/structure/ventral-keel-of-coracoid/",
+    "description_en": "Process on the ventral surface of the horizontal limb of the coracoid, close to and parallel to the coracoid-cleithrum joint. Ventral keel of coracoid..."
   },
   {
     "id": "jnt_00155",
@@ -1701,8 +1855,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "ventral supracondylar tubercle (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi.",
-    "slug": "/structure/ventral-supracondylar-tubercle/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Tubercle on the distal humerus for the origin of the Lig. collaterale ventral of the elbow joint. Modified from Baumel et al. 1993.",
+    "slug": "/structure/ventral-supracondylar-tubercle/",
+    "description_en": "Tubercle on the distal humerus for the origin of the Lig. collaterale ventral of the elbow joint. Modified from Baumel et al. 1993."
   },
   {
     "id": "jnt_00156",
@@ -1712,7 +1867,8 @@
     "type_uz": "Bo'g'im",
     "english": "carpal region joint",
     "translation_uz": "carpal region joint (Bo'g'im)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Bo'g'im tizimi qismi (carpal region joint).",
-    "slug": "/structure/wrist-joint/"
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A joint connecting the forelimb zeugopod skeleton with the carpal skeleton.",
+    "slug": "/structure/wrist-joint/",
+    "description_en": "A joint connecting the forelimb zeugopod skeleton with the carpal skeleton."
   }
 ]

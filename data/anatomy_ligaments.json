@@ -7,8 +7,9 @@
     "type_uz": "Boylam",
     "english": "fossa acetabularis",
     "translation_uz": "fossa acetabularis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (fossa acetabularis).",
-    "slug": "/structure/acetabular-fossa/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The acetabular fossa is the roughened depression in the centre of the acetabulum, surrounded by the lunate acetabular surface and the acetabular notch....",
+    "slug": "/structure/acetabular-fossa/",
+    "description_en": "The acetabular fossa is the roughened depression in the centre of the acetabulum, surrounded by the lunate acetabular surface and the acetabular notch...."
   },
   {
     "id": "lig_00002",
@@ -18,8 +19,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "annular ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/annular-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament that is in the eye and is located at the angle between the cornea and the iris.",
+    "slug": "/structure/annular-ligament/",
+    "description_en": "Ligament that is in the eye and is located at the angle between the cornea and the iris."
   },
   {
     "id": "lig_00003",
@@ -29,8 +31,9 @@
     "type_uz": "Boylam",
     "english": "annular ligament",
     "translation_uz": "annular ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (annular ligament).",
-    "slug": "/structure/annular-ligament-of-stapes/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ring of fibrous tissue that connects the base of the stapes to the oval window of the inner ear.",
+    "slug": "/structure/annular-ligament-of-stapes/",
+    "description_en": "A ring of fibrous tissue that connects the base of the stapes to the oval window of the inner ear."
   },
   {
     "id": "lig_00004",
@@ -40,8 +43,9 @@
     "type_uz": "Boylam",
     "english": "anterior cruciate ligament",
     "translation_uz": "anterior cruciate ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (anterior cruciate ligament).",
-    "slug": "/structure/anterior-cruciate-ligament-of-knee-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A major stabilizing ligament in the knee that attaches the surfaces of the femur and tibia.",
+    "slug": "/structure/anterior-cruciate-ligament-of-knee-joint/",
+    "description_en": "A major stabilizing ligament in the knee that attaches the surfaces of the femur and tibia."
   },
   {
     "id": "lig_00005",
@@ -51,8 +55,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "anterior malleal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/anterior-malleal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A malleal ligament that extends from the anterior tympanic wall to the anterior process of the malleus.",
+    "slug": "/structure/anterior-malleal-ligament/",
+    "description_en": "A malleal ligament that extends from the anterior tympanic wall to the anterior process of the malleus."
   },
   {
     "id": "lig_00006",
@@ -62,8 +67,9 @@
     "type_uz": "Boylam",
     "english": "(mid-third) lateral capsular ligament",
     "translation_uz": "(mid-third) lateral capsular ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi ((mid-third) lateral capsular ligament).",
-    "slug": "/structure/anterolateral-ligament-of-knee/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ligament on the lateral aspect of the human knee, anterior to the fibular collateral ligament.",
+    "slug": "/structure/anterolateral-ligament-of-knee/",
+    "description_en": "A ligament on the lateral aspect of the human knee, anterior to the fibular collateral ligament."
   },
   {
     "id": "lig_00007",
@@ -73,8 +79,9 @@
     "type_uz": "Boylam",
     "english": "apex of bladder",
     "translation_uz": "apex of bladder (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (apex of bladder).",
-    "slug": "/structure/apex-of-urinary-bladder/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The anterior angle of the superior surface of the urinary bladder. The apex of urinary bladder is connected to the umbilicus by the urachus in embryos,...",
+    "slug": "/structure/apex-of-urinary-bladder/",
+    "description_en": "The anterior angle of the superior surface of the urinary bladder. The apex of urinary bladder is connected to the umbilicus by the urachus in embryos,..."
   },
   {
     "id": "lig_00008",
@@ -84,8 +91,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "arcuate ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/arcuate-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ligament that is part of a diaphragm.",
+    "slug": "/structure/arcuate-ligament/",
+    "description_en": "A ligament that is part of a diaphragm."
   },
   {
     "id": "lig_00009",
@@ -95,8 +103,9 @@
     "type_uz": "Boylam",
     "english": "articulatio atlantoaxialis",
     "translation_uz": "articulatio atlantoaxialis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (articulatio atlantoaxialis).",
-    "slug": "/structure/atlanto-axial-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The Atlanto-axial joint is of a complicated nature, comprising no fewer than four distinct joints. There is a pivot articulation between the odontoid...",
+    "slug": "/structure/atlanto-axial-joint/",
+    "description_en": "The Atlanto-axial joint is of a complicated nature, comprising no fewer than four distinct joints. There is a pivot articulation between the odontoid..."
   },
   {
     "id": "lig_00010",
@@ -106,8 +115,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "blowhole ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/blowhole-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (blowhole ligament).",
+    "slug": "/structure/blowhole-ligament/",
+    "description_en": "An anatomical structure classified as ligament (blowhole ligament)."
   },
   {
     "id": "lig_00011",
@@ -117,8 +127,9 @@
     "type_uz": "Boylam",
     "english": "broad ligament",
     "translation_uz": "broad ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (broad ligament).",
-    "slug": "/structure/broad-ligament-of-uterus/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A broad fold of peritoneum that extends from the side of the uterus to the wall of the pelvis.",
+    "slug": "/structure/broad-ligament-of-uterus/",
+    "description_en": "A broad fold of peritoneum that extends from the side of the uterus to the wall of the pelvis."
   },
   {
     "id": "lig_00012",
@@ -128,8 +139,9 @@
     "type_uz": "Boylam",
     "english": "articulatio calcaneocubiodea",
     "translation_uz": "articulatio calcaneocubiodea (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (articulatio calcaneocubiodea).",
-    "slug": "/structure/calcaneocuboid-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Calcaneocuboid Articulation (articulation of the calcaneus with the cuboid). The ligaments connecting the calcaneus with the cuboid are five in number,...",
+    "slug": "/structure/calcaneocuboid-joint/",
+    "description_en": "Calcaneocuboid Articulation (articulation of the calcaneus with the cuboid). The ligaments connecting the calcaneus with the cuboid are five in number,..."
   },
   {
     "id": "lig_00013",
@@ -139,8 +151,9 @@
     "type_uz": "Boylam",
     "english": "ligamentum calcaneofibulare",
     "translation_uz": "ligamentum calcaneofibulare (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligamentum calcaneofibulare).",
-    "slug": "/structure/calcaneofibular-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A skeletal ligament that connects the fibula to the calcaneus.",
+    "slug": "/structure/calcaneofibular-ligament/",
+    "description_en": "A skeletal ligament that connects the fibula to the calcaneus."
   },
   {
     "id": "lig_00014",
@@ -150,8 +163,9 @@
     "type_uz": "Boylam",
     "english": "articular capsule of temporomandibular joint",
     "translation_uz": "articular capsule of temporomandibular joint (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (articular capsule of temporomandibular joint).",
-    "slug": "/structure/capsule-of-temporomandibular-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The articular capsule (capsular ligament) is a thin, loose envelope, attached above to the circumference of the mandibular fossa and the articular...",
+    "slug": "/structure/capsule-of-temporomandibular-joint/",
+    "description_en": "The articular capsule (capsular ligament) is a thin, loose envelope, attached above to the circumference of the mandibular fossa and the articular..."
   },
   {
     "id": "lig_00015",
@@ -161,8 +175,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "cartilago sesamoides (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/cartilago-sesamoides/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A sesamoid found in the found in the ligamentum calcanei of a wide variety of frogs. (based on Nussbaum, R. A. 1982.",
+    "slug": "/structure/cartilago-sesamoides/",
+    "description_en": "A sesamoid found in the found in the ligamentum calcanei of a wide variety of frogs. (based on Nussbaum, R. A. 1982."
   },
   {
     "id": "lig_00016",
@@ -172,8 +187,9 @@
     "type_uz": "Boylam",
     "english": "ch",
     "translation_uz": "ch (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ch).",
-    "slug": "/structure/chordotonal-organ/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Chordotonal organs are arthropod sensory structures consisting of special sensilla called the scolopidia, which are mechano-transducers and respond...",
+    "slug": "/structure/chordotonal-organ/",
+    "description_en": "Chordotonal organs are arthropod sensory structures consisting of special sensilla called the scolopidia, which are mechano-transducers and respond..."
   },
   {
     "id": "lig_00017",
@@ -183,8 +199,9 @@
     "type_uz": "Boylam",
     "english": "ciliary process",
     "translation_uz": "ciliary process (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ciliary process).",
-    "slug": "/structure/ciliary-processes/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The ciliary processes are formed by the inward folding of the various layers of the choroid, i.e. , the choroid proper and the lamina basalis, and are...",
+    "slug": "/structure/ciliary-processes/",
+    "description_en": "The ciliary processes are formed by the inward folding of the various layers of the choroid, i.e. , the choroid proper and the lamina basalis, and are..."
   },
   {
     "id": "lig_00018",
@@ -194,8 +211,9 @@
     "type_uz": "Boylam",
     "english": "basement membrane of cochlear labyrinth",
     "translation_uz": "basement membrane of cochlear labyrinth (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (basement membrane of cochlear labyrinth).",
-    "slug": "/structure/cochlear-basement-membrane/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The the continuous basement membrane found within the membranous labyrinth of the cochlea, known to extend from the limbus, down to the inner sulcus,...",
+    "slug": "/structure/cochlear-basement-membrane/",
+    "description_en": "The the continuous basement membrane found within the membranous labyrinth of the cochlea, known to extend from the limbus, down to the inner sulcus,..."
   },
   {
     "id": "lig_00019",
@@ -205,8 +223,9 @@
     "type_uz": "Boylam",
     "english": "coronary ligament",
     "translation_uz": "coronary ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (coronary ligament).",
-    "slug": "/structure/coronary-ligament-of-liver/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The coronary ligament of the liver refers to parts of the peritoneal reflections that hold the liver to the inferior surface of the diaphragm.",
+    "slug": "/structure/coronary-ligament-of-liver/",
+    "description_en": "The coronary ligament of the liver refers to parts of the peritoneal reflections that hold the liver to the inferior surface of the diaphragm."
   },
   {
     "id": "lig_00020",
@@ -216,8 +235,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "cranial suspensory ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/cranial-suspensory-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Connects the cranial tip of the future gonad to the dorsocranial abdominal cavity.",
+    "slug": "/structure/cranial-suspensory-ligament/",
+    "description_en": "Connects the cranial tip of the future gonad to the dorsocranial abdominal cavity."
   },
   {
     "id": "lig_00021",
@@ -227,8 +247,9 @@
     "type_uz": "Boylam",
     "english": "crico-arytenoid ligament",
     "translation_uz": "crico-arytenoid ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (crico-arytenoid ligament).",
-    "slug": "/structure/cricoarytenoid-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Laryngeal ligament that connects the cricoid and arytenoid cartilages[WP,modified].",
+    "slug": "/structure/cricoarytenoid-ligament/",
+    "description_en": "Laryngeal ligament that connects the cricoid and arytenoid cartilages[WP,modified]."
   },
   {
     "id": "lig_00022",
@@ -238,8 +259,9 @@
     "type_uz": "Boylam",
     "english": "crico-pharyngeal ligament",
     "translation_uz": "crico-pharyngeal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (crico-pharyngeal ligament).",
-    "slug": "/structure/cricopharyngeal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Laryngeal ligament that connects the cricoid cartilage to the pharynx[WP,modified].",
+    "slug": "/structure/cricopharyngeal-ligament/",
+    "description_en": "Laryngeal ligament that connects the cricoid cartilage to the pharynx[WP,modified]."
   },
   {
     "id": "lig_00023",
@@ -249,8 +271,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "cricotracheal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/cricotracheal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The cricotracheal ligament connects the cricoid cartilage with the first ring of the trachea[WP]. The caudal border of the cricoid cartilage is joined...",
+    "slug": "/structure/cricotracheal-ligament/",
+    "description_en": "The cricotracheal ligament connects the cricoid cartilage with the first ring of the trachea[WP]. The caudal border of the cricoid cartilage is joined..."
   },
   {
     "id": "lig_00024",
@@ -260,8 +283,9 @@
     "type_uz": "Boylam",
     "english": "cruciate ligament of dens",
     "translation_uz": "cruciate ligament of dens (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (cruciate ligament of dens).",
-    "slug": "/structure/cruciate-ligament-of-atlas/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A cruciate ligament in the neck forming part of the atlanto-axial joint. It consists of the transverse ligament of the atlas, along with additional...",
+    "slug": "/structure/cruciate-ligament-of-atlas/",
+    "description_en": "A cruciate ligament in the neck forming part of the atlanto-axial joint. It consists of the transverse ligament of the atlas, along with additional..."
   },
   {
     "id": "lig_00025",
@@ -271,8 +295,9 @@
     "type_uz": "Boylam",
     "english": "cruciate ligament",
     "translation_uz": "cruciate ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (cruciate ligament).",
-    "slug": "/structure/cruciate-ligament-of-knee/"
+    "definition_uz": "Anatomik ta'rif (Boylam): One of a pair of ligaments arranged like a letter X.[1] They occur in several joints of the body, such as the knee. In a fashion similar to the cords...",
+    "slug": "/structure/cruciate-ligament-of-knee/",
+    "description_en": "One of a pair of ligaments arranged like a letter X.[1] They occur in several joints of the body, such as the knee. In a fashion similar to the cords..."
   },
   {
     "id": "lig_00026",
@@ -282,8 +307,9 @@
     "type_uz": "Boylam",
     "english": "distal sesamoidean impar ligament",
     "translation_uz": "distal sesamoidean impar ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (distal sesamoidean impar ligament).",
-    "slug": "/structure/distal-sesamoid-impar-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A short wide fibrous structure that attaches proximally to the navicular (distal sesamoid) and distally to the palmar margin of the flexor surface of...",
+    "slug": "/structure/distal-sesamoid-impar-ligament/",
+    "description_en": "A short wide fibrous structure that attaches proximally to the navicular (distal sesamoid) and distally to the palmar margin of the flexor surface of..."
   },
   {
     "id": "lig_00027",
@@ -293,8 +319,9 @@
     "type_uz": "Boylam",
     "english": "laryngeal extrinsic ligament",
     "translation_uz": "laryngeal extrinsic ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (laryngeal extrinsic ligament).",
-    "slug": "/structure/extrinsic-ligament-of-larynx/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (extrinsic ligament of larynx).",
+    "slug": "/structure/extrinsic-ligament-of-larynx/",
+    "description_en": "An anatomical structure classified as ligament (extrinsic ligament of larynx)."
   },
   {
     "id": "lig_00028",
@@ -304,8 +331,9 @@
     "type_uz": "Boylam",
     "english": "falciform fat depot",
     "translation_uz": "falciform fat depot (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (falciform fat depot).",
-    "slug": "/structure/falciform-fat/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A large fat pad that is located at the base of the abdominal wall, in the falciform ligament of the liver.",
+    "slug": "/structure/falciform-fat/",
+    "description_en": "A large fat pad that is located at the base of the abdominal wall, in the falciform ligament of the liver."
   },
   {
     "id": "lig_00029",
@@ -315,8 +343,9 @@
     "type_uz": "Boylam",
     "english": "fovea capitis",
     "translation_uz": "fovea capitis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (fovea capitis).",
-    "slug": "/structure/fovea-capitis-of-femur/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The surface of the head of the femur is smooth, coated with cartilage in the fresh state, except over an ovoid depression, the fovea of head of femur,...",
+    "slug": "/structure/fovea-capitis-of-femur/",
+    "description_en": "The surface of the head of the femur is smooth, coated with cartilage in the fresh state, except over an ovoid depression, the fovea of head of femur,..."
   },
   {
     "id": "lig_00030",
@@ -326,8 +355,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "fovea capitis of humerus (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/fovea-capitis-of-humerus/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ovoid roughened pit, which is situated a little below and behind the center of the head, and serves as a site of attachment for ligaments.",
+    "slug": "/structure/fovea-capitis-of-humerus/",
+    "description_en": "Ovoid roughened pit, which is situated a little below and behind the center of the head, and serves as a site of attachment for ligaments."
   },
   {
     "id": "lig_00031",
@@ -337,8 +367,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "gastrocolic ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/gastrocolic-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A major portion of the greater omentum between the stomach and the transverse colon.",
+    "slug": "/structure/gastrocolic-ligament/",
+    "description_en": "A major portion of the greater omentum between the stomach and the transverse colon."
   },
   {
     "id": "lig_00032",
@@ -348,8 +379,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "gastrophrenic ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/gastrophrenic-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The portion of the greater omentum that extends from the greater curvature of the stomach to the inferior surface of the diaphragm.",
+    "slug": "/structure/gastrophrenic-ligament/",
+    "description_en": "The portion of the greater omentum that extends from the greater curvature of the stomach to the inferior surface of the diaphragm."
   },
   {
     "id": "lig_00033",
@@ -359,8 +391,9 @@
     "type_uz": "Boylam",
     "english": "gastrolienal ligament",
     "translation_uz": "gastrolienal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (gastrolienal ligament).",
-    "slug": "/structure/gastro-splenic-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Peritoneum connecting the greater curvature of stomach with the hilum of the spleen[umich]. part of the greater omentum; derived from the dorsal...",
+    "slug": "/structure/gastro-splenic-ligament/",
+    "description_en": "Peritoneum connecting the greater curvature of stomach with the hilum of the spleen[umich]. part of the greater omentum; derived from the dorsal..."
   },
   {
     "id": "lig_00034",
@@ -370,8 +403,9 @@
     "type_uz": "Boylam",
     "english": "gingival mucosa",
     "translation_uz": "gingival mucosa (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (gingival mucosa).",
-    "slug": "/structure/gingiva/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The fibrous investing tissue, covered by keratinized epithelium, that immediately surrounds a tooth and is contiguous with its periodontal ligament and...",
+    "slug": "/structure/gingiva/",
+    "description_en": "The fibrous investing tissue, covered by keratinized epithelium, that immediately surrounds a tooth and is contiguous with its periodontal ligament and..."
   },
   {
     "id": "lig_00035",
@@ -381,8 +415,9 @@
     "type_uz": "Boylam",
     "english": "caudal suspensory ligament",
     "translation_uz": "caudal suspensory ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (caudal suspensory ligament).",
-    "slug": "/structure/gubernaculum-male-or-female/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Gubernaculum: transient mesenchymal genitoinguinal ligament linking the fetal testis to the scrotum, or the ovary to the uterus.",
+    "slug": "/structure/gubernaculum-male-or-female/",
+    "description_en": "Gubernaculum: transient mesenchymal genitoinguinal ligament linking the fetal testis to the scrotum, or the ovary to the uterus."
   },
   {
     "id": "lig_00036",
@@ -392,8 +427,9 @@
     "type_uz": "Boylam",
     "english": "gubernaculum",
     "translation_uz": "gubernaculum (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (gubernaculum).",
-    "slug": "/structure/gubernaculum-testis/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The fetal ligament attached to the inferior end of the epididymis and testis and, at its other end, to the bottom of the scrotum; it is present during,...",
+    "slug": "/structure/gubernaculum-testis/",
+    "description_en": "The fetal ligament attached to the inferior end of the epididymis and testis and, at its other end, to the bottom of the scrotum; it is present during,..."
   },
   {
     "id": "lig_00037",
@@ -403,8 +439,9 @@
     "type_uz": "Boylam",
     "english": "caput radii",
     "translation_uz": "caput radii (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (caput radii).",
-    "slug": "/structure/head-of-radius/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The head of the radius has a cylindrical form, and on its upper surface is a shallow cup or fovea for articulation with the capitulum (or capitellum)...",
+    "slug": "/structure/head-of-radius/",
+    "description_en": "The head of the radius has a cylindrical form, and on its upper surface is a shallow cup or fovea for articulation with the capitulum (or capitellum)..."
   },
   {
     "id": "lig_00038",
@@ -414,8 +451,9 @@
     "type_uz": "Boylam",
     "english": "ligamentum hepatoduodenale",
     "translation_uz": "ligamentum hepatoduodenale (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligamentum hepatoduodenale).",
-    "slug": "/structure/hepatoduodenal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The hepatoduodenal ligament is the portion of the lesser omentum extending between the porta hepatis of the liver and the superior part of the duodenum.",
+    "slug": "/structure/hepatoduodenal-ligament/",
+    "description_en": "The hepatoduodenal ligament is the portion of the lesser omentum extending between the porta hepatis of the liver and the superior part of the duodenum."
   },
   {
     "id": "lig_00039",
@@ -425,8 +463,9 @@
     "type_uz": "Boylam",
     "english": "gastro-hepatic ligament",
     "translation_uz": "gastro-hepatic ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (gastro-hepatic ligament).",
-    "slug": "/structure/hepatogastric-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament extending between the liver and stomach.",
+    "slug": "/structure/hepatogastric-ligament/",
+    "description_en": "Ligament extending between the liver and stomach."
   },
   {
     "id": "lig_00040",
@@ -436,8 +475,9 @@
     "type_uz": "Boylam",
     "english": "distal tibiofibular joint",
     "translation_uz": "distal tibiofibular joint (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (distal tibiofibular joint).",
-    "slug": "/structure/inferior-tibiofibular-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The inferior tibiofibular articulation (tibiofibular syndesmosis) is formed by the rough, convex surface of the medial side of the lower end of the...",
+    "slug": "/structure/inferior-tibiofibular-joint/",
+    "description_en": "The inferior tibiofibular articulation (tibiofibular syndesmosis) is formed by the rough, convex surface of the medial side of the lower end of the..."
   },
   {
     "id": "lig_00041",
@@ -447,8 +487,9 @@
     "type_uz": "Boylam",
     "english": "femoral groove",
     "translation_uz": "femoral groove (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (femoral groove).",
-    "slug": "/structure/intercondylar-fossa/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The deep fossa between the femoral condyles in which the cruciate ligaments are attached. From Medilexicon.com.",
+    "slug": "/structure/intercondylar-fossa/",
+    "description_en": "The deep fossa between the femoral condyles in which the cruciate ligaments are attached. From Medilexicon.com."
   },
   {
     "id": "lig_00042",
@@ -458,8 +499,9 @@
     "type_uz": "Boylam",
     "english": "interopercular-retroarticular ligament",
     "translation_uz": "interopercular-retroarticular ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (interopercular-retroarticular ligament).",
-    "slug": "/structure/interopercular-mandibular-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Interopercular-mandibular ligament is a ligament that connects the interopercle to an element of the lower jaw, typically the retroarticular.",
+    "slug": "/structure/interopercular-mandibular-ligament/",
+    "description_en": "Interopercular-mandibular ligament is a ligament that connects the interopercle to an element of the lower jaw, typically the retroarticular."
   },
   {
     "id": "lig_00043",
@@ -469,8 +511,9 @@
     "type_uz": "Boylam",
     "english": "foot interphalangeal joint",
     "translation_uz": "foot interphalangeal joint (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (foot interphalangeal joint).",
-    "slug": "/structure/interphalangeal-joint-of-pes/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The interphalangeal articulations of the foot (articulations of the phalanges) are ginglymoid joints, and each has a plantar and two collateral...",
+    "slug": "/structure/interphalangeal-joint-of-pes/",
+    "description_en": "The interphalangeal articulations of the foot (articulations of the phalanges) are ginglymoid joints, and each has a plantar and two collateral..."
   },
   {
     "id": "lig_00044",
@@ -480,8 +523,9 @@
     "type_uz": "Boylam",
     "english": "intrinsic ligament of larynx",
     "translation_uz": "intrinsic ligament of larynx (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (intrinsic ligament of larynx).",
-    "slug": "/structure/laryngeal-intrinsic-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (laryngeal intrinsic ligament).",
+    "slug": "/structure/laryngeal-intrinsic-ligament/",
+    "description_en": "An anatomical structure classified as ligament (laryngeal intrinsic ligament)."
   },
   {
     "id": "lig_00045",
@@ -491,8 +535,9 @@
     "type_uz": "Boylam",
     "english": "e. lateralis femoris",
     "translation_uz": "e. lateralis femoris (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (e. lateralis femoris).",
-    "slug": "/structure/lateral-epicondyle-of-femur/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The lateral epicondyle of the femur, smaller and less prominent than the medial epicondyle, gives attachment to the fibular collateral ligament of the...",
+    "slug": "/structure/lateral-epicondyle-of-femur/",
+    "description_en": "The lateral epicondyle of the femur, smaller and less prominent than the medial epicondyle, gives attachment to the fibular collateral ligament of the..."
   },
   {
     "id": "lig_00046",
@@ -502,8 +547,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "lateral ethmoid-autopalatine ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/lateral-ethmoid-autopalatine-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Lateral ethmoid-autopalatine ligament is a ligament that connects the lateral ethmoid to the autopalatine.",
+    "slug": "/structure/lateral-ethmoid-autopalatine-ligament/",
+    "description_en": "Lateral ethmoid-autopalatine ligament is a ligament that connects the lateral ethmoid to the autopalatine."
   },
   {
     "id": "lig_00047",
@@ -513,8 +559,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "lateral ethmoid-ectopterygoid ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/lateral-ethmoid-ectopterygoid-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Lateral ethmoid-ectopterygoid ligament is a ligament that connects the lateral ethmoid to the ectopterygoid.",
+    "slug": "/structure/lateral-ethmoid-ectopterygoid-ligament/",
+    "description_en": "Lateral ethmoid-ectopterygoid ligament is a ligament that connects the lateral ethmoid to the ectopterygoid."
   },
   {
     "id": "lig_00048",
@@ -524,8 +571,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "lateral malleal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/lateral-malleal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A malleal ligament that extends from the bony margin of the notch of Rivinus to the neck of the malleus.",
+    "slug": "/structure/lateral-malleal-ligament/",
+    "description_en": "A malleal ligament that extends from the bony margin of the notch of Rivinus to the neck of the malleus."
   },
   {
     "id": "lig_00049",
@@ -535,8 +583,9 @@
     "type_uz": "Boylam",
     "english": "lienorenal ligament",
     "translation_uz": "lienorenal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (lienorenal ligament).",
-    "slug": "/structure/lieno-renal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Peritoneum that attaches the spleen to the posterior abdominal wall over the left kidney. develops from the dorsal mesogastrium of the embryo[umich].",
+    "slug": "/structure/lieno-renal-ligament/",
+    "description_en": "Peritoneum that attaches the spleen to the posterior abdominal wall over the left kidney. develops from the dorsal mesogastrium of the embryo[umich]."
   },
   {
     "id": "lig_00050",
@@ -546,8 +595,9 @@
     "type_uz": "Boylam",
     "english": "ligament organ",
     "translation_uz": "ligament organ (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligament organ).",
-    "slug": "/structure/ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Dense regular connective tissue connecting two or more adjacent skeletal elements or supporting an organ.",
+    "slug": "/structure/ligament/",
+    "description_en": "Dense regular connective tissue connecting two or more adjacent skeletal elements or supporting an organ."
   },
   {
     "id": "lig_00051",
@@ -557,8 +607,9 @@
     "type_uz": "Boylam",
     "english": "hip joint ligament",
     "translation_uz": "hip joint ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (hip joint ligament).",
-    "slug": "/structure/ligament-of-hip-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A skeletal ligament that is part of a hip joint.",
+    "slug": "/structure/ligament-of-hip-joint/",
+    "description_en": "A skeletal ligament that is part of a hip joint."
   },
   {
     "id": "lig_00052",
@@ -568,8 +619,9 @@
     "type_uz": "Boylam",
     "english": "knee joint ligament",
     "translation_uz": "knee joint ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (knee joint ligament).",
-    "slug": "/structure/ligament-of-knee-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ligament that is part of a knee joint.",
+    "slug": "/structure/ligament-of-knee-joint/",
+    "description_en": "A ligament that is part of a knee joint."
   },
   {
     "id": "lig_00053",
@@ -579,8 +631,9 @@
     "type_uz": "Boylam",
     "english": "laryngeal ligament",
     "translation_uz": "laryngeal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (laryngeal ligament).",
-    "slug": "/structure/ligament-of-larynx/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ligament that is part of a larynx and connexts the cartilages of the larynx.",
+    "slug": "/structure/ligament-of-larynx/",
+    "description_en": "A ligament that is part of a larynx and connexts the cartilages of the larynx."
   },
   {
     "id": "lig_00054",
@@ -590,8 +643,9 @@
     "type_uz": "Boylam",
     "english": "hepatic ligament",
     "translation_uz": "hepatic ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (hepatic ligament).",
-    "slug": "/structure/ligament-of-liver/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A nonskeletal ligament that is part of a liver.",
+    "slug": "/structure/ligament-of-liver/",
+    "description_en": "A nonskeletal ligament that is part of a liver."
   },
   {
     "id": "lig_00055",
@@ -601,8 +655,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "ligament of middle ear (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/ligament-of-middle-ear/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ligament that is part of a middle ear.",
+    "slug": "/structure/ligament-of-middle-ear/",
+    "description_en": "A ligament that is part of a middle ear."
   },
   {
     "id": "lig_00056",
@@ -612,8 +667,9 @@
     "type_uz": "Boylam",
     "english": "auricular ligament",
     "translation_uz": "auricular ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (auricular ligament).",
-    "slug": "/structure/ligament-of-pinna/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (ligament of pinna).",
+    "slug": "/structure/ligament-of-pinna/",
+    "description_en": "An anatomical structure classified as ligament (ligament of pinna)."
   },
   {
     "id": "lig_00057",
@@ -623,8 +679,9 @@
     "type_uz": "Boylam",
     "english": "ligamentum sternoclavicularis",
     "translation_uz": "ligamentum sternoclavicularis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligamentum sternoclavicularis).",
-    "slug": "/structure/ligament-of-sternoclavicular-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A skeletal ligament that is part of a sternoclavicular joint.",
+    "slug": "/structure/ligament-of-sternoclavicular-joint/",
+    "description_en": "A skeletal ligament that is part of a sternoclavicular joint."
   },
   {
     "id": "lig_00058",
@@ -634,8 +691,9 @@
     "type_uz": "Boylam",
     "english": "temporomandibular joint ligament",
     "translation_uz": "temporomandibular joint ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (temporomandibular joint ligament).",
-    "slug": "/structure/ligament-of-temporomandibular-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (ligament of temporomandibular joint).",
+    "slug": "/structure/ligament-of-temporomandibular-joint/",
+    "description_en": "An anatomical structure classified as ligament (ligament of temporomandibular joint)."
   },
   {
     "id": "lig_00059",
@@ -645,8 +703,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "ligamentous replacement element (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/ligamentous-replacement-element/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Replacement element that forms as a replacement of a ligament.",
+    "slug": "/structure/ligamentous-replacement-element/",
+    "description_en": "Replacement element that forms as a replacement of a ligament."
   },
   {
     "id": "lig_00060",
@@ -656,8 +715,9 @@
     "type_uz": "Boylam",
     "english": "flaval ligament",
     "translation_uz": "flaval ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (flaval ligament).",
-    "slug": "/structure/ligamentum-flavum/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (ligamentum flavum).",
+    "slug": "/structure/ligamentum-flavum/",
+    "description_en": "An anatomical structure classified as ligament (ligamentum flavum)."
   },
   {
     "id": "lig_00061",
@@ -667,8 +727,9 @@
     "type_uz": "Boylam",
     "english": "hepatic lobe",
     "translation_uz": "hepatic lobe (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (hepatic lobe).",
-    "slug": "/structure/lobe-of-liver/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Traditional gross anatomy divided the liver into four lobes based on surface features. The falciform ligament is visible on the front (anterior side)...",
+    "slug": "/structure/lobe-of-liver/",
+    "description_en": "Traditional gross anatomy divided the liver into four lobes based on surface features. The falciform ligament is visible on the front (anterior side)..."
   },
   {
     "id": "lig_00062",
@@ -678,8 +739,9 @@
     "type_uz": "Boylam",
     "english": "capus longum of biceps brachii",
     "translation_uz": "capus longum of biceps brachii (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (capus longum of biceps brachii).",
-    "slug": "/structure/long-head-of-biceps-brachii/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Long head of biceps brachii: supraglenoid tendon running the intertubercular groove, held by the tubercles and transverse humeral ligament.",
+    "slug": "/structure/long-head-of-biceps-brachii/",
+    "description_en": "Long head of biceps brachii: supraglenoid tendon running the intertubercular groove, held by the tubercles and transverse humeral ligament."
   },
   {
     "id": "lig_00063",
@@ -689,8 +751,9 @@
     "type_uz": "Boylam",
     "english": "9R+L thoracic lymph node",
     "translation_uz": "9R+L thoracic lymph node (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (9R+L thoracic lymph node).",
-    "slug": "/structure/lymph-node-of-inferior-pulmonary-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A lymph node located in the of inferior pulmonary ligament region that filters lymphatic fluid and plays a role in immune surveillance and defense...",
+    "slug": "/structure/lymph-node-of-inferior-pulmonary-ligament/",
+    "description_en": "A lymph node located in the of inferior pulmonary ligament region that filters lymphatic fluid and plays a role in immune surveillance and defense..."
   },
   {
     "id": "lig_00064",
@@ -700,8 +763,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "malleal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/malleal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A skeletal ligament that attaches to the malleus.",
+    "slug": "/structure/malleal-ligament/",
+    "description_en": "A skeletal ligament that attaches to the malleus."
   },
   {
     "id": "lig_00065",
@@ -711,8 +775,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "mandibulo-lacrimal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/mandibulo-lacrimal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament that connects the ventromedial end of the lacrimal to the anguloarticular (or &#x27;mandible&#x27;). Parenti (2008).",
+    "slug": "/structure/mandibulo-lacrimal-ligament/",
+    "description_en": "Ligament that connects the ventromedial end of the lacrimal to the anguloarticular (or &#x27;mandible&#x27;). Parenti (2008)."
   },
   {
     "id": "lig_00066",
@@ -722,8 +787,9 @@
     "type_uz": "Boylam",
     "english": "deltoid collateral ligament of ankle joint",
     "translation_uz": "deltoid collateral ligament of ankle joint (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (deltoid collateral ligament of ankle joint).",
-    "slug": "/structure/medial-ligament-of-ankle-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A skeletal ligament that connects a tibia and connects a tarsal skeleton.",
+    "slug": "/structure/medial-ligament-of-ankle-joint/",
+    "description_en": "A skeletal ligament that connects a tibia and connects a tarsal skeleton."
   },
   {
     "id": "lig_00067",
@@ -733,8 +799,9 @@
     "type_uz": "Boylam",
     "english": "l. palpebrale mediale",
     "translation_uz": "l. palpebrale mediale (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (l. palpebrale mediale).",
-    "slug": "/structure/medial-palpebral-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The medial palpebral ligament (tendo oculi), about 4 mm. in length and 2 mm. in breadth, is attached to the frontal process of the maxilla in front of...",
+    "slug": "/structure/medial-palpebral-ligament/",
+    "description_en": "The medial palpebral ligament (tendo oculi), about 4 mm. in length and 2 mm. in breadth, is attached to the frontal process of the maxilla in front of..."
   },
   {
     "id": "lig_00068",
@@ -744,8 +811,9 @@
     "type_uz": "Boylam",
     "english": "chorda arteria umbilicalis",
     "translation_uz": "chorda arteria umbilicalis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (chorda arteria umbilicalis).",
-    "slug": "/structure/medial-umbilical-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The medial umbilical ligament is a paired structure found in human anatomy. It is on the deep surface of the anterior abdominal wall, and is covered by...",
+    "slug": "/structure/medial-umbilical-ligament/",
+    "description_en": "The medial umbilical ligament is a paired structure found in human anatomy. It is on the deep surface of the anterior abdominal wall, and is covered by..."
   },
   {
     "id": "lig_00069",
@@ -755,8 +823,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "median arcuate ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/median-arcuate-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The median arcuate ligament is a ligament under the diaphragm that connects the right and left crura of diaphragm.",
+    "slug": "/structure/median-arcuate-ligament/",
+    "description_en": "The median arcuate ligament is a ligament under the diaphragm that connects the right and left crura of diaphragm."
   },
   {
     "id": "lig_00070",
@@ -766,8 +835,9 @@
     "type_uz": "Boylam",
     "english": "inferior nuchal line",
     "translation_uz": "inferior nuchal line (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (inferior nuchal line).",
-    "slug": "/structure/median-nuchal-line-attachment-site/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Of the nuchal lines, the one that runs from the external occipital protuberance a ridge or crest is the median nuchal line, often faintly marked,...",
+    "slug": "/structure/median-nuchal-line-attachment-site/",
+    "description_en": "Of the nuchal lines, the one that runs from the external occipital protuberance a ridge or crest is the median nuchal line, often faintly marked,..."
   },
   {
     "id": "lig_00071",
@@ -777,8 +847,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "mesethmoid-maxillary ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/mesethmoid-maxillary-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Mesethmoid-maxillary ligament is a ligament that connects the mesethmoid to the maxilla.",
+    "slug": "/structure/mesethmoid-maxillary-ligament/",
+    "description_en": "Mesethmoid-maxillary ligament is a ligament that connects the mesethmoid to the maxilla."
   },
   {
     "id": "lig_00072",
@@ -788,8 +859,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "mesethmoid-premaxillary ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/mesethmoid-premaxillary-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Mesethmoid-premaxillary ligament is a ligament that connects the mesethmoid to the premaxilla.",
+    "slug": "/structure/mesethmoid-premaxillary-ligament/",
+    "description_en": "Mesethmoid-premaxillary ligament is a ligament that connects the mesethmoid to the premaxilla."
   },
   {
     "id": "lig_00073",
@@ -799,8 +871,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "metacarpal extensor pit (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/metacarpal-extensor-pit/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Pits located on the proximodorsal part of metacarpals denoting the attachemnt sites for ligaments.",
+    "slug": "/structure/metacarpal-extensor-pit/",
+    "description_en": "Pits located on the proximodorsal part of metacarpals denoting the attachemnt sites for ligaments."
   },
   {
     "id": "lig_00074",
@@ -810,8 +883,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "metapterygoid-autopalatine ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/metapterygoid-autopalatine-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament that connects the metapterygoid to the autopalatine.",
+    "slug": "/structure/metapterygoid-autopalatine-ligament/",
+    "description_en": "Ligament that connects the metapterygoid to the autopalatine."
   },
   {
     "id": "lig_00075",
@@ -821,8 +895,9 @@
     "type_uz": "Boylam",
     "english": "MLDB complex",
     "translation_uz": "MLDB complex (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (MLDB complex).",
-    "slug": "/structure/monkey-lips-dorsal-bursa-complex/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A structure consisting of a pair of anterior and posterior dorsal bursae in which a pair of phonic lips are embedded, along with the bursal cartilage...",
+    "slug": "/structure/monkey-lips-dorsal-bursa-complex/",
+    "description_en": "A structure consisting of a pair of anterior and posterior dorsal bursae in which a pair of phonic lips are embedded, along with the bursal cartilage..."
   },
   {
     "id": "lig_00076",
@@ -832,8 +907,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "M. plantaris profundus (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/m-plantaris-profundus/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Originates on the medial half of the ligamentum calcanei and inserts along the dorsal surface of the aponeurosis plantaris and extends to the level of...",
+    "slug": "/structure/m-plantaris-profundus/",
+    "description_en": "Originates on the medial half of the ligamentum calcanei and inserts along the dorsal surface of the aponeurosis plantaris and extends to the level of..."
   },
   {
     "id": "lig_00077",
@@ -843,8 +919,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "M. tarsalis posticus (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/m-tarsalis-posticus/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Originates on the medial border of the ligamentum calcanei and inserts along the ventral surface of the tibiale.",
+    "slug": "/structure/m-tarsalis-posticus/",
+    "description_en": "Originates on the medial border of the ligamentum calcanei and inserts along the ventral surface of the tibiale."
   },
   {
     "id": "lig_00078",
@@ -854,8 +931,9 @@
     "type_uz": "Boylam",
     "english": "Botallo&#x27;s node",
     "translation_uz": "Botallo&#x27;s node (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (Botallo&#x27;s node).",
-    "slug": "/structure/node-of-ligamentum-arteriosum/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An inconstant lymph node of the anterior mediastinal group located adjacent to the ligamentum arteriosum.",
+    "slug": "/structure/node-of-ligamentum-arteriosum/",
+    "description_en": "An inconstant lymph node of the anterior mediastinal group located adjacent to the ligamentum arteriosum."
   },
   {
     "id": "lig_00079",
@@ -865,8 +943,9 @@
     "type_uz": "Boylam",
     "english": "fibrous ligament",
     "translation_uz": "fibrous ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (fibrous ligament).",
-    "slug": "/structure/nonskeletal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ligament that does not connect two skeletal elements.",
+    "slug": "/structure/nonskeletal-ligament/",
+    "description_en": "A ligament that does not connect two skeletal elements."
   },
   {
     "id": "lig_00080",
@@ -876,8 +955,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "ossified ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/ossified-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Sesamoid that develops within a ligament, distal to an articulation or joint.",
+    "slug": "/structure/ossified-ligament/",
+    "description_en": "Sesamoid that develops within a ligament, distal to an articulation or joint."
   },
   {
     "id": "lig_00081",
@@ -887,8 +967,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "otic ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/otic-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (otic ligament).",
+    "slug": "/structure/otic-ligament/",
+    "description_en": "An anatomical structure classified as ligament (otic ligament)."
   },
   {
     "id": "lig_00082",
@@ -898,8 +979,9 @@
     "type_uz": "Boylam",
     "english": "ligament of ovary",
     "translation_uz": "ligament of ovary (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligament of ovary).",
-    "slug": "/structure/ovarian-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A fibrous ligament that connects the ovary to the lateral surface of the uterus.",
+    "slug": "/structure/ovarian-ligament/",
+    "description_en": "A fibrous ligament that connects the ovary to the lateral surface of the uterus."
   },
   {
     "id": "lig_00083",
@@ -909,8 +991,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "palato-maxillary ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/palato-maxillary-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament between the palatine and maxilla [Stiassny 1986].",
+    "slug": "/structure/palato-maxillary-ligament/",
+    "description_en": "Ligament between the palatine and maxilla [Stiassny 1986]."
   },
   {
     "id": "lig_00084",
@@ -920,8 +1003,9 @@
     "type_uz": "Boylam",
     "english": "palatovomerine ligament",
     "translation_uz": "palatovomerine ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (palatovomerine ligament).",
-    "slug": "/structure/palato-vomerine-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (palato-vomerine ligament).",
+    "slug": "/structure/palato-vomerine-ligament/",
+    "description_en": "An anatomical structure classified as ligament (palato-vomerine ligament)."
   },
   {
     "id": "lig_00085",
@@ -931,8 +1015,9 @@
     "type_uz": "Boylam",
     "english": "parametrial adipose tissue",
     "translation_uz": "parametrial adipose tissue (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (parametrial adipose tissue).",
-    "slug": "/structure/parametrial-fat-pad/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Encapsulated adipose tissue associated with the extension of the subserous coat of the uterus laterally between the layers of the broad ligament.",
+    "slug": "/structure/parametrial-fat-pad/",
+    "description_en": "Encapsulated adipose tissue associated with the extension of the subserous coat of the uterus laterally between the layers of the broad ligament."
   },
   {
     "id": "lig_00086",
@@ -942,8 +1027,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "parametrium (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/parametrium/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The subserous connective tissue of the pelvic floor of the supracervical portion of the uterus. The parametrium extends laterally between the layers of...",
+    "slug": "/structure/parametrium/",
+    "description_en": "The subserous connective tissue of the pelvic floor of the supracervical portion of the uterus. The parametrium extends laterally between the layers of..."
   },
   {
     "id": "lig_00087",
@@ -953,8 +1039,9 @@
     "type_uz": "Boylam",
     "english": "Kobelt&#x27;s tubules",
     "translation_uz": "Kobelt&#x27;s tubules (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (Kobelt&#x27;s tubules).",
-    "slug": "/structure/paroophoron/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A collection of a few scattered rudimentary tubules child, situated in the broad ligament between the epoophoron and the uterus.",
+    "slug": "/structure/paroophoron/",
+    "description_en": "A collection of a few scattered rudimentary tubules child, situated in the broad ligament between the epoophoron and the uterus."
   },
   {
     "id": "lig_00088",
@@ -964,8 +1051,9 @@
     "type_uz": "Boylam",
     "english": "posterior cruciate ligament",
     "translation_uz": "posterior cruciate ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (posterior cruciate ligament).",
-    "slug": "/structure/posterior-cruciate-ligament-of-knee-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (posterior cruciate ligament of knee joint).",
+    "slug": "/structure/posterior-cruciate-ligament-of-knee-joint/",
+    "description_en": "An anatomical structure classified as ligament (posterior cruciate ligament of knee joint)."
   },
   {
     "id": "lig_00089",
@@ -975,8 +1063,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "posterior incudal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/posterior-incudal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A fold of mucous membrane that runs from the fossa incudus to the incus.",
+    "slug": "/structure/posterior-incudal-ligament/",
+    "description_en": "A fold of mucous membrane that runs from the fossa incudus to the incus."
   },
   {
     "id": "lig_00090",
@@ -986,8 +1075,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "posterior longitudinal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/posterior-longitudinal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Bones of the vertebral column, and ligaments of the head and neck and torso",
+    "slug": "/structure/posterior-longitudinal-ligament/",
+    "description_en": "Bones of the vertebral column, and ligaments of the head and neck and torso"
   },
   {
     "id": "lig_00091",
@@ -997,8 +1087,9 @@
     "type_uz": "Boylam",
     "english": "posterior superior iliac spine (volume)",
     "translation_uz": "posterior superior iliac spine (volume) (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (posterior superior iliac spine (volume)).",
-    "slug": "/structure/posterior-superior-iliac-spine/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The posterior border of the ala, shorter than the anterior, also presents two projections separated by a notch, the posterior superior iliac spine and...",
+    "slug": "/structure/posterior-superior-iliac-spine/",
+    "description_en": "The posterior border of the ala, shorter than the anterior, also presents two projections separated by a notch, the posterior superior iliac spine and..."
   },
   {
     "id": "lig_00092",
@@ -1008,8 +1099,9 @@
     "type_uz": "Boylam",
     "english": "ligamentum talofibulare posterius",
     "translation_uz": "ligamentum talofibulare posterius (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligamentum talofibulare posterius).",
-    "slug": "/structure/posterior-talofibular-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The posterior talofibular ligament, runs almost horizontally from the depression at the medial and back part of the fibular malleolus (lateral...",
+    "slug": "/structure/posterior-talofibular-ligament/",
+    "description_en": "The posterior talofibular ligament, runs almost horizontally from the depression at the medial and back part of the fibular malleolus (lateral..."
   },
   {
     "id": "lig_00093",
@@ -1019,8 +1111,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "premaxillary-maxillary ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/premaxillary-maxillary-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament that connects the premaxilla to the maxilla.",
+    "slug": "/structure/premaxillary-maxillary-ligament/",
+    "description_en": "Ligament that connects the premaxilla to the maxilla."
   },
   {
     "id": "lig_00094",
@@ -1030,8 +1123,9 @@
     "type_uz": "Boylam",
     "english": "articular-maxillary ligament",
     "translation_uz": "articular-maxillary ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (articular-maxillary ligament).",
-    "slug": "/structure/primordial-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament that connects the maxilla with the lower jaw.",
+    "slug": "/structure/primordial-ligament/",
+    "description_en": "Ligament that connects the maxilla with the lower jaw."
   },
   {
     "id": "lig_00095",
@@ -1041,8 +1135,9 @@
     "type_uz": "Boylam",
     "english": "laterohyale",
     "translation_uz": "laterohyale (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (laterohyale).",
-    "slug": "/structure/processus-ascendens-plectri/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Cartilaginous or ligamentous connection between the pars externa plectri and the crista parotica.",
+    "slug": "/structure/processus-ascendens-plectri/",
+    "description_en": "Cartilaginous or ligamentous connection between the pars externa plectri and the crista parotica."
   },
   {
     "id": "lig_00096",
@@ -1052,8 +1147,9 @@
     "type_uz": "Boylam",
     "english": "processus dorsailis",
     "translation_uz": "processus dorsailis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (processus dorsailis).",
-    "slug": "/structure/processus-dorsalis-of-lamella-alaris/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Dorsal process of the lamella alaris located at the anterior end of the margo orbitalis; a narrow ligament that runs from the frontoparietal is...",
+    "slug": "/structure/processus-dorsalis-of-lamella-alaris/",
+    "description_en": "Dorsal process of the lamella alaris located at the anterior end of the margo orbitalis; a narrow ligament that runs from the frontoparietal is..."
   },
   {
     "id": "lig_00097",
@@ -1063,8 +1159,9 @@
     "type_uz": "Boylam",
     "english": "superior radioulnar joint",
     "translation_uz": "superior radioulnar joint (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (superior radioulnar joint).",
-    "slug": "/structure/proximal-radio-ulnar-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The proximal radioulnar articulation (superior radioulnar joint) is a trochoid or pivot joint between the circumference of the head of the radius and...",
+    "slug": "/structure/proximal-radio-ulnar-joint/",
+    "description_en": "The proximal radioulnar articulation (superior radioulnar joint) is a trochoid or pivot joint between the circumference of the head of the radius and..."
   },
   {
     "id": "lig_00098",
@@ -1074,8 +1171,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "quadrato-ethmoid ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/quadrato-ethmoid-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (quadrato-ethmoid ligament).",
+    "slug": "/structure/quadrato-ethmoid-ligament/",
+    "description_en": "An anatomical structure classified as ligament (quadrato-ethmoid ligament)."
   },
   {
     "id": "lig_00099",
@@ -1085,8 +1183,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "quadratoethmoid process (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/quadratoethmoid-process/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Process that projects from anterior margin of commissure as site of attachment for quadratoethmoid ligament.",
+    "slug": "/structure/quadratoethmoid-process/",
+    "description_en": "Process that projects from anterior margin of commissure as site of attachment for quadratoethmoid ligament."
   },
   {
     "id": "lig_00100",
@@ -1096,8 +1195,9 @@
     "type_uz": "Boylam",
     "english": "ligamentum umbilicale medianum",
     "translation_uz": "ligamentum umbilicale medianum (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligamentum umbilicale medianum).",
-    "slug": "/structure/remnant-of-urachus/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The median umbilical ligament is a structure in human anatomy. It is a shrivelled piece of tissue that represents the remnant of the embryonic urachus....",
+    "slug": "/structure/remnant-of-urachus/",
+    "description_en": "The median umbilical ligament is a structure in human anatomy. It is a shrivelled piece of tissue that represents the remnant of the embryonic urachus...."
   },
   {
     "id": "lig_00101",
@@ -1107,8 +1207,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "rostral cartilage (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/rostral-cartilage/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Median chondrified cartilage bound to premaxillary ascending process by a rostro-premaxilla ligament.",
+    "slug": "/structure/rostral-cartilage/",
+    "description_en": "Median chondrified cartilage bound to premaxillary ascending process by a rostro-premaxilla ligament."
   },
   {
     "id": "lig_00102",
@@ -1118,8 +1219,9 @@
     "type_uz": "Boylam",
     "english": "articulatio sacro-iliaca",
     "translation_uz": "articulatio sacro-iliaca (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (articulatio sacro-iliaca).",
-    "slug": "/structure/sacro-iliac-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The joint in the bony pelvis between the sacrum and the ilium of the pelvis, which are joined by strong ligaments.",
+    "slug": "/structure/sacro-iliac-joint/",
+    "description_en": "The joint in the bony pelvis between the sacrum and the ilium of the pelvis, which are joined by strong ligaments."
   },
   {
     "id": "lig_00103",
@@ -1129,8 +1231,9 @@
     "type_uz": "Boylam",
     "english": "articular larua",
     "translation_uz": "articular larua (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (articular larua).",
-    "slug": "/structure/skeletal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Dense regular connective tissue connecting two or more adjacent skeletal elements[VSAO,modified].",
+    "slug": "/structure/skeletal-ligament/",
+    "description_en": "Dense regular connective tissue connecting two or more adjacent skeletal elements[VSAO,modified]."
   },
   {
     "id": "lig_00104",
@@ -1140,8 +1243,9 @@
     "type_uz": "Boylam",
     "english": "ligamentum spirale ductus cochlearis",
     "translation_uz": "ligamentum spirale ductus cochlearis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligamentum spirale ductus cochlearis).",
-    "slug": "/structure/spiral-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A spiral thickening of the fibrous lining of the cochlear wall. Spiral ligament secures the membranous cochlear duct to the bony spiral canal of the...",
+    "slug": "/structure/spiral-ligament/",
+    "description_en": "A spiral thickening of the fibrous lining of the cochlear wall. Spiral ligament secures the membranous cochlear duct to the bony spiral canal of the..."
   },
   {
     "id": "lig_00105",
@@ -1151,8 +1255,9 @@
     "type_uz": "Boylam",
     "english": "superior ramus of ischium",
     "translation_uz": "superior ramus of ischium (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (superior ramus of ischium).",
-    "slug": "/structure/superior-ischial-ramus/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Superior ischial ramus: descending ischial bar giving origin to quadratus femoris and adductor magnus and swelling into the ischial tuberosity.",
+    "slug": "/structure/superior-ischial-ramus/",
+    "description_en": "Superior ischial ramus: descending ischial bar giving origin to quadratus femoris and adductor magnus and swelling into the ischial tuberosity."
   },
   {
     "id": "lig_00106",
@@ -1162,8 +1267,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "superior malleal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/superior-malleal-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A malleal ligament that extends from the tempen tympani to the head of the malleus.",
+    "slug": "/structure/superior-malleal-ligament/",
+    "description_en": "A malleal ligament that extends from the tempen tympani to the head of the malleus."
   },
   {
     "id": "lig_00107",
@@ -1173,8 +1279,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "suprascapula foramen (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/suprascapula-foramen/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The route through which structures pass between the base of the neck and the posterior scapular region. It is formed by the suprascapular notch of the...",
+    "slug": "/structure/suprascapula-foramen/",
+    "description_en": "The route through which structures pass between the base of the neck and the posterior scapular region. It is formed by the suprascapular notch of the..."
   },
   {
     "id": "lig_00108",
@@ -1184,8 +1291,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "suspensory ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/suspensory-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A ligament that supports a body part, especially an organ.",
+    "slug": "/structure/suspensory-ligament/",
+    "description_en": "A ligament that supports a body part, especially an organ."
   },
   {
     "id": "lig_00109",
@@ -1195,8 +1303,9 @@
     "type_uz": "Boylam",
     "english": "Cooper&#x27;s ligament",
     "translation_uz": "Cooper&#x27;s ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (Cooper&#x27;s ligament).",
-    "slug": "/structure/suspensory-ligament-of-breast/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Cooper&#x27;s ligaments (also known as the suspensory ligaments of Cooper and the fibrocollagenous septa) are connective tissue in the breast that helps...",
+    "slug": "/structure/suspensory-ligament-of-breast/",
+    "description_en": "Cooper&#x27;s ligaments (also known as the suspensory ligaments of Cooper and the fibrocollagenous septa) are connective tissue in the breast that helps..."
   },
   {
     "id": "lig_00110",
@@ -1206,8 +1315,9 @@
     "type_uz": "Boylam",
     "english": "ciliary zonule",
     "translation_uz": "ciliary zonule (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ciliary zonule).",
-    "slug": "/structure/suspensory-ligament-of-lens/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The zonule of Zinn (Zinn&#x27;s membrane, ciliary zonule) is a ring of fibrous strands connecting the ciliary body with the crystalline lens of the eye. The...",
+    "slug": "/structure/suspensory-ligament-of-lens/",
+    "description_en": "The zonule of Zinn (Zinn&#x27;s membrane, ciliary zonule) is a ring of fibrous strands connecting the ciliary body with the crystalline lens of the eye. The..."
   },
   {
     "id": "lig_00111",
@@ -1217,8 +1327,9 @@
     "type_uz": "Boylam",
     "english": "infundibulopelvic fold",
     "translation_uz": "infundibulopelvic fold (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (infundibulopelvic fold).",
-    "slug": "/structure/suspensory-ligament-of-ovary/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A fold of peritoneum that extends out from the ovary to the wall of the pelvis.",
+    "slug": "/structure/suspensory-ligament-of-ovary/",
+    "description_en": "A fold of peritoneum that extends out from the ovary to the wall of the pelvis."
   },
   {
     "id": "lig_00112",
@@ -1228,8 +1339,9 @@
     "type_uz": "Boylam",
     "english": "scrotal ligament",
     "translation_uz": "scrotal ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (scrotal ligament).",
-    "slug": "/structure/suspensory-ligament-of-testis/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The cranial atrophic portion of the urogenital ridge attached to the cranial pole of the intraabdominal embryonic testis.",
+    "slug": "/structure/suspensory-ligament-of-testis/",
+    "description_en": "The cranial atrophic portion of the urogenital ridge attached to the cranial pole of the intraabdominal embryonic testis."
   },
   {
     "id": "lig_00113",
@@ -1239,8 +1351,9 @@
     "type_uz": "Boylam",
     "english": "articulatio talocalcaneonavicularis",
     "translation_uz": "articulatio talocalcaneonavicularis (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (articulatio talocalcaneonavicularis).",
-    "slug": "/structure/talocalcaneonavicular-joint/"
+    "definition_uz": "Anatomik ta'rif (Boylam): The talocalcaneonavicular articulation is an arthrodial joint: the rounded head of the talus being received into the concavity formed by the posterior...",
+    "slug": "/structure/talocalcaneonavicular-joint/",
+    "description_en": "The talocalcaneonavicular articulation is an arthrodial joint: the rounded head of the talus being received into the concavity formed by the posterior..."
   },
   {
     "id": "lig_00114",
@@ -1250,8 +1363,9 @@
     "type_uz": "Boylam",
     "english": "ligamentum talofibulare",
     "translation_uz": "ligamentum talofibulare (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (ligamentum talofibulare).",
-    "slug": "/structure/talofibular-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A skeletal ligament that connects the fibula to the talus. Examples: anterior and posterior talofibular ligament.",
+    "slug": "/structure/talofibular-ligament/",
+    "description_en": "A skeletal ligament that connects the fibula to the talus. Examples: anterior and posterior talofibular ligament."
   },
   {
     "id": "lig_00115",
@@ -1261,8 +1375,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "thyrohyoid ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/thyrohyoid-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure classified as ligament (thyrohyoid ligament).",
+    "slug": "/structure/thyrohyoid-ligament/",
+    "description_en": "An anatomical structure classified as ligament (thyrohyoid ligament)."
   },
   {
     "id": "lig_00116",
@@ -1272,8 +1387,9 @@
     "type_uz": "Boylam",
     "english": "alveolus dentali",
     "translation_uz": "alveolus dentali (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (alveolus dentali).",
-    "slug": "/structure/tooth-socket/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Dental alveolus (plural, alveoli) are sockets in the jaws in which the roots of teeth are held in the alveolar process of maxilla with the periodontal...",
+    "slug": "/structure/tooth-socket/",
+    "description_en": "Dental alveolus (plural, alveoli) are sockets in the jaws in which the roots of teeth are held in the alveolar process of maxilla with the periodontal..."
   },
   {
     "id": "lig_00117",
@@ -1283,8 +1399,9 @@
     "type_uz": "Boylam",
     "english": "Baudelot&#x27;s ligament",
     "translation_uz": "Baudelot&#x27;s ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (Baudelot&#x27;s ligament).",
-    "slug": "/structure/transcapular-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Ligament that is attached to supracleithrum and basioccipital.",
+    "slug": "/structure/transcapular-ligament/",
+    "description_en": "Ligament that is attached to supracleithrum and basioccipital."
   },
   {
     "id": "lig_00118",
@@ -1294,8 +1411,9 @@
     "type_uz": "Boylam",
     "english": "triangular ligament",
     "translation_uz": "triangular ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (triangular ligament).",
-    "slug": "/structure/triangular-ligament-of-liver/"
+    "definition_uz": "Anatomik ta'rif (Boylam): An anatomical structure (triangular ligament of liver) of the Endocrine system.",
+    "slug": "/structure/triangular-ligament-of-liver/",
+    "description_en": "An anatomical structure (triangular ligament of liver) of the Endocrine system."
   },
   {
     "id": "lig_00119",
@@ -1305,8 +1423,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "urachus (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/urachus/"
+    "definition_uz": "Anatomik ta'rif (Boylam): A fibrous remnant of the allantoic stalk, a narrow fetal canal connecting the apex of the urinary bladder with the umbilicus located in the space of...",
+    "slug": "/structure/urachus/",
+    "description_en": "A fibrous remnant of the allantoic stalk, a narrow fetal canal connecting the apex of the urinary bladder with the umbilicus located in the space of..."
   },
   {
     "id": "lig_00120",
@@ -1316,8 +1435,9 @@
     "type_uz": "Boylam",
     "english": "",
     "translation_uz": "uterine ligament (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi.",
-    "slug": "/structure/uterine-ligament/"
+    "definition_uz": "Anatomik ta'rif (Boylam): Any of the eight ligaments pertaining to the uterus including the anterior, posterior, lateral, sacro-uterine and round ligaments.",
+    "slug": "/structure/uterine-ligament/",
+    "description_en": "Any of the eight ligaments pertaining to the uterus including the anterior, posterior, lateral, sacro-uterine and round ligaments."
   },
   {
     "id": "lig_00121",
@@ -1327,7 +1447,8 @@
     "type_uz": "Boylam",
     "english": "appendage of epoophoron",
     "translation_uz": "appendage of epoophoron (Boylam)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Boylam tizimi qismi (appendage of epoophoron).",
-    "slug": "/structure/vesicular-appendage-of-epoophoron/"
+    "definition_uz": "Anatomik ta'rif (Boylam): In connection with the fimbriae of the uterine tube, or with the broad ligament close to them, there are frequently one or more small pedunculated...",
+    "slug": "/structure/vesicular-appendage-of-epoophoron/",
+    "description_en": "In connection with the fimbriae of the uterine tube, or with the broad ligament close to them, there are frequently one or more small pedunculated..."
   }
 ]
