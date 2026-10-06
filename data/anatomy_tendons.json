@@ -7,8 +7,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "bicipital tuberosity (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/bicipital-tuberosity/"
+    "definition_uz": "Anatomik ta'rif (Pay): The rough eminence which is on the anterior inner aspect of the neck of the radius and into which the tendon of the biceps is inserted. From...",
+    "slug": "/structure/bicipital-tuberosity/",
+    "description_en": "The rough eminence which is on the anterior inner aspect of the neck of the radius and into which the tendon of the biceps is inserted. From..."
   },
   {
     "id": "tnd_00002",
@@ -18,8 +19,9 @@
     "type_uz": "Pay",
     "english": "crico-oesophageal tendon",
     "translation_uz": "crico-oesophageal tendon (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (crico-oesophageal tendon).",
-    "slug": "/structure/crico-esophageal-tendon/"
+    "definition_uz": "Anatomik ta'rif (Pay): Longitudinal fibers of the esophagus that attaches to the posterior aspect of the cricoid cartilage of the larynx.",
+    "slug": "/structure/crico-esophageal-tendon/",
+    "description_en": "Longitudinal fibers of the esophagus that attaches to the posterior aspect of the cricoid cartilage of the larynx."
   },
   {
     "id": "tnd_00003",
@@ -29,8 +31,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "fibrous membrane of synovial tendon sheath (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/fibrous-membrane-of-synovial-tendon-sheath/"
+    "definition_uz": "Anatomik ta'rif (Pay): An anatomical structure (fibrous membrane of synovial tendon sheath) of the Muscular system.",
+    "slug": "/structure/fibrous-membrane-of-synovial-tendon-sheath/",
+    "description_en": "An anatomical structure (fibrous membrane of synovial tendon sheath) of the Muscular system."
   },
   {
     "id": "tnd_00004",
@@ -40,8 +43,9 @@
     "type_uz": "Pay",
     "english": "fibrous portion of pericardium",
     "translation_uz": "fibrous portion of pericardium (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (fibrous portion of pericardium).",
-    "slug": "/structure/fibrous-pericardium/"
+    "definition_uz": "Anatomik ta'rif (Pay): Membrane organ which is attached to the pericardial sac proper and the central tendon of diaphragm and is continuous with the pretracheal fascia.[FMA].",
+    "slug": "/structure/fibrous-pericardium/",
+    "description_en": "Membrane organ which is attached to the pericardial sac proper and the central tendon of diaphragm and is continuous with the pretracheal fascia.[FMA]."
   },
   {
     "id": "tnd_00005",
@@ -51,8 +55,9 @@
     "type_uz": "Pay",
     "english": "cranial derivative of septum transversum",
     "translation_uz": "cranial derivative of septum transversum (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (cranial derivative of septum transversum).",
-    "slug": "/structure/future-central-tendon/"
+    "definition_uz": "Anatomik ta'rif (Pay): A tendon that has the potential to develop into a central tendon.",
+    "slug": "/structure/future-central-tendon/",
+    "description_en": "A tendon that has the potential to develop into a central tendon."
   },
   {
     "id": "tnd_00006",
@@ -62,8 +67,9 @@
     "type_uz": "Pay",
     "english": "lesser tubercle",
     "translation_uz": "lesser tubercle (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (lesser tubercle).",
-    "slug": "/structure/lesser-tubercle-of-humerus/"
+    "definition_uz": "Anatomik ta'rif (Pay): The lesser tubercle of the humerus, although smaller, is more prominent than the greater tubercle: it is situated in front, and is directed medially...",
+    "slug": "/structure/lesser-tubercle-of-humerus/",
+    "description_en": "The lesser tubercle of the humerus, although smaller, is more prominent than the greater tubercle: it is situated in front, and is directed medially..."
   },
   {
     "id": "tnd_00007",
@@ -73,8 +79,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. extensor cruris brevis (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-extensor-cruris-brevis/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by a slender tendon from the ventral surface of the medial condyle of the femur and passes over the knee to insert as a fleshy belly on the...",
+    "slug": "/structure/m-extensor-cruris-brevis/",
+    "description_en": "Originates by a slender tendon from the ventral surface of the medial condyle of the femur and passes over the knee to insert as a fleshy belly on the..."
   },
   {
     "id": "tnd_00008",
@@ -84,8 +91,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. extensor digitorum communis longus (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-extensor-digitorum-communis-longus/"
+    "definition_uz": "Anatomik ta'rif (Pay): It arises on the lateral epicondyle of the humerus by two heads: the lateral one arises by a thin tendon in common with the m.extensor carpi ulnaris...",
+    "slug": "/structure/m-extensor-digitorum-communis-longus/",
+    "description_en": "It arises on the lateral epicondyle of the humerus by two heads: the lateral one arises by a thin tendon in common with the m.extensor carpi ulnaris..."
   },
   {
     "id": "tnd_00009",
@@ -95,8 +103,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. flexor antibrachii lateralis superficialis (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-flexor-antibrachii-lateralis-superficialis/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates as a superior and inferior head. The superior head originates on the outer edge of the humerus and the inferior head originates on the...",
+    "slug": "/structure/m-flexor-antibrachii-lateralis-superficialis/",
+    "description_en": "Originates as a superior and inferior head. The superior head originates on the outer edge of the humerus and the inferior head originates on the..."
   },
   {
     "id": "tnd_00010",
@@ -106,8 +115,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. gracilis major (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-gracilis-major/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by a broad tendon from the postero-ventral surface of the pelvic rim and inserts by two tendons. One broad tendon inserts on the knee...",
+    "slug": "/structure/m-gracilis-major/",
+    "description_en": "Originates by a broad tendon from the postero-ventral surface of the pelvic rim and inserts by two tendons. One broad tendon inserts on the knee..."
   },
   {
     "id": "tnd_00011",
@@ -117,8 +127,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. ileo-femoralis (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-ileo-femoralis/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates from the postero-ventral surface of the ala ossis ilei and from the insertion tendon of M. ileo-fibularis. Inserts along the dorso-medial...",
+    "slug": "/structure/m-ileo-femoralis/",
+    "description_en": "Originates from the postero-ventral surface of the ala ossis ilei and from the insertion tendon of M. ileo-fibularis. Inserts along the dorso-medial..."
   },
   {
     "id": "tnd_00012",
@@ -128,8 +139,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. plantaris longus (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-plantaris-longus/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by two heads, one from the dorso-distal border of the aponeurosis covering the knee and the other from two tendinous branches along the...",
+    "slug": "/structure/m-plantaris-longus/",
+    "description_en": "Originates by two heads, one from the dorso-distal border of the aponeurosis covering the knee and the other from two tendinous branches along the..."
   },
   {
     "id": "tnd_00013",
@@ -139,8 +151,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. semimembranosus (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-semimembranosus/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates on the ventro-lateral surface of the ischium below the anus and inserts on the ventro-medial aspect of the femur and the head of the...",
+    "slug": "/structure/m-semimembranosus/",
+    "description_en": "Originates on the ventro-lateral surface of the ischium below the anus and inserts on the ventro-medial aspect of the femur and the head of the..."
   },
   {
     "id": "tnd_00014",
@@ -150,8 +163,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. semitendinosus (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-semitendinosus/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by two tendons: one on the postero-ventral aspect of the pelvic rim, the other, a dorsal tendon from the postero-dorsal pelvic rim under the...",
+    "slug": "/structure/m-semitendinosus/",
+    "description_en": "Originates by two tendons: one on the postero-ventral aspect of the pelvic rim, the other, a dorsal tendon from the postero-dorsal pelvic rim under the..."
   },
   {
     "id": "tnd_00015",
@@ -161,8 +175,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. tibialis anticus longus (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-tibialis-anticus-longus/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates on the ventro-lateral surface of the medial condyle of the femur. Its tendon extends in a groove over the knee in the lateral surface of the...",
+    "slug": "/structure/m-tibialis-anticus-longus/",
+    "description_en": "Originates on the ventro-lateral surface of the medial condyle of the femur. Its tendon extends in a groove over the knee in the lateral surface of the..."
   },
   {
     "id": "tnd_00016",
@@ -172,8 +187,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. tibialis posticus (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/m-tibialis-posticus/"
+    "definition_uz": "Anatomik ta'rif (Pay): Originates on the entire medial surface of the shaft of the tibiofibula. Inserts on the tibiale by a long tendon proximo-lateral to the insertion of...",
+    "slug": "/structure/m-tibialis-posticus/",
+    "description_en": "Originates on the entire medial surface of the shaft of the tibiofibula. Inserts on the tibiale by a long tendon proximo-lateral to the insertion of..."
   },
   {
     "id": "tnd_00017",
@@ -183,8 +199,9 @@
     "type_uz": "Pay",
     "english": "intratendonous ossification",
     "translation_uz": "intratendonous ossification (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (intratendonous ossification).",
-    "slug": "/structure/ossified-tendon/"
+    "definition_uz": "Anatomik ta'rif (Pay): Sesamoid that develops within a tendon, distal to an articulation or joint.",
+    "slug": "/structure/ossified-tendon/",
+    "description_en": "Sesamoid that develops within a tendon, distal to an articulation or joint."
   },
   {
     "id": "tnd_00018",
@@ -194,8 +211,9 @@
     "type_uz": "Pay",
     "english": "transverse septum",
     "translation_uz": "transverse septum (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (transverse septum).",
-    "slug": "/structure/septum-transversum/"
+    "definition_uz": "Anatomik ta'rif (Pay): A thick plate of mesodermal tissue that occupies the space between the thoracic cavity and yolk stalk in the early embryo, forming a transverse...",
+    "slug": "/structure/septum-transversum/",
+    "description_en": "A thick plate of mesodermal tissue that occupies the space between the thoracic cavity and yolk stalk in the early embryo, forming a transverse..."
   },
   {
     "id": "tnd_00019",
@@ -205,8 +223,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "serous sac (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/serous-sac/"
+    "definition_uz": "Anatomik ta'rif (Pay): Organ with organ cavity, which has as parts a serous membrane and a serous cavity . Examples: pleural sac, pericardial sac, tendon sheath, bursa.[FMA].",
+    "slug": "/structure/serous-sac/",
+    "description_en": "Organ with organ cavity, which has as parts a serous membrane and a serous cavity . Examples: pleural sac, pericardial sac, tendon sheath, bursa.[FMA]."
   },
   {
     "id": "tnd_00020",
@@ -216,8 +235,9 @@
     "type_uz": "Pay",
     "english": "synovium",
     "translation_uz": "synovium (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (synovium).",
-    "slug": "/structure/synovial-membrane-of-synovial-tendon-sheath/"
+    "definition_uz": "Anatomik ta'rif (Pay): Synovial sac which surrounds parts of one or more tendons. Examples: synovial tendon sheath of manual digit 2, radial bursa.",
+    "slug": "/structure/synovial-membrane-of-synovial-tendon-sheath/",
+    "description_en": "Synovial sac which surrounds parts of one or more tendons. Examples: synovial tendon sheath of manual digit 2, radial bursa."
   },
   {
     "id": "tnd_00021",
@@ -227,8 +247,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "tendon collagen fibril (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/tendon-collagen-fibril/"
+    "definition_uz": "Anatomik ta'rif (Pay): The connective tissue bundles in the extracellular matrix of tendon tissue that are composed of collagen, and play a role in tissue strength and...",
+    "slug": "/structure/tendon-collagen-fibril/",
+    "description_en": "The connective tissue bundles in the extracellular matrix of tendon tissue that are composed of collagen, and play a role in tissue strength and..."
   },
   {
     "id": "tnd_00022",
@@ -238,8 +259,9 @@
     "type_uz": "Pay",
     "english": "biceps brachii tendon",
     "translation_uz": "biceps brachii tendon (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (biceps brachii tendon).",
-    "slug": "/structure/tendon-of-biceps-brachii/"
+    "definition_uz": "Anatomik ta'rif (Pay): A tendon that attaches_to a biceps brachii.",
+    "slug": "/structure/tendon-of-biceps-brachii/",
+    "description_en": "A tendon that attaches_to a biceps brachii."
   },
   {
     "id": "tnd_00023",
@@ -249,8 +271,9 @@
     "type_uz": "Pay",
     "english": "obturator internus tendon",
     "translation_uz": "obturator internus tendon (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (obturator internus tendon).",
-    "slug": "/structure/tendon-of-obturator-internus/"
+    "definition_uz": "Anatomik ta'rif (Pay): An anatomical structure classified as tendon (tendon of obturator internus).",
+    "slug": "/structure/tendon-of-obturator-internus/",
+    "description_en": "An anatomical structure classified as tendon (tendon of obturator internus)."
   },
   {
     "id": "tnd_00024",
@@ -260,8 +283,9 @@
     "type_uz": "Pay",
     "english": "palmaris longus tendon",
     "translation_uz": "palmaris longus tendon (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (palmaris longus tendon).",
-    "slug": "/structure/tendon-of-palmaris-longus/"
+    "definition_uz": "Anatomik ta'rif (Pay): An anatomical structure classified as tendon (tendon of palmaris longus).",
+    "slug": "/structure/tendon-of-palmaris-longus/",
+    "description_en": "An anatomical structure classified as tendon (tendon of palmaris longus)."
   },
   {
     "id": "tnd_00025",
@@ -271,8 +295,9 @@
     "type_uz": "Pay",
     "english": "common quadriceps femoris tendon",
     "translation_uz": "common quadriceps femoris tendon (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (common quadriceps femoris tendon).",
-    "slug": "/structure/tendon-of-quadriceps-femoris/"
+    "definition_uz": "Anatomik ta'rif (Pay): the tendon of the quadriceps femoris muscle, continuous with the patellar tendon",
+    "slug": "/structure/tendon-of-quadriceps-femoris/",
+    "description_en": "the tendon of the quadriceps femoris muscle, continuous with the patellar tendon"
   },
   {
     "id": "tnd_00026",
@@ -282,8 +307,9 @@
     "type_uz": "Pay",
     "english": "semitendinosus tendon",
     "translation_uz": "semitendinosus tendon (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (semitendinosus tendon).",
-    "slug": "/structure/tendon-of-semitendinosus/"
+    "definition_uz": "Anatomik ta'rif (Pay): A tendon that attaches to a semitendinosus.",
+    "slug": "/structure/tendon-of-semitendinosus/",
+    "description_en": "A tendon that attaches to a semitendinosus."
   },
   {
     "id": "tnd_00027",
@@ -293,8 +319,9 @@
     "type_uz": "Pay",
     "english": "tendon of triceps brachii muscle",
     "translation_uz": "tendon of triceps brachii muscle (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (tendon of triceps brachii muscle).",
-    "slug": "/structure/tendon-of-triceps-brachii/"
+    "definition_uz": "Anatomik ta'rif (Pay): A tendon that attaches_to a triceps brachii.",
+    "slug": "/structure/tendon-of-triceps-brachii/",
+    "description_en": "A tendon that attaches_to a triceps brachii."
   },
   {
     "id": "tnd_00028",
@@ -304,8 +331,9 @@
     "type_uz": "Pay",
     "english": "synovial tendon sheath",
     "translation_uz": "synovial tendon sheath (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi (synovial tendon sheath).",
-    "slug": "/structure/tendon-sheath/"
+    "definition_uz": "Anatomik ta'rif (Pay): A layer of membrane around a tendon. It has 2 layers: synovial sheath + fibrous tendon sheath.",
+    "slug": "/structure/tendon-sheath/",
+    "description_en": "A layer of membrane around a tendon. It has 2 layers: synovial sheath + fibrous tendon sheath."
   },
   {
     "id": "tnd_00029",
@@ -315,8 +343,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "vinculum tendon of wing (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/vinculum-tendon-of-wing/"
+    "definition_uz": "Anatomik ta'rif (Pay): A tendon which emerges from the distal end of the humerus and follows the posterior margin of the wing, attaching at the distal end of digit 2. The...",
+    "slug": "/structure/vinculum-tendon-of-wing/",
+    "description_en": "A tendon which emerges from the distal end of the humerus and follows the posterior margin of the wing, attaching at the distal end of digit 2. The..."
   },
   {
     "id": "tnd_00030",
@@ -326,7 +355,8 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "wall of synovial tendon sheath (Pay)",
-    "definition_uz": "Anatomik tuzilma: Inson tanasining Pay tizimi qismi.",
-    "slug": "/structure/wall-of-synovial-tendon-sheath/"
+    "definition_uz": "Anatomik ta'rif (Pay): An anatomical structure (wall of synovial tendon sheath) of the Muscular system.",
+    "slug": "/structure/wall-of-synovial-tendon-sheath/",
+    "description_en": "An anatomical structure (wall of synovial tendon sheath) of the Muscular system."
   }
 ]

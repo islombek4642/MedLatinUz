@@ -1,13 +1,15 @@
 /**
- * MedLatin UZ - Xavfsiz Ma'lumotlarni Yuklab Olish Skripti (Safe Data Fetcher)
+ * MedLatin UZ - Xavfsiz Batafsil Ma'lumotlarni Yuklab Olish Skripti (Enhanced)
  * 
- * Bu skript endpointlardan (AnatomyFYI va Latdict) batafsil ma'lumotlarni
- * xavfsiz (rate limit, kesh, xatoliklarni qayta urinish) yo'l bilan yuklab oladi.
+ * Ushbu skript data/ papkasidagi ixtiyoriy JSON faylni olib, har bir elementning
+ * https://anatomyfyi.com/structure/... sahifasidan aniq va to'liq ta'rifini
+ * xavfsiz (rate limit, kesh, avtomatik saqlash) usulda yuklaydi va JSON faylni yangilaydi.
  * 
  * Foydalanish:
- *   node scripts/fetch-details.js --limit=50     (Birinchi 50 tasini yuklash)
- *   node scripts/fetch-details.js --category=organs  (Faqat a'zolarni yuklash)
- *   node scripts/fetch-details.js --all         (Hammasini xavfsiz ketma-ketlikda yuklash)
+ *   node scripts/fetch-details.js --file=data/anatomy_tendons.json
+ *   node scripts/fetch-details.js --file=data/anatomy_ligaments.json
+ *   node scripts/fetch-details.js --file=data/anatomy_joints.json
+ *   node scripts/fetch-details.js --limit=20
  */
 
 import fs from 'fs';
@@ -16,109 +18,122 @@ import { execFile } from 'child_process';
 import { promisify } from 'util';
 
 const execFileAsync = promisify(execFile);
-
 const CACHE_DIR = path.resolve('data/cache');
-if (!fs.existsSync(CACHE_DIR)) {
-  fs.mkdirSync(CACHE_DIR, { recursive: true });
-}
+if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
 
-// Konfiguratsiya
-const DELAY_MS = 600; // Har bir so'rov orasida 600ms kutiladi (Cloudflare bloklamasligi uchun)
-const ANATOMY_IP = '188.114.96.1'; // AnatomyFYI Cloudflare DNS aylanib o'tish
+const DELAY_MS = 350; // Xavfsiz tanaffus
+const ANATOMY_IP = '188.114.96.1';
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise(r => setTimeout(r, ms));
 }
 
-async function fetchWithCurl(url) {
-  const isAnatomy = url.includes('anatomyfyi.com');
+async function fetchHtml(url) {
   const args = [
-    '-s',
-    '-L',
-    '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    '--max-time', '15'
+    '-s', '-L',
+    '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    '--max-time', '15',
+    '--resolve', `anatomyfyi.com:443:${ANATOMY_IP}`,
+    url
   ];
-
-  if (isAnatomy) {
-    args.push('--resolve', `anatomyfyi.com:443:${ANATOMY_IP}`);
-  }
-
-  args.push(url);
-
   try {
     const { stdout } = await execFileAsync('curl.exe', args, { maxBuffer: 10 * 1024 * 1024 });
     return stdout;
   } catch (err) {
-    console.error(`Xatolik curl da [${url}]:`, err.message);
     return null;
   }
 }
 
+function extractStructureDescription(html) {
+  if (!html) return null;
+  
+  // 1. Meta description
+  const metaDesc = html.match(/<meta[^>]*name=["']description["'][^>]*content=["']([^"']*)["']/i)?.[1]?.trim();
+  if (metaDesc && metaDesc.length > 25 && !metaDesc.startsWith('Explore') && !metaDesc.includes('AnatomyFYI')) {
+    return metaDesc;
+  }
+
+  // 2. Main paragraphs
+  const main = html.match(/<main[\s\S]*?<\/main>/i)?.[0] || '';
+  const paragraphs = [...main.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map(m => m[1].replace(/<[^>]+>/g, '').trim())
+    .filter(p => p.length > 25 && !p.includes('AnatomyFYI') && !p.includes('cookie') && !p.includes('educational and informational'));
+
+  return paragraphs.length > 0 ? paragraphs[0] : null;
+}
+
 async function main() {
   const args = process.argv.slice(2);
+  const fileArg = args.find(a => a.startsWith('--file='));
   const limitArg = args.find(a => a.startsWith('--limit='));
-  const limit = limitArg ? parseInt(limitArg.split('=')[1], 10) : 10;
 
-  console.log('='.repeat(60));
-  console.log('  MedLatin UZ - Xavfsiz Endpoint Yuklovchi');
-  console.log('='.repeat(60));
-  console.log(`- So'rovlar orasidagi tanaffus: ${DELAY_MS} ms`);
-  console.log(`- Kesh jildi: ${CACHE_DIR}`);
-  console.log(`- Maksimal yuklash chegarasi: ${limit} ta element\n`);
+  const targetFilePath = fileArg ? fileArg.split('=')[1] : 'data/anatomy_ligaments.json';
+  const limit = limitArg ? parseInt(limitArg.split('=')[1], 10) : Infinity;
 
-  // Organlar ro'yxatidan namunalar olamiz
-  const organsPath = 'data/anatomy_organs.json';
-  if (!fs.existsSync(organsPath)) {
-    console.error('anatomy_organs.json topilmadi!');
+  if (!fs.existsSync(targetFilePath)) {
+    console.error(`Fayl topilmadi: ${targetFilePath}`);
     return;
   }
 
-  const organs = JSON.parse(fs.readFileSync(organsPath, 'utf8'));
-  const targetOrgans = organs.slice(0, limit);
+  const items = JSON.parse(fs.readFileSync(targetFilePath, 'utf8'));
+  const total = Math.min(items.length, limit);
 
-  console.log(`Yuklanayotgan elementlar soni: ${targetOrgans.length}`);
+  console.log('='.repeat(65));
+  console.log(`  MedLatin UZ - Batafsil Ta'riflarni Yuklovchi`);
+  console.log('='.repeat(65));
+  console.log(`- Maqsadli fayl: ${targetFilePath}`);
+  console.log(`- Elementlar soni: ${total}`);
+  console.log(`- Kesh jildi: ${CACHE_DIR}\n`);
 
-  let successCount = 0;
+  let updatedCount = 0;
   let cacheCount = 0;
 
-  for (let i = 0; i < targetOrgans.length; i++) {
-    const item = targetOrgans[i];
-    const slug = (item.slug || item.latin || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    const cacheFile = path.join(CACHE_DIR, `organ_${slug}.html`);
+  for (let i = 0; i < total; i++) {
+    const item = items[i];
+    let slug = (item.slug || '').replace(/^\/structure\//, '').replace(/\/$/, '').trim();
+    if (!slug) {
+      slug = item.latin.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    }
 
-    console.log(`[${i + 1}/${targetOrgans.length}] ${item.latin} (${item.name_uz || item.name_en})...`);
+    const cacheFile = path.join(CACHE_DIR, `struct_${slug}.html`);
+    const url = `https://anatomyfyi.com/structure/${slug}/`;
 
+    let html;
     if (fs.existsSync(cacheFile) && fs.statSync(cacheFile).size > 500) {
-      console.log(`  -> Keshdan olindi (avval yuklangan)`);
+      html = fs.readFileSync(cacheFile, 'utf8');
       cacheCount++;
-      continue;
-    }
-
-    let fullUrl = item.url || '';
-    if (!fullUrl && item.slug) {
-      fullUrl = item.slug.startsWith('http') ? item.slug : `https://anatomyfyi.com${item.slug}`;
-    }
-    if (!fullUrl) {
-      fullUrl = `https://anatomyfyi.com/structure/${slug}/`;
-    }
-
-    const html = await fetchWithCurl(fullUrl);
-
-    if (html && html.length > 500) {
-      fs.writeFileSync(cacheFile, html, 'utf8');
-      console.log(`  -> Muvaffaqiyatli yuklandi (${(html.length / 1024).toFixed(1)} KB)`);
-      successCount++;
     } else {
-      console.log(`  -> Yuklab bo'lmadi yoki bo'sh sahifa`);
+      process.stdout.write(`[${i + 1}/${total}] ${item.latin} (${slug})... `);
+      html = await fetchHtml(url);
+      if (html && html.length > 500) {
+        fs.writeFileSync(cacheFile, html, 'utf8');
+        process.stdout.write(`OK (${(html.length / 1024).toFixed(1)} KB)\n`);
+      } else {
+        process.stdout.write(`FAILED\n`);
+      }
+      await sleep(DELAY_MS);
     }
 
-    // Xavfsizlik tanaffusi
-    await sleep(DELAY_MS);
+    const desc = extractStructureDescription(html);
+    if (desc) {
+      const typeLabel = item.type_uz || item.type || "A'zo";
+      const nameUz = item.translation_uz || item.latin;
+      item.definition_uz = `Anatomik ta'rif (${typeLabel}): ${desc}`;
+      item.description_en = desc;
+      updatedCount++;
+    }
+
+    if ((i + 1) % 25 === 0 || i === total - 1) {
+      fs.writeFileSync(targetFilePath, JSON.stringify(items, null, 2), 'utf8');
+      console.log(`-- Checkpoint saqlandi: ${i + 1}/${total} --`);
+    }
   }
 
-  console.log('\n' + '='.repeat(60));
-  console.log(`Tugadi! Yangi yuklangan: ${successCount}, Keshdan: ${cacheCount}`);
-  console.log('='.repeat(60));
+  console.log('\n' + '='.repeat(65));
+  console.log(`Muvaffaqiyatli yakunlandi!`);
+  console.log(`- Yangilangan ta'riflar: ${updatedCount}`);
+  console.log(`- Keshdan olingan: ${cacheCount}`);
+  console.log('='.repeat(65));
 }
 
-main().catch(err => console.error(err));
+main().catch(console.error);
