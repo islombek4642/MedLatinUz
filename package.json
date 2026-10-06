@@ -1,0 +1,9 @@
+{
+  "name": "medlatin-uz",
+  "version": "1.0.0",
+  "description": "Medical Latin to Uzbek Dictionary",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/validate-data.js && node tests/test-search.js"
+  }
+}
