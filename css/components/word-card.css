@@ -67,6 +67,12 @@
   border-color: var(--badge-gen-border);
 }
 
+.category-system {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #fde68a;
+}
+
 .uzbek-translation {
   font-size: 1.05rem;
   font-weight: 600;

@@ -61,6 +61,7 @@ export class UIRenderer {
       let badgeClass = 'category-general';
       if (item.category === 'prescription') badgeClass = 'category-prescription';
       else if (item.category === 'clinical') badgeClass = 'category-clinical';
+      else if (item.category === 'anatomy_system') badgeClass = 'category-system';
       else if (item.category && item.category.startsWith('anatomy')) badgeClass = 'category-anatomy';
 
       return `

@@ -3,14 +3,14 @@
  */
 export class DataLoader {
   static DATA_FILES = [
+    // 12 Human body systems (Priority: shown at top of all categories)
+    './data/anatomy_systems.json',
+
     // Curated core medical sets
     './data/prescriptions.json',
     './data/anatomy.json',
     './data/clinical.json',
     './data/general.json',
-
-    // 12 Human body systems
-    './data/anatomy_systems.json',
 
     // Anatomical structure categories
     './data/anatomy_organs.json',
