@@ -6,6 +6,8 @@ export class UIRenderer {
     prescription: 'Retsept / Dori',
     anatomy: 'Asosiy anatomiya',
     anatomy_system: 'Tana tizimi (System)',
+    anatomy_region: 'Tana sohasi (Region)',
+    anatomy_glossary: 'Anatomik termin (Glossary)',
     clinical: 'Klinik tashxis',
     general: 'Umumiy lotincha',
     anatomy_organ: "A'zo (Organ)",

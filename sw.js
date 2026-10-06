@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v5';
+const CACHE_NAME = 'medlatin-v6';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -23,8 +23,10 @@ const ASSETS_TO_CACHE = [
   './data/clinical.json',
   './data/general.json',
 
-  // 12 Human body systems
+  // Human body systems, regions & glossary
   './data/anatomy_systems.json',
+  './data/anatomy_regions.json',
+  './data/anatomy_glossary.json',
   
   // 9 Anatomical categories
   './data/anatomy_organs.json',

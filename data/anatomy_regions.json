@@ -1,0 +1,222 @@
+[
+  {
+    "id": "reg_0001",
+    "latin": "Caput (Head)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Head",
+    "translation_uz": "Bosh sohasi",
+    "definition_uz": "Inson tanasi sohasi: Bosh sohasi. The uppermost part of the body containing the brain, eyes, ears, nose, and mouth. The skull (cranium) protects the brain, ...",
+    "slug": "/region/head/"
+  },
+  {
+    "id": "reg_0002",
+    "latin": "Facies (Face)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Face",
+    "translation_uz": "Yuz sohasi",
+    "definition_uz": "Inson tanasi sohasi: Yuz sohasi. The anterior part of the head from the forehead to the chin. Contains muscles of facial expression, the orbits housing ...",
+    "slug": "/region/face/"
+  },
+  {
+    "id": "reg_0003",
+    "latin": "Collum / Cervix (Neck)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Neck",
+    "translation_uz": "Bo'yin sohasi",
+    "definition_uz": "Inson tanasi sohasi: Bo'yin sohasi. The region connecting the head to the trunk. Contains the cervical vertebrae, major blood vessels (carotid arteries, jugular veins), the ...",
+    "slug": "/region/neck/"
+  },
+  {
+    "id": "reg_0004",
+    "latin": "Thorax / Pectus (Thorax)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Thorax",
+    "translation_uz": "Ko'krak qafasi sohasi",
+    "definition_uz": "Inson tanasi sohasi: Ko'krak qafasi sohasi. The chest region bounded by the rib cage. Contains the lungs, heart, great vessels, esophagus, trachea, and thoracic duct. The ...",
+    "slug": "/region/thorax/"
+  },
+  {
+    "id": "reg_0005",
+    "latin": "Abdomen / Venter (Abdomen)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Abdomen",
+    "translation_uz": "Qorin sohasi",
+    "definition_uz": "Inson tanasi sohasi: Qorin sohasi. The region between the thorax and pelvis containing the majority of digestive organs including the stomach, intestines, liver, gallbladder, pancreas, ...",
+    "slug": "/region/abdomen/"
+  },
+  {
+    "id": "reg_0006",
+    "latin": "Pelvis (Pelvis)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Pelvis",
+    "translation_uz": "Chanoq sohasi",
+    "definition_uz": "Inson tanasi sohasi: Chanoq sohasi. The lower trunk region formed by the pelvic girdle. Contains the urinary bladder, rectum, and reproductive organs. The bony pelvis ...",
+    "slug": "/region/pelvis/"
+  },
+  {
+    "id": "reg_0007",
+    "latin": "Dorsum (Back)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Back",
+    "translation_uz": "Orqa / Bel sohasi",
+    "definition_uz": "Inson tanasi sohasi: Orqa / Bel sohasi. The posterior aspect of the trunk from the neck to the pelvis. Contains the vertebral column (spine), spinal cord, and ...",
+    "slug": "/region/back/"
+  },
+  {
+    "id": "reg_0008",
+    "latin": "Brachium (Upper Arm)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Upper Arm",
+    "translation_uz": "Yelka sohasi",
+    "definition_uz": "Inson tanasi sohasi: Yelka sohasi. The region between the shoulder and elbow containing the humerus bone. Major muscles include the biceps brachii (flexion) and triceps ...",
+    "slug": "/region/upper-arm/"
+  },
+  {
+    "id": "reg_0009",
+    "latin": "Antebrachium (Forearm)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Forearm",
+    "translation_uz": "Bilak sohasi",
+    "definition_uz": "Inson tanasi sohasi: Bilak sohasi. The region between the elbow and wrist containing the radius and ulna bones. Houses the flexor and extensor muscle groups ...",
+    "slug": "/region/forearm/"
+  },
+  {
+    "id": "reg_0010",
+    "latin": "Manus (Hand)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Hand",
+    "translation_uz": "Qo'l panjasi sohasi",
+    "definition_uz": "Inson tanasi sohasi: Qo'l panjasi sohasi. The terminal part of the upper limb consisting of the carpals (wrist bones), metacarpals, and phalanges (finger bones). Contains intrinsic ...",
+    "slug": "/region/hand/"
+  },
+  {
+    "id": "reg_0011",
+    "latin": "Femur (Thigh)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Thigh",
+    "translation_uz": "Son sohasi",
+    "definition_uz": "Inson tanasi sohasi: Son sohasi. The region between the hip and knee containing the femur, the longest and strongest bone in the body. Major muscle ...",
+    "slug": "/region/thigh/"
+  },
+  {
+    "id": "reg_0012",
+    "latin": "Crus (Leg)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Leg",
+    "translation_uz": "Boldir sohasi",
+    "definition_uz": "Inson tanasi sohasi: Boldir sohasi. The region between the knee and ankle containing the tibia and fibula bones. The anterior and posterior compartments house muscles ...",
+    "slug": "/region/leg/"
+  },
+  {
+    "id": "reg_0013",
+    "latin": "Pes (Foot)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Foot",
+    "translation_uz": "Oyoq panjasi sohasi",
+    "definition_uz": "Inson tanasi sohasi: Oyoq panjasi sohasi. The terminal part of the lower limb consisting of the tarsals, metatarsals, and phalanges. The foot contains arches (medial longitudinal, ...",
+    "slug": "/region/foot/"
+  },
+  {
+    "id": "reg_0014",
+    "latin": "Omos / Regio deltoidea (Shoulder)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Shoulder",
+    "translation_uz": "Yelka bo'g'imi sohasi",
+    "definition_uz": "Inson tanasi sohasi: Yelka bo'g'imi sohasi. The junction between the upper limb and trunk. The shoulder girdle consists of the clavicle and scapula, with the glenohumeral ...",
+    "slug": "/region/shoulder/"
+  },
+  {
+    "id": "reg_0015",
+    "latin": "Coxa (Hip)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Hip",
+    "translation_uz": "Chanoq-son sohasi",
+    "definition_uz": "Inson tanasi sohasi: Chanoq-son sohasi. The junction between the lower limb and trunk. The hip joint (coxal joint) is a ball-and-socket joint formed by the ...",
+    "slug": "/region/hip/"
+  },
+  {
+    "id": "reg_0016",
+    "latin": "Columna vertebralis (Spine)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Spine",
+    "translation_uz": "Umurtqa pog'onasi sohasi",
+    "definition_uz": "Inson tanasi sohasi: Umurtqa pog'onasi sohasi. The vertebral column consisting of 33 vertebrae (7 cervical, 12 thoracic, 5 lumbar, 5 sacral fused, 4 coccygeal fused). It ...",
+    "slug": "/region/spine/"
+  },
+  {
+    "id": "reg_0017",
+    "latin": "Encephalon / Cerebrum (Brain)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Brain",
+    "translation_uz": "Bosh miya sohasi",
+    "definition_uz": "Inson tanasi sohasi: Bosh miya sohasi. The primary organ of the central nervous system enclosed within the cranium. Consists of the cerebrum (cerebral cortex and white ...",
+    "slug": "/region/brain/"
+  },
+  {
+    "id": "reg_0018",
+    "latin": "Regio cardiaca / Mediastinum (Heart Region)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Heart Region",
+    "translation_uz": "Yurak sohasi (Mediastinum)",
+    "definition_uz": "Inson tanasi sohasi: Yurak sohasi (Mediastinum). The mediastinal region centered on the heart and great vessels. The heart occupies the middle mediastinum and is enclosed in ...",
+    "slug": "/region/heart-region/"
+  },
+  {
+    "id": "reg_0019",
+    "latin": "Regio orbitalis / Oculus (Eye)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Eye",
+    "translation_uz": "Ko'z sohasi (Orbita)",
+    "definition_uz": "Inson tanasi sohasi: Ko'z sohasi (Orbita). The orbital region containing the eyeball and its accessory structures. The eye converts light into neural signals for visual perception. ...",
+    "slug": "/region/eye/"
+  },
+  {
+    "id": "reg_0020",
+    "latin": "Regio auricularis / Auris (Ear)",
+    "category": "anatomy_region",
+    "type": "Region",
+    "type_uz": "Tana sohasi",
+    "english": "Ear",
+    "translation_uz": "Quloq sohasi",
+    "definition_uz": "Inson tanasi sohasi: Quloq sohasi. The region containing the external, middle, and inner ear structures. The ear converts sound waves into neural signals for auditory ...",
+    "slug": "/region/ear/"
+  }
+]
