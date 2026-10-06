@@ -12,7 +12,7 @@ const requiredFiles = [
   { file: 'data/clinical.json', category: 'clinical' },
   { file: 'data/general.json', category: 'general' },
   
-  // New specific anatomical category files from hhh.html
+  // Specific anatomical categories from hhh.html
   { file: 'data/anatomy_organs.json', category: 'anatomy_organ' },
   { file: 'data/anatomy_bones.json', category: 'anatomy_bone' },
   { file: 'data/anatomy_nerves.json', category: 'anatomy_nerve' },
@@ -21,7 +21,16 @@ const requiredFiles = [
   { file: 'data/anatomy_glands.json', category: 'anatomy_gland' },
   { file: 'data/anatomy_joints.json', category: 'anatomy_joint' },
   { file: 'data/anatomy_ligaments.json', category: 'anatomy_ligament' },
-  { file: 'data/anatomy_tendons.json', category: 'anatomy_tendon' }
+  { file: 'data/anatomy_tendons.json', category: 'anatomy_tendon' },
+
+  // Specific Latin categories from latin.html
+  { file: 'data/latin_nouns.json', category: 'latin_noun' },
+  { file: 'data/latin_adjectives.json', category: 'latin_adjective' },
+  { file: 'data/latin_verbs.json', category: 'latin_verb' },
+  { file: 'data/latin_adverbs.json', category: 'latin_adverb' },
+  { file: 'data/latin_prepositions.json', category: 'latin_preposition' },
+  { file: 'data/latin_conjunctions.json', category: 'latin_conjunction' },
+  { file: 'data/latin_interjections.json', category: 'latin_interjection' }
 ];
 
 let totalEntries = 0;

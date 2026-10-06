@@ -15,7 +15,14 @@ export class UIRenderer {
     anatomy_gland: 'Bez (Gland)',
     anatomy_joint: "Bo'g'im (Joint)",
     anatomy_ligament: 'Boylam (Ligament)',
-    anatomy_tendon: 'Pay (Tendon)'
+    anatomy_tendon: 'Pay (Tendon)',
+    latin_noun: 'Ot (Noun)',
+    latin_adjective: 'Sifat (Adj)',
+    latin_verb: "Fe'l (Verb)",
+    latin_adverb: 'Ravish (Adv)',
+    latin_preposition: "Old qo'shimcha (Prep)",
+    latin_conjunction: "Bog'lovchi (Conj)",
+    latin_interjection: 'Undov (Interj)'
   };
 
   /**
@@ -24,7 +31,7 @@ export class UIRenderer {
   static escapeHtml(str) {
     if (!str) return '';
     return str
-      .replace(/&/g, '&amp;')
+      .replace(/&amp;/g, '&')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
@@ -48,7 +55,7 @@ export class UIRenderer {
     const hasMore = entries.length > limit;
 
     const cardsHtml = visibleEntries.map(item => {
-      const categoryLabel = this.CATEGORY_LABELS[item.category] || item.type_uz || item.category;
+      const categoryLabel = this.CATEGORY_LABELS[item.category] || item.type_uz || item.pos_uz || item.category;
       
       let badgeClass = 'category-general';
       if (item.category === 'prescription') badgeClass = 'category-prescription';
@@ -111,7 +118,7 @@ export class UIRenderer {
         <h3 class="empty-title">Hech qanday atama topilmadi</h3>
         <p class="empty-desc">
           ${query ? `<strong>"${this.escapeHtml(query)}"</strong> bo'yicha ma'lumot topilmadi.` : ''}
-          Iltimos, so'zning yozilishini tekshiring yoki umumiyroq so'z (masalan: <em>Rp</em>, <em>biceps</em>, <em>femur</em>, <em>aorta</em>) bilan qidirib ko'ring.
+          Iltimos, so'zning yozilishini tekshiring yoki umumiyroq so'z (masalan: <em>Rp</em>, <em>biceps</em>, <em>femur</em>, <em>abacus</em>) bilan qidirib ko'ring.
         </p>
       </div>
     `;
@@ -125,7 +132,7 @@ export class UIRenderer {
     container.innerHTML = `
       <div class="loading-state">
         <div class="spinner"></div>
-        <p>14 000+ dan ortiq tibbiy va anatomik atamalar yuklanmoqda...</p>
+        <p>20 000+ dan ortiq tibbiy va lotincha atamalar yuklanmoqda...</p>
       </div>
     `;
   }

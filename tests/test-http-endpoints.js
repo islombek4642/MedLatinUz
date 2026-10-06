@@ -9,10 +9,14 @@ const endpoints = [
   { url: 'http://localhost:3000/js/modules/search-engine.js', expectedMime: 'application/javascript' },
   { url: 'http://localhost:3000/js/modules/data-loader.js', expectedMime: 'application/javascript' },
   { url: 'http://localhost:3000/js/modules/ui-renderer.js', expectedMime: 'application/javascript' },
+  
+  // Core sets
   { url: 'http://localhost:3000/data/prescriptions.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/anatomy.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/clinical.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/general.json', expectedMime: 'application/json' },
+  
+  // Anatomical categories
   { url: 'http://localhost:3000/data/anatomy_organs.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/anatomy_bones.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/anatomy_nerves.json', expectedMime: 'application/json' },
@@ -22,6 +26,16 @@ const endpoints = [
   { url: 'http://localhost:3000/data/anatomy_joints.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/anatomy_ligaments.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/data/anatomy_tendons.json', expectedMime: 'application/json' },
+
+  // Latin POS categories
+  { url: 'http://localhost:3000/data/latin_nouns.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/latin_adjectives.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/latin_verbs.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/latin_adverbs.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/latin_prepositions.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/latin_conjunctions.json', expectedMime: 'application/json' },
+  { url: 'http://localhost:3000/data/latin_interjections.json', expectedMime: 'application/json' },
+
   { url: 'http://localhost:3000/manifest.json', expectedMime: 'application/json' },
   { url: 'http://localhost:3000/sw.js', expectedMime: 'application/javascript' }
 ];
@@ -55,7 +69,7 @@ async function run() {
       process.exit(1);
     }
   }
-  console.log('\nAll endpoints verified successfully with 200 OK and correct MIME types!');
+  console.log(`\nAll ${endpoints.length} endpoints verified successfully with 200 OK and correct MIME types!`);
 }
 
 run();

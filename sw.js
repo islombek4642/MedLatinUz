@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v2';
+const CACHE_NAME = 'medlatin-v3';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -16,10 +16,14 @@ const ASSETS_TO_CACHE = [
   './js/modules/data-loader.js',
   './js/modules/search-engine.js',
   './js/modules/ui-renderer.js',
+  
+  // 4 Core sets
   './data/prescriptions.json',
   './data/anatomy.json',
   './data/clinical.json',
   './data/general.json',
+  
+  // 9 Anatomical categories
   './data/anatomy_organs.json',
   './data/anatomy_bones.json',
   './data/anatomy_nerves.json',
@@ -28,7 +32,16 @@ const ASSETS_TO_CACHE = [
   './data/anatomy_glands.json',
   './data/anatomy_joints.json',
   './data/anatomy_ligaments.json',
-  './data/anatomy_tendons.json'
+  './data/anatomy_tendons.json',
+
+  // 7 Latin POS categories
+  './data/latin_nouns.json',
+  './data/latin_adjectives.json',
+  './data/latin_verbs.json',
+  './data/latin_adverbs.json',
+  './data/latin_prepositions.json',
+  './data/latin_conjunctions.json',
+  './data/latin_interjections.json'
 ];
 
 // Install: Cache all static assets and data files

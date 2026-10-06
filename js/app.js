@@ -48,7 +48,7 @@ class MedLatinApp {
       prescription: entries.filter(e => e.category === 'prescription').length,
       anatomy: entries.filter(e => e.category === 'anatomy' || (e.category && e.category.startsWith('anatomy_'))).length,
       clinical: entries.filter(e => e.category === 'clinical').length,
-      general: entries.filter(e => e.category === 'general').length,
+      general: entries.filter(e => e.category === 'general' || (e.category && e.category.startsWith('latin_'))).length,
       anatomy_organ: entries.filter(e => e.category === 'anatomy_organ').length,
       anatomy_bone: entries.filter(e => e.category === 'anatomy_bone').length,
       anatomy_nerve: entries.filter(e => e.category === 'anatomy_nerve').length,
@@ -57,7 +57,11 @@ class MedLatinApp {
       anatomy_gland: entries.filter(e => e.category === 'anatomy_gland').length,
       anatomy_joint: entries.filter(e => e.category === 'anatomy_joint').length,
       anatomy_ligament: entries.filter(e => e.category === 'anatomy_ligament').length,
-      anatomy_tendon: entries.filter(e => e.category === 'anatomy_tendon').length
+      anatomy_tendon: entries.filter(e => e.category === 'anatomy_tendon').length,
+      latin_noun: entries.filter(e => e.category === 'latin_noun').length,
+      latin_verb: entries.filter(e => e.category === 'latin_verb').length,
+      latin_adjective: entries.filter(e => e.category === 'latin_adjective').length,
+      latin_adverb: entries.filter(e => e.category === 'latin_adverb').length
     };
 
     this.filterButtons.forEach(btn => {

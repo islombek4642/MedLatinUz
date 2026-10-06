@@ -1,12 +1,15 @@
 /**
- * DataLoader - Loads modular medical dictionary JSON files
+ * DataLoader - Loads modular medical and Latin dictionary JSON files
  */
 export class DataLoader {
   static DATA_FILES = [
+    // Curated core medical sets
     './data/prescriptions.json',
     './data/anatomy.json',
     './data/clinical.json',
     './data/general.json',
+
+    // Anatomical structure categories
     './data/anatomy_organs.json',
     './data/anatomy_bones.json',
     './data/anatomy_nerves.json',
@@ -15,7 +18,16 @@ export class DataLoader {
     './data/anatomy_glands.json',
     './data/anatomy_joints.json',
     './data/anatomy_ligaments.json',
-    './data/anatomy_tendons.json'
+    './data/anatomy_tendons.json',
+
+    // Latin POS categories
+    './data/latin_nouns.json',
+    './data/latin_adjectives.json',
+    './data/latin_verbs.json',
+    './data/latin_adverbs.json',
+    './data/latin_prepositions.json',
+    './data/latin_conjunctions.json',
+    './data/latin_interjections.json'
   ];
 
   /**

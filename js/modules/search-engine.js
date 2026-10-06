@@ -47,6 +47,8 @@ export class SearchEngine {
     if (hasCategory) {
       if (categoryFilter === 'anatomy') {
         pool = this.entries.filter(e => e.category === 'anatomy' || (e.category && e.category.startsWith('anatomy_')));
+      } else if (categoryFilter === 'general') {
+        pool = this.entries.filter(e => e.category === 'general' || (e.category && e.category.startsWith('latin_')));
       } else {
         pool = this.entries.filter(e => e.category === categoryFilter);
       }
