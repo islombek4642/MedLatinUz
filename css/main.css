@@ -5,4 +5,7 @@
 @import './components/search-bar.css';
 @import './components/filters.css';
 @import './components/word-card.css';
+@import './components/theme-toggle.css';
+@import './components/toast.css';
+@import './components/loading-modal.css';
 @import './components/responsive.css';

@@ -20,6 +20,37 @@ export class SearchEngine {
   }
 
   /**
+   * Safely highlights matching query parts in text using <mark class="search-highlight">
+   * Escapes HTML entities first to prevent XSS.
+   * @param {string} text
+   * @param {string} query
+   * @returns {string} HTML string with highlights
+   */
+  static highlightMatch(text, query) {
+    if (!text) return '';
+    const escapeHtml = (str) =>
+      str.replace(/&/g, '&amp;')
+         .replace(/</g, '&lt;')
+         .replace(/>/g, '&gt;')
+         .replace(/"/g, '&quot;')
+         .replace(/'/g, '&#039;');
+
+    const escapedText = escapeHtml(text);
+    if (!query || typeof query !== 'string') return escapedText;
+
+    const trimmed = query.trim();
+    if (!trimmed) return escapedText;
+
+    const escapedQuery = trimmed.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    try {
+      const regex = new RegExp(`(${escapedQuery})`, 'gi');
+      return escapedText.replace(regex, '<mark class="search-highlight">$1</mark>');
+    } catch (e) {
+      return escapedText;
+    }
+  }
+
+  /**
    * Initializes the engine with dictionary entries
    * @param {Array} entries
    */
@@ -30,6 +61,49 @@ export class SearchEngine {
       _normTranslation: SearchEngine.normalize(item.translation_uz),
       _normDefinition: SearchEngine.normalize(item.definition_uz)
     }));
+
+    this.searchId = 0;
+    this.pendingResolvers = new Map();
+
+    if (typeof window !== 'undefined' && window.Worker) {
+      try {
+        this.worker = new Worker('./js/workers/search-worker.js');
+        this.worker.postMessage({ type: 'INIT', payload: entries });
+        this.worker.onmessage = (e) => {
+          const { type, searchId, results } = e.data;
+          if (type === 'SEARCH_RESULTS') {
+            const resolver = this.pendingResolvers.get(searchId);
+            if (resolver) {
+              this.pendingResolvers.delete(searchId);
+              resolver(results);
+            }
+          }
+        };
+      } catch (err) {
+        console.warn('Web Worker initialization skipped:', err);
+        this.worker = null;
+      }
+    }
+  }
+
+  /**
+   * Asynchronous search utilizing background Web Worker
+   * @param {string} query
+   * @param {string} categoryFilter
+   * @returns {Promise<Array>}
+   */
+  async searchAsync(query = '', categoryFilter = 'all') {
+    if (this.worker) {
+      const searchId = ++this.searchId;
+      return new Promise((resolve) => {
+        this.pendingResolvers.set(searchId, resolve);
+        this.worker.postMessage({
+          type: 'SEARCH',
+          payload: { query, categoryFilter, searchId }
+        });
+      });
+    }
+    return this.search(query, categoryFilter);
   }
 
   /**
@@ -45,9 +119,9 @@ export class SearchEngine {
     // Base filtering by category
     let pool = this.entries;
     if (hasCategory) {
-      if (categoryFilter === 'anatomy') {
+      if (categoryFilter === 'anatomy' || categoryFilter === 'anatomy_group') {
         pool = this.entries.filter(e => e.category === 'anatomy' || (e.category && e.category.startsWith('anatomy_')));
-      } else if (categoryFilter === 'general') {
+      } else if (categoryFilter === 'general' || categoryFilter === 'latin_group') {
         pool = this.entries.filter(e => e.category === 'general' || (e.category && e.category.startsWith('latin_')));
       } else {
         pool = this.entries.filter(e => e.category === categoryFilter);

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v6';
+const CACHE_NAME = 'medlatin-v10';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -11,11 +11,22 @@ const ASSETS_TO_CACHE = [
   './css/components/search-bar.css',
   './css/components/filters.css',
   './css/components/word-card.css',
+  './css/components/theme-toggle.css',
+  './css/components/toast.css',
+  './css/components/loading-modal.css',
   './css/components/responsive.css',
   './js/app.js',
   './js/modules/data-loader.js',
   './js/modules/search-engine.js',
   './js/modules/ui-renderer.js',
+  './js/modules/theme-manager.js',
+  './js/modules/bookmark-manager.js',
+  './js/modules/loading-modal.js',
+  './js/modules/db-storage.js',
+  './js/workers/search-worker.js',
+  './data/dictionary.json',
+  './data/dictionary-data.js',
+  'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js',
   
   // 4 Core sets
   './data/prescriptions.json',

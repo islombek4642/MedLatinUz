@@ -1,6 +1,9 @@
 /**
- * UIRenderer - Handles DOM rendering of search results, empty states, and badges
+ * UIRenderer - Handles DOM rendering of search results, empty states, badges, and card interactions
  */
+import { SearchEngine } from './search-engine.js';
+import { BookmarkManager } from './bookmark-manager.js';
+
 export class UIRenderer {
   static CATEGORY_LABELS = {
     prescription: 'Retsept / Dori',
@@ -42,13 +45,98 @@ export class UIRenderer {
   }
 
   /**
+   * Displays temporary toast notification
+   * @param {string} message
+   */
+  static showToast(message = 'Nusxalandi!') {
+    let container = document.getElementById('toastContainer');
+    if (!container) {
+      container = document.createElement('div');
+      container.id = 'toastContainer';
+      container.className = 'toast-container';
+      document.body.appendChild(container);
+    }
+
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.innerHTML = `
+      <iconify-icon icon="lucide:check-circle"></iconify-icon>
+      <span>${this.escapeHtml(message)}</span>
+    `;
+    container.appendChild(toast);
+
+    setTimeout(() => {
+      if (toast.parentNode) {
+        toast.parentNode.removeChild(toast);
+      }
+    }, 2600);
+  }
+
+  /**
+   * Binds click delegation for card actions (copy, bookmark) on the results container
+   * @param {HTMLElement} container
+   * @param {Function} onBookmarkChange
+   */
+  static bindCardActions(container, onBookmarkChange) {
+    if (container._actionsBound) return;
+    container._actionsBound = true;
+
+    container.addEventListener('click', (e) => {
+      const copyBtn = e.target.closest('.copy-btn');
+      if (copyBtn) {
+        const text = copyBtn.getAttribute('data-copy-text');
+        if (text) {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text)
+              .then(() => UIRenderer.showToast('Nusxa olindi!'))
+              .catch(() => UIRenderer.showToast('Nusxalandi!'));
+          } else {
+            // Fallback for non-https/insecure context
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            UIRenderer.showToast('Nusxa olindi!');
+          }
+        }
+        return;
+      }
+
+      const starBtn = e.target.closest('.star-btn');
+      if (starBtn) {
+        const id = starBtn.getAttribute('data-id');
+        if (id) {
+          const isBookmarked = BookmarkManager.toggle(id);
+          starBtn.classList.toggle('bookmarked', isBookmarked);
+          const icon = starBtn.querySelector('iconify-icon');
+          if (icon) {
+            icon.setAttribute('icon', isBookmarked ? 'solar:star-bold' : 'solar:star-linear');
+          }
+          starBtn.setAttribute('title', isBookmarked ? 'Tanlanganlardan olib tashlash' : 'Tanlanganlarga saqlash');
+          UIRenderer.showToast(isBookmarked ? "Tanlanganlarga saqlandi ⭐" : "Tanlanganlardan olib tashlandi");
+
+          if (typeof onBookmarkChange === 'function') {
+            onBookmarkChange(id, isBookmarked);
+          }
+        }
+        return;
+      }
+    });
+  }
+
+  /**
    * Renders dictionary word cards into the container with pagination/slice
    * @param {HTMLElement} container
    * @param {Array} entries
    * @param {string} query
    * @param {number} limit
+   * @param {Function} onBookmarkChange
    */
-  static renderCards(container, entries, query = '', limit = 60) {
+  static renderCards(container, entries, query = '', limit = 60, onBookmarkChange = null) {
+    this.bindCardActions(container, onBookmarkChange);
+
     if (!entries || entries.length === 0) {
       this.renderEmpty(container, query);
       return;
@@ -66,22 +154,51 @@ export class UIRenderer {
       else if (item.category === 'anatomy_system') badgeClass = 'category-system';
       else if (item.category && item.category.startsWith('anatomy')) badgeClass = 'category-anatomy';
 
+      const isBookmarked = BookmarkManager.isBookmarked(item.id);
+      const highlightedLatin = SearchEngine.highlightMatch(item.latin, query);
+      const highlightedTranslation = SearchEngine.highlightMatch(item.translation_uz, query);
+      const highlightedDefinition = SearchEngine.highlightMatch(item.definition_uz, query);
+
+      const copyPayload = `${item.latin} - ${item.translation_uz}: ${item.definition_uz}`;
+      const watermarkHtml = item.category === 'prescription' 
+        ? '<span class="prescription-watermark" aria-hidden="true">℞</span>' 
+        : '';
+
       return `
         <article class="word-card" data-id="${this.escapeHtml(item.id)}">
+          ${watermarkHtml}
           <div class="word-card-header">
-            <h3 class="latin-term">${this.escapeHtml(item.latin)}</h3>
-            <span class="category-badge ${badgeClass}">${categoryLabel}</span>
+            <h3 class="latin-term">${highlightedLatin}</h3>
+            <div class="card-actions">
+              <span class="category-badge ${badgeClass}">${categoryLabel}</span>
+              <button 
+                type="button" 
+                class="card-action-btn star-btn ${isBookmarked ? 'bookmarked' : ''}" 
+                data-id="${this.escapeHtml(item.id)}" 
+                title="${isBookmarked ? 'Tanlanganlardan olib tashlash' : 'Tanlanganlarga saqlash'}" 
+                aria-label="Saqlash"
+              >
+                <iconify-icon icon="${isBookmarked ? 'solar:star-bold' : 'solar:star-linear'}"></iconify-icon>
+              </button>
+              <button 
+                type="button" 
+                class="card-action-btn copy-btn" 
+                data-copy-text="${this.escapeHtml(copyPayload)}" 
+                title="Nusxa olish" 
+                aria-label="Nusxa olish"
+              >
+                <iconify-icon icon="lucide:copy"></iconify-icon>
+              </button>
+            </div>
           </div>
           
           <div class="uzbek-translation">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 12h14M12 5l7 7-7 7"/>
-            </svg>
-            <span>${this.escapeHtml(item.translation_uz)}</span>
+            <iconify-icon icon="lucide:arrow-right" width="18" height="18"></iconify-icon>
+            <span>${highlightedTranslation}</span>
           </div>
 
           <div class="definition-box">
-            ${this.escapeHtml(item.definition_uz)}
+            ${highlightedDefinition}
           </div>
         </article>
       `;
@@ -104,7 +221,7 @@ export class UIRenderer {
       const loadMoreBtn = document.getElementById('loadMoreBtn');
       if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', () => {
-          this.renderCards(container, entries, query, limit + 60);
+          this.renderCards(container, entries, query, limit + 60, onBookmarkChange);
         });
       }
     }
@@ -118,7 +235,9 @@ export class UIRenderer {
   static renderEmpty(container, query = '') {
     container.innerHTML = `
       <div class="empty-state">
-        <div class="empty-icon">🔍</div>
+        <div class="empty-icon">
+          <iconify-icon icon="lucide:search-x" width="48" height="48" style="color: var(--text-muted);"></iconify-icon>
+        </div>
         <h3 class="empty-title">Hech qanday atama topilmadi</h3>
         <p class="empty-desc">
           ${query ? `<strong>"${this.escapeHtml(query)}"</strong> bo'yicha ma'lumot topilmadi.` : ''}
@@ -129,15 +248,21 @@ export class UIRenderer {
   }
 
   /**
-   * Renders loading spinner
+   * Renders skeleton shimmer cards during initial data load
    * @param {HTMLElement} container
    */
   static renderLoading(container) {
-    container.innerHTML = `
-      <div class="loading-state">
-        <div class="spinner"></div>
-        <p>20 700+ dan ortiq tibbiy, anatomik va lotincha atamalar yuklanmoqda...</p>
+    const skeletonHtml = Array.from({ length: 8 }).map(() => `
+      <div class="skeleton-card" aria-hidden="true">
+        <div class="skeleton-header">
+          <div class="skeleton-shimmer skeleton-title"></div>
+          <div class="skeleton-shimmer skeleton-badge"></div>
+        </div>
+        <div class="skeleton-shimmer skeleton-translation"></div>
+        <div class="skeleton-shimmer skeleton-box"></div>
       </div>
-    `;
+    `).join('');
+
+    container.innerHTML = skeletonHtml;
   }
 }

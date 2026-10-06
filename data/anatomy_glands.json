@@ -31,9 +31,9 @@
     "type_uz": "Bez",
     "english": "glandulae lacrimales accessoriae",
     "translation_uz": "glandulae lacrimales accessoriae (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Serous gland with distended lumen. It includes the gland of Krause in the lacrimal sac and the gland of Wolfring on the inner surface of the upper...",
+    "definition_uz": "Anatomik ta'rif (Bez): glandulae lacrimales accessoriae",
     "slug": "/structure/accessory-lacrimal-gland/",
-    "description_en": "Serous gland with distended lumen. It includes the gland of Krause in the lacrimal sac and the gland of Wolfring on the inner surface of the upper..."
+    "description_en": "glandulae lacrimales accessoriae"
   },
   {
     "id": "gld_00004",
@@ -151,9 +151,9 @@
     "type_uz": "Bez",
     "english": "AHP",
     "translation_uz": "AHP (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The glandular, anterior lobe of the pituitary gland. The anterior pituitary regulates several physiological processes including stress, growth, and...",
+    "definition_uz": "Anatomik ta'rif (Bez): The glandular, anterior lobe of the pituitary gland. The anterior pituitary regulates several physiological processes including stress, growth, and reproduction[WP]. The anterior lobe of the hypophysis (pituitary gland). This lobe contains cells that produce prolactin, growth hormone, thyroid-stimulating hormone, follicle-stimulating hormone and proopiomelanocortin[ZFA].",
     "slug": "/structure/adenohypophysis/",
-    "description_en": "The glandular, anterior lobe of the pituitary gland. The anterior pituitary regulates several physiological processes including stress, growth, and..."
+    "description_en": "The glandular, anterior lobe of the pituitary gland. The anterior pituitary regulates several physiological processes including stress, growth, and reproduction[WP]. The anterior lobe of the hypophysis (pituitary gland). This lobe contains cells that produce prolactin, growth hormone, thyroid-stimulating hormone, follicle-stimulating hormone and proopiomelanocortin[ZFA]."
   },
   {
     "id": "gld_00014",
@@ -175,9 +175,9 @@
     "type_uz": "Bez",
     "english": "Glandula suprarenalis",
     "translation_uz": "Glandula suprarenalis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Paired glands sitting on top of each kidney. Each gland has an outer cortex (three zones: glomerulosa, fasciculata, reticularis) and an inner medulla....",
+    "definition_uz": "Anatomik ta'rif (Bez): Sitting atop each kidney, the paired adrenal glands generate steroid hormones, cortisol, aldosterone, and androgens, from their cortex, and catecholamines, epinephrine and norepinephrine, from their medulla. Together these hormones govern the stress response, metabolism, blood pressure, and immune function. The outer cortex is arranged in three zones, the glomerulosa, fasciculata, and reticularis, surrounding the inner medulla; the right gland is pyramidal and the left crescentic, and three adrenal arteries supply their rich vasculature. Addison&#x27;s disease is primary adrenal insufficiency, Cushing&#x27;s syndrome results from excess cortisol, and pheochromocytoma is a catecholamine-producing tumor of the medulla. Adrenal crisis is an acute, life-threatening failure of hormone output that requires emergency treatment.",
     "slug": "/structure/adrenal-gland/",
-    "description_en": "Paired glands sitting on top of each kidney. Each gland has an outer cortex (three zones: glomerulosa, fasciculata, reticularis) and an inner medulla...."
+    "description_en": "Sitting atop each kidney, the paired adrenal glands generate steroid hormones, cortisol, aldosterone, and androgens, from their cortex, and catecholamines, epinephrine and norepinephrine, from their medulla. Together these hormones govern the stress response, metabolism, blood pressure, and immune function. The outer cortex is arranged in three zones, the glomerulosa, fasciculata, and reticularis, surrounding the inner medulla; the right gland is pyramidal and the left crescentic, and three adrenal arteries supply their rich vasculature. Addison&#x27;s disease is primary adrenal insufficiency, Cushing&#x27;s syndrome results from excess cortisol, and pheochromocytoma is a catecholamine-producing tumor of the medulla. Adrenal crisis is an acute, life-threatening failure of hormone output that requires emergency treatment."
   },
   {
     "id": "gld_00016",
@@ -199,9 +199,9 @@
     "type_uz": "Bez",
     "english": "juvenile zone",
     "translation_uz": "juvenile zone (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A transient cortical layer juxtaposed to the medulla and the zona reticularis; in males, this zone rapidly involutes at the onset of puberty whereas...",
+    "definition_uz": "Anatomik ta'rif (Bez): A transient cortical layer juxtaposed to the medulla and the zona reticularis; in males, this zone rapidly involutes at the onset of puberty whereas this zone persists in females until the first pregnancy or later in adulthood in non-pregnant females.",
     "slug": "/structure/adrenal-gland-x-zone/",
-    "description_en": "A transient cortical layer juxtaposed to the medulla and the zona reticularis; in males, this zone rapidly involutes at the onset of puberty whereas..."
+    "description_en": "A transient cortical layer juxtaposed to the medulla and the zona reticularis; in males, this zone rapidly involutes at the onset of puberty whereas this zone persists in females until the first pregnancy or later in adulthood in non-pregnant females."
   },
   {
     "id": "gld_00018",
@@ -211,9 +211,9 @@
     "type_uz": "Bez",
     "english": "adrenal - interrenal gland",
     "translation_uz": "adrenal - interrenal gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): This gland can either be a discrete structure located bilaterally above each kidney, or a cluster of cells in the head kidney that perform the...",
+    "definition_uz": "Anatomik ta'rif (Bez): adrenal - interrenal gland",
     "slug": "/structure/adrenalinterrenal-gland/",
-    "description_en": "This gland can either be a discrete structure located bilaterally above each kidney, or a cluster of cells in the head kidney that perform the..."
+    "description_en": "adrenal - interrenal gland"
   },
   {
     "id": "gld_00019",
@@ -223,9 +223,9 @@
     "type_uz": "Bez",
     "english": "adrenal central medulla",
     "translation_uz": "adrenal central medulla (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The inner portion of the adrenal gland that consists mainly of chromaffin cells which produce, store and secrete neurotransmitters such as epinephrine...",
+    "definition_uz": "Anatomik ta'rif (Bez): The inner portion of the adrenal gland that consists mainly of chromaffin cells which produce, store and secrete neurotransmitters such as epinephrine and norepinephrine.",
     "slug": "/structure/adrenal-medulla/",
-    "description_en": "The inner portion of the adrenal gland that consists mainly of chromaffin cells which produce, store and secrete neurotransmitters such as epinephrine..."
+    "description_en": "The inner portion of the adrenal gland that consists mainly of chromaffin cells which produce, store and secrete neurotransmitters such as epinephrine and norepinephrine."
   },
   {
     "id": "gld_00020",
@@ -295,9 +295,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "anal sac (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): In carnivores, either of two sacs found between the internal and external anal sphincters, lined with sebaceous glands and in some species with...",
+    "definition_uz": "Anatomik ta'rif (Bez): In carnivores, either of two sacs found between the internal and external anal sphincters, lined with sebaceous glands and in some species with apocrine glands.",
     "slug": "/structure/anal-sac/",
-    "description_en": "In carnivores, either of two sacs found between the internal and external anal sphincters, lined with sebaceous glands and in some species with..."
+    "description_en": "In carnivores, either of two sacs found between the internal and external anal sphincters, lined with sebaceous glands and in some species with apocrine glands."
   },
   {
     "id": "gld_00026",
@@ -331,9 +331,9 @@
     "type_uz": "Bez",
     "english": "anterior auricular glands",
     "translation_uz": "anterior auricular glands (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The preauricular deep parotid lymph nodes (anterior auricular glands or preauricular glands), from one to three in number, lie immediately in front of...",
+    "definition_uz": "Anatomik ta'rif (Bez): The preauricular deep parotid lymph nodes (anterior auricular glands or preauricular glands), from one to three in number, lie immediately in front of the tragus. Their afferents drain the lateral surface of the auricula and the skin of the adjacent part of the temporal region; their efferents pass to the superior deep cervical glands.",
     "slug": "/structure/anterior-auricular-lymph-node/",
-    "description_en": "The preauricular deep parotid lymph nodes (anterior auricular glands or preauricular glands), from one to three in number, lie immediately in front of..."
+    "description_en": "The preauricular deep parotid lymph nodes (anterior auricular glands or preauricular glands), from one to three in number, lie immediately in front of the tragus. Their afferents drain the lateral surface of the auricula and the skin of the adjacent part of the temporal region; their efferents pass to the superior deep cervical glands."
   },
   {
     "id": "gld_00029",
@@ -391,9 +391,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "anterior pararenal space (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A space that is bounded anteriorly by the posterior parietal peritoneum, laterally by the lateroconal fascia and posteriorly by the anterior renal...",
+    "definition_uz": "Anatomik ta'rif (Bez): A space that is bounded anteriorly by the posterior parietal peritoneum, laterally by the lateroconal fascia and posteriorly by the anterior renal fascia; it contains the pancreatic gland, retroperitoneal segments of the duodenum, ascending and descending colon and the mesenteric root, as well as adipose tissue.",
     "slug": "/structure/anterior-pararenal-space/",
-    "description_en": "A space that is bounded anteriorly by the posterior parietal peritoneum, laterally by the lateroconal fascia and posteriorly by the anterior renal..."
+    "description_en": "A space that is bounded anteriorly by the posterior parietal peritoneum, laterally by the lateroconal fascia and posteriorly by the anterior renal fascia; it contains the pancreatic gland, retroperitoneal segments of the duodenum, ascending and descending colon and the mesenteric root, as well as adipose tissue."
   },
   {
     "id": "gld_00034",
@@ -427,9 +427,9 @@
     "type_uz": "Bez",
     "english": "true apocrine gland",
     "translation_uz": "true apocrine gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any exocrine gland whose cells bud their secretions off through the plasma membrane producing membrane-bound vesicles in the lumen; the apical portion...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any exocrine gland whose cells bud their secretions off through the plasma membrane producing membrane-bound vesicles in the lumen; the apical portion of the secretory cell of the gland pinches off and enters the lumen; it loses part of its cytoplasm in their secretions; apocrine secretion is functional during hormonal stress or puberty; an example of true apocrine glands are mammary glands, responsible for secreting breast milk.",
     "slug": "/structure/apocrine-gland/",
-    "description_en": "Any exocrine gland whose cells bud their secretions off through the plasma membrane producing membrane-bound vesicles in the lumen; the apical portion..."
+    "description_en": "Any exocrine gland whose cells bud their secretions off through the plasma membrane producing membrane-bound vesicles in the lumen; the apical portion of the secretory cell of the gland pinches off and enters the lumen; it loses part of its cytoplasm in their secretions; apocrine secretion is functional during hormonal stress or puberty; an example of true apocrine glands are mammary glands, responsible for secreting breast milk."
   },
   {
     "id": "gld_00037",
@@ -439,9 +439,9 @@
     "type_uz": "Bez",
     "english": "glandula sudorifera apocrina",
     "translation_uz": "glandula sudorifera apocrina (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Apocrine sweat glands are sweat glands composed of a coiled secretory portion located at the junction of the dermis and subcutaneous fat, from which a...",
+    "definition_uz": "Anatomik ta'rif (Bez): glandula sudorifera apocrina",
     "slug": "/structure/apocrine-sweat-gland/",
-    "description_en": "Apocrine sweat glands are sweat glands composed of a coiled secretory portion located at the junction of the dermis and subcutaneous fat, from which a..."
+    "description_en": "glandula sudorifera apocrina"
   },
   {
     "id": "gld_00038",
@@ -523,9 +523,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "axillary pore (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Pore that is located ventral to the posterior cleithral process and medial to the pectoral fin. Axillary pore is at the end of a duct from an...",
+    "definition_uz": "Anatomik ta'rif (Bez): Pore that is located ventral to the posterior cleithral process and medial to the pectoral fin. Axillary pore is at the end of a duct from an integumentary gland.",
     "slug": "/structure/axillary-pore/",
-    "description_en": "Pore that is located ventral to the posterior cleithral process and medial to the pectoral fin. Axillary pore is at the end of a duct from an..."
+    "description_en": "Pore that is located ventral to the posterior cleithral process and medial to the pectoral fin. Axillary pore is at the end of a duct from an integumentary gland."
   },
   {
     "id": "gld_00045",
@@ -547,9 +547,9 @@
     "type_uz": "Bez",
     "english": "cement gland",
     "translation_uz": "cement gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Typical barnacles, common name of the sedentary crustacean marine animals constituting the subclass Cirripedia, attach to the substrate by means of an...",
+    "definition_uz": "Anatomik ta'rif (Bez): Typical barnacles, common name of the sedentary crustacean marine animals constituting the subclass Cirripedia, attach to the substrate by means of an exceedingly adhesive cement, produced by a cement gland, and secrete a shell, or carapace, of calcareous (limestone) plates, around themselves.",
     "slug": "/structure/barnacle-cement-gland/",
-    "description_en": "Typical barnacles, common name of the sedentary crustacean marine animals constituting the subclass Cirripedia, attach to the substrate by means of an..."
+    "description_en": "Typical barnacles, common name of the sedentary crustacean marine animals constituting the subclass Cirripedia, attach to the substrate by means of an exceedingly adhesive cement, produced by a cement gland, and secrete a shell, or carapace, of calcareous (limestone) plates, around themselves."
   },
   {
     "id": "gld_00047",
@@ -595,9 +595,9 @@
     "type_uz": "Bez",
     "english": "corpus pancreatis",
     "translation_uz": "corpus pancreatis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The body of the pancreas is a subsection of the pancreas organ in the human body. It is somewhat prismatic in shape, and has three surfaces: anterior,...",
+    "definition_uz": "Anatomik ta'rif (Bez): The body of the pancreas is a subsection of the pancreas organ in the human body. It is somewhat prismatic in shape, and has three surfaces: anterior, posterior, and inferior. It is at the same level as the transpyloric plane. [WP,unvetted].",
     "slug": "/structure/body-of-pancreas/",
-    "description_en": "The body of the pancreas is a subsection of the pancreas organ in the human body. It is somewhat prismatic in shape, and has three surfaces: anterior,..."
+    "description_en": "The body of the pancreas is a subsection of the pancreas organ in the human body. It is somewhat prismatic in shape, and has three surfaces: anterior, posterior, and inferior. It is at the same level as the transpyloric plane. [WP,unvetted]."
   },
   {
     "id": "gld_00051",
@@ -619,9 +619,9 @@
     "type_uz": "Bez",
     "english": "bronchioli",
     "translation_uz": "bronchioli (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the...",
+    "definition_uz": "Anatomik ta'rif (Bez): The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the epithelium of the bronchioles becomes thinner with each branching.",
     "slug": "/structure/bronchiole/",
-    "description_en": "The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the..."
+    "description_en": "The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the epithelium of the bronchioles becomes thinner with each branching."
   },
   {
     "id": "gld_00053",
@@ -667,9 +667,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "buccal vestibule (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The buccal vestibule is the space external to teeth and gums and internal to lips and cheeks. The proportion of its walls formed by the lips varies...",
+    "definition_uz": "Anatomik ta'rif (Bez): The buccal vestibule is the space external to teeth and gums and internal to lips and cheeks. The proportion of its walls formed by the lips varies according to species depending upon their feeding action. The horse like most herbivores has a relatively small opening. The buccal vestibule opens to the outside rostrally via a U shaped slit the oral fissure. When the mouth is closed the buccal vestibule and the mouth cavity proper connect via spaces between and behind the teeth. These allow free communication between the two sides of the vestibule. Several salivary ducts open into the dorso caudal part of the vestibule: Parotid gland - opens into the cheek on the small parotid papilla, opposite to the caudal part of upper 4 th premolar teeth. Zygomatic gland - the main duct opens in the caudal part of the upper 1 st molar tooth on a small papilla near the vestibular fornix. Submucous glands - minimal in number, confined to the lower lip and adjacent part of the cheek. Secretion occurs through about 10 openings located near the fornix of the vestibule.",
     "slug": "/structure/buccal-vestibule/",
-    "description_en": "The buccal vestibule is the space external to teeth and gums and internal to lips and cheeks. The proportion of its walls formed by the lips varies..."
+    "description_en": "The buccal vestibule is the space external to teeth and gums and internal to lips and cheeks. The proportion of its walls formed by the lips varies according to species depending upon their feeding action. The horse like most herbivores has a relatively small opening. The buccal vestibule opens to the outside rostrally via a U shaped slit the oral fissure. When the mouth is closed the buccal vestibule and the mouth cavity proper connect via spaces between and behind the teeth. These allow free communication between the two sides of the vestibule. Several salivary ducts open into the dorso caudal part of the vestibule: Parotid gland - opens into the cheek on the small parotid papilla, opposite to the caudal part of upper 4 th premolar teeth. Zygomatic gland - the main duct opens in the caudal part of the upper 1 st molar tooth on a small papilla near the vestibular fornix. Submucous glands - minimal in number, confined to the lower lip and adjacent part of the cheek. Secretion occurs through about 10 openings located near the fornix of the vestibule."
   },
   {
     "id": "gld_00057",
@@ -739,9 +739,9 @@
     "type_uz": "Bez",
     "english": "cardiac gland",
     "translation_uz": "cardiac gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A gastric gland in the cardiac region of the stomach; cardiac glands are fewer in number than in the fundus and body, and secrete mucin which coats the...",
+    "definition_uz": "Anatomik ta'rif (Bez): A gastric gland in the cardiac region of the stomach; cardiac glands are fewer in number than in the fundus and body, and secrete mucin which coats the stomach and protects it[MP].",
     "slug": "/structure/cardiac-gastric-gland/",
-    "description_en": "A gastric gland in the cardiac region of the stomach; cardiac glands are fewer in number than in the fundus and body, and secrete mucin which coats the..."
+    "description_en": "A gastric gland in the cardiac region of the stomach; cardiac glands are fewer in number than in the fundus and body, and secrete mucin which coats the stomach and protects it[MP]."
   },
   {
     "id": "gld_00063",
@@ -775,9 +775,9 @@
     "type_uz": "Bez",
     "english": "caudal fin organ",
     "translation_uz": "caudal fin organ (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Organ that consists of a pouch located on the ventral caudal-fin lobe, opening posteriorly, and composed of glandular tissue. The caudal-fin organ...",
+    "definition_uz": "Anatomik ta'rif (Bez): Organ that consists of a pouch located on the ventral caudal-fin lobe, opening posteriorly, and composed of glandular tissue. The caudal-fin organ presumably functions to secrete pheromones during courtship.",
     "slug": "/structure/caudal-fin-organ/",
-    "description_en": "Organ that consists of a pouch located on the ventral caudal-fin lobe, opening posteriorly, and composed of glandular tissue. The caudal-fin organ..."
+    "description_en": "Organ that consists of a pouch located on the ventral caudal-fin lobe, opening posteriorly, and composed of glandular tissue. The caudal-fin organ presumably functions to secrete pheromones during courtship."
   },
   {
     "id": "gld_00066",
@@ -787,9 +787,9 @@
     "type_uz": "Bez",
     "english": "central zone of human prostate",
     "translation_uz": "central zone of human prostate (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The region of the prostate gland that is located between the peripheral and transition zones, surrounding the ejaculatory ducts. It gives rise to a...",
+    "definition_uz": "Anatomik ta'rif (Bez): central zone of human prostate",
     "slug": "/structure/central-zone-of-prostate/",
-    "description_en": "The region of the prostate gland that is located between the peripheral and transition zones, surrounding the ejaculatory ducts. It gives rise to a..."
+    "description_en": "central zone of human prostate"
   },
   {
     "id": "gld_00067",
@@ -859,9 +859,9 @@
     "type_uz": "Bez",
     "english": "cervix mucus",
     "translation_uz": "cervix mucus (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A substance produced by the cervix and endocervical glands[BTO]. Thick acidic mucus that blocks the cervical os after mestruation[WP]. This &#x27;infertile&#x27;...",
+    "definition_uz": "Anatomik ta'rif (Bez): A substance produced by the cervix and endocervical glands[BTO]. Thick acidic mucus that blocks the cervical os after mestruation[WP]. This &#x27;infertile&#x27; mucus blocks spermatozoa from entering the uterus.",
     "slug": "/structure/cervical-mucus/",
-    "description_en": "A substance produced by the cervix and endocervical glands[BTO]. Thick acidic mucus that blocks the cervical os after mestruation[WP]. This &#x27;infertile&#x27;..."
+    "description_en": "A substance produced by the cervix and endocervical glands[BTO]. Thick acidic mucus that blocks the cervical os after mestruation[WP]. This &#x27;infertile&#x27; mucus blocks spermatozoa from entering the uterus."
   },
   {
     "id": "gld_00073",
@@ -919,9 +919,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "colostrum (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The thin, yellow, serous fluid secreted by the mammary glands during pregnancy and immediately postpartum before lactation begins. It consists of...",
+    "definition_uz": "Anatomik ta'rif (Bez): The thin, yellow, serous fluid secreted by the mammary glands during pregnancy and immediately postpartum before lactation begins. It consists of immunologically active substances, white blood cells, water, protein, fat, and carbohydrates.",
     "slug": "/structure/colostrum/",
-    "description_en": "The thin, yellow, serous fluid secreted by the mammary glands during pregnancy and immediately postpartum before lactation begins. It consists of..."
+    "description_en": "The thin, yellow, serous fluid secreted by the mammary glands during pregnancy and immediately postpartum before lactation begins. It consists of immunologically active substances, white blood cells, water, protein, fat, and carbohydrates."
   },
   {
     "id": "gld_00078",
@@ -943,9 +943,9 @@
     "type_uz": "Bez",
     "english": "corona glandis",
     "translation_uz": "corona glandis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The circumference of the base of the glans forms a rounded projecting border, the corona of the glans penis, overhanging a deep retroglandular sulcus,...",
+    "definition_uz": "Anatomik ta'rif (Bez): The circumference of the base of the glans forms a rounded projecting border, the corona of the glans penis, overhanging a deep retroglandular sulcus, behind which is the neck of the penis.",
     "slug": "/structure/corona-of-glans-penis/",
-    "description_en": "The circumference of the base of the glans forms a rounded projecting border, the corona of the glans penis, overhanging a deep retroglandular sulcus,..."
+    "description_en": "The circumference of the base of the glans forms a rounded projecting border, the corona of the glans penis, overhanging a deep retroglandular sulcus, behind which is the neck of the penis."
   },
   {
     "id": "gld_00080",
@@ -955,9 +955,9 @@
     "type_uz": "Bez",
     "english": "corpora lutea",
     "translation_uz": "corpora lutea (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A transient endocrine gland that develops from the postovulatory or atretic follicles and secretes progesterone; it is thought to be related to egg...",
+    "definition_uz": "Anatomik ta'rif (Bez): A transient endocrine gland that develops from the postovulatory or atretic follicles and secretes progesterone; it is thought to be related to egg retention[PMID].",
     "slug": "/structure/corpus-luteum/",
-    "description_en": "A transient endocrine gland that develops from the postovulatory or atretic follicles and secretes progesterone; it is thought to be related to egg..."
+    "description_en": "A transient endocrine gland that develops from the postovulatory or atretic follicles and secretes progesterone; it is thought to be related to egg retention[PMID]."
   },
   {
     "id": "gld_00081",
@@ -979,9 +979,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "coxal gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A gland found in some arthropods, for collecting and excreting urine. The gland comprises an end sac (saccule), a long duct (labyrinth) and a terminal...",
+    "definition_uz": "Anatomik ta'rif (Bez): A gland found in some arthropods, for collecting and excreting urine. The gland comprises an end sac (saccule), a long duct (labyrinth) and a terminal bladder (reservoir). There is generally only one pair (two in some spiders), and they open on the coxae of the walking legs[WP].",
     "slug": "/structure/coxal-gland/",
-    "description_en": "A gland found in some arthropods, for collecting and excreting urine. The gland comprises an end sac (saccule), a long duct (labyrinth) and a terminal..."
+    "description_en": "A gland found in some arthropods, for collecting and excreting urine. The gland comprises an end sac (saccule), a long duct (labyrinth) and a terminal bladder (reservoir). There is generally only one pair (two in some spiders), and they open on the coxae of the walking legs[WP]."
   },
   {
     "id": "gld_00083",
@@ -1087,9 +1087,9 @@
     "type_uz": "Bez",
     "english": "deep parotid node",
     "translation_uz": "deep parotid node (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The deep parotid lymph nodes are lymph nodes found below the parotid gland. The afferents of the subparotid glands drain the nasal part of the pharynx...",
+    "definition_uz": "Anatomik ta'rif (Bez): The deep parotid lymph nodes are lymph nodes found below the parotid gland. The afferents of the subparotid glands drain the nasal part of the pharynx and the posterior parts of the nasal cavities. Their efferents pass to the superior deep cervical glands.",
     "slug": "/structure/deep-parotid-lymph-node/",
-    "description_en": "The deep parotid lymph nodes are lymph nodes found below the parotid gland. The afferents of the subparotid glands drain the nasal part of the pharynx..."
+    "description_en": "The deep parotid lymph nodes are lymph nodes found below the parotid gland. The afferents of the subparotid glands drain the nasal part of the pharynx and the posterior parts of the nasal cavities. Their efferents pass to the superior deep cervical glands."
   },
   {
     "id": "gld_00092",
@@ -1111,9 +1111,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "dorsal cloacal gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Cloacal gland in female salamanders that secrete into the dorsal walls of the cloaca, anterior and / or posterior to the spermathecae or near the...",
+    "definition_uz": "Anatomik ta'rif (Bez): Cloacal gland in female salamanders that secrete into the dorsal walls of the cloaca, anterior and / or posterior to the spermathecae or near the spermathecal common tube.",
     "slug": "/structure/dorsal-cloacal-gland/",
-    "description_en": "Cloacal gland in female salamanders that secrete into the dorsal walls of the cloaca, anterior and / or posterior to the spermathecae or near the..."
+    "description_en": "Cloacal gland in female salamanders that secrete into the dorsal walls of the cloaca, anterior and / or posterior to the spermathecae or near the spermathecal common tube."
   },
   {
     "id": "gld_00094",
@@ -1267,9 +1267,9 @@
     "type_uz": "Bez",
     "english": "ductus excretorius (vesicula seminalis)",
     "translation_uz": "ductus excretorius (vesicula seminalis) (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Each seminal vesicle consists of a single tube, coiled upon itself, and giving off several irregular cecal diverticula; the separate coils, as well as...",
+    "definition_uz": "Anatomik ta'rif (Bez): ductus excretorius (vesicula seminalis)",
     "slug": "/structure/duct-of-seminal-vesicle/",
-    "description_en": "Each seminal vesicle consists of a single tube, coiled upon itself, and giving off several irregular cecal diverticula; the separate coils, as well as..."
+    "description_en": "ductus excretorius (vesicula seminalis)"
   },
   {
     "id": "gld_00107",
@@ -1291,9 +1291,9 @@
     "type_uz": "Bez",
     "english": "Brunner&#x27;s gland",
     "translation_uz": "Brunner&#x27;s gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A compound tubular submucosal gland found in that portion of the duodenum which is above the hepatopancreatic sphincter (Sphincter of Oddi). The main...",
+    "definition_uz": "Anatomik ta'rif (Bez): A compound tubular submucosal gland found in that portion of the duodenum which is above the hepatopancreatic sphincter (Sphincter of Oddi). The main function of these glands is to produce a mucus-rich alkaline secretion (containing bicarbonate)[WP].",
     "slug": "/structure/duodenal-gland/",
-    "description_en": "A compound tubular submucosal gland found in that portion of the duodenum which is above the hepatopancreatic sphincter (Sphincter of Oddi). The main..."
+    "description_en": "A compound tubular submucosal gland found in that portion of the duodenum which is above the hepatopancreatic sphincter (Sphincter of Oddi). The main function of these glands is to produce a mucus-rich alkaline secretion (containing bicarbonate)[WP]."
   },
   {
     "id": "gld_00109",
@@ -1315,9 +1315,9 @@
     "type_uz": "Bez",
     "english": "pyloric caecum",
     "translation_uz": "pyloric caecum (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The pyloric ceca (or digestive glands) and the cardiac stomach produce digestive enzymes in starfishes. Digested material is absorbed through the...",
+    "definition_uz": "Anatomik ta'rif (Bez): The pyloric ceca (or digestive glands) and the cardiac stomach produce digestive enzymes in starfishes. Digested material is absorbed through the pyloric ceca for transport to the rest of the body. Each pyloric cecum extends the length of each arm.",
     "slug": "/structure/echinoderm-pyloric-cecum/",
-    "description_en": "The pyloric ceca (or digestive glands) and the cardiac stomach produce digestive enzymes in starfishes. Digested material is absorbed through the..."
+    "description_en": "The pyloric ceca (or digestive glands) and the cardiac stomach produce digestive enzymes in starfishes. Digested material is absorbed through the pyloric ceca for transport to the rest of the body. Each pyloric cecum extends the length of each arm."
   },
   {
     "id": "gld_00111",
@@ -1327,9 +1327,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "ejaculatory duct epithelium (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The ejaculatory duct epithelium is composed of cuboidal to columnar cells between or through which project the terminal parts of the ducts of the...",
+    "definition_uz": "Anatomik ta'rif (Bez): The ejaculatory duct epithelium is composed of cuboidal to columnar cells between or through which project the terminal parts of the ducts of the unicellular prostate glands.",
     "slug": "/structure/ejaculatory-duct-epithelium/",
-    "description_en": "The ejaculatory duct epithelium is composed of cuboidal to columnar cells between or through which project the terminal parts of the ducts of the..."
+    "description_en": "The ejaculatory duct epithelium is composed of cuboidal to columnar cells between or through which project the terminal parts of the ducts of the unicellular prostate glands."
   },
   {
     "id": "gld_00112",
@@ -1339,9 +1339,9 @@
     "type_uz": "Bez",
     "english": "cement gland",
     "translation_uz": "cement gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A simple mucus-secreting structure that is positioned at the front of the embryo, attaches the newly hatched embryo to a support before the hatchling...",
+    "definition_uz": "Anatomik ta'rif (Bez): A simple mucus-secreting structure that is positioned at the front of the embryo, attaches the newly hatched embryo to a support before the hatchling can swim well or feed, and marks the anterior-most dorsal ectoderm[XAO].",
     "slug": "/structure/embryonic-cement-gland/",
-    "description_en": "A simple mucus-secreting structure that is positioned at the front of the embryo, attaches the newly hatched embryo to a support before the hatchling..."
+    "description_en": "A simple mucus-secreting structure that is positioned at the front of the embryo, attaches the newly hatched embryo to a support before the hatchling can swim well or feed, and marks the anterior-most dorsal ectoderm[XAO]."
   },
   {
     "id": "gld_00113",
@@ -1375,9 +1375,9 @@
     "type_uz": "Bez",
     "english": "ductless gland",
     "translation_uz": "ductless gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Endocrine glands are glands of the endocrine system that secrete their products directly into the circulatory system rather than through a duct.[WP,...",
+    "definition_uz": "Anatomik ta'rif (Bez): Endocrine glands are glands of the endocrine system that secrete their products directly into the circulatory system rather than through a duct.[WP, modified].",
     "slug": "/structure/endocrine-gland/",
-    "description_en": "Endocrine glands are glands of the endocrine system that secrete their products directly into the circulatory system rather than through a duct.[WP,..."
+    "description_en": "Endocrine glands are glands of the endocrine system that secrete their products directly into the circulatory system rather than through a duct.[WP, modified]."
   },
   {
     "id": "gld_00116",
@@ -1399,9 +1399,9 @@
     "type_uz": "Bez",
     "english": "endocrine glandular system",
     "translation_uz": "endocrine glandular system (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Anatomical system that consists of the glands and parts of glands that produce endocrine secretions and help to integrate and control bodily metabolic...",
+    "definition_uz": "Anatomik ta'rif (Bez): endocrine glandular system",
     "slug": "/structure/endocrine-system/",
-    "description_en": "Anatomical system that consists of the glands and parts of glands that produce endocrine secretions and help to integrate and control bodily metabolic..."
+    "description_en": "endocrine glandular system"
   },
   {
     "id": "gld_00118",
@@ -1483,9 +1483,9 @@
     "type_uz": "Bez",
     "english": "epithelial tissue",
     "translation_uz": "epithelial tissue (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal...",
+    "definition_uz": "Anatomik ta'rif (Bez): Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO].",
     "slug": "/structure/epithelium/",
-    "description_en": "Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal..."
+    "description_en": "Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO]."
   },
   {
     "id": "gld_00125",
@@ -1567,9 +1567,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "excretory duct of salivary gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any of the interlobular excretory ducts of a salivary gland which are found in the connective tissue septa and formed by the union of several...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any of the interlobular excretory ducts of a salivary gland which are found in the connective tissue septa and formed by the union of several intralobular striated (secretory) ducts[MP,generalized].",
     "slug": "/structure/excretory-duct-of-salivary-gland/",
-    "description_en": "Any of the interlobular excretory ducts of a salivary gland which are found in the connective tissue septa and formed by the union of several..."
+    "description_en": "Any of the interlobular excretory ducts of a salivary gland which are found in the connective tissue septa and formed by the union of several intralobular striated (secretory) ducts[MP,generalized]."
   },
   {
     "id": "gld_00132",
@@ -1591,9 +1591,9 @@
     "type_uz": "Bez",
     "english": "ducted gland",
     "translation_uz": "ducted gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A gland that secretes products (excluding hormones and other chemical messengers) into ducts (duct glands) which lead directly into the external...",
+    "definition_uz": "Anatomik ta'rif (Bez): A gland that secretes products (excluding hormones and other chemical messengers) into ducts (duct glands) which lead directly into the external environment[WP]. Typical exocrine glands include sweat glands, salivary glands, mammary glands, stomach, liver, pancreas.",
     "slug": "/structure/exocrine-gland/",
-    "description_en": "A gland that secretes products (excluding hormones and other chemical messengers) into ducts (duct glands) which lead directly into the external..."
+    "description_en": "A gland that secretes products (excluding hormones and other chemical messengers) into ducts (duct glands) which lead directly into the external environment[WP]. Typical exocrine glands include sweat glands, salivary glands, mammary glands, stomach, liver, pancreas."
   },
   {
     "id": "gld_00134",
@@ -1615,9 +1615,9 @@
     "type_uz": "Bez",
     "english": "exocrine component of pancreas",
     "translation_uz": "exocrine component of pancreas (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The part of the pancreas that is part of the exocrine system and which produces and store zymogens of digestive enzymes, such as chymotrypsinogen and...",
+    "definition_uz": "Anatomik ta'rif (Bez): exocrine component of pancreas",
     "slug": "/structure/exocrine-pancreas/",
-    "description_en": "The part of the pancreas that is part of the exocrine system and which produces and store zymogens of digestive enzymes, such as chymotrypsinogen and..."
+    "description_en": "exocrine component of pancreas"
   },
   {
     "id": "gld_00136",
@@ -1639,9 +1639,9 @@
     "type_uz": "Bez",
     "english": "exocrine glandular system",
     "translation_uz": "exocrine glandular system (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Anatomical system that consists of the glands and parts of glands that produce exocrine secretions and help to integrate and control bodily metabolic...",
+    "definition_uz": "Anatomik ta'rif (Bez): Anatomical system that consists of the glands and parts of glands that produce exocrine secretions and help to integrate and control bodily metabolic activity. Exocrine glands are glands that secrete their products (hormones) into ducts (duct glands). They are the counterparts to endocrine glands, which secrete their products (hormones) directly into the bloodstream (ductless glands) or release hormones (paracrines) that affect only target cells nearby the release site. [Wikipedia].",
     "slug": "/structure/exocrine-system/",
-    "description_en": "Anatomical system that consists of the glands and parts of glands that produce exocrine secretions and help to integrate and control bodily metabolic..."
+    "description_en": "Anatomical system that consists of the glands and parts of glands that produce exocrine secretions and help to integrate and control bodily metabolic activity. Exocrine glands are glands that secrete their products (hormones) into ducts (duct glands). They are the counterparts to endocrine glands, which secrete their products (hormones) directly into the bloodstream (ductless glands) or release hormones (paracrines) that affect only target cells nearby the release site. [Wikipedia]."
   },
   {
     "id": "gld_00138",
@@ -1687,9 +1687,9 @@
     "type_uz": "Bez",
     "english": "eye-associated gland",
     "translation_uz": "eye-associated gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A gland that is part of a eye. The eye is a compound unit which depending on the species may consist of an eyeballs plus associated ducts and...",
+    "definition_uz": "Anatomik ta'rif (Bez): A gland that is part of a eye. The eye is a compound unit which depending on the species may consist of an eyeballs plus associated ducts and integumentary structures. Eye glands therefore include the various types of lacrimal gland, the various types of apocrine and sebaceous glands associated with the eyelid.",
     "slug": "/structure/eye-gland/",
-    "description_en": "A gland that is part of a eye. The eye is a compound unit which depending on the species may consist of an eyeballs plus associated ducts and..."
+    "description_en": "A gland that is part of a eye. The eye is a compound unit which depending on the species may consist of an eyeballs plus associated ducts and integumentary structures. Eye glands therefore include the various types of lacrimal gland, the various types of apocrine and sebaceous glands associated with the eyelid."
   },
   {
     "id": "gld_00142",
@@ -1795,9 +1795,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "femoral pore (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Femoral pores are a part of a holocrine secretory gland found on the inside of the thighs of certain lizards and amphisbaenians which releases...",
+    "definition_uz": "Anatomik ta'rif (Bez): Femoral pores are a part of a holocrine secretory gland found on the inside of the thighs of certain lizards and amphisbaenians which releases pheromones to attract mates or mark territory. In certain species only the male has these pores and in other species, both sexes have them, with the males being larger.[1] Femoral pores appear as a series of pits or holes within a row of scales on the ventral portion of the animal&#x27;s thigh.",
     "slug": "/structure/femoral-pore/",
-    "description_en": "Femoral pores are a part of a holocrine secretory gland found on the inside of the thighs of certain lizards and amphisbaenians which releases..."
+    "description_en": "Femoral pores are a part of a holocrine secretory gland found on the inside of the thighs of certain lizards and amphisbaenians which releases pheromones to attract mates or mark territory. In certain species only the male has these pores and in other species, both sexes have them, with the males being larger.[1] Femoral pores appear as a series of pits or holes within a row of scales on the ventral portion of the animal&#x27;s thigh."
   },
   {
     "id": "gld_00151",
@@ -1819,9 +1819,9 @@
     "type_uz": "Bez",
     "english": "blind foramen of tongue",
     "translation_uz": "blind foramen of tongue (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The median pit on the dorsum of the posterior part of the tongue, from which the limbs of a V-shaped furrow run forward and outward; the foramen cecum...",
+    "definition_uz": "Anatomik ta'rif (Bez): The median pit on the dorsum of the posterior part of the tongue, from which the limbs of a V-shaped furrow run forward and outward; the foramen cecum is the point of attachment of the thyroglossal duct and is formed during the embryological descent of the thyroid gland.",
     "slug": "/structure/foramen-cecum-of-tongue/",
-    "description_en": "The median pit on the dorsum of the posterior part of the tongue, from which the limbs of a V-shaped furrow run forward and outward; the foramen cecum..."
+    "description_en": "The median pit on the dorsum of the posterior part of the tongue, from which the limbs of a V-shaped furrow run forward and outward; the foramen cecum is the point of attachment of the thyroglossal duct and is formed during the embryological descent of the thyroid gland."
   },
   {
     "id": "gld_00153",
@@ -1843,9 +1843,9 @@
     "type_uz": "Bez",
     "english": "forestomach - glandular stomach squamocolumnar junction",
     "translation_uz": "forestomach - glandular stomach squamocolumnar junction (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The distinct low fold of tissue that separates the non-glandular area of the stomach (forestomach) from the glandular stomach; the limiting ridge...",
+    "definition_uz": "Anatomik ta'rif (Bez): forestomach - glandular stomach squamocolumnar junction",
     "slug": "/structure/forestomach-glandular-stomach-junction/",
-    "description_en": "The distinct low fold of tissue that separates the non-glandular area of the stomach (forestomach) from the glandular stomach; the limiting ridge..."
+    "description_en": "forestomach - glandular stomach squamocolumnar junction"
   },
   {
     "id": "gld_00155",
@@ -1855,9 +1855,9 @@
     "type_uz": "Bez",
     "english": "fundal gland",
     "translation_uz": "fundal gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The fundus glands (or fundic glands, or gastric glands) are found in the body and fundus of the stomach. They are simple tubes, two or more of which...",
+    "definition_uz": "Anatomik ta'rif (Bez): The fundus glands (or fundic glands, or gastric glands) are found in the body and fundus of the stomach. They are simple tubes, two or more of which open into a single duct.",
     "slug": "/structure/fundic-gastric-gland/",
-    "description_en": "The fundus glands (or fundic glands, or gastric glands) are found in the body and fundus of the stomach. They are simple tubes, two or more of which..."
+    "description_en": "The fundus glands (or fundic glands, or gastric glands) are found in the body and fundus of the stomach. They are simple tubes, two or more of which open into a single duct."
   },
   {
     "id": "gld_00156",
@@ -1879,9 +1879,9 @@
     "type_uz": "Bez",
     "english": "foramen caecum",
     "translation_uz": "foramen caecum (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A thickened and indented region in the midline in the floor of the rostral part of the pharyngeal region of the foregut, located between the second and...",
+    "definition_uz": "Anatomik ta'rif (Bez): A thickened and indented region in the midline in the floor of the rostral part of the pharyngeal region of the foregut, located between the second and third branchial arches that is the first indication of the thyroid primordium. [Kaufman_MH_and_Bard_JBL, The_anatomical_basis_of_mouse_development_(1999)_San_Diego:_Academic_Press, p.132].",
     "slug": "/structure/future-foramen-cecum/",
-    "description_en": "A thickened and indented region in the midline in the floor of the rostral part of the pharyngeal region of the foregut, located between the second and..."
+    "description_en": "A thickened and indented region in the midline in the floor of the rostral part of the pharyngeal region of the foregut, located between the second and third branchial arches that is the first indication of the thyroid primordium. [Kaufman_MH_and_Bard_JBL, The_anatomical_basis_of_mouse_development_(1999)_San_Diego:_Academic_Press, p.132]."
   },
   {
     "id": "gld_00158",
@@ -1891,9 +1891,9 @@
     "type_uz": "Bez",
     "english": "neurohypohysial region",
     "translation_uz": "neurohypohysial region (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The outgrowth of neuroectoderm located on the floor of the embryonic hypothalamus that gives rise to the neurohypophysis (posterior lobe) of the...",
+    "definition_uz": "Anatomik ta'rif (Bez): The outgrowth of neuroectoderm located on the floor of the embryonic hypothalamus that gives rise to the neurohypophysis (posterior lobe) of the pituitary gland.",
     "slug": "/structure/future-neurohypophysis/",
-    "description_en": "The outgrowth of neuroectoderm located on the floor of the embryonic hypothalamus that gives rise to the neurohypophysis (posterior lobe) of the..."
+    "description_en": "The outgrowth of neuroectoderm located on the floor of the embryonic hypothalamus that gives rise to the neurohypophysis (posterior lobe) of the pituitary gland."
   },
   {
     "id": "gld_00159",
@@ -1915,9 +1915,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "gastric gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The branched tubular glands found in the mucosa of the fundus and body of the stomach which contain parietal cells that secrete hydrochloric acid and...",
+    "definition_uz": "Anatomik ta'rif (Bez): The branched tubular glands found in the mucosa of the fundus and body of the stomach which contain parietal cells that secrete hydrochloric acid and zymogenic cells that produce pepsin.",
     "slug": "/structure/gastric-gland/",
-    "description_en": "The branched tubular glands found in the mucosa of the fundus and body of the stomach which contain parietal cells that secrete hydrochloric acid and..."
+    "description_en": "The branched tubular glands found in the mucosa of the fundus and body of the stomach which contain parietal cells that secrete hydrochloric acid and zymogenic cells that produce pepsin."
   },
   {
     "id": "gld_00161",
@@ -1927,9 +1927,9 @@
     "type_uz": "Bez",
     "english": "foveola gastrica",
     "translation_uz": "foveola gastrica (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Gastric pits are indentations in the stomach which denote entrances to the gastric glands. They are deeper in the pylorus than they are in the other...",
+    "definition_uz": "Anatomik ta'rif (Bez): Gastric pits are indentations in the stomach which denote entrances to the gastric glands. They are deeper in the pylorus than they are in the other parts of the stomach. The human stomach has several million of these pits.",
     "slug": "/structure/gastric-pit/",
-    "description_en": "Gastric pits are indentations in the stomach which denote entrances to the gastric glands. They are deeper in the pylorus than they are in the other..."
+    "description_en": "Gastric pits are indentations in the stomach which denote entrances to the gastric glands. They are deeper in the pylorus than they are in the other parts of the stomach. The human stomach has several million of these pits."
   },
   {
     "id": "gld_00162",
@@ -2035,9 +2035,9 @@
     "type_uz": "Bez",
     "english": "glandula nasalis",
     "translation_uz": "glandula nasalis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The nasal glands are the seromucous glands in the respiratory region of the nasal mucous membrane. The three major types of nasal glands are anterior...",
+    "definition_uz": "Anatomik ta'rif (Bez): The nasal glands are the seromucous glands in the respiratory region of the nasal mucous membrane. The three major types of nasal glands are anterior serous glands, seromucous glands, and Bowman glands.",
     "slug": "/structure/gland-of-nasal-mucosa/",
-    "description_en": "The nasal glands are the seromucous glands in the respiratory region of the nasal mucous membrane. The three major types of nasal glands are anterior..."
+    "description_en": "The nasal glands are the seromucous glands in the respiratory region of the nasal mucous membrane. The three major types of nasal glands are anterior serous glands, seromucous glands, and Bowman glands."
   },
   {
     "id": "gld_00171",
@@ -2047,9 +2047,9 @@
     "type_uz": "Bez",
     "english": "ocular gland",
     "translation_uz": "ocular gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A gland that is typically found in or near the orbital region, in or around either the medial or lateral canthi, and is typically associated with...",
+    "definition_uz": "Anatomik ta'rif (Bez): A gland that is typically found in or near the orbital region, in or around either the medial or lateral canthi, and is typically associated with secretions onto the eyeball or associated ducts. Includes the Harderian, nictitans and lacrimal glands.",
     "slug": "/structure/gland-of-ocular-region/",
-    "description_en": "A gland that is typically found in or near the orbital region, in or around either the medial or lateral canthi, and is typically associated with..."
+    "description_en": "A gland that is typically found in or near the orbital region, in or around either the medial or lateral canthi, and is typically associated with secretions onto the eyeball or associated ducts. Includes the Harderian, nictitans and lacrimal glands."
   },
   {
     "id": "gld_00172",
@@ -2071,9 +2071,9 @@
     "type_uz": "Bez",
     "english": "ciliary sebaceous gland of eyelid",
     "translation_uz": "ciliary sebaceous gland of eyelid (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Glands of Zeis are unilobar sebaceous glands located on the margin of the eyelid. The glands of Zeis service the eyelash. These glands produce an oily...",
+    "definition_uz": "Anatomik ta'rif (Bez): ciliary sebaceous gland of eyelid",
     "slug": "/structure/gland-of-zeis/",
-    "description_en": "Glands of Zeis are unilobar sebaceous glands located on the margin of the eyelid. The glands of Zeis service the eyelash. These glands produce an oily..."
+    "description_en": "ciliary sebaceous gland of eyelid"
   },
   {
     "id": "gld_00174",
@@ -2143,9 +2143,9 @@
     "type_uz": "Bez",
     "english": "poison gland",
     "translation_uz": "poison gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A gland that contains toxic secretions within the lumen. In frogs and salamanders, this is the larger of the two types of gland, the other being the...",
+    "definition_uz": "Anatomik ta'rif (Bez): A gland that contains toxic secretions within the lumen. In frogs and salamanders, this is the larger of the two types of gland, the other being the mucuous gland[Kardong].",
     "slug": "/structure/granular-gland/",
-    "description_en": "A gland that contains toxic secretions within the lumen. In frogs and salamanders, this is the larger of the two types of gland, the other being the..."
+    "description_en": "A gland that contains toxic secretions within the lumen. In frogs and salamanders, this is the larger of the two types of gland, the other being the mucuous gland[Kardong]."
   },
   {
     "id": "gld_00180",
@@ -2167,9 +2167,9 @@
     "type_uz": "Bez",
     "english": "posterior deep lingual gland",
     "translation_uz": "posterior deep lingual gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A serous salivary gland which resides adjacent to the moats surrounding the circumvallate papillae in the posterior one-third of the tongue, anterior...",
+    "definition_uz": "Anatomik ta'rif (Bez): posterior deep lingual gland",
     "slug": "/structure/gustatory-gland/",
-    "description_en": "A serous salivary gland which resides adjacent to the moats surrounding the circumvallate papillae in the posterior one-third of the tongue, anterior..."
+    "description_en": "posterior deep lingual gland"
   },
   {
     "id": "gld_00182",
@@ -2191,9 +2191,9 @@
     "type_uz": "Bez",
     "english": "deep gland of the nictitating membrane",
     "translation_uz": "deep gland of the nictitating membrane (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The Harderian gland is an anterior orbital gland usually associated with the nictitating membrane, and produces and secretes a variety of substances to...",
+    "definition_uz": "Anatomik ta'rif (Bez): deep gland of the nictitating membrane",
     "slug": "/structure/harderian-gland/",
-    "description_en": "The Harderian gland is an anterior orbital gland usually associated with the nictitating membrane, and produces and secretes a variety of substances to..."
+    "description_en": "deep gland of the nictitating membrane"
   },
   {
     "id": "gld_00184",
@@ -2227,9 +2227,9 @@
     "type_uz": "Bez",
     "english": "frontal gland",
     "translation_uz": "frontal gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The cells of the hatching gland contain enzymes responsible for solubilization of the egg chorion, facilitating the hatching process[GO]. A...",
+    "definition_uz": "Anatomik ta'rif (Bez): The cells of the hatching gland contain enzymes responsible for solubilization of the egg chorion, facilitating the hatching process[GO]. A transversely oriented set of cells located deep to the EVL on the pericardial membrane, especially prominent during pharyngula period because of the brightly refractile cytoplasmic granules (containing hatching enzymes) of the principal cells of the gland.",
     "slug": "/structure/hatching-gland/",
-    "description_en": "The cells of the hatching gland contain enzymes responsible for solubilization of the egg chorion, facilitating the hatching process[GO]. A..."
+    "description_en": "The cells of the hatching gland contain enzymes responsible for solubilization of the egg chorion, facilitating the hatching process[GO]. A transversely oriented set of cells located deep to the EVL on the pericardial membrane, especially prominent during pharyngula period because of the brightly refractile cytoplasmic granules (containing hatching enzymes) of the principal cells of the gland."
   },
   {
     "id": "gld_00187",
@@ -2251,9 +2251,9 @@
     "type_uz": "Bez",
     "english": "caput pancreatis",
     "translation_uz": "caput pancreatis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The head of pancreas is a portion of the pancreas that is lodged within the curve of the duodenum, and is flattened anteriorly (from before). The other...",
+    "definition_uz": "Anatomik ta'rif (Bez): The head of pancreas is a portion of the pancreas that is lodged within the curve of the duodenum, and is flattened anteriorly (from before). The other parts of the pancreas are the body and the tail. Its upper border is overlapped by the superior part of the duodenum and its lower overlaps the horizontal part; its right and left borders overlap in front, and insinuate themselves behind, the descending and ascending parts of the duodenum respectively. [WP,unvetted].",
     "slug": "/structure/head-of-pancreas/",
-    "description_en": "The head of pancreas is a portion of the pancreas that is lodged within the curve of the duodenum, and is flattened anteriorly (from before). The other..."
+    "description_en": "The head of pancreas is a portion of the pancreas that is lodged within the curve of the duodenum, and is flattened anteriorly (from before). The other parts of the pancreas are the body and the tail. Its upper border is overlapped by the superior part of the duodenum and its lower overlaps the horizontal part; its right and left borders overlap in front, and insinuate themselves behind, the descending and ascending parts of the duodenum respectively. [WP,unvetted]."
   },
   {
     "id": "gld_00189",
@@ -2299,9 +2299,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "hepatopancreas (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): An organ of the digestive tract of arthropods and molluscs. It provides the functions which in mammals are provided separately by the liver and...",
+    "definition_uz": "Anatomik ta'rif (Bez): An organ of the digestive tract of arthropods and molluscs. It provides the functions which in mammals are provided separately by the liver and pancreas, including the production of digestive enzymes, and absorption of digested food.",
     "slug": "/structure/hepatopancreas/",
-    "description_en": "An organ of the digestive tract of arthropods and molluscs. It provides the functions which in mammals are provided separately by the liver and..."
+    "description_en": "An organ of the digestive tract of arthropods and molluscs. It provides the functions which in mammals are provided separately by the liver and pancreas, including the production of digestive enzymes, and absorption of digested food."
   },
   {
     "id": "gld_00193",
@@ -2311,9 +2311,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "holocrine gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any exocrine gland whose secretion consists of its own disintegrated secretory cells along with its secretory product; holocrine secretions are...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any exocrine gland whose secretion consists of its own disintegrated secretory cells along with its secretory product; holocrine secretions are produced in the cytoplasm of the cell and released by the rupture of the plasma membrane, which destroys the cell and results in the secretion of the product into the lumen.",
     "slug": "/structure/holocrine-gland/",
-    "description_en": "Any exocrine gland whose secretion consists of its own disintegrated secretory cells along with its secretory product; holocrine secretions are..."
+    "description_en": "Any exocrine gland whose secretion consists of its own disintegrated secretory cells along with its secretory product; holocrine secretions are produced in the cytoplasm of the cell and released by the rupture of the plasma membrane, which destroys the cell and results in the secretion of the product into the lumen."
   },
   {
     "id": "gld_00194",
@@ -2371,9 +2371,9 @@
     "type_uz": "Bez",
     "english": "cornu inferius (cartilago thyroidea)",
     "translation_uz": "cornu inferius (cartilago thyroidea) (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The inferior horn of thyroid cartilage is short and thick; it is directed downward, with a slight inclination forward and medialward, and presents, on...",
+    "definition_uz": "Anatomik ta'rif (Bez): cornu inferius (cartilago thyroidea)",
     "slug": "/structure/inferior-horn-of-thyroid-cartilage/",
-    "description_en": "The inferior horn of thyroid cartilage is short and thick; it is directed downward, with a slight inclination forward and medialward, and presents, on..."
+    "description_en": "cornu inferius (cartilago thyroidea)"
   },
   {
     "id": "gld_00199",
@@ -2431,9 +2431,9 @@
     "type_uz": "Bez",
     "english": "infundibular reccess",
     "translation_uz": "infundibular reccess (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A funnel-shaped diverticulum that extends downward from the anterior aspect of the floor of the third ventricle into the infundibulum of the...",
+    "definition_uz": "Anatomik ta'rif (Bez): A funnel-shaped diverticulum that extends downward from the anterior aspect of the floor of the third ventricle into the infundibulum of the hypophysis; the embryonic structure gives rise the neural component of the pituitary (pas nervosa).",
     "slug": "/structure/infundibular-recess-of-3rd-ventricle/",
-    "description_en": "A funnel-shaped diverticulum that extends downward from the anterior aspect of the floor of the third ventricle into the infundibulum of the..."
+    "description_en": "A funnel-shaped diverticulum that extends downward from the anterior aspect of the floor of the third ventricle into the infundibulum of the hypophysis; the embryonic structure gives rise the neural component of the pituitary (pas nervosa)."
   },
   {
     "id": "gld_00204",
@@ -2479,9 +2479,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "insect labial segment (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Most posterior of the gnathal segments. In the adult it bears a pair of fused appendages, the labia, and its ectodermal invaginations give rise to the...",
+    "definition_uz": "Anatomik ta'rif (Bez): Most posterior of the gnathal segments. In the adult it bears a pair of fused appendages, the labia, and its ectodermal invaginations give rise to the salivary glands.",
     "slug": "/structure/insect-labial-segment/",
-    "description_en": "Most posterior of the gnathal segments. In the adult it bears a pair of fused appendages, the labia, and its ectodermal invaginations give rise to the..."
+    "description_en": "Most posterior of the gnathal segments. In the adult it bears a pair of fused appendages, the labia, and its ectodermal invaginations give rise to the salivary glands."
   },
   {
     "id": "gld_00208",
@@ -2503,9 +2503,9 @@
     "type_uz": "Bez",
     "english": "adnexae cutis",
     "translation_uz": "adnexae cutis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Anatomical structure embedded in or located in the integument that is part of the integumental system. Examples: hair, follicles, skin glands, claws,...",
+    "definition_uz": "Anatomik ta'rif (Bez): Anatomical structure embedded in or located in the integument that is part of the integumental system. Examples: hair, follicles, skin glands, claws, nails, feathers.",
     "slug": "/structure/integumentary-adnexa/",
-    "description_en": "Anatomical structure embedded in or located in the integument that is part of the integumental system. Examples: hair, follicles, skin glands, claws,..."
+    "description_en": "Anatomical structure embedded in or located in the integument that is part of the integumental system. Examples: hair, follicles, skin glands, claws, nails, feathers."
   },
   {
     "id": "gld_00210",
@@ -2575,9 +2575,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "intermediate gastric gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any of the branched tubular glands in the mucosa of the fundus and body of the stomach that secrete most of the digestive substances secreted by the...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any of the branched tubular glands in the mucosa of the fundus and body of the stomach that secrete most of the digestive substances secreted by the stomach.",
     "slug": "/structure/intermediate-gastric-gland/",
-    "description_en": "Any of the branched tubular glands in the mucosa of the fundus and body of the stomach that secrete most of the digestive substances secreted by the..."
+    "description_en": "Any of the branched tubular glands in the mucosa of the fundus and body of the stomach that secrete most of the digestive substances secreted by the stomach."
   },
   {
     "id": "gld_00216",
@@ -2587,9 +2587,9 @@
     "type_uz": "Bez",
     "english": "internal male genital organ",
     "translation_uz": "internal male genital organ (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The internal masculine genital organs, including the testes, epididymides, deferent ducts, seminal vesicles, prostate, ejaculatory ducts, and...",
+    "definition_uz": "Anatomik ta'rif (Bez): internal male genital organ",
     "slug": "/structure/internal-male-genitalia/",
-    "description_en": "The internal masculine genital organs, including the testes, epididymides, deferent ducts, seminal vesicles, prostate, ejaculatory ducts, and..."
+    "description_en": "internal male genital organ"
   },
   {
     "id": "gld_00217",
@@ -2611,9 +2611,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "intervillous space (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): An anatomical space that separates the basal plate and the chorionic plate. The intervillous space is filled with endometrial gland secretions during...",
+    "definition_uz": "Anatomik ta'rif (Bez): An anatomical space that separates the basal plate and the chorionic plate. The intervillous space is filled with endometrial gland secretions during early stages of the pregnancy and later perfused with maternal blood, bathing the chorionic villous tree.",
     "slug": "/structure/intervillous-space/",
-    "description_en": "An anatomical space that separates the basal plate and the chorionic plate. The intervillous space is filled with endometrial gland secretions during..."
+    "description_en": "An anatomical space that separates the basal plate and the chorionic plate. The intervillous space is filled with endometrial gland secretions during early stages of the pregnancy and later perfused with maternal blood, bathing the chorionic villous tree."
   },
   {
     "id": "gld_00219",
@@ -2635,9 +2635,9 @@
     "type_uz": "Bez",
     "english": "intestinal juice",
     "translation_uz": "intestinal juice (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Clear to pale yellow watery secretions from the glands lining the small intestine walls. Secretion is stimulated by the mechanical pressure of partly...",
+    "definition_uz": "Anatomik ta'rif (Bez): Clear to pale yellow watery secretions from the glands lining the small intestine walls. Secretion is stimulated by the mechanical pressure of partly digested food in the intestine.",
     "slug": "/structure/intestine-secretion/",
-    "description_en": "Clear to pale yellow watery secretions from the glands lining the small intestine walls. Secretion is stimulated by the mechanical pressure of partly..."
+    "description_en": "Clear to pale yellow watery secretions from the glands lining the small intestine walls. Secretion is stimulated by the mechanical pressure of partly digested food in the intestine."
   },
   {
     "id": "gld_00221",
@@ -2695,9 +2695,9 @@
     "type_uz": "Bez",
     "english": "isthmus",
     "translation_uz": "isthmus (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A narrow median bridge that joins together the lower thirds of the two lateral (right and left) lobes of the thyroid gland and usually covers the...",
+    "definition_uz": "Anatomik ta'rif (Bez): A narrow median bridge that joins together the lower thirds of the two lateral (right and left) lobes of the thyroid gland and usually covers the second and the third tracheal rings; the thyroid isthmus is variable in presence and size, can change shape and size, and can encompass a cranially extending pyramid lobe (lobus pyramidalis or processus pyramidalis), remnant of the thyroglossal duct.",
     "slug": "/structure/isthmus-of-thyroid-gland/",
-    "description_en": "A narrow median bridge that joins together the lower thirds of the two lateral (right and left) lobes of the thyroid gland and usually covers the..."
+    "description_en": "A narrow median bridge that joins together the lower thirds of the two lateral (right and left) lobes of the thyroid gland and usually covers the second and the third tracheal rings; the thyroid isthmus is variable in presence and size, can change shape and size, and can encompass a cranially extending pyramid lobe (lobus pyramidalis or processus pyramidalis), remnant of the thyroglossal duct."
   },
   {
     "id": "gld_00226",
@@ -2707,9 +2707,9 @@
     "type_uz": "Bez",
     "english": "apparatus lacrimalis",
     "translation_uz": "apparatus lacrimalis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A network of orbital structures of the eye that secrete and drain tears from the surface of the eyeball into the nasal cavity; these parts include the...",
+    "definition_uz": "Anatomik ta'rif (Bez): A network of orbital structures of the eye that secrete and drain tears from the surface of the eyeball into the nasal cavity; these parts include the lacrimal glands, lacrimal lake, lacrimal ducts, lacrimal canals, lacrimal sacs, nasolacrimal ducts, and lacrimal puncta.",
     "slug": "/structure/lacrimal-apparatus/",
-    "description_en": "A network of orbital structures of the eye that secrete and drain tears from the surface of the eyeball into the nasal cavity; these parts include the..."
+    "description_en": "A network of orbital structures of the eye that secrete and drain tears from the surface of the eyeball into the nasal cavity; these parts include the lacrimal glands, lacrimal lake, lacrimal ducts, lacrimal canals, lacrimal sacs, nasolacrimal ducts, and lacrimal puncta."
   },
   {
     "id": "gld_00227",
@@ -2731,9 +2731,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "lacrimal gland bud (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The single bud-like invagination of the conjunctival fornix epithelium at the temporal aspect of the eye that signals lacrimal gland formation (Int Rev...",
+    "definition_uz": "Anatomik ta'rif (Bez): The single bud-like invagination of the conjunctival fornix epithelium at the temporal aspect of the eye that signals lacrimal gland formation (Int Rev Cytol. 1996;168:1-80. Cell biology of the harderian gland).",
     "slug": "/structure/lacrimal-gland-bud/",
-    "description_en": "The single bud-like invagination of the conjunctival fornix epithelium at the temporal aspect of the eye that signals lacrimal gland formation (Int Rev..."
+    "description_en": "The single bud-like invagination of the conjunctival fornix epithelium at the temporal aspect of the eye that signals lacrimal gland formation (Int Rev Cytol. 1996;168:1-80. Cell biology of the harderian gland)."
   },
   {
     "id": "gld_00229",
@@ -2863,9 +2863,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "left supraclavicular lymph node (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Supraclavicular lymph node located on the left side of a entire appendicular skeleton. The left supraclavicular lymph node drains the kidney, cervix,...",
+    "definition_uz": "Anatomik ta'rif (Bez): Supraclavicular lymph node located on the left side of a entire appendicular skeleton. The left supraclavicular lymph node drains the kidney, cervix, testis, and pancreas into the thoracic duct.",
     "slug": "/structure/left-supraclavicular-lymph-node/",
-    "description_en": "Supraclavicular lymph node located on the left side of a entire appendicular skeleton. The left supraclavicular lymph node drains the kidney, cervix,..."
+    "description_en": "Supraclavicular lymph node located on the left side of a entire appendicular skeleton. The left supraclavicular lymph node drains the kidney, cervix, testis, and pancreas into the thoracic duct."
   },
   {
     "id": "gld_00240",
@@ -2959,9 +2959,9 @@
     "type_uz": "Bez",
     "english": "Bartholin gland",
     "translation_uz": "Bartholin gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The paired glands located slightly posterior and to the left and right of the opening of the vagina in the superficial perineal pouch in females; they...",
+    "definition_uz": "Anatomik ta'rif (Bez): The paired glands located slightly posterior and to the left and right of the opening of the vagina in the superficial perineal pouch in females; they secrete mucus to lubricate the vagina and are homologous to bulbourethral (Cowper&#x27;s) glands in males.",
     "slug": "/structure/major-vestibular-gland/",
-    "description_en": "The paired glands located slightly posterior and to the left and right of the opening of the vagina in the superficial perineal pouch in females; they..."
+    "description_en": "The paired glands located slightly posterior and to the left and right of the opening of the vagina in the superficial perineal pouch in females; they secrete mucus to lubricate the vagina and are homologous to bulbourethral (Cowper&#x27;s) glands in males."
   },
   {
     "id": "gld_00248",
@@ -2971,9 +2971,9 @@
     "type_uz": "Bez",
     "english": "male accessory gland",
     "translation_uz": "male accessory gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any gland, other than the gonad, associated with the genital tract, such as the ampulla of the ductus deferens and the bulbourethral, prostate and...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any gland, other than the gonad, associated with the genital tract, such as the ampulla of the ductus deferens and the bulbourethral, prostate and vesicular glands of the male.",
     "slug": "/structure/male-accessory-sex-gland/",
-    "description_en": "Any gland, other than the gonad, associated with the genital tract, such as the ampulla of the ductus deferens and the bulbourethral, prostate and..."
+    "description_en": "Any gland, other than the gonad, associated with the genital tract, such as the ampulla of the ductus deferens and the bulbourethral, prostate and vesicular glands of the male."
   },
   {
     "id": "gld_00249",
@@ -2995,9 +2995,9 @@
     "type_uz": "Bez",
     "english": "intermediate part of male urethra",
     "translation_uz": "intermediate part of male urethra (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The shortest, least dilatable, and, with the exception of the external orifice, the narrowest part of the male urethral canal located in the deep...",
+    "definition_uz": "Anatomik ta'rif (Bez): intermediate part of male urethra",
     "slug": "/structure/male-membranous-urethra/",
-    "description_en": "The shortest, least dilatable, and, with the exception of the external orifice, the narrowest part of the male urethral canal located in the deep..."
+    "description_en": "intermediate part of male urethra"
   },
   {
     "id": "gld_00251",
@@ -3115,9 +3115,9 @@
     "type_uz": "Bez",
     "english": "lactiferous gland cord",
     "translation_uz": "lactiferous gland cord (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The solid cord of epithelial cells that emerges from the mammary bud and grows down from the primary mammary mesenchyme and into a second stromal...",
+    "definition_uz": "Anatomik ta'rif (Bez): The solid cord of epithelial cells that emerges from the mammary bud and grows down from the primary mammary mesenchyme and into a second stromal compartment, the fat pad precursor, beneath the dermis.",
     "slug": "/structure/mammary-gland-cord/",
-    "description_en": "The solid cord of epithelial cells that emerges from the mammary bud and grows down from the primary mammary mesenchyme and into a second stromal..."
+    "description_en": "The solid cord of epithelial cells that emerges from the mammary bud and grows down from the primary mammary mesenchyme and into a second stromal compartment, the fat pad precursor, beneath the dermis."
   },
   {
     "id": "gld_00261",
@@ -3139,9 +3139,9 @@
     "type_uz": "Bez",
     "english": "lactiferous gland fluid",
     "translation_uz": "lactiferous gland fluid (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A substance that is secreted by a mammary gland. The substance may differ depending on phase, with colostrum produced during pregancy/early lactation,...",
+    "definition_uz": "Anatomik ta'rif (Bez): A substance that is secreted by a mammary gland. The substance may differ depending on phase, with colostrum produced during pregancy/early lactation, and milk produced afterwards.",
     "slug": "/structure/mammary-gland-fluidsecretion/",
-    "description_en": "A substance that is secreted by a mammary gland. The substance may differ depending on phase, with colostrum produced during pregancy/early lactation,..."
+    "description_en": "A substance that is secreted by a mammary gland. The substance may differ depending on phase, with colostrum produced during pregancy/early lactation, and milk produced afterwards."
   },
   {
     "id": "gld_00263",
@@ -3151,9 +3151,9 @@
     "type_uz": "Bez",
     "english": "lumina layer of epithelium of lactiferous gland",
     "translation_uz": "lumina layer of epithelium of lactiferous gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The inner cell layer of the mammary epithelium bilayer that lines the luminal surface of mammary gland ducts and alveoli; luminal cells have only...",
+    "definition_uz": "Anatomik ta'rif (Bez): lumina layer of epithelium of lactiferous gland",
     "slug": "/structure/mammary-gland-luminal-epithelium/",
-    "description_en": "The inner cell layer of the mammary epithelium bilayer that lines the luminal surface of mammary gland ducts and alveoli; luminal cells have only..."
+    "description_en": "lumina layer of epithelium of lactiferous gland"
   },
   {
     "id": "gld_00264",
@@ -3235,9 +3235,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "merocrine gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): An exocrine gland whose secretions are excreted via exocytosis from secretory cells into an epithelial-walled duct or ducts and thence onto a bodily...",
+    "definition_uz": "Anatomik ta'rif (Bez): An exocrine gland whose secretions are excreted via exocytosis from secretory cells into an epithelial-walled duct or ducts and thence onto a bodily surface or into the lumen; the gland releases its product and no part of the gland is lost or damaged.",
     "slug": "/structure/merocrine-gland/",
-    "description_en": "An exocrine gland whose secretions are excreted via exocytosis from secretory cells into an epithelial-walled duct or ducts and thence onto a bodily..."
+    "description_en": "An exocrine gland whose secretions are excreted via exocytosis from secretory cells into an epithelial-walled duct or ducts and thence onto a bodily surface or into the lumen; the gland releases its product and no part of the gland is lost or damaged."
   },
   {
     "id": "gld_00271",
@@ -3355,9 +3355,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "mixed stratified cuboidal and columnar epithelium (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Multilaminar epithelium, which consists of more than one layer of cuboidal and columnar cells, only one layer of which is in contact with a basement...",
+    "definition_uz": "Anatomik ta'rif (Bez): Multilaminar epithelium, which consists of more than one layer of cuboidal and columnar cells, only one layer of which is in contact with a basement membrane. Examples: epithelium of wall of pancreatic duct, epithelium of wall of duct of salivary gland.",
     "slug": "/structure/mixed-stratified-cuboidal-and-columnar-epithelium/",
-    "description_en": "Multilaminar epithelium, which consists of more than one layer of cuboidal and columnar cells, only one layer of which is in contact with a basement..."
+    "description_en": "Multilaminar epithelium, which consists of more than one layer of cuboidal and columnar cells, only one layer of which is in contact with a basement membrane. Examples: epithelium of wall of pancreatic duct, epithelium of wall of duct of salivary gland."
   },
   {
     "id": "gld_00281",
@@ -3403,9 +3403,9 @@
     "type_uz": "Bez",
     "english": "mucosa of organ",
     "translation_uz": "mucosa of organ (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A lining of mostly endodermal origin, covered in epithelium, which is involved in absorption and secretion. They line various body cavities that are...",
+    "definition_uz": "Anatomik ta'rif (Bez): A lining of mostly endodermal origin, covered in epithelium, which is involved in absorption and secretion. They line various body cavities that are exposed to the external environment and internal organs. It is at several places continuous with skin: at the nostrils, the lips, the ears, the genital area, and the anus. The sticky, thick fluid secreted by the mucous membranes and gland is termed mucus. The term mucous membrane refers to where they are found in the body and not every mucous membrane secretes mucus[WP].",
     "slug": "/structure/mucosa/",
-    "description_en": "A lining of mostly endodermal origin, covered in epithelium, which is involved in absorption and secretion. They line various body cavities that are..."
+    "description_en": "A lining of mostly endodermal origin, covered in epithelium, which is involved in absorption and secretion. They line various body cavities that are exposed to the external environment and internal organs. It is at several places continuous with skin: at the nostrils, the lips, the ears, the genital area, and the anus. The sticky, thick fluid secreted by the mucous membranes and gland is termed mucus. The term mucous membrane refers to where they are found in the body and not every mucous membrane secretes mucus[WP]."
   },
   {
     "id": "gld_00285",
@@ -3415,9 +3415,9 @@
     "type_uz": "Bez",
     "english": "epithelio-lymphoid tissue",
     "translation_uz": "epithelio-lymphoid tissue (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Diffuse system of small concentrations of lymphoid tissue found in various sites of the body such as the gastrointestinal tract, thyroid, breast, lung,...",
+    "definition_uz": "Anatomik ta'rif (Bez): Diffuse system of small concentrations of lymphoid tissue found in various sites of the body such as the gastrointestinal tract, thyroid, breast, lung, salivary glands, eye, and skin[WP]. Mucosal-associated lymphoid tissue is typically found as nodules associated with mucosal epithelia with distinct internal structures including B- and T-zones for the activation of lymphocytes[GO].",
     "slug": "/structure/mucosa-associated-lymphoid-tissue/",
-    "description_en": "Diffuse system of small concentrations of lymphoid tissue found in various sites of the body such as the gastrointestinal tract, thyroid, breast, lung,..."
+    "description_en": "Diffuse system of small concentrations of lymphoid tissue found in various sites of the body such as the gastrointestinal tract, thyroid, breast, lung, salivary glands, eye, and skin[WP]. Mucosal-associated lymphoid tissue is typically found as nodules associated with mucosal epithelia with distinct internal structures including B- and T-zones for the activation of lymphocytes[GO]."
   },
   {
     "id": "gld_00286",
@@ -3499,9 +3499,9 @@
     "type_uz": "Bez",
     "english": "mature nephron",
     "translation_uz": "mature nephron (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The basic functional unit of the kidney. its chief function is to regulate the concentration of water and soluble substances like sodium salts by...",
+    "definition_uz": "Anatomik ta'rif (Bez): The basic functional unit of the kidney. its chief function is to regulate the concentration of water and soluble substances like sodium salts by filtering the blood, reabsorbing what is needed and excreting the rest as urine. A nephron eliminates wastes from the body, regulates blood volume and blood pressure, controls levels of electrolytes and metabolites, and regulates blood pH. Its functions are vital to life and are regulated by the endocrine system by hormones such as antidiuretic hormone, aldosterone, and parathyroid hormone.[WP].",
     "slug": "/structure/nephron/",
-    "description_en": "The basic functional unit of the kidney. its chief function is to regulate the concentration of water and soluble substances like sodium salts by..."
+    "description_en": "The basic functional unit of the kidney. its chief function is to regulate the concentration of water and soluble substances like sodium salts by filtering the blood, reabsorbing what is needed and excreting the rest as urine. A nephron eliminates wastes from the body, regulates blood volume and blood pressure, controls levels of electrolytes and metabolites, and regulates blood pH. Its functions are vital to life and are regulated by the endocrine system by hormones such as antidiuretic hormone, aldosterone, and parathyroid hormone.[WP]."
   },
   {
     "id": "gld_00293",
@@ -3511,9 +3511,9 @@
     "type_uz": "Bez",
     "english": "caudal lobe",
     "translation_uz": "caudal lobe (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The posterior pituitary (or neurohypophysis) comprises the posterior lobe of the pituitary gland and is part of the endocrine system. Despite its name,...",
+    "definition_uz": "Anatomik ta'rif (Bez): The posterior pituitary (or neurohypophysis) comprises the posterior lobe of the pituitary gland and is part of the endocrine system. Despite its name, the posterior pituitary gland is not a gland, per se; rather, it is largely a collection of axonal projections from the hypothalamus that terminate behind the anterior pituitary gland. [WP,unvetted].",
     "slug": "/structure/neural-lobe-of-neurohypophysis/",
-    "description_en": "The posterior pituitary (or neurohypophysis) comprises the posterior lobe of the pituitary gland and is part of the endocrine system. Despite its name,..."
+    "description_en": "The posterior pituitary (or neurohypophysis) comprises the posterior lobe of the pituitary gland and is part of the endocrine system. Despite its name, the posterior pituitary gland is not a gland, per se; rather, it is largely a collection of axonal projections from the hypothalamus that terminate behind the anterior pituitary gland. [WP,unvetted]."
   },
   {
     "id": "gld_00294",
@@ -3535,9 +3535,9 @@
     "type_uz": "Bez",
     "english": "NES",
     "translation_uz": "NES (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A regulatory system of the body that integrates the nervous system and the endocrine system. This system is formed by specialized neuroendocrine cells...",
+    "definition_uz": "Anatomik ta'rif (Bez): A regulatory system of the body that integrates the nervous system and the endocrine system. This system is formed by specialized neuroendocrine cells located mainly in the nervous system and neuroendocrine glands. However, they can also be found as either single cells or small clusters of cells dispersed throughout the surface epithelium of different tissues. The neuroendocrine system functions through the release of neurotransmitters and neurohormones, enabling communication between the endocrine and nervous systems to govern vitally important processes that include growth, reproduction, metabolism and energy homeostasis, electrolyte and water balance, and responses to stress.",
     "slug": "/structure/neuroendocrine-system/",
-    "description_en": "A regulatory system of the body that integrates the nervous system and the endocrine system. This system is formed by specialized neuroendocrine cells..."
+    "description_en": "A regulatory system of the body that integrates the nervous system and the endocrine system. This system is formed by specialized neuroendocrine cells located mainly in the nervous system and neuroendocrine glands. However, they can also be found as either single cells or small clusters of cells dispersed throughout the surface epithelium of different tissues. The neuroendocrine system functions through the release of neurotransmitters and neurohormones, enabling communication between the endocrine and nervous systems to govern vitally important processes that include growth, reproduction, metabolism and energy homeostasis, electrolyte and water balance, and responses to stress."
   },
   {
     "id": "gld_00296",
@@ -3583,9 +3583,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "noradrenergic cell groups (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Collections of neurons in the central nervous system that have been demonstrated by histochemical fluorescence to contain the neurotransmitter...",
+    "definition_uz": "Anatomik ta'rif (Bez): Collections of neurons in the central nervous system that have been demonstrated by histochemical fluorescence to contain the neurotransmitter norepinephrine (noradrenalin).",
     "slug": "/structure/noradrenergic-cell-groups/",
-    "description_en": "Collections of neurons in the central nervous system that have been demonstrated by histochemical fluorescence to contain the neurotransmitter..."
+    "description_en": "Collections of neurons in the central nervous system that have been demonstrated by histochemical fluorescence to contain the neurotransmitter norepinephrine (noradrenalin)."
   },
   {
     "id": "gld_00300",
@@ -3607,9 +3607,9 @@
     "type_uz": "Bez",
     "english": "eye surface",
     "translation_uz": "eye surface (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The integrated unit (of the eye) that consists of the conjunctiva, the corneal surface, and the ocular mucosal adnexa including the lid margins and the...",
+    "definition_uz": "Anatomik ta'rif (Bez): The integrated unit (of the eye) that consists of the conjunctiva, the corneal surface, and the ocular mucosal adnexa including the lid margins and the meibomian gland openings, the lacrimal glands and the lacrimal drainage system, all which are critical to maintain ocular surface integrity and provide protection from external antigens and pathogenic microorganisms.",
     "slug": "/structure/ocular-surface-region/",
-    "description_en": "The integrated unit (of the eye) that consists of the conjunctiva, the corneal surface, and the ocular mucosal adnexa including the lid margins and the..."
+    "description_en": "The integrated unit (of the eye) that consists of the conjunctiva, the corneal surface, and the ocular mucosal adnexa including the lid margins and the meibomian gland openings, the lacrimal glands and the lacrimal drainage system, all which are critical to maintain ocular surface integrity and provide protection from external antigens and pathogenic microorganisms."
   },
   {
     "id": "gld_00302",
@@ -3655,9 +3655,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "oviduct albumen gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A gland in the glandular region of the oviduct that secretes albumen over the ovum. In birds there are two regions of the oviduct, the first secretes a...",
+    "definition_uz": "Anatomik ta'rif (Bez): A gland in the glandular region of the oviduct that secretes albumen over the ovum. In birds there are two regions of the oviduct, the first secretes a thin chalaziferous albumen layer, the second secretes a thicker albumen layer.",
     "slug": "/structure/oviduct-albumen-gland/",
-    "description_en": "A gland in the glandular region of the oviduct that secretes albumen over the ovum. In birds there are two regions of the oviduct, the first secretes a..."
+    "description_en": "A gland in the glandular region of the oviduct that secretes albumen over the ovum. In birds there are two regions of the oviduct, the first secretes a thin chalaziferous albumen layer, the second secretes a thicker albumen layer."
   },
   {
     "id": "gld_00306",
@@ -3679,9 +3679,9 @@
     "type_uz": "Bez",
     "english": "palatine glands set",
     "translation_uz": "palatine glands set (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The palatine glands form a continuous layer on its posterior surface and around the uvula. They are primarily mucous secreting glands, as opposed to...",
+    "definition_uz": "Anatomik ta'rif (Bez): The palatine glands form a continuous layer on its posterior surface and around the uvula. They are primarily mucous secreting glands, as opposed to serous or mixed secreting glands. [WP,unvetted].",
     "slug": "/structure/palatine-gland/",
-    "description_en": "The palatine glands form a continuous layer on its posterior surface and around the uvula. They are primarily mucous secreting glands, as opposed to..."
+    "description_en": "The palatine glands form a continuous layer on its posterior surface and around the uvula. They are primarily mucous secreting glands, as opposed to serous or mixed secreting glands. [WP,unvetted]."
   },
   {
     "id": "gld_00308",
@@ -3763,9 +3763,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "pancreas mesenchyme (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The embryonic connective tissue made up of loosely aggregated mesenchymal cells, supported by interlaminar jelly, that gives rise to the developing...",
+    "definition_uz": "Anatomik ta'rif (Bez): The embryonic connective tissue made up of loosely aggregated mesenchymal cells, supported by interlaminar jelly, that gives rise to the developing pancreas.",
     "slug": "/structure/pancreas-mesenchyme/",
-    "description_en": "The embryonic connective tissue made up of loosely aggregated mesenchymal cells, supported by interlaminar jelly, that gives rise to the developing..."
+    "description_en": "The embryonic connective tissue made up of loosely aggregated mesenchymal cells, supported by interlaminar jelly, that gives rise to the developing pancreas."
   },
   {
     "id": "gld_00315",
@@ -3835,9 +3835,9 @@
     "type_uz": "Bez",
     "english": "acinus pancreaticus",
     "translation_uz": "acinus pancreaticus (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The secretory units of the exocrine pancreas, where fluid containing digestive enzymes is produced; consists of a group of secretory cells surrounding...",
+    "definition_uz": "Anatomik ta'rif (Bez): The secretory units of the exocrine pancreas, where fluid containing digestive enzymes is produced; consists of a group of secretory cells surrounding a luminal space that connects to the pancreatic duct.",
     "slug": "/structure/pancreatic-acinus/",
-    "description_en": "The secretory units of the exocrine pancreas, where fluid containing digestive enzymes is produced; consists of a group of secretory cells surrounding..."
+    "description_en": "The secretory units of the exocrine pancreas, where fluid containing digestive enzymes is produced; consists of a group of secretory cells surrounding a luminal space that connects to the pancreatic duct."
   },
   {
     "id": "gld_00321",
@@ -3919,9 +3919,9 @@
     "type_uz": "Bez",
     "english": "epithelial body",
     "translation_uz": "epithelial body (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The parathyroid gland is an endocrine gland for secretion of parathyroid hormone, usually found as a pair, embedded in the connective tissue capsule on...",
+    "definition_uz": "Anatomik ta'rif (Bez): The parathyroid gland is an endocrine gland for secretion of parathyroid hormone, usually found as a pair, embedded in the connective tissue capsule on the posterior surface of the thyroid gland. Parathyroid regulates calcium and phosphorous metabolism.",
     "slug": "/structure/parathyroid-gland/",
-    "description_en": "The parathyroid gland is an endocrine gland for secretion of parathyroid hormone, usually found as a pair, embedded in the connective tissue capsule on..."
+    "description_en": "The parathyroid gland is an endocrine gland for secretion of parathyroid hormone, usually found as a pair, embedded in the connective tissue capsule on the posterior surface of the thyroid gland. Parathyroid regulates calcium and phosphorous metabolism."
   },
   {
     "id": "gld_00328",
@@ -3943,9 +3943,9 @@
     "type_uz": "Bez",
     "english": "female prostate",
     "translation_uz": "female prostate (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The numerous mucous-secreting glands found in several female mammalian species (including rodents and humans) on the anterior wall of the vagina,...",
+    "definition_uz": "Anatomik ta'rif (Bez): The numerous mucous-secreting glands found in several female mammalian species (including rodents and humans) on the anterior wall of the vagina, around the lower end of the urethra, and possessing a common paraurethral duct which opens (on each side) near the external urethral orifice; they are homologous with the prostate gland in males, have highly variable anatomy, and are believed to be the source of the female ejaculate, a lubricating fluid with a similar consistency to male prostatic fluid that is expelled through the urethra during sexual stimulation; like the male prostate, these glands are susceptible to infection (skenitis), cyst development, and cancer.",
     "slug": "/structure/paraurethral-gland/",
-    "description_en": "The numerous mucous-secreting glands found in several female mammalian species (including rodents and humans) on the anterior wall of the vagina,..."
+    "description_en": "The numerous mucous-secreting glands found in several female mammalian species (including rodents and humans) on the anterior wall of the vagina, around the lower end of the urethra, and possessing a common paraurethral duct which opens (on each side) near the external urethral orifice; they are homologous with the prostate gland in males, have highly variable anatomy, and are believed to be the source of the female ejaculate, a lubricating fluid with a similar consistency to male prostatic fluid that is expelled through the urethra during sexual stimulation; like the male prostate, these glands are susceptible to infection (skenitis), cyst development, and cancer."
   },
   {
     "id": "gld_00330",
@@ -3955,9 +3955,9 @@
     "type_uz": "Bez",
     "english": "lactiferous gland parenchyma",
     "translation_uz": "lactiferous gland parenchyma (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Parenchymal tissue that consists of the alveoli, grape-like clusters where milk is stored, and branching ducts, which are tubular canals carrying...",
+    "definition_uz": "Anatomik ta'rif (Bez): lactiferous gland parenchyma",
     "slug": "/structure/parenchyma-of-mammary-gland/",
-    "description_en": "Parenchymal tissue that consists of the alveoli, grape-like clusters where milk is stored, and branching ducts, which are tubular canals carrying..."
+    "description_en": "lactiferous gland parenchyma"
   },
   {
     "id": "gld_00331",
@@ -4003,9 +4003,9 @@
     "type_uz": "Bez",
     "english": "glandula parotidea",
     "translation_uz": "glandula parotidea (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The parotid gland is the largest of the salivary glands. It is found wrapped around the mandibular ramus, and it secretes saliva through Stensen&#x27;s duct...",
+    "definition_uz": "Anatomik ta'rif (Bez): The parotid gland is the largest of the salivary glands. It is found wrapped around the mandibular ramus, and it secretes saliva through Stensen&#x27;s duct into the oral cavity, to facilitate mastication and swallowing. [WP,unvetted].",
     "slug": "/structure/parotid-gland/",
-    "description_en": "The parotid gland is the largest of the salivary glands. It is found wrapped around the mandibular ramus, and it secretes saliva through Stensen&#x27;s duct..."
+    "description_en": "The parotid gland is the largest of the salivary glands. It is found wrapped around the mandibular ramus, and it secretes saliva through Stensen&#x27;s duct into the oral cavity, to facilitate mastication and swallowing. [WP,unvetted]."
   },
   {
     "id": "gld_00335",
@@ -4015,9 +4015,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "parotid gland excretory duct (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any of the interlobular excretory ducts of the parotid gland which are found in the connective tissue septa and formed by the union of several...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any of the interlobular excretory ducts of the parotid gland which are found in the connective tissue septa and formed by the union of several intralobular striated (secretory) ducts; ultimately, the excretory ducts of the parotid gland coalesce and form a single main excretory duct (Stensen&#x27;s duct) that opens into the oral cavity; excretory ducts do not change the secretory product.",
     "slug": "/structure/parotid-gland-excretory-duct/",
-    "description_en": "Any of the interlobular excretory ducts of the parotid gland which are found in the connective tissue septa and formed by the union of several..."
+    "description_en": "Any of the interlobular excretory ducts of the parotid gland which are found in the connective tissue septa and formed by the union of several intralobular striated (secretory) ducts; ultimately, the excretory ducts of the parotid gland coalesce and form a single main excretory duct (Stensen&#x27;s duct) that opens into the oral cavity; excretory ducts do not change the secretory product."
   },
   {
     "id": "gld_00336",
@@ -4027,9 +4027,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "parotid gland intercalated duct (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any of the small intralobular tubular canal that leads directly from the serous acinus of the parotid gland to a striated (secretory) duct; in mouse,...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any of the small intralobular tubular canal that leads directly from the serous acinus of the parotid gland to a striated (secretory) duct; in mouse, the intercalated ducts are short and narrow and are lined by low cuboidal epithelial cells with large central nuclei; they secrete bicarbonate ion into and absorb chloride ion from the acinar product.",
     "slug": "/structure/parotid-gland-intercalated-duct/",
-    "description_en": "Any of the small intralobular tubular canal that leads directly from the serous acinus of the parotid gland to a striated (secretory) duct; in mouse,..."
+    "description_en": "Any of the small intralobular tubular canal that leads directly from the serous acinus of the parotid gland to a striated (secretory) duct; in mouse, the intercalated ducts are short and narrow and are lined by low cuboidal epithelial cells with large central nuclei; they secrete bicarbonate ion into and absorb chloride ion from the acinar product."
   },
   {
     "id": "gld_00337",
@@ -4051,9 +4051,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "parotid gland intralobular duct (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any of the tubular canals of the parotid gland located within the parenchymal (secretory) tissue i.e. within lobules; both intercalated and striated...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any of the tubular canals of the parotid gland located within the parenchymal (secretory) tissue i.e. within lobules; both intercalated and striated (secretory) ducts are intralobular ducts.",
     "slug": "/structure/parotid-gland-intralobular-duct/",
-    "description_en": "Any of the tubular canals of the parotid gland located within the parenchymal (secretory) tissue i.e. within lobules; both intercalated and striated..."
+    "description_en": "Any of the tubular canals of the parotid gland located within the parenchymal (secretory) tissue i.e. within lobules; both intercalated and striated (secretory) ducts are intralobular ducts."
   },
   {
     "id": "gld_00339",
@@ -4087,9 +4087,9 @@
     "type_uz": "Bez",
     "english": "paratoid gland",
     "translation_uz": "paratoid gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The parotoid gland (alternatively, paratoid gland) is an external skin gland on the back, neck, and shoulder of toads and some frogs and salamanders....",
+    "definition_uz": "Anatomik ta'rif (Bez): The parotoid gland (alternatively, paratoid gland) is an external skin gland on the back, neck, and shoulder of toads and some frogs and salamanders. It secretes a milky alkaloid substance to deter predators. The substance produced acts as a neurotoxin. Parotoid glands are sometimes said to be wart-like in appearance, though warts are abnormal growths caused by viral infections while parotoid glands are normal, healthy parts of the animals that bear them. The vague similarity in appearance, however, is the reason behind the mistaken belief that touching a toad causes warts.",
     "slug": "/structure/parotoid-gland/",
-    "description_en": "The parotoid gland (alternatively, paratoid gland) is an external skin gland on the back, neck, and shoulder of toads and some frogs and salamanders...."
+    "description_en": "The parotoid gland (alternatively, paratoid gland) is an external skin gland on the back, neck, and shoulder of toads and some frogs and salamanders. It secretes a milky alkaloid substance to deter predators. The substance produced acts as a neurotoxin. Parotoid glands are sometimes said to be wart-like in appearance, though warts are abnormal growths caused by viral infections while parotoid glands are normal, healthy parts of the animals that bear them. The vague similarity in appearance, however, is the reason behind the mistaken belief that touching a toad causes warts."
   },
   {
     "id": "gld_00342",
@@ -4111,9 +4111,9 @@
     "type_uz": "Bez",
     "english": "intermediate lobe",
     "translation_uz": "intermediate lobe (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The thin boundary between the adenohypophysis and neurohypophysis of the pituitary that produces melanocyte stimulating hormone (MSH); this area is...",
+    "definition_uz": "Anatomik ta'rif (Bez): The thin boundary between the adenohypophysis and neurohypophysis of the pituitary that produces melanocyte stimulating hormone (MSH); this area is small or absent in mammalian adults.",
     "slug": "/structure/pars-intermedia-of-adenohypophysis/",
-    "description_en": "The thin boundary between the adenohypophysis and neurohypophysis of the pituitary that produces melanocyte stimulating hormone (MSH); this area is..."
+    "description_en": "The thin boundary between the adenohypophysis and neurohypophysis of the pituitary that produces melanocyte stimulating hormone (MSH); this area is small or absent in mammalian adults."
   },
   {
     "id": "gld_00344",
@@ -4159,9 +4159,9 @@
     "type_uz": "Bez",
     "english": "perinephric space",
     "translation_uz": "perinephric space (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A retroperitoneal space that lies between the anterior and posterior renal fascia; it is a paired inverted cone shaped of tissue containing the kidney,...",
+    "definition_uz": "Anatomik ta'rif (Bez): A retroperitoneal space that lies between the anterior and posterior renal fascia; it is a paired inverted cone shaped of tissue containing the kidney, the proximal portion of the collecting system, renal and perirenal vasculature, perirenal lymphatics, adrenal glands and variable amount of fat.",
     "slug": "/structure/perirenal-space/",
-    "description_en": "A retroperitoneal space that lies between the anterior and posterior renal fascia; it is a paired inverted cone shaped of tissue containing the kidney,..."
+    "description_en": "A retroperitoneal space that lies between the anterior and posterior renal fascia; it is a paired inverted cone shaped of tissue containing the kidney, the proximal portion of the collecting system, renal and perirenal vasculature, perirenal lymphatics, adrenal glands and variable amount of fat."
   },
   {
     "id": "gld_00348",
@@ -4183,9 +4183,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "pineal complex (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A cluster in the epithalamus that consists of the pineal body and any associated structures, such as the parapineal gland or the parietal organ. The...",
+    "definition_uz": "Anatomik ta'rif (Bez): A cluster in the epithalamus that consists of the pineal body and any associated structures, such as the parapineal gland or the parietal organ. The complex is poorly developed in mammals.",
     "slug": "/structure/pineal-complex/",
-    "description_en": "A cluster in the epithalamus that consists of the pineal body and any associated structures, such as the parapineal gland or the parietal organ. The..."
+    "description_en": "A cluster in the epithalamus that consists of the pineal body and any associated structures, such as the parapineal gland or the parietal organ. The complex is poorly developed in mammals."
   },
   {
     "id": "gld_00350",
@@ -4195,9 +4195,9 @@
     "type_uz": "Bez",
     "english": "Glandula pinealis",
     "translation_uz": "Glandula pinealis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A small, pine cone-shaped gland located posterior to the third ventricle at the epithalamus, between the two superior colliculi. It receives...",
+    "definition_uz": "Anatomik ta'rif (Bez): Named for its pine cone shape, the pineal gland produces melatonin, the hormone that regulates circadian sleep-wake cycles and seasonal biological rhythms; its output rises in darkness and falls with light exposure. This small gland sits behind the third ventricle at the epithalamus, between the two superior colliculi, and receives sympathetic innervation by way of the superior cervical ganglion. Its pinealocytes synthesize melatonin from serotonin in response to darkness signals relayed from the retina. A pineal tumor can obstruct the cerebral aqueduct and cause hydrocephalus, while pineal calcification is a normal finding on CT that serves as a midline marker. Disrupted melatonin production is implicated in sleep disorders and jet lag.",
     "slug": "/structure/pineal-gland/",
-    "description_en": "A small, pine cone-shaped gland located posterior to the third ventricle at the epithalamus, between the two superior colliculi. It receives..."
+    "description_en": "Named for its pine cone shape, the pineal gland produces melatonin, the hormone that regulates circadian sleep-wake cycles and seasonal biological rhythms; its output rises in darkness and falls with light exposure. This small gland sits behind the third ventricle at the epithalamus, between the two superior colliculi, and receives sympathetic innervation by way of the superior cervical ganglion. Its pinealocytes synthesize melatonin from serotonin in response to darkness signals relayed from the retina. A pineal tumor can obstruct the cerebral aqueduct and cause hydrocephalus, while pineal calcification is a normal finding on CT that serves as a midline marker. Disrupted melatonin production is implicated in sleep disorders and jet lag."
   },
   {
     "id": "gld_00351",
@@ -4255,9 +4255,9 @@
     "type_uz": "Bez",
     "english": "Glandula pituitaria",
     "translation_uz": "Glandula pituitaria (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A pea-sized gland located in the sella turcica of the sphenoid bone, connected to the hypothalamus by the infundibulum (pituitary stalk). The anterior...",
+    "definition_uz": "Anatomik ta'rif (Bez): Often described as the master endocrine gland, the pituitary coordinates the activity of other endocrine glands through the hormones it secretes, governing growth, reproduction, thyroid function, adrenal function, and water balance. This pea-sized gland occupies the sella turcica of the sphenoid bone and connects to the hypothalamus by the infundibulum, or pituitary stalk. Its anterior lobe, the adenohypophysis, produces six major hormones, while its posterior lobe, the neurohypophysis, stores and releases oxytocin and antidiuretic hormone made by the hypothalamus. Pituitary adenomas can cause hormone excess or deficiency: excess growth hormone produces acromegaly, and excess ACTH produces Cushing&#x27;s disease. Pituitary apoplexy is acute hemorrhage or infarction of the gland, and deficiency of antidiuretic hormone causes diabetes insipidus.",
     "slug": "/structure/pituitary-gland/",
-    "description_en": "A pea-sized gland located in the sella turcica of the sphenoid bone, connected to the hypothalamus by the infundibulum (pituitary stalk). The anterior..."
+    "description_en": "Often described as the master endocrine gland, the pituitary coordinates the activity of other endocrine glands through the hormones it secretes, governing growth, reproduction, thyroid function, adrenal function, and water balance. This pea-sized gland occupies the sella turcica of the sphenoid bone and connects to the hypothalamus by the infundibulum, or pituitary stalk. Its anterior lobe, the adenohypophysis, produces six major hormones, while its posterior lobe, the neurohypophysis, stores and releases oxytocin and antidiuretic hormone made by the hypothalamus. Pituitary adenomas can cause hormone excess or deficiency: excess growth hormone produces acromegaly, and excess ACTH produces Cushing&#x27;s disease. Pituitary apoplexy is acute hemorrhage or infarction of the gland, and deficiency of antidiuretic hormone causes diabetes insipidus."
   },
   {
     "id": "gld_00356",
@@ -4363,9 +4363,9 @@
     "type_uz": "Bez",
     "english": "clitoral/preputial gland",
     "translation_uz": "clitoral/preputial gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): An aired, lobulated, modified sebaceous glands located in the inguinal region adjacent to the penis and vagina, with pheromonal functions in male...",
+    "definition_uz": "Anatomik ta'rif (Bez): An aired, lobulated, modified sebaceous glands located in the inguinal region adjacent to the penis and vagina, with pheromonal functions in male rodents; in males, the preputial gland empties into the preputial cavity and in females, the preputial (aka clitoral) gland duct empties into the clitoral fossa.",
     "slug": "/structure/preputial-gland/",
-    "description_en": "An aired, lobulated, modified sebaceous glands located in the inguinal region adjacent to the penis and vagina, with pheromonal functions in male..."
+    "description_en": "An aired, lobulated, modified sebaceous glands located in the inguinal region adjacent to the penis and vagina, with pheromonal functions in male rodents; in males, the preputial gland empties into the preputial cavity and in females, the preputial (aka clitoral) gland duct empties into the clitoral fossa."
   },
   {
     "id": "gld_00365",
@@ -4459,9 +4459,9 @@
     "type_uz": "Bez",
     "english": "ventral prostate",
     "translation_uz": "ventral prostate (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Prostate gland lobe that in the mouse has the following characteristics: grossly, clear, gelatinous, and leaf-like; originates ventrally and wraps...",
+    "definition_uz": "Anatomik ta'rif (Bez): Prostate gland lobe that in the mouse has the following characteristics: grossly, clear, gelatinous, and leaf-like; originates ventrally and wraps incompletely around the urethra dorsally, bilaterally. Simple columnar epithelium with the least amount of infolding. Secretory cells are oval and have slightly foamy cytoplasm; nuclei and basal nucleoli are inconspicuous. The secretion is pale and homogeneous. The stroma is thin.",
     "slug": "/structure/prostate-gland-ventral-lobe/",
-    "description_en": "Prostate gland lobe that in the mouse has the following characteristics: grossly, clear, gelatinous, and leaf-like; originates ventrally and wraps..."
+    "description_en": "Prostate gland lobe that in the mouse has the following characteristics: grossly, clear, gelatinous, and leaf-like; originates ventrally and wraps incompletely around the urethra dorsally, bilaterally. Simple columnar epithelium with the least amount of infolding. Secretory cells are oval and have slightly foamy cytoplasm; nuclei and basal nucleoli are inconspicuous. The secretion is pale and homogeneous. The stroma is thin."
   },
   {
     "id": "gld_00373",
@@ -4519,9 +4519,9 @@
     "type_uz": "Bez",
     "english": "glandula pylorica",
     "translation_uz": "glandula pylorica (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The gastric glands in the pyloric region of the stomach; the pyloric glands secrete mucin, which coats the stomach and protects it, and hormones such...",
+    "definition_uz": "Anatomik ta'rif (Bez): The gastric glands in the pyloric region of the stomach; the pyloric glands secrete mucin, which coats the stomach and protects it, and hormones such as gastrin and enkephalin[MP].",
     "slug": "/structure/pyloric-gastric-gland/",
-    "description_en": "The gastric glands in the pyloric region of the stomach; the pyloric glands secrete mucin, which coats the stomach and protects it, and hormones such..."
+    "description_en": "The gastric glands in the pyloric region of the stomach; the pyloric glands secrete mucin, which coats the stomach and protects it, and hormones such as gastrin and enkephalin[MP]."
   },
   {
     "id": "gld_00378",
@@ -4531,9 +4531,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "pyloric stomach (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The mouth of a starfish is located on the underside of the body, and opens through a short esophagus into firstly a cardiac stomach, and then, a...",
+    "definition_uz": "Anatomik ta'rif (Bez): The mouth of a starfish is located on the underside of the body, and opens through a short esophagus into firstly a cardiac stomach, and then, a second, pyloric stomach. Each arm also contains two pyloric caeca, long hollow tubes branching outwards from the pyloric stomach. Each pyloric caecum is lined by a series of digestive glands, which secrete digestive enzymes and absorb nutrients from the food. A short intestine runs from the upper surface of the pyloric stomach to open at an anus in the center of the upper body.",
     "slug": "/structure/pyloric-stomach/",
-    "description_en": "The mouth of a starfish is located on the underside of the body, and opens through a short esophagus into firstly a cardiac stomach, and then, a..."
+    "description_en": "The mouth of a starfish is located on the underside of the body, and opens through a short esophagus into firstly a cardiac stomach, and then, a second, pyloric stomach. Each arm also contains two pyloric caeca, long hollow tubes branching outwards from the pyloric stomach. Each pyloric caecum is lined by a series of digestive glands, which secrete digestive enzymes and absorb nutrients from the food. A short intestine runs from the upper surface of the pyloric stomach to open at an anus in the center of the upper body."
   },
   {
     "id": "gld_00379",
@@ -4543,9 +4543,9 @@
     "type_uz": "Bez",
     "english": "adenohypophysial pouch",
     "translation_uz": "adenohypophysial pouch (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A pouch of ectoderm that grows out from the upper surface of the embryonic stomodeum and gives rise to the anterior and intermediate lobes of the...",
+    "definition_uz": "Anatomik ta'rif (Bez): A pouch of ectoderm that grows out from the upper surface of the embryonic stomodeum and gives rise to the anterior and intermediate lobes of the pituitary gland[MP]. In embryogenesis, Rathke&#x27;s pouch is a depression in the roof of the developing mouth in front of the buccopharyngeal membrane. It gives rise to the anterior pituitary (adenohypophysis), a part of the endocrine system[WP].",
     "slug": "/structure/rathkes-pouch/",
-    "description_en": "A pouch of ectoderm that grows out from the upper surface of the embryonic stomodeum and gives rise to the anterior and intermediate lobes of the..."
+    "description_en": "A pouch of ectoderm that grows out from the upper surface of the embryonic stomodeum and gives rise to the anterior and intermediate lobes of the pituitary gland[MP]. In embryogenesis, Rathke&#x27;s pouch is a depression in the roof of the developing mouth in front of the buccopharyngeal membrane. It gives rise to the anterior pituitary (adenohypophysis), a part of the endocrine system[WP]."
   },
   {
     "id": "gld_00380",
@@ -4603,9 +4603,9 @@
     "type_uz": "Bez",
     "english": "retropharyngeal glands",
     "translation_uz": "retropharyngeal glands (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The retropharyngeal lymph nodes, from one to three in number, lie in the buccopharyngeal fascia, behind the upper part of the pharynx and in front of...",
+    "definition_uz": "Anatomik ta'rif (Bez): The retropharyngeal lymph nodes, from one to three in number, lie in the buccopharyngeal fascia, behind the upper part of the pharynx and in front of the arch of the atlas, being separated, however, from the latter by the Longus capitis. Their afferents drain the nasal cavities, the nasal part of the pharynx, and the auditory tubes. Their efferents pass to the superior deep cervical glands. They are in the retropharyngeal space.",
     "slug": "/structure/retropharyngeal-lymph-node/",
-    "description_en": "The retropharyngeal lymph nodes, from one to three in number, lie in the buccopharyngeal fascia, behind the upper part of the pharynx and in front of..."
+    "description_en": "The retropharyngeal lymph nodes, from one to three in number, lie in the buccopharyngeal fascia, behind the upper part of the pharynx and in front of the arch of the atlas, being separated, however, from the latter by the Longus capitis. Their afferents drain the nasal cavities, the nasal part of the pharynx, and the auditory tubes. Their efferents pass to the superior deep cervical glands. They are in the retropharyngeal space."
   },
   {
     "id": "gld_00385",
@@ -4663,9 +4663,9 @@
     "type_uz": "Bez",
     "english": "plurilocular stomach",
     "translation_uz": "plurilocular stomach (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The ruminants&#x27; stomach consists of four compartments: rumen, reticulum, omasum and abomasum. The first three compartments comprise the forestomach...",
+    "definition_uz": "Anatomik ta'rif (Bez): The ruminants&#x27; stomach consists of four compartments: rumen, reticulum, omasum and abomasum. The first three compartments comprise the forestomach (proventriculus). They are lined with nonglandular membrane. The fourth compartment, the abomasum comprises the true stomach of the ruminants. It is lined with glandular mucous membrane. The rumen lies on the left of the abdominal cavity, the reticulum cranially and the omasum on the right. The abomasum lies ventrally, its proximal end lies ventral to the rumen, reticulum and omasum.",
     "slug": "/structure/ruminant-stomach/",
-    "description_en": "The ruminants&#x27; stomach consists of four compartments: rumen, reticulum, omasum and abomasum. The first three compartments comprise the forestomach..."
+    "description_en": "The ruminants&#x27; stomach consists of four compartments: rumen, reticulum, omasum and abomasum. The first three compartments comprise the forestomach (proventriculus). They are lined with nonglandular membrane. The fourth compartment, the abomasum comprises the true stomach of the ruminants. It is lined with glandular mucous membrane. The rumen lies on the left of the abdominal cavity, the reticulum cranially and the omasum on the right. The abomasum lies ventrally, its proximal end lies ventral to the rumen, reticulum and omasum."
   },
   {
     "id": "gld_00390",
@@ -4735,9 +4735,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "scent gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Scent glands are exocrine glands found in most mammals. They produce semi-viscous secretions which contain pheromones and other semiochemical...",
+    "definition_uz": "Anatomik ta'rif (Bez): Scent glands are exocrine glands found in most mammals. They produce semi-viscous secretions which contain pheromones and other semiochemical compounds. These odor-messengers indicate information such as status, territory marking, mood, and sexual power. The odor may be subliminal-not consciously detectable. Though it is not their primary function, the salivary glands may also function as scent glands in some animals.",
     "slug": "/structure/scent-gland/",
-    "description_en": "Scent glands are exocrine glands found in most mammals. They produce semi-viscous secretions which contain pheromones and other semiochemical..."
+    "description_en": "Scent glands are exocrine glands found in most mammals. They produce semi-viscous secretions which contain pheromones and other semiochemical compounds. These odor-messengers indicate information such as status, territory marking, mood, and sexual power. The odor may be subliminal-not consciously detectable. Though it is not their primary function, the salivary glands may also function as scent glands in some animals."
   },
   {
     "id": "gld_00396",
@@ -4939,9 +4939,9 @@
     "type_uz": "Bez",
     "english": "glandula seminalis",
     "translation_uz": "glandula seminalis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human...",
+    "definition_uz": "Anatomik ta'rif (Bez): Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct.",
     "slug": "/structure/seminal-vesicle/",
-    "description_en": "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human..."
+    "description_en": "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct."
   },
   {
     "id": "gld_00413",
@@ -5059,9 +5059,9 @@
     "type_uz": "Bez",
     "english": "venenosalivary venom",
     "translation_uz": "venenosalivary venom (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Solutions or mixtures of toxic and nontoxic substances elaborated by snake (Ophidia) salivary glands for the purpose of killing prey or disabling...",
+    "definition_uz": "Anatomik ta'rif (Bez): Solutions or mixtures of toxic and nontoxic substances elaborated by snake (Ophidia) salivary glands for the purpose of killing prey or disabling predators and delivered by grooved or hollow fangs. They usually contain enzymes, toxins, and other factors.",
     "slug": "/structure/snake-venom/",
-    "description_en": "Solutions or mixtures of toxic and nontoxic substances elaborated by snake (Ophidia) salivary glands for the purpose of killing prey or disabling..."
+    "description_en": "Solutions or mixtures of toxic and nontoxic substances elaborated by snake (Ophidia) salivary glands for the purpose of killing prey or disabling predators and delivered by grooved or hollow fangs. They usually contain enzymes, toxins, and other factors."
   },
   {
     "id": "gld_00423",
@@ -5143,9 +5143,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "strand of tylotrich hair (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A single large hair, surrounded by neurovascular tissue at the level of the sebaceous gland, with a hair follicle innervated by a hair-tylotrich neuron...",
+    "definition_uz": "Anatomik ta'rif (Bez): A single large hair, surrounded by neurovascular tissue at the level of the sebaceous gland, with a hair follicle innervated by a hair-tylotrich neuron (CL:1001436), a rapidly acting mechanoreceptor.",
     "slug": "/structure/strand-of-tylotrich-hair/",
-    "description_en": "A single large hair, surrounded by neurovascular tissue at the level of the sebaceous gland, with a hair follicle innervated by a hair-tylotrich neuron..."
+    "description_en": "A single large hair, surrounded by neurovascular tissue at the level of the sebaceous gland, with a hair follicle innervated by a hair-tylotrich neuron (CL:1001436), a rapidly acting mechanoreceptor."
   },
   {
     "id": "gld_00430",
@@ -5155,9 +5155,9 @@
     "type_uz": "Bez",
     "english": "epithelium stratificatum columnare",
     "translation_uz": "epithelium stratificatum columnare (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Stratified columnar epithelia is a rare type of epithelial tissue composed of column shaped cells arranged in multiple layers. Stratified columnar...",
+    "definition_uz": "Anatomik ta'rif (Bez): epithelium stratificatum columnare",
     "slug": "/structure/stratified-columnar-epithelium/",
-    "description_en": "Stratified columnar epithelia is a rare type of epithelial tissue composed of column shaped cells arranged in multiple layers. Stratified columnar..."
+    "description_en": "epithelium stratificatum columnare"
   },
   {
     "id": "gld_00431",
@@ -5167,9 +5167,9 @@
     "type_uz": "Bez",
     "english": "epithelium stratificatum cuboideum",
     "translation_uz": "epithelium stratificatum cuboideum (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Stratified cuboidal epithelia is a rare type of epithelial tissue composed of cuboidally shaped cells arranged in multiple layers. They protect areas...",
+    "definition_uz": "Anatomik ta'rif (Bez): epithelium stratificatum cuboideum",
     "slug": "/structure/stratified-cuboidal-epithelium/",
-    "description_en": "Stratified cuboidal epithelia is a rare type of epithelial tissue composed of cuboidally shaped cells arranged in multiple layers. They protect areas..."
+    "description_en": "epithelium stratificatum cuboideum"
   },
   {
     "id": "gld_00432",
@@ -5215,9 +5215,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "subepithelial connective tissue of prostatic gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A glandular structure (subepithelial connective tissue of prostatic gland) that produces and secretes substances for physiological regulation in its...",
+    "definition_uz": "Anatomik ta'rif (Bez): A glandular structure (subepithelial connective tissue of prostatic gland) that produces and secretes substances for physiological regulation in its anatomical region.",
     "slug": "/structure/subepithelial-connective-tissue-of-prostatic-gland/",
-    "description_en": "A glandular structure (subepithelial connective tissue of prostatic gland) that produces and secretes substances for physiological regulation in its..."
+    "description_en": "A glandular structure (subepithelial connective tissue of prostatic gland) that produces and secretes substances for physiological regulation in its anatomical region."
   },
   {
     "id": "gld_00436",
@@ -5227,9 +5227,9 @@
     "type_uz": "Bez",
     "english": "second tongue",
     "translation_uz": "second tongue (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A secondary tongue located below the primary tongue in prosimian primates and some primitive mammals. This structure does not have taste buds or...",
+    "definition_uz": "Anatomik ta'rif (Bez): A secondary tongue located below the primary tongue in prosimian primates and some primitive mammals. This structure does not have taste buds or salivary glands.",
     "slug": "/structure/sublingua/",
-    "description_en": "A secondary tongue located below the primary tongue in prosimian primates and some primitive mammals. This structure does not have taste buds or..."
+    "description_en": "A secondary tongue located below the primary tongue in prosimian primates and some primitive mammals. This structure does not have taste buds or salivary glands."
   },
   {
     "id": "gld_00437",
@@ -5239,9 +5239,9 @@
     "type_uz": "Bez",
     "english": "caruncula sublingualis",
     "translation_uz": "caruncula sublingualis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The sublingual caruncle is a site on either side of the frenulum linguae on the sublingual surface of the tongue. There it denotes the site at which...",
+    "definition_uz": "Anatomik ta'rif (Bez): The sublingual caruncle is a site on either side of the frenulum linguae on the sublingual surface of the tongue. There it denotes the site at which the submandibular gland empties into the oral cavity.",
     "slug": "/structure/sublingual-caruncle/",
-    "description_en": "The sublingual caruncle is a site on either side of the frenulum linguae on the sublingual surface of the tongue. There it denotes the site at which..."
+    "description_en": "The sublingual caruncle is a site on either side of the frenulum linguae on the sublingual surface of the tongue. There it denotes the site at which the submandibular gland empties into the oral cavity."
   },
   {
     "id": "gld_00438",
@@ -5299,9 +5299,9 @@
     "type_uz": "Bez",
     "english": "glandula submandibularis",
     "translation_uz": "glandula submandibularis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated...",
+    "definition_uz": "Anatomik ta'rif (Bez): Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.",
     "slug": "/structure/submandibular-gland/",
-    "description_en": "Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated..."
+    "description_en": "Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible."
   },
   {
     "id": "gld_00443",
@@ -5335,9 +5335,9 @@
     "type_uz": "Bez",
     "english": "esophageal gland",
     "translation_uz": "esophageal gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): One of the racemose glands in the walls of the esophagus that in humans are small and serve principally to lubricate the food but in some birds secrete...",
+    "definition_uz": "Anatomik ta'rif (Bez): One of the racemose glands in the walls of the esophagus that in humans are small and serve principally to lubricate the food but in some birds secrete a milky fluid on which the young are fed.",
     "slug": "/structure/submucosal-esophageal-gland/",
-    "description_en": "One of the racemose glands in the walls of the esophagus that in humans are small and serve principally to lubricate the food but in some birds secrete..."
+    "description_en": "One of the racemose glands in the walls of the esophagus that in humans are small and serve principally to lubricate the food but in some birds secrete a milky fluid on which the young are fed."
   },
   {
     "id": "gld_00446",
@@ -5347,9 +5347,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "submucosal gland acinus (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface...",
+    "definition_uz": "Anatomik ta'rif (Bez): A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface epithelium.",
     "slug": "/structure/submucosal-gland-acinus/",
-    "description_en": "A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface..."
+    "description_en": "A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface epithelium."
   },
   {
     "id": "gld_00447",
@@ -5383,9 +5383,9 @@
     "type_uz": "Bez",
     "english": "cornu superius (cartilago thyroidea)",
     "translation_uz": "cornu superius (cartilago thyroidea) (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The superior horn of thyroid cartilage is long and narrow, directed upward, backward, and medialward, and ends in a conical extremity, which gives...",
+    "definition_uz": "Anatomik ta'rif (Bez): cornu superius (cartilago thyroidea)",
     "slug": "/structure/superior-horn-of-thyroid-cartilage/",
-    "description_en": "The superior horn of thyroid cartilage is long and narrow, directed upward, backward, and medialward, and ends in a conical extremity, which gives..."
+    "description_en": "cornu superius (cartilago thyroidea)"
   },
   {
     "id": "gld_00450",
@@ -5467,9 +5467,9 @@
     "type_uz": "Bez",
     "english": "ciliary gland",
     "translation_uz": "ciliary gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Glands of Moll, also known as ciliary glands, are modified apocrine sweat glands that are found on the margin of the eyelid. They are next to the base...",
+    "definition_uz": "Anatomik ta'rif (Bez): Glands of Moll, also known as ciliary glands, are modified apocrine sweat glands that are found on the margin of the eyelid. They are next to the base of the eyelashes, and anterior to the Meibomian glands within the distal eyelid margin. These glands are relatively large and tubular-shaped. The glands of Moll are named after Dutch oculist Jacob Anton Moll (1832-1914). Glands of Moll empty into the adjacent lashes. Glands of Moll and Zeis secrete lipid that adds to the superficial layer of the tear film, retarding evaporation. The glands of Moll are prone to infection and blockage of its duct with sebum and cell debris. Blockage of the gland&#x27;s duct causes swelling which can manifest itself as a stye.",
     "slug": "/structure/sweat-gland-of-eyelid/",
-    "description_en": "Glands of Moll, also known as ciliary glands, are modified apocrine sweat glands that are found on the margin of the eyelid. They are next to the base..."
+    "description_en": "Glands of Moll, also known as ciliary glands, are modified apocrine sweat glands that are found on the margin of the eyelid. They are next to the base of the eyelashes, and anterior to the Meibomian glands within the distal eyelid margin. These glands are relatively large and tubular-shaped. The glands of Moll are named after Dutch oculist Jacob Anton Moll (1832-1914). Glands of Moll empty into the adjacent lashes. Glands of Moll and Zeis secrete lipid that adds to the superficial layer of the tear film, retarding evaporation. The glands of Moll are prone to infection and blockage of its duct with sebum and cell debris. Blockage of the gland&#x27;s duct causes swelling which can manifest itself as a stye."
   },
   {
     "id": "gld_00457",
@@ -5575,9 +5575,9 @@
     "type_uz": "Bez",
     "english": "Thymus",
     "translation_uz": "Thymus (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A bilobed organ located in the anterior superior mediastinum, posterior to the sternum and anterior to the great vessels. It is largest during puberty...",
+    "definition_uz": "Anatomik ta'rif (Bez): A bilobed organ located in the anterior superior mediastinum, posterior to the sternum and anterior to the great vessels. It is largest during puberty (30-40g) and gradually involutes with age, being replaced by adipose tissue. Each lobe has a cortex (dense with immature T cells) and medulla (Hassall&#x27;s corpuscles).",
     "slug": "/structure/thymus/",
-    "description_en": "A bilobed organ located in the anterior superior mediastinum, posterior to the sternum and anterior to the great vessels. It is largest during puberty..."
+    "description_en": "A bilobed organ located in the anterior superior mediastinum, posterior to the sternum and anterior to the great vessels. It is largest during puberty (30-40g) and gradually involutes with age, being replaced by adipose tissue. Each lobe has a cortex (dense with immature T cells) and medulla (Hassall&#x27;s corpuscles)."
   },
   {
     "id": "gld_00466",
@@ -5599,9 +5599,9 @@
     "type_uz": "Bez",
     "english": "ductus thyroglossalis",
     "translation_uz": "ductus thyroglossalis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): An embryological anatomical structure that forms an open connection between the initial area of development of the thyroid gland and its final...",
+    "definition_uz": "Anatomik ta'rif (Bez): An embryological anatomical structure that forms an open connection between the initial area of development of the thyroid gland and its final position; it is located exactly midline, between the anterior 2/3rds and posterior 1/3rd of the tongue; this duct normally atrophies and closes off as the foramen cecum before birth.",
     "slug": "/structure/thyroglossal-duct/",
-    "description_en": "An embryological anatomical structure that forms an open connection between the initial area of development of the thyroid gland and its final..."
+    "description_en": "An embryological anatomical structure that forms an open connection between the initial area of development of the thyroid gland and its final position; it is located exactly midline, between the anterior 2/3rds and posterior 1/3rd of the tongue; this duct normally atrophies and closes off as the foramen cecum before birth."
   },
   {
     "id": "gld_00468",
@@ -5623,9 +5623,9 @@
     "type_uz": "Bez",
     "english": "diverticulum thyroideum",
     "translation_uz": "diverticulum thyroideum (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Endodermal bud derived from the endodermal epithelium of the embryonic pharyngeal floor[MP]. The thyroid diverticulum is the embryological structure...",
+    "definition_uz": "Anatomik ta'rif (Bez): Endodermal bud derived from the endodermal epithelium of the embryonic pharyngeal floor[MP]. The thyroid diverticulum is the embryological structure from which thyroid follicular cells derive. It grows from the floor of the pharnyx[WP].",
     "slug": "/structure/thyroid-diverticulum/",
-    "description_en": "Endodermal bud derived from the endodermal epithelium of the embryonic pharyngeal floor[MP]. The thyroid diverticulum is the embryological structure..."
+    "description_en": "Endodermal bud derived from the endodermal epithelium of the embryonic pharyngeal floor[MP]. The thyroid diverticulum is the embryological structure from which thyroid follicular cells derive. It grows from the floor of the pharnyx[WP]."
   },
   {
     "id": "gld_00470",
@@ -5635,9 +5635,9 @@
     "type_uz": "Bez",
     "english": "thyroid follicles",
     "translation_uz": "thyroid follicles (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Discrete, cystlike units of the thyroid gland that are lined with cuboidal epithelium and are filled with a colloid substance, about 30 to each...",
+    "definition_uz": "Anatomik ta'rif (Bez): Discrete, cystlike units of the thyroid gland that are lined with cuboidal epithelium and are filled with a colloid substance, about 30 to each lobule[BTO].",
     "slug": "/structure/thyroid-follicle/",
-    "description_en": "Discrete, cystlike units of the thyroid gland that are lined with cuboidal epithelium and are filled with a colloid substance, about 30 to each..."
+    "description_en": "Discrete, cystlike units of the thyroid gland that are lined with cuboidal epithelium and are filled with a colloid substance, about 30 to each lobule[BTO]."
   },
   {
     "id": "gld_00471",
@@ -5659,9 +5659,9 @@
     "type_uz": "Bez",
     "english": "follicular lumen",
     "translation_uz": "follicular lumen (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A follicular lumen is the closed cavity within a follicle of the thyroid gland. It is surrounded by follicular cells and filled with colloid, a...",
+    "definition_uz": "Anatomik ta'rif (Bez): A follicular lumen is the closed cavity within a follicle of the thyroid gland. It is surrounded by follicular cells and filled with colloid, a concentrated solution of thyroglobulin.",
     "slug": "/structure/thyroid-follicular-lumen/",
-    "description_en": "A follicular lumen is the closed cavity within a follicle of the thyroid gland. It is surrounded by follicular cells and filled with colloid, a..."
+    "description_en": "A follicular lumen is the closed cavity within a follicle of the thyroid gland. It is surrounded by follicular cells and filled with colloid, a concentrated solution of thyroglobulin."
   },
   {
     "id": "gld_00473",
@@ -5671,9 +5671,9 @@
     "type_uz": "Bez",
     "english": "Glandula thyroidea",
     "translation_uz": "Glandula thyroidea (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A butterfly-shaped gland in the anterior neck, consisting of two lateral lobes connected by an isthmus across the trachea at the level of the 2nd-3rd...",
+    "definition_uz": "Anatomik ta'rif (Bez): Butterfly-shaped and highly vascular, the thyroid gland lies in the anterior neck, its two lateral lobes joined by an isthmus that crosses the trachea at the level of the second and third tracheal cartilages. It produces the thyroid hormones T3 and T4, which set the metabolic rate, drive protein synthesis, and adjust sensitivity to other hormones, and it secretes calcitonin, which contributes to calcium homeostasis. Blood reaches it through the superior and inferior thyroid arteries. Hashimoto&#x27;s thyroiditis underlies much hypothyroidism and Graves&#x27; disease much hyperthyroidism, while nodules and goiter affect large numbers of people. Thyroid cancer is relatively uncommon and carries an excellent prognosis when treated early, though thyroidectomy risks injury to the recurrent laryngeal nerve.",
     "slug": "/structure/thyroid-gland/",
-    "description_en": "A butterfly-shaped gland in the anterior neck, consisting of two lateral lobes connected by an isthmus across the trachea at the level of the 2nd-3rd..."
+    "description_en": "Butterfly-shaped and highly vascular, the thyroid gland lies in the anterior neck, its two lateral lobes joined by an isthmus that crosses the trachea at the level of the second and third tracheal cartilages. It produces the thyroid hormones T3 and T4, which set the metabolic rate, drive protein synthesis, and adjust sensitivity to other hormones, and it secretes calcitonin, which contributes to calcium homeostasis. Blood reaches it through the superior and inferior thyroid arteries. Hashimoto&#x27;s thyroiditis underlies much hypothyroidism and Graves&#x27; disease much hyperthyroidism, while nodules and goiter affect large numbers of people. Thyroid cancer is relatively uncommon and carries an excellent prognosis when treated early, though thyroidectomy risks injury to the recurrent laryngeal nerve."
   },
   {
     "id": "gld_00474",
@@ -5719,9 +5719,9 @@
     "type_uz": "Bez",
     "english": "thyroid primordia",
     "translation_uz": "thyroid primordia (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The initial thyroid precursor, the thyroid primordium, starts as a simple midline thickening and develops to form the thyroid diverticulum. This...",
+    "definition_uz": "Anatomik ta'rif (Bez): The initial thyroid precursor, the thyroid primordium, starts as a simple midline thickening and develops to form the thyroid diverticulum. This structure is initially hollow, although it later solidifies and becomes bilobed. The 2 lobes are located on either side of the midline and are connected via an isthmus.",
     "slug": "/structure/thyroid-primordium/",
-    "description_en": "The initial thyroid precursor, the thyroid primordium, starts as a simple midline thickening and develops to form the thyroid diverticulum. This..."
+    "description_en": "The initial thyroid precursor, the thyroid primordium, starts as a simple midline thickening and develops to form the thyroid diverticulum. This structure is initially hollow, although it later solidifies and becomes bilobed. The 2 lobes are located on either side of the midline and are connected via an isthmus."
   },
   {
     "id": "gld_00478",
@@ -5755,9 +5755,9 @@
     "type_uz": "Bez",
     "english": "glandula trachealis",
     "translation_uz": "glandula trachealis (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A tubuloacinar seromucous gland that is located principally in the submucosa of the trachea. Excretory ducts from this gland pass through the lamina...",
+    "definition_uz": "Anatomik ta'rif (Bez): A tubuloacinar seromucous gland that is located principally in the submucosa of the trachea. Excretory ducts from this gland pass through the lamina propria to the tracheal lumen.",
     "slug": "/structure/trachea-gland/",
-    "description_en": "A tubuloacinar seromucous gland that is located principally in the submucosa of the trachea. Excretory ducts from this gland pass through the lamina..."
+    "description_en": "A tubuloacinar seromucous gland that is located principally in the submucosa of the trachea. Excretory ducts from this gland pass through the lamina propria to the tracheal lumen."
   },
   {
     "id": "gld_00481",
@@ -5779,9 +5779,9 @@
     "type_uz": "Bez",
     "english": "anorectum transitional glandular epithelium",
     "translation_uz": "anorectum transitional glandular epithelium (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Glandular epithelium of the anal transition zone. The anal transition zone is defined loosely as the tissue interposed between the uninterrupted...",
+    "definition_uz": "Anatomik ta'rif (Bez): anorectum transitional glandular epithelium",
     "slug": "/structure/transitional-glandular-epithelium-of-anorectum/",
-    "description_en": "Glandular epithelium of the anal transition zone. The anal transition zone is defined loosely as the tissue interposed between the uninterrupted..."
+    "description_en": "anorectum transitional glandular epithelium"
   },
   {
     "id": "gld_00483",
@@ -5791,9 +5791,9 @@
     "type_uz": "Bez",
     "english": "prostate transition zone",
     "translation_uz": "prostate transition zone (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The region of the prostate gland anterior to the central and peripheral zones, surrounding the proximal urethra. It is the zone of the human prostate...",
+    "definition_uz": "Anatomik ta'rif (Bez): The region of the prostate gland anterior to the central and peripheral zones, surrounding the proximal urethra. It is the zone of the human prostate gland that grows the most throughout life, and is responsible for benign prostatic hypertrophy.",
     "slug": "/structure/transition-zone-of-prostate/",
-    "description_en": "The region of the prostate gland anterior to the central and peripheral zones, surrounding the proximal urethra. It is the zone of the human prostate..."
+    "description_en": "The region of the prostate gland anterior to the central and peripheral zones, surrounding the proximal urethra. It is the zone of the human prostate gland that grows the most throughout life, and is responsible for benign prostatic hypertrophy."
   },
   {
     "id": "gld_00484",
@@ -5803,9 +5803,9 @@
     "type_uz": "Bez",
     "english": "TNC",
     "translation_uz": "TNC (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Trunk portion of the neural crest. The trunk neural crest lies between the vagal and sacral neural crest and gives rise to two groups of cells. One...",
+    "definition_uz": "Anatomik ta'rif (Bez): Trunk portion of the neural crest. The trunk neural crest lies between the vagal and sacral neural crest and gives rise to two groups of cells. One group migrates dorsolateral and populates the skin, forming pigment cells and the other migrates ventrolateral through the anterior sclerotome to become the epinephrine-producing cells of the adrenal gland and the neurons of the sympathetic nervous system. Some cells remain in the sclerotome to form the dorsal root ganglia [Wikipedia].",
     "slug": "/structure/trunk-neural-crest/",
-    "description_en": "Trunk portion of the neural crest. The trunk neural crest lies between the vagal and sacral neural crest and gives rise to two groups of cells. One..."
+    "description_en": "Trunk portion of the neural crest. The trunk neural crest lies between the vagal and sacral neural crest and gives rise to two groups of cells. One group migrates dorsolateral and populates the skin, forming pigment cells and the other migrates ventrolateral through the anterior sclerotome to become the epinephrine-producing cells of the adrenal gland and the neurons of the sympathetic nervous system. Some cells remain in the sclerotome to form the dorsal root ganglia [Wikipedia]."
   },
   {
     "id": "gld_00485",
@@ -5827,9 +5827,9 @@
     "type_uz": "Bez",
     "english": "type 2 tissue",
     "translation_uz": "type 2 tissue (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Adrenal tissue aggregated in a dorsal layer covering internal cords, found in lepidosaur adrenal glands. Islets of adrenal tissue found on ventral...",
+    "definition_uz": "Anatomik ta'rif (Bez): Adrenal tissue aggregated in a dorsal layer covering internal cords, found in lepidosaur adrenal glands. Islets of adrenal tissue found on ventral surface of gland (barely present in squamates). See Yadav, 2008.",
     "slug": "/structure/type-2-adrenal-tissue/",
-    "description_en": "Adrenal tissue aggregated in a dorsal layer covering internal cords, found in lepidosaur adrenal glands. Islets of adrenal tissue found on ventral..."
+    "description_en": "Adrenal tissue aggregated in a dorsal layer covering internal cords, found in lepidosaur adrenal glands. Islets of adrenal tissue found on ventral surface of gland (barely present in squamates). See Yadav, 2008."
   },
   {
     "id": "gld_00487",
@@ -5875,9 +5875,9 @@
     "type_uz": "Bez",
     "english": "lesser pancreas",
     "translation_uz": "lesser pancreas (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): In the head of the pancreas, the angle of junction of the lower and left lateral borders forms a prolongation, termed the uncinate process. During the...",
+    "definition_uz": "Anatomik ta'rif (Bez): In the head of the pancreas, the angle of junction of the lower and left lateral borders forms a prolongation, termed the uncinate process. During the embryonic development of the distal foregut, the duodenum c-shape is formed while rotating the ventral pancreatic bud into the dorsal bud. The dorsal and ventral pancreatic buds fuse. The dorsal pancreatic bud becomes the body, tail, and isthmus of the pancreas and the ventral pancreatic bud forms the pancreatic head and uncinate process[WP].",
     "slug": "/structure/uncinate-process-of-pancreas/",
-    "description_en": "In the head of the pancreas, the angle of junction of the lower and left lateral borders forms a prolongation, termed the uncinate process. During the..."
+    "description_en": "In the head of the pancreas, the angle of junction of the lower and left lateral borders forms a prolongation, termed the uncinate process. During the embryonic development of the distal foregut, the duodenum c-shape is formed while rotating the ventral pancreatic bud into the dorsal bud. The dorsal and ventral pancreatic buds fuse. The dorsal pancreatic bud becomes the body, tail, and isthmus of the pancreas and the ventral pancreatic bud forms the pancreatic head and uncinate process[WP]."
   },
   {
     "id": "gld_00491",
@@ -5911,9 +5911,9 @@
     "type_uz": "Bez",
     "english": "gland of urethra",
     "translation_uz": "gland of urethra (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Any of the numerous small mucous-secreting glands located in the wall of the male or female urethra that help protect the epithelium from the corrosive...",
+    "definition_uz": "Anatomik ta'rif (Bez): Any of the numerous small mucous-secreting glands located in the wall of the male or female urethra that help protect the epithelium from the corrosive urine.",
     "slug": "/structure/urethral-gland/",
-    "description_en": "Any of the numerous small mucous-secreting glands located in the wall of the male or female urethra that help protect the epithelium from the corrosive..."
+    "description_en": "Any of the numerous small mucous-secreting glands located in the wall of the male or female urethra that help protect the epithelium from the corrosive urine."
   },
   {
     "id": "gld_00494",
@@ -5935,9 +5935,9 @@
     "type_uz": "Bez",
     "english": "oil gland",
     "translation_uz": "oil gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A large gland at the base of a bird&#x27;s tail dorsal to the cloaca at the end of the pygostyle that secretes an oil used in preening. It opens through a...",
+    "definition_uz": "Anatomik ta'rif (Bez): A large gland at the base of a bird&#x27;s tail dorsal to the cloaca at the end of the pygostyle that secretes an oil used in preening. It opens through a caudally directed nipple.",
     "slug": "/structure/uropygial-gland/",
-    "description_en": "A large gland at the base of a bird&#x27;s tail dorsal to the cloaca at the end of the pygostyle that secretes an oil used in preening. It opens through a..."
+    "description_en": "A large gland at the base of a bird&#x27;s tail dorsal to the cloaca at the end of the pygostyle that secretes an oil used in preening. It opens through a caudally directed nipple."
   },
   {
     "id": "gld_00496",
@@ -5971,9 +5971,9 @@
     "type_uz": "Bez",
     "english": "zootoxin",
     "translation_uz": "zootoxin (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Poisonous animal secretions forming fluid mixtures of many different enzymes, toxins, and other substances. These substances are produced in...",
+    "definition_uz": "Anatomik ta'rif (Bez): Poisonous animal secretions forming fluid mixtures of many different enzymes, toxins, and other substances. These substances are produced in specialized glands and secreted through specialized delivery systems (nematocysts, spines, fangs, etc.) for disabling prey or predator.",
     "slug": "/structure/venom/",
-    "description_en": "Poisonous animal secretions forming fluid mixtures of many different enzymes, toxins, and other substances. These substances are produced in..."
+    "description_en": "Poisonous animal secretions forming fluid mixtures of many different enzymes, toxins, and other substances. These substances are produced in specialized glands and secreted through specialized delivery systems (nematocysts, spines, fangs, etc.) for disabling prey or predator."
   },
   {
     "id": "gld_00499",
@@ -6043,9 +6043,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "ventral nasal meatus (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The ventral nasal meatus is found between the ventral nasal concha and the dorsal surface of the hard palate.It connects the nasal vestibule with the...",
+    "definition_uz": "Anatomik ta'rif (Bez): The ventral nasal meatus is found between the ventral nasal concha and the dorsal surface of the hard palate.It connects the nasal vestibule with the nasopharynx. Rostrally it is narrow at the nasal vestibule and widens caudally towards the nasopharyngeal meatus. The ventral nasal meatus is the main passage for air. Apart from olfaction, the nasal cavity functions to warm the inhaled air as it passes through the meatuses over the vascular beds of the mucosa. The air is humidified by the vaporization of tears and serous nasal secretion. The air is cleaned throughout the scattered mucous glands. These glands secrete mucous through the nasal cavity and the mucous serves to trap the large particles that come into contact with it. Clinically in the horse the ventral nasal meatus is the main passage through which a stomach tube can be passed to the pharynx and oesophagus and then to the stomach. This kind of a tube is commonly used when drenching a horse for colic, as well as having many other veterinary applications. The tube has to pass through the ventral nasal meatus to the nasopharyngeal meatus and the caudal nares to reach the pharynx and oesophagus. If the tube is accidentally passed into the dorsal or middle nasal meatuses it would pass to the ethmotubinates and cause massive haemorrhage.",
     "slug": "/structure/ventral-nasal-meatus/",
-    "description_en": "The ventral nasal meatus is found between the ventral nasal concha and the dorsal surface of the hard palate.It connects the nasal vestibule with the..."
+    "description_en": "The ventral nasal meatus is found between the ventral nasal concha and the dorsal surface of the hard palate.It connects the nasal vestibule with the nasopharynx. Rostrally it is narrow at the nasal vestibule and widens caudally towards the nasopharyngeal meatus. The ventral nasal meatus is the main passage for air. Apart from olfaction, the nasal cavity functions to warm the inhaled air as it passes through the meatuses over the vascular beds of the mucosa. The air is humidified by the vaporization of tears and serous nasal secretion. The air is cleaned throughout the scattered mucous glands. These glands secrete mucous through the nasal cavity and the mucous serves to trap the large particles that come into contact with it. Clinically in the horse the ventral nasal meatus is the main passage through which a stomach tube can be passed to the pharynx and oesophagus and then to the stomach. This kind of a tube is commonly used when drenching a horse for colic, as well as having many other veterinary applications. The tube has to pass through the ventral nasal meatus to the nasopharyngeal meatus and the caudal nares to reach the pharynx and oesophagus. If the tube is accidentally passed into the dorsal or middle nasal meatuses it would pass to the ethmotubinates and cause massive haemorrhage."
   },
   {
     "id": "gld_00505",
@@ -6067,9 +6067,9 @@
     "type_uz": "Bez",
     "english": "canal of Wirsung",
     "translation_uz": "canal of Wirsung (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A duct joining the pancreas to the common bile duct to supply pancreatic juices which aid in digestion provided by the exocrine pancreas. The...",
+    "definition_uz": "Anatomik ta'rif (Bez): A duct joining the pancreas to the common bile duct to supply pancreatic juices which aid in digestion provided by the exocrine pancreas. The pancreatic duct joins the common bile duct just prior to the ampulla of Vater, after which both ducts perforate the medial side of the second portion of the duodenum at the major duodenal papilla.",
     "slug": "/structure/ventral-pancreatic-duct/",
-    "description_en": "A duct joining the pancreas to the common bile duct to supply pancreatic juices which aid in digestion provided by the exocrine pancreas. The..."
+    "description_en": "A duct joining the pancreas to the common bile duct to supply pancreatic juices which aid in digestion provided by the exocrine pancreas. The pancreatic duct joins the common bile duct just prior to the ampulla of Vater, after which both ducts perforate the medial side of the second portion of the duodenum at the major duodenal papilla."
   },
   {
     "id": "gld_00507",
@@ -6091,9 +6091,9 @@
     "type_uz": "Bez",
     "english": "",
     "translation_uz": "vestibular gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): Lobular organ the parenchyma of which consists of glandular acini which communicate with the vestibule of vagina. Examples: right vestibular gland,...",
+    "definition_uz": "Anatomik ta'rif (Bez): Lobular organ the parenchyma of which consists of glandular acini which communicate with the vestibule of vagina. Examples: right vestibular gland, lesser vestibular gland.",
     "slug": "/structure/vestibular-gland/",
-    "description_en": "Lobular organ the parenchyma of which consists of glandular acini which communicate with the vestibule of vagina. Examples: right vestibular gland,..."
+    "description_en": "Lobular organ the parenchyma of which consists of glandular acini which communicate with the vestibule of vagina. Examples: right vestibular gland, lesser vestibular gland."
   },
   {
     "id": "gld_00509",
@@ -6103,9 +6103,9 @@
     "type_uz": "Bez",
     "english": "ligamentum vestibulare",
     "translation_uz": "ligamentum vestibulare (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The vestibular fold is a fibroelastic band which passes from the ventral margin of the cuneiform cartilage to the cranial dorsal surface of the thyroid...",
+    "definition_uz": "Anatomik ta'rif (Bez): The vestibular fold is a fibroelastic band which passes from the ventral margin of the cuneiform cartilage to the cranial dorsal surface of the thyroid cartilage. It forms the support for the free edge of the vestibular fold.",
     "slug": "/structure/vestibular-ligament/",
-    "description_en": "The vestibular fold is a fibroelastic band which passes from the ventral margin of the cuneiform cartilage to the cranial dorsal surface of the thyroid..."
+    "description_en": "The vestibular fold is a fibroelastic band which passes from the ventral margin of the cuneiform cartilage to the cranial dorsal surface of the thyroid cartilage. It forms the support for the free edge of the vestibular fold."
   },
   {
     "id": "gld_00510",
@@ -6115,9 +6115,9 @@
     "type_uz": "Bez",
     "english": "introitus",
     "translation_uz": "introitus (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): The space posterior to the glans clitoridis, between the labia minora; located within the vestibule are the openings of the vagina, the urethra, and...",
+    "definition_uz": "Anatomik ta'rif (Bez): The space posterior to the glans clitoridis, between the labia minora; located within the vestibule are the openings of the vagina, the urethra, and the ducts of the lesser vestibular glands, the greater vestibular (Bartholin&#x27;s) glands, and the paraurethral (Skene&#x27;s) glands, which release mucus into the vestibule to maintain a moist, lubricated vestibular environment; the vestibule is also moistened by secretions from the cervical mucus glands located in the inferior region of the uterus.",
     "slug": "/structure/vestibule-of-vagina/",
-    "description_en": "The space posterior to the glans clitoridis, between the labia minora; located within the vestibule are the openings of the vagina, the urethra, and..."
+    "description_en": "The space posterior to the glans clitoridis, between the labia minora; located within the vestibule are the openings of the vagina, the urethra, and the ducts of the lesser vestibular glands, the greater vestibular (Bartholin&#x27;s) glands, and the paraurethral (Skene&#x27;s) glands, which release mucus into the vestibule to maintain a moist, lubricated vestibular environment; the vestibule is also moistened by secretions from the cervical mucus glands located in the inferior region of the uterus."
   },
   {
     "id": "gld_00511",
@@ -6139,9 +6139,9 @@
     "type_uz": "Bez",
     "english": "gland of Weber",
     "translation_uz": "gland of Weber (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): One of the lingual glands located on the lateral margins of the tongue, at the level of the foliate papillae and in the root of the tongue behind the...",
+    "definition_uz": "Anatomik ta'rif (Bez): One of the lingual glands located on the lateral margins of the tongue, at the level of the foliate papillae and in the root of the tongue behind the circumvallate papillae.",
     "slug": "/structure/webers-gland/",
-    "description_en": "One of the lingual glands located on the lateral margins of the tongue, at the level of the foliate papillae and in the root of the tongue behind the..."
+    "description_en": "One of the lingual glands located on the lateral margins of the tongue, at the level of the foliate papillae and in the root of the tongue behind the circumvallate papillae."
   },
   {
     "id": "gld_00513",
@@ -6211,9 +6211,9 @@
     "type_uz": "Bez",
     "english": "gastric zone",
     "translation_uz": "gastric zone (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A division of the stomach. The stomach can be divided based on mucosal histology (glandular epithelium and gastric glands) and the relative position...",
+    "definition_uz": "Anatomik ta'rif (Bez): A division of the stomach. The stomach can be divided based on mucosal histology (glandular epithelium and gastric glands) and the relative position and type of gastric gland.",
     "slug": "/structure/zone-of-stomach/",
-    "description_en": "A division of the stomach. The stomach can be divided based on mucosal histology (glandular epithelium and gastric glands) and the relative position..."
+    "description_en": "A division of the stomach. The stomach can be divided based on mucosal histology (glandular epithelium and gastric glands) and the relative position and type of gastric gland."
   },
   {
     "id": "gld_00519",
@@ -6223,9 +6223,9 @@
     "type_uz": "Bez",
     "english": "orbital gland",
     "translation_uz": "orbital gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A salivary gland best developed in carnivores; located above the zygomatic arch and below the eye. Enlargement or mucocele of the gland causes...",
+    "definition_uz": "Anatomik ta'rif (Bez): A salivary gland best developed in carnivores; located above the zygomatic arch and below the eye. Enlargement or mucocele of the gland causes exophthalmos.",
     "slug": "/structure/zygomatic-gland/",
-    "description_en": "A salivary gland best developed in carnivores; located above the zygomatic arch and below the eye. Enlargement or mucocele of the gland causes..."
+    "description_en": "A salivary gland best developed in carnivores; located above the zygomatic arch and below the eye. Enlargement or mucocele of the gland causes exophthalmos."
   },
   {
     "id": "gld_00520",
@@ -6235,8 +6235,8 @@
     "type_uz": "Bez",
     "english": "auditory sebaceous gland",
     "translation_uz": "auditory sebaceous gland (Bez)",
-    "definition_uz": "Anatomik ta'rif (Bez): A multilobulated modified sebaceous gland that is located at the base of the external ear, lined by stratified squamous epithelium, and secretes into...",
+    "definition_uz": "Anatomik ta'rif (Bez): A multilobulated modified sebaceous gland that is located at the base of the external ear, lined by stratified squamous epithelium, and secretes into the auditory canal.",
     "slug": "/structure/zymbals-gland/",
-    "description_en": "A multilobulated modified sebaceous gland that is located at the base of the external ear, lined by stratified squamous epithelium, and secretes into..."
+    "description_en": "A multilobulated modified sebaceous gland that is located at the base of the external ear, lined by stratified squamous epithelium, and secretes into the auditory canal."
   }
 ]

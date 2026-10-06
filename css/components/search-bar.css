@@ -1,5 +1,6 @@
+/* MedLatin UZ - Search Bar & Discovery Chips Styles */
 .search-container {
-  max-width: 680px;
+  max-width: 720px;
   margin: 0 auto 1.5rem;
   position: relative;
 }
@@ -31,10 +32,14 @@
   justify-content: center;
 }
 
+.search-icon iconify-icon {
+  font-size: 1.35rem;
+}
+
 .search-input {
   width: 100%;
-  padding: 1.1rem 3.5rem 1.1rem 3.25rem;
-  font-size: 1.1rem;
+  padding: 1.1rem 6.5rem 1.1rem 3.4rem;
+  font-size: 1.05rem;
   background: transparent;
   border: none;
   outline: none;
@@ -46,9 +51,29 @@
   font-weight: 400;
 }
 
-.clear-button {
+.search-actions {
   position: absolute;
-  right: 1.25rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-shortcut {
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  padding: 0.2rem 0.45rem;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.04em;
+  user-select: none;
+  pointer-events: none;
+}
+
+.clear-button {
   width: 28px;
   height: 28px;
   border-radius: var(--radius-full);
@@ -58,6 +83,7 @@
   align-items: center;
   justify-content: center;
   transition: all var(--transition-fast);
+  cursor: pointer;
 }
 
 .clear-button:hover {
@@ -69,30 +95,40 @@
   display: flex;
 }
 
-.search-quick-tags {
+/* Discovery Chips / Popular Search Queries */
+.search-discovery-chips {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.75rem;
+  gap: 0.45rem;
+  margin-top: 0.85rem;
   font-size: 0.85rem;
-  color: var(--text-muted);
 }
 
-.quick-tag {
+.discovery-label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.discovery-chip {
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
-  padding: 0.2rem 0.65rem;
+  padding: 0.25rem 0.75rem;
   border-radius: var(--radius-full);
-  font-size: 0.8rem;
+  font-size: 0.825rem;
+  font-weight: 500;
   color: var(--text-secondary);
   cursor: pointer;
   transition: all var(--transition-fast);
+  user-select: none;
 }
 
-.quick-tag:hover {
+.discovery-chip:hover {
   border-color: var(--primary);
   color: var(--primary);
   background: var(--primary-light);
+  transform: translateY(-1px);
 }

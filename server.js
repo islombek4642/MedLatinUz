@@ -1,48 +1,48 @@
 import http from 'http';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const PORT = 3000;
 const MIME_TYPES = {
   '.html': 'text/html',
   '.css': 'text/css',
   '.js': 'application/javascript',
   '.json': 'application/json',
   '.png': 'image/png',
-  '.svg': 'image/svg+xml'
+  '.jpg': 'image/jpeg',
+  '.svg': 'image/svg+xml',
+  '.ico': 'image/x-icon'
 };
 
-const server = http.createServer((req, res) => {
+const handleRequest = (req, res) => {
   let reqPath = req.url.split('?')[0];
   if (reqPath === '/') reqPath = '/index.html';
+  console.log(`[HTTP] ${req.method} ${req.url}`);
+  
+  const filePath = path.join(process.cwd(), reqPath);
+  if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.end('Not Found');
+    return;
+  }
 
-  const filePath = path.join(__dirname, reqPath);
   const ext = path.extname(filePath);
   const contentType = MIME_TYPES[ext] || 'application/octet-stream';
-
-  fs.readFile(filePath, (err, content) => {
-    if (err) {
-      if (err.code === 'ENOENT') {
-        res.writeHead(404, { 'Content-Type': 'text/plain' });
-        res.end('404 Not Found');
-      } else {
-        res.writeHead(500);
-        res.end(`Server Error: ${err.code}`);
-      }
-    } else {
-      res.writeHead(200, {
-        'Content-Type': contentType,
-        'Cache-Control': 'no-cache, no-store, must-revalidate'
-      });
-      res.end(content);
-    }
+  
+  res.writeHead(200, {
+    'Content-Type': contentType,
+    'Access-Control-Allow-Origin': '*',
+    'Cache-Control': 'no-store, no-cache, must-revalidate'
   });
+  fs.createReadStream(filePath).pipe(res);
+};
+
+const server3000 = http.createServer(handleRequest);
+const server3001 = http.createServer(handleRequest);
+
+server3000.listen(3000, () => {
+  console.log('Server live on http://localhost:3000/');
 });
 
-server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}/`);
+server3001.listen(3001, () => {
+  console.log('Server live on http://localhost:3001/');
 });

@@ -47,19 +47,27 @@ async function fetchHtml(url) {
 function extractStructureDescription(html) {
   if (!html) return null;
   
-  // 1. Meta description
+  // 1. Asosiy matn abzaslari (to'liq va kesilmagan matn)
+  const main = html.match(/<main[\s\S]*?<\/main>/i)?.[0] || html;
+  const paragraphs = [...main.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map(m => m[1].replace(/<[^>]+>/g, '').trim())
+    .filter(p => p.length > 25 && 
+                 !p.includes('AnatomyFYI') && 
+                 !p.includes('cookie') && 
+                 !p.includes('educational and informational') &&
+                 !p.includes('All rights reserved'));
+
+  const fullPara = paragraphs.find(p => !p.endsWith('...') && !p.endsWith('…'));
+  if (fullPara) return fullPara;
+  if (paragraphs.length > 0) return paragraphs[0];
+
+  // 2. Faqat zaxira sifatida: Meta description (agar kesilmagan bo'lsa)
   const metaDesc = html.match(/<meta[^>]*name=["']description["'][^>]*content=["']([^"']*)["']/i)?.[1]?.trim();
-  if (metaDesc && metaDesc.length > 25 && !metaDesc.startsWith('Explore') && !metaDesc.includes('AnatomyFYI')) {
+  if (metaDesc && metaDesc.length > 25 && !metaDesc.startsWith('Explore') && !metaDesc.includes('AnatomyFYI') && !metaDesc.endsWith('...') && !metaDesc.endsWith('…')) {
     return metaDesc;
   }
 
-  // 2. Main paragraphs
-  const main = html.match(/<main[\s\S]*?<\/main>/i)?.[0] || '';
-  const paragraphs = [...main.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
-    .map(m => m[1].replace(/<[^>]+>/g, '').trim())
-    .filter(p => p.length > 25 && !p.includes('AnatomyFYI') && !p.includes('cookie') && !p.includes('educational and informational'));
-
-  return paragraphs.length > 0 ? paragraphs[0] : null;
+  return null;
 }
 
 async function processFile(filePath) {
@@ -75,9 +83,22 @@ async function processFile(filePath) {
 
   let updatedCount = 0;
   let cacheCount = 0;
+  let skippedCount = 0;
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
+
+    // Allaqachon boyitilgan elementlarni tekshirish va o'tkazib yuborish
+    const isEnriched = item.description_en && 
+                       item.definition_uz && 
+                       item.definition_uz.startsWith("Anatomik ta'rif") &&
+                       !item.definition_uz.endsWith('...') &&
+                       !item.definition_uz.endsWith('…');
+    if (isEnriched) {
+      skippedCount++;
+      continue;
+    }
+
     let slug = (item.slug || '').replace(/^\/structure\//, '').replace(/\/$/, '').trim();
     if (!slug) {
       slug = item.latin.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -116,7 +137,7 @@ async function processFile(filePath) {
     }
   }
 
-  console.log(`Tugadi: ${filePath}. Yangilandi: ${updatedCount}, Keshdan: ${cacheCount}`);
+  console.log(`Tugadi: ${filePath}. Yangilandi: ${updatedCount}, Oldin tayyor (o'tkazildi): ${skippedCount}, Keshdan: ${cacheCount}`);
 }
 
 async function run() {

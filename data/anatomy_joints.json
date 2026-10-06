@@ -7,9 +7,9 @@
     "type_uz": "Bo'g'im",
     "english": "acetabular margin",
     "translation_uz": "acetabular margin (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): A prominent unever rim that bounds the acetabulum, serving as the attachment for the acetabular labrum, which reduces its opening, and deepens the...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A prominent unever rim that bounds the acetabulum, serving as the attachment for the acetabular labrum, which reduces its opening, and deepens the surface for formation of the hip joint.",
     "slug": "/structure/acetabular-rim/",
-    "description_en": "A prominent unever rim that bounds the acetabulum, serving as the attachment for the acetabular labrum, which reduces its opening, and deepens the..."
+    "description_en": "A prominent unever rim that bounds the acetabulum, serving as the attachment for the acetabular labrum, which reduces its opening, and deepens the surface for formation of the hip joint."
   },
   {
     "id": "jnt_00002",
@@ -43,9 +43,9 @@
     "type_uz": "Bo'g'im",
     "english": "feeler",
     "translation_uz": "feeler (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The paired, usually multiple jointed, sensory organs articulating on the procephalic region of the head capsule; its highly versatile sensory...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The paired, usually multiple jointed, sensory organs articulating on the procephalic region of the head capsule; its highly versatile sensory structures are capable to detect the various environmental stimuli. In the context of Drosophila refers to they are the most anterior segmented sensory appendage of the head.",
     "slug": "/structure/antenna/",
-    "description_en": "The paired, usually multiple jointed, sensory organs articulating on the procephalic region of the head capsule; its highly versatile sensory..."
+    "description_en": "The paired, usually multiple jointed, sensory organs articulating on the procephalic region of the head capsule; its highly versatile sensory structures are capable to detect the various environmental stimuli. In the context of Drosophila refers to they are the most anterior segmented sensory appendage of the head."
   },
   {
     "id": "jnt_00005",
@@ -223,9 +223,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio ellipsoidea",
     "translation_uz": "articulatio ellipsoidea (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): In a condyloid joint (condyloid articulation, ellipsoidal joint) an ovoid articular surface, or condyle, is received into an elliptical cavity. This...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): In a condyloid joint (condyloid articulation, ellipsoidal joint) an ovoid articular surface, or condyle, is received into an elliptical cavity. This permits movement in two planes, allowing flexion, extension, adduction, abduction, and circumduction.",
     "slug": "/structure/condylar-joint/",
-    "description_en": "In a condyloid joint (condyloid articulation, ellipsoidal joint) an ovoid articular surface, or condyle, is received into an elliptical cavity. This..."
+    "description_en": "In a condyloid joint (condyloid articulation, ellipsoidal joint) an ovoid articular surface, or condyle, is received into an elliptical cavity. This permits movement in two planes, allowing flexion, extension, adduction, abduction, and circumduction."
   },
   {
     "id": "jnt_00020",
@@ -235,9 +235,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "cranial synchondrosis (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The cartilaginous joints of the skull; these include sphenoethmoidal synchondrosis, sphenooccipital synchondrosis, sphenopetrosal synchondrosis,...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The cartilaginous joints of the skull; these include sphenoethmoidal synchondrosis, sphenooccipital synchondrosis, sphenopetrosal synchondrosis, petrooccipital synchondrosis, anterior intraoccipital synchondrosis and posterior intraoccipital synchondrosis.",
     "slug": "/structure/cranial-synchondrosis/",
-    "description_en": "The cartilaginous joints of the skull; these include sphenoethmoidal synchondrosis, sphenooccipital synchondrosis, sphenopetrosal synchondrosis,..."
+    "description_en": "The cartilaginous joints of the skull; these include sphenoethmoidal synchondrosis, sphenooccipital synchondrosis, sphenopetrosal synchondrosis, petrooccipital synchondrosis, anterior intraoccipital synchondrosis and posterior intraoccipital synchondrosis."
   },
   {
     "id": "jnt_00021",
@@ -307,9 +307,9 @@
     "type_uz": "Bo'g'im",
     "english": "cervical neck joint",
     "translation_uz": "cervical neck joint (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Dermal articulation between skull and shoulder girdle localized to paired dermal neck-joint between anterior dorsolateral plate (ADL) and paranuchal...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Dermal articulation between skull and shoulder girdle localized to paired dermal neck-joint between anterior dorsolateral plate (ADL) and paranuchal (PNu) plates in placoderms.",
     "slug": "/structure/dermal-neck-joint/",
-    "description_en": "Dermal articulation between skull and shoulder girdle localized to paired dermal neck-joint between anterior dorsolateral plate (ADL) and paranuchal..."
+    "description_en": "Dermal articulation between skull and shoulder girdle localized to paired dermal neck-joint between anterior dorsolateral plate (ADL) and paranuchal (PNu) plates in placoderms."
   },
   {
     "id": "jnt_00027",
@@ -499,9 +499,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulation radioulnaris distalis",
     "translation_uz": "articulation radioulnaris distalis (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The Distal Radioulnar Articulation (inferior radioulnar joint) is a pivot-joint formed between the head of the ulna and the ulnar notch on the distal...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): articulation radioulnaris distalis",
     "slug": "/structure/distal-radio-ulnar-joint/",
-    "description_en": "The Distal Radioulnar Articulation (inferior radioulnar joint) is a pivot-joint formed between the head of the ulna and the ulnar notch on the distal..."
+    "description_en": "articulation radioulnaris distalis"
   },
   {
     "id": "jnt_00043",
@@ -571,9 +571,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "foramen C (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Foramen located on the scapulocoracoid, located just behind the cleithral anteroventral process(the articulation with the cleithrum). Modified from...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Foramen located on the scapulocoracoid, located just behind the cleithral anteroventral process(the articulation with the cleithrum). Modified from Coates 1996.",
     "slug": "/structure/foramen-c/",
-    "description_en": "Foramen located on the scapulocoracoid, located just behind the cleithral anteroventral process(the articulation with the cleithrum). Modified from..."
+    "description_en": "Foramen located on the scapulocoracoid, located just behind the cleithral anteroventral process(the articulation with the cleithrum). Modified from Coates 1996."
   },
   {
     "id": "jnt_00049",
@@ -715,9 +715,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio incudostapedialis",
     "translation_uz": "articulatio incudostapedialis (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The small synovial joint connecting the inclus and the stapes, located between the lenticular process on the long crus of the incus and the head of the...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): articulatio incudostapedialis",
     "slug": "/structure/incudostapedial-joint/",
-    "description_en": "The small synovial joint connecting the inclus and the stapes, located between the lenticular process on the long crus of the incus and the head of the..."
+    "description_en": "articulatio incudostapedialis"
   },
   {
     "id": "jnt_00061",
@@ -727,9 +727,9 @@
     "type_uz": "Bo'g'im",
     "english": "stylohyal cartilage",
     "translation_uz": "stylohyal cartilage (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Pharyngeal arch cartilage that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Pharyngeal arch cartilage that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and symplectic.",
     "slug": "/structure/interhyal-cartilage/",
-    "description_en": "Pharyngeal arch cartilage that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula..."
+    "description_en": "Pharyngeal arch cartilage that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and symplectic."
   },
   {
     "id": "jnt_00062",
@@ -739,9 +739,9 @@
     "type_uz": "Bo'g'im",
     "english": "stylohyal",
     "translation_uz": "stylohyal (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Skeletal element that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Skeletal element that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and symplectic.",
     "slug": "/structure/interhyal-element/",
-    "description_en": "Skeletal element that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and..."
+    "description_en": "Skeletal element that is bilaterally paired and articulates dorsally with the hyosymplectic cartilage or the articulation of the hyomandibula and symplectic."
   },
   {
     "id": "jnt_00063",
@@ -847,9 +847,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulationes digitorum manus",
     "translation_uz": "articulationes digitorum manus (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The interphalangeal articulations of hand are hinge-joints of the phalanges of the hand. There are two sets (except in the thumb): &#x27;proximal...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): articulationes digitorum manus",
     "slug": "/structure/interphalangeal-joint-of-manus/",
-    "description_en": "The interphalangeal articulations of hand are hinge-joints of the phalanges of the hand. There are two sets (except in the thumb): &#x27;proximal..."
+    "description_en": "articulationes digitorum manus"
   },
   {
     "id": "jnt_00072",
@@ -919,9 +919,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulationes intertarsale",
     "translation_uz": "articulationes intertarsale (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Intertarsal articulations are the joints of the tarsus. The specific intertarsal articulations are: Talocalcaneal articulation Talocalcaneonavicular...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): articulationes intertarsale",
     "slug": "/structure/intertarsal-joint/",
-    "description_en": "Intertarsal articulations are the joints of the tarsus. The specific intertarsal articulations are: Talocalcaneal articulation Talocalcaneonavicular..."
+    "description_en": "articulationes intertarsale"
   },
   {
     "id": "jnt_00078",
@@ -1111,9 +1111,9 @@
     "type_uz": "Bo'g'im",
     "english": "articular disc",
     "translation_uz": "articular disc (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Crescent-shaped fibrocartilaginous structure present in the knee, acromioclavicular, sternoclavicular, and temporomandibular joints[2] that, in...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Crescent-shaped fibrocartilaginous structure present in the knee, acromioclavicular, sternoclavicular, and temporomandibular joints[2] that, in contrast to articular disks, only partly divides a joint cavity.[3] A small meniscus also occurs in the radio-carpal joint.",
     "slug": "/structure/meniscus/",
-    "description_en": "Crescent-shaped fibrocartilaginous structure present in the knee, acromioclavicular, sternoclavicular, and temporomandibular joints[2] that, in..."
+    "description_en": "Crescent-shaped fibrocartilaginous structure present in the knee, acromioclavicular, sternoclavicular, and temporomandibular joints[2] that, in contrast to articular disks, only partly divides a joint cavity.[3] A small meniscus also occurs in the radio-carpal joint."
   },
   {
     "id": "jnt_00094",
@@ -1207,9 +1207,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "M. ileo-fibularis (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Originates from the ventral border of the ala ossis ilei just posterior to the origin of M. glutaeus maximus. Insterts in the aponeurosis covering the...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Originates from the ventral border of the ala ossis ilei just posterior to the origin of M. glutaeus maximus. Insterts in the aponeurosis covering the knee joint.",
     "slug": "/structure/m-ileo-fibularis/",
-    "description_en": "Originates from the ventral border of the ala ossis ilei just posterior to the origin of M. glutaeus maximus. Insterts in the aponeurosis covering the..."
+    "description_en": "Originates from the ventral border of the ala ossis ilei just posterior to the origin of M. glutaeus maximus. Insterts in the aponeurosis covering the knee joint."
   },
   {
     "id": "jnt_00102",
@@ -1279,9 +1279,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "pectoral flipper tubercle (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): A bump or swelling adorining the head and leading edge of a pectoral flipper, associated with the multiple joints and terminal phalanges as found in...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A bump or swelling adorining the head and leading edge of a pectoral flipper, associated with the multiple joints and terminal phalanges as found in the multiple phalanges of the humpback whale.",
     "slug": "/structure/pectoral-flipper-tubercle/",
-    "description_en": "A bump or swelling adorining the head and leading edge of a pectoral flipper, associated with the multiple joints and terminal phalanges as found in..."
+    "description_en": "A bump or swelling adorining the head and leading edge of a pectoral flipper, associated with the multiple joints and terminal phalanges as found in the multiple phalanges of the humpback whale."
   },
   {
     "id": "jnt_00108",
@@ -1447,9 +1447,9 @@
     "type_uz": "Bo'g'im",
     "english": "caput ulnae",
     "translation_uz": "caput ulnae (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The head of ulna presents an articular surface, part of which, of an oval or semilunar form, is directed downward, and articulates with the upper...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): The head of ulna presents an articular surface, part of which, of an oval or semilunar form, is directed downward, and articulates with the upper surface of the triangular articular disk which separates it from the wrist-joint; the remaining portion, directed lateralward, is narrow, convex, and received into the ulnar notch of the radius.",
     "slug": "/structure/proximal-epiphysis-of-ulna/",
-    "description_en": "The head of ulna presents an articular surface, part of which, of an oval or semilunar form, is directed downward, and articulates with the upper..."
+    "description_en": "The head of ulna presents an articular surface, part of which, of an oval or semilunar form, is directed downward, and articulates with the upper surface of the triangular articular disk which separates it from the wrist-joint; the remaining portion, directed lateralward, is narrow, convex, and received into the ulnar notch of the radius."
   },
   {
     "id": "jnt_00122",
@@ -1543,9 +1543,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "shoulder joint primordium (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (shoulder joint primordium) that forms during early development and contributes to the formation of definitive tissues and...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (shoulder joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs.",
     "slug": "/structure/shoulder-joint-primordium/",
-    "description_en": "An embryological structure (shoulder joint primordium) that forms during early development and contributes to the formation of definitive tissues and..."
+    "description_en": "An embryological structure (shoulder joint primordium) that forms during early development and contributes to the formation of definitive tissues and organs."
   },
   {
     "id": "jnt_00130",
@@ -1591,9 +1591,9 @@
     "type_uz": "Bo'g'im",
     "english": "femoropatellar joint",
     "translation_uz": "femoropatellar joint (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): A complex joint in the hind limbs of quadruped mammals such as the sheep, horse or dog. It is the equivalent joint to the human knee. It is often the...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A complex joint in the hind limbs of quadruped mammals such as the sheep, horse or dog. It is the equivalent joint to the human knee. It is often the largest synovial joint in the body.",
     "slug": "/structure/stifle-joint/",
-    "description_en": "A complex joint in the hind limbs of quadruped mammals such as the sheep, horse or dog. It is the equivalent joint to the human knee. It is often the..."
+    "description_en": "A complex joint in the hind limbs of quadruped mammals such as the sheep, horse or dog. It is the equivalent joint to the human knee. It is often the largest synovial joint in the body."
   },
   {
     "id": "jnt_00134",
@@ -1651,9 +1651,9 @@
     "type_uz": "Bo'g'im",
     "english": "synarthrodial",
     "translation_uz": "synarthrodial (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): A synarthrosis is a type of joint which permits very little or no movement under normal conditions. Most synarthrosis joints are fibrous. Suture joints...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): A synarthrosis is a type of joint which permits very little or no movement under normal conditions. Most synarthrosis joints are fibrous. Suture joints and synchondroses are synarthroses.",
     "slug": "/structure/synarthrosis/",
-    "description_en": "A synarthrosis is a type of joint which permits very little or no movement under normal conditions. Most synarthrosis joints are fibrous. Suture joints..."
+    "description_en": "A synarthrosis is a type of joint which permits very little or no movement under normal conditions. Most synarthrosis joints are fibrous. Suture joints and synchondroses are synarthroses."
   },
   {
     "id": "jnt_00139",
@@ -1759,9 +1759,9 @@
     "type_uz": "Bo'g'im",
     "english": "temporo-mandibular joint primordium",
     "translation_uz": "temporo-mandibular joint primordium (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): An embryological structure (temporomandibular joint primordium) that forms during early development and contributes to the formation of definitive...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): temporo-mandibular joint primordium",
     "slug": "/structure/temporomandibular-joint-primordium/",
-    "description_en": "An embryological structure (temporomandibular joint primordium) that forms during early development and contributes to the formation of definitive..."
+    "description_en": "temporo-mandibular joint primordium"
   },
   {
     "id": "jnt_00148",
@@ -1807,9 +1807,9 @@
     "type_uz": "Bo'g'im",
     "english": "articulatio tarsi transversa",
     "translation_uz": "articulatio tarsi transversa (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The transverse tarsal joint is formed by the articulation of the calcaneus with the cuboid, and the articulation of the talus with the navicular. The...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): articulatio tarsi transversa",
     "slug": "/structure/transverse-tarsal-joint/",
-    "description_en": "The transverse tarsal joint is formed by the articulation of the calcaneus with the cuboid, and the articulation of the talus with the navicular. The..."
+    "description_en": "articulatio tarsi transversa"
   },
   {
     "id": "jnt_00152",
@@ -1819,9 +1819,9 @@
     "type_uz": "Bo'g'im",
     "english": "incisura semilunaris ulnae",
     "translation_uz": "incisura semilunaris ulnae (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): The semilunar notch of the ulna (trochlear notch of ulna, greater sigmoid cavity) is a large depression, formed by the olecranon and the coronoid...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): incisura semilunaris ulnae",
     "slug": "/structure/trochlear-notch/",
-    "description_en": "The semilunar notch of the ulna (trochlear notch of ulna, greater sigmoid cavity) is a large depression, formed by the olecranon and the coronoid..."
+    "description_en": "incisura semilunaris ulnae"
   },
   {
     "id": "jnt_00153",
@@ -1843,9 +1843,9 @@
     "type_uz": "Bo'g'im",
     "english": "",
     "translation_uz": "ventral keel of coracoid (Bo'g'im)",
-    "definition_uz": "Anatomik ta'rif (Bo'g'im): Process on the ventral surface of the horizontal limb of the coracoid, close to and parallel to the coracoid-cleithrum joint. Ventral keel of coracoid...",
+    "definition_uz": "Anatomik ta'rif (Bo'g'im): Process on the ventral surface of the horizontal limb of the coracoid, close to and parallel to the coracoid-cleithrum joint. Ventral keel of coracoid is paired.",
     "slug": "/structure/ventral-keel-of-coracoid/",
-    "description_en": "Process on the ventral surface of the horizontal limb of the coracoid, close to and parallel to the coracoid-cleithrum joint. Ventral keel of coracoid..."
+    "description_en": "Process on the ventral surface of the horizontal limb of the coracoid, close to and parallel to the coracoid-cleithrum joint. Ventral keel of coracoid is paired."
   },
   {
     "id": "jnt_00155",

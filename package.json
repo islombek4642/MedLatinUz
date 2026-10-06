@@ -4,6 +4,6 @@
   "description": "Medical Latin to Uzbek Dictionary",
   "type": "module",
   "scripts": {
-    "test": "node tests/validate-data.js && node tests/test-search.js"
+    "test": "node tests/validate-data.js && node tests/test-search.js && node tests/test-theme.js && node tests/test-bookmarks.js && node tests/test-highlight.js && node tests/test-ui-renderer.js && node tests/test-storage-and-dict.js && node tests/test-loading-modal.js"
   }
 }

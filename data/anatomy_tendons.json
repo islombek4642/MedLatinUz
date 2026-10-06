@@ -7,9 +7,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "bicipital tuberosity (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): The rough eminence which is on the anterior inner aspect of the neck of the radius and into which the tendon of the biceps is inserted. From...",
+    "definition_uz": "Anatomik ta'rif (Pay): The rough eminence which is on the anterior inner aspect of the neck of the radius and into which the tendon of the biceps is inserted. From http://www.merriam-webster.com/medical.",
     "slug": "/structure/bicipital-tuberosity/",
-    "description_en": "The rough eminence which is on the anterior inner aspect of the neck of the radius and into which the tendon of the biceps is inserted. From..."
+    "description_en": "The rough eminence which is on the anterior inner aspect of the neck of the radius and into which the tendon of the biceps is inserted. From http://www.merriam-webster.com/medical."
   },
   {
     "id": "tnd_00002",
@@ -43,9 +43,9 @@
     "type_uz": "Pay",
     "english": "fibrous portion of pericardium",
     "translation_uz": "fibrous portion of pericardium (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Membrane organ which is attached to the pericardial sac proper and the central tendon of diaphragm and is continuous with the pretracheal fascia.[FMA].",
+    "definition_uz": "Anatomik ta'rif (Pay): fibrous portion of pericardium",
     "slug": "/structure/fibrous-pericardium/",
-    "description_en": "Membrane organ which is attached to the pericardial sac proper and the central tendon of diaphragm and is continuous with the pretracheal fascia.[FMA]."
+    "description_en": "fibrous portion of pericardium"
   },
   {
     "id": "tnd_00005",
@@ -55,9 +55,9 @@
     "type_uz": "Pay",
     "english": "cranial derivative of septum transversum",
     "translation_uz": "cranial derivative of septum transversum (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): A tendon that has the potential to develop into a central tendon.",
+    "definition_uz": "Anatomik ta'rif (Pay): cranial derivative of septum transversum",
     "slug": "/structure/future-central-tendon/",
-    "description_en": "A tendon that has the potential to develop into a central tendon."
+    "description_en": "cranial derivative of septum transversum"
   },
   {
     "id": "tnd_00006",
@@ -67,9 +67,9 @@
     "type_uz": "Pay",
     "english": "lesser tubercle",
     "translation_uz": "lesser tubercle (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): The lesser tubercle of the humerus, although smaller, is more prominent than the greater tubercle: it is situated in front, and is directed medially...",
+    "definition_uz": "Anatomik ta'rif (Pay): The lesser tubercle of the humerus, although smaller, is more prominent than the greater tubercle: it is situated in front, and is directed medially and anteriorly. Above and in front it presents an impression for the insertion of the tendon of the Subscapularis.",
     "slug": "/structure/lesser-tubercle-of-humerus/",
-    "description_en": "The lesser tubercle of the humerus, although smaller, is more prominent than the greater tubercle: it is situated in front, and is directed medially..."
+    "description_en": "The lesser tubercle of the humerus, although smaller, is more prominent than the greater tubercle: it is situated in front, and is directed medially and anteriorly. Above and in front it presents an impression for the insertion of the tendon of the Subscapularis."
   },
   {
     "id": "tnd_00007",
@@ -79,9 +79,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. extensor cruris brevis (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates by a slender tendon from the ventral surface of the medial condyle of the femur and passes over the knee to insert as a fleshy belly on the...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by a slender tendon from the ventral surface of the medial condyle of the femur and passes over the knee to insert as a fleshy belly on the ventro-lateral surface of the tibiofibula.",
     "slug": "/structure/m-extensor-cruris-brevis/",
-    "description_en": "Originates by a slender tendon from the ventral surface of the medial condyle of the femur and passes over the knee to insert as a fleshy belly on the..."
+    "description_en": "Originates by a slender tendon from the ventral surface of the medial condyle of the femur and passes over the knee to insert as a fleshy belly on the ventro-lateral surface of the tibiofibula."
   },
   {
     "id": "tnd_00008",
@@ -91,9 +91,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. extensor digitorum communis longus (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): It arises on the lateral epicondyle of the humerus by two heads: the lateral one arises by a thin tendon in common with the m.extensor carpi ulnaris...",
+    "definition_uz": "Anatomik ta'rif (Pay): It arises on the lateral epicondyle of the humerus by two heads: the lateral one arises by a thin tendon in common with the m.extensor carpi ulnaris with fibers proximally fused. The internal one arises by a short tendon in common with proximally fused fibers of the m. extensor carpi radialis. It divides distally in two heads: the external head inserts with a long and thin tendon on the metacarpal V, at the same point of insertion of the m. abductor brevis dorsalis digiti V; the internal one inserts by a thin tendon on the proximal region of the metacarpal IV, between the m. extensor brevis superficialis digiti IV and the m. extensor brevis medius digiti IV (Pristimantis bogotensis).",
     "slug": "/structure/m-extensor-digitorum-communis-longus/",
-    "description_en": "It arises on the lateral epicondyle of the humerus by two heads: the lateral one arises by a thin tendon in common with the m.extensor carpi ulnaris..."
+    "description_en": "It arises on the lateral epicondyle of the humerus by two heads: the lateral one arises by a thin tendon in common with the m.extensor carpi ulnaris with fibers proximally fused. The internal one arises by a short tendon in common with proximally fused fibers of the m. extensor carpi radialis. It divides distally in two heads: the external head inserts with a long and thin tendon on the metacarpal V, at the same point of insertion of the m. abductor brevis dorsalis digiti V; the internal one inserts by a thin tendon on the proximal region of the metacarpal IV, between the m. extensor brevis superficialis digiti IV and the m. extensor brevis medius digiti IV (Pristimantis bogotensis)."
   },
   {
     "id": "tnd_00009",
@@ -103,9 +103,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. flexor antibrachii lateralis superficialis (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates as a superior and inferior head. The superior head originates on the outer edge of the humerus and the inferior head originates on the...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates as a superior and inferior head. The superior head originates on the outer edge of the humerus and the inferior head originates on the lateral epicondyle of the humerus. Both bellies converge to form a tendon, which inserts on the carpus and the extensor tendon of digit I.",
     "slug": "/structure/m-flexor-antibrachii-lateralis-superficialis/",
-    "description_en": "Originates as a superior and inferior head. The superior head originates on the outer edge of the humerus and the inferior head originates on the..."
+    "description_en": "Originates as a superior and inferior head. The superior head originates on the outer edge of the humerus and the inferior head originates on the lateral epicondyle of the humerus. Both bellies converge to form a tendon, which inserts on the carpus and the extensor tendon of digit I."
   },
   {
     "id": "tnd_00010",
@@ -115,9 +115,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. gracilis major (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates by a broad tendon from the postero-ventral surface of the pelvic rim and inserts by two tendons. One broad tendon inserts on the knee...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by a broad tendon from the postero-ventral surface of the pelvic rim and inserts by two tendons. One broad tendon inserts on the knee aponeurosis, and in part on the ventro-medial surface of the tibiofibula. The other long tendon inserts on the posterior surface of the tibiofibula just below the proximal head.",
     "slug": "/structure/m-gracilis-major/",
-    "description_en": "Originates by a broad tendon from the postero-ventral surface of the pelvic rim and inserts by two tendons. One broad tendon inserts on the knee..."
+    "description_en": "Originates by a broad tendon from the postero-ventral surface of the pelvic rim and inserts by two tendons. One broad tendon inserts on the knee aponeurosis, and in part on the ventro-medial surface of the tibiofibula. The other long tendon inserts on the posterior surface of the tibiofibula just below the proximal head."
   },
   {
     "id": "tnd_00011",
@@ -127,9 +127,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. ileo-femoralis (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates from the postero-ventral surface of the ala ossis ilei and from the insertion tendon of M. ileo-fibularis. Inserts along the dorso-medial...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates from the postero-ventral surface of the ala ossis ilei and from the insertion tendon of M. ileo-fibularis. Inserts along the dorso-medial border of the femur.",
     "slug": "/structure/m-ileo-femoralis/",
-    "description_en": "Originates from the postero-ventral surface of the ala ossis ilei and from the insertion tendon of M. ileo-fibularis. Inserts along the dorso-medial..."
+    "description_en": "Originates from the postero-ventral surface of the ala ossis ilei and from the insertion tendon of M. ileo-fibularis. Inserts along the dorso-medial border of the femur."
   },
   {
     "id": "tnd_00012",
@@ -139,9 +139,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. plantaris longus (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates by two heads, one from the dorso-distal border of the aponeurosis covering the knee and the other from two tendinous branches along the...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by two heads, one from the dorso-distal border of the aponeurosis covering the knee and the other from two tendinous branches along the medial border of the knee joint. Inserts by a thick, broad tendon to form the aponeurosis plantaris.",
     "slug": "/structure/m-plantaris-longus/",
-    "description_en": "Originates by two heads, one from the dorso-distal border of the aponeurosis covering the knee and the other from two tendinous branches along the..."
+    "description_en": "Originates by two heads, one from the dorso-distal border of the aponeurosis covering the knee and the other from two tendinous branches along the medial border of the knee joint. Inserts by a thick, broad tendon to form the aponeurosis plantaris."
   },
   {
     "id": "tnd_00013",
@@ -151,9 +151,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. semimembranosus (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates on the ventro-lateral surface of the ischium below the anus and inserts on the ventro-medial aspect of the femur and the head of the...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates on the ventro-lateral surface of the ischium below the anus and inserts on the ventro-medial aspect of the femur and the head of the tibiofibula by a stout tendon, which is formed by the ventral origin of the plantaris longus.",
     "slug": "/structure/m-semimembranosus/",
-    "description_en": "Originates on the ventro-lateral surface of the ischium below the anus and inserts on the ventro-medial aspect of the femur and the head of the..."
+    "description_en": "Originates on the ventro-lateral surface of the ischium below the anus and inserts on the ventro-medial aspect of the femur and the head of the tibiofibula by a stout tendon, which is formed by the ventral origin of the plantaris longus."
   },
   {
     "id": "tnd_00014",
@@ -163,9 +163,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. semitendinosus (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates by two tendons: one on the postero-ventral aspect of the pelvic rim, the other, a dorsal tendon from the postero-dorsal pelvic rim under the...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates by two tendons: one on the postero-ventral aspect of the pelvic rim, the other, a dorsal tendon from the postero-dorsal pelvic rim under the ventral edge of M. semimembranosus. Inserts on the ventral surface of the tibiofibula.",
     "slug": "/structure/m-semitendinosus/",
-    "description_en": "Originates by two tendons: one on the postero-ventral aspect of the pelvic rim, the other, a dorsal tendon from the postero-dorsal pelvic rim under the..."
+    "description_en": "Originates by two tendons: one on the postero-ventral aspect of the pelvic rim, the other, a dorsal tendon from the postero-dorsal pelvic rim under the ventral edge of M. semimembranosus. Inserts on the ventral surface of the tibiofibula."
   },
   {
     "id": "tnd_00015",
@@ -175,9 +175,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. tibialis anticus longus (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates on the ventro-lateral surface of the medial condyle of the femur. Its tendon extends in a groove over the knee in the lateral surface of the...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates on the ventro-lateral surface of the medial condyle of the femur. Its tendon extends in a groove over the knee in the lateral surface of the tibiofibular head, and penetrates the M. peroneus tendon. Insertion is by a lateral and medial head on the dorso-lateral surface of the fibulare and the medial border of the proximal end of the tibiale respectively.",
     "slug": "/structure/m-tibialis-anticus-longus/",
-    "description_en": "Originates on the ventro-lateral surface of the medial condyle of the femur. Its tendon extends in a groove over the knee in the lateral surface of the..."
+    "description_en": "Originates on the ventro-lateral surface of the medial condyle of the femur. Its tendon extends in a groove over the knee in the lateral surface of the tibiofibular head, and penetrates the M. peroneus tendon. Insertion is by a lateral and medial head on the dorso-lateral surface of the fibulare and the medial border of the proximal end of the tibiale respectively."
   },
   {
     "id": "tnd_00016",
@@ -187,9 +187,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "M. tibialis posticus (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Originates on the entire medial surface of the shaft of the tibiofibula. Inserts on the tibiale by a long tendon proximo-lateral to the insertion of...",
+    "definition_uz": "Anatomik ta'rif (Pay): Originates on the entire medial surface of the shaft of the tibiofibula. Inserts on the tibiale by a long tendon proximo-lateral to the insertion of the medial belly of M. tibialis anticus longus.",
     "slug": "/structure/m-tibialis-posticus/",
-    "description_en": "Originates on the entire medial surface of the shaft of the tibiofibula. Inserts on the tibiale by a long tendon proximo-lateral to the insertion of..."
+    "description_en": "Originates on the entire medial surface of the shaft of the tibiofibula. Inserts on the tibiale by a long tendon proximo-lateral to the insertion of the medial belly of M. tibialis anticus longus."
   },
   {
     "id": "tnd_00017",
@@ -199,9 +199,9 @@
     "type_uz": "Pay",
     "english": "intratendonous ossification",
     "translation_uz": "intratendonous ossification (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): Sesamoid that develops within a tendon, distal to an articulation or joint.",
+    "definition_uz": "Anatomik ta'rif (Pay): intratendonous ossification",
     "slug": "/structure/ossified-tendon/",
-    "description_en": "Sesamoid that develops within a tendon, distal to an articulation or joint."
+    "description_en": "intratendonous ossification"
   },
   {
     "id": "tnd_00018",
@@ -211,9 +211,9 @@
     "type_uz": "Pay",
     "english": "transverse septum",
     "translation_uz": "transverse septum (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): A thick plate of mesodermal tissue that occupies the space between the thoracic cavity and yolk stalk in the early embryo, forming a transverse...",
+    "definition_uz": "Anatomik ta'rif (Pay): A thick plate of mesodermal tissue that occupies the space between the thoracic cavity and yolk stalk in the early embryo, forming a transverse partition partially separating the coelomic cavity into thoracic and abdominal portions. It gives rise to the central tendon of the diaphragm[VHOG].",
     "slug": "/structure/septum-transversum/",
-    "description_en": "A thick plate of mesodermal tissue that occupies the space between the thoracic cavity and yolk stalk in the early embryo, forming a transverse..."
+    "description_en": "A thick plate of mesodermal tissue that occupies the space between the thoracic cavity and yolk stalk in the early embryo, forming a transverse partition partially separating the coelomic cavity into thoracic and abdominal portions. It gives rise to the central tendon of the diaphragm[VHOG]."
   },
   {
     "id": "tnd_00019",
@@ -247,9 +247,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "tendon collagen fibril (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): The connective tissue bundles in the extracellular matrix of tendon tissue that are composed of collagen, and play a role in tissue strength and...",
+    "definition_uz": "Anatomik ta'rif (Pay): The connective tissue bundles in the extracellular matrix of tendon tissue that are composed of collagen, and play a role in tissue strength and elasticity.",
     "slug": "/structure/tendon-collagen-fibril/",
-    "description_en": "The connective tissue bundles in the extracellular matrix of tendon tissue that are composed of collagen, and play a role in tissue strength and..."
+    "description_en": "The connective tissue bundles in the extracellular matrix of tendon tissue that are composed of collagen, and play a role in tissue strength and elasticity."
   },
   {
     "id": "tnd_00022",
@@ -295,9 +295,9 @@
     "type_uz": "Pay",
     "english": "common quadriceps femoris tendon",
     "translation_uz": "common quadriceps femoris tendon (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): the tendon of the quadriceps femoris muscle, continuous with the patellar tendon",
+    "definition_uz": "Anatomik ta'rif (Pay): common quadriceps femoris tendon",
     "slug": "/structure/tendon-of-quadriceps-femoris/",
-    "description_en": "the tendon of the quadriceps femoris muscle, continuous with the patellar tendon"
+    "description_en": "common quadriceps femoris tendon"
   },
   {
     "id": "tnd_00026",
@@ -319,9 +319,9 @@
     "type_uz": "Pay",
     "english": "tendon of triceps brachii muscle",
     "translation_uz": "tendon of triceps brachii muscle (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): A tendon that attaches_to a triceps brachii.",
+    "definition_uz": "Anatomik ta'rif (Pay): tendon of triceps brachii muscle",
     "slug": "/structure/tendon-of-triceps-brachii/",
-    "description_en": "A tendon that attaches_to a triceps brachii."
+    "description_en": "tendon of triceps brachii muscle"
   },
   {
     "id": "tnd_00028",
@@ -343,9 +343,9 @@
     "type_uz": "Pay",
     "english": "",
     "translation_uz": "vinculum tendon of wing (Pay)",
-    "definition_uz": "Anatomik ta'rif (Pay): A tendon which emerges from the distal end of the humerus and follows the posterior margin of the wing, attaching at the distal end of digit 2. The...",
+    "definition_uz": "Anatomik ta'rif (Pay): A tendon which emerges from the distal end of the humerus and follows the posterior margin of the wing, attaching at the distal end of digit 2. The raches of the remiges (i.e., the stems of the flight feathers) are stabilized by passing through the vinculum.",
     "slug": "/structure/vinculum-tendon-of-wing/",
-    "description_en": "A tendon which emerges from the distal end of the humerus and follows the posterior margin of the wing, attaching at the distal end of digit 2. The..."
+    "description_en": "A tendon which emerges from the distal end of the humerus and follows the posterior margin of the wing, attaching at the distal end of digit 2. The raches of the remiges (i.e., the stems of the flight feathers) are stabilized by passing through the vinculum."
   },
   {
     "id": "tnd_00030",

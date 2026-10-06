@@ -112,6 +112,30 @@
   color: var(--text-muted);
 }
 
+.results-count-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.results-count-badge iconify-icon {
+  font-size: 1.05rem;
+  color: var(--primary);
+}
+
+.results-count-badge.loading iconify-icon {
+  animation: spin 1s linear infinite;
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));

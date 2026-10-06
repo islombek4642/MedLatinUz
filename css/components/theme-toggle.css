@@ -1,0 +1,47 @@
+/* MedLatin UZ - Theme Toggle Button Styles */
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-toggle-btn:hover {
+  background: var(--border-color);
+  color: var(--text-primary);
+  transform: scale(1.05);
+}
+
+.theme-toggle-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.theme-toggle-btn iconify-icon {
+  font-size: 1.25rem;
+  transition: transform var(--transition-normal), opacity var(--transition-normal);
+}
+
+/* Icons state based on data-theme */
+:root[data-theme="dark"] .icon-sun {
+  display: inline-block;
+}
+:root[data-theme="dark"] .icon-moon {
+  display: none;
+}
+
+:root:not([data-theme="dark"]) .icon-sun {
+  display: none;
+}
+:root:not([data-theme="dark"]) .icon-moon {
+  display: inline-block;
+}

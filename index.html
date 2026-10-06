@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
   <title>MedLatin UZ — Shifokorlar Lotincha Yozuvlari Lug'ati</title>
-  <meta name="description" content="Oddiy fuqarolar uchun tibbiy lotincha yozuvlar va shifokorlar retseptlari lug'ati. 20 700+ retsept qisqartmalari, 12 ta tana tizimi, anatomik a'zolar va lotincha so'zlarning o'zbekcha sodda tushuntirishi.">
+  <meta name="description" content="Oddiy fuqarolar uchun tibbiy lotincha yozuvlar va shifokorlar retseptlari lug'ati. 20 900+ retsept qisqartmalari, 12 ta tana tizimi, anatomik a'zolar va lotincha so'zlarning o'zbekcha sodda tushuntirishi.">
   <meta name="theme-color" content="#0284c7">
 
   <!-- PWA Manifest -->
@@ -19,26 +19,75 @@
 
   <!-- Modular CSS -->
   <link rel="stylesheet" href="./css/main.css">
+
+  <!-- Iconify SVG Framework (cached by SW for offline) -->
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+  <script>
+    window.addEventListener('error', function(e) {
+      const msg = 'JS ERROR: ' + e.message + ' at ' + e.filename + ':' + e.lineno;
+      console.error(msg);
+      document.documentElement.setAttribute('data-js-error', msg);
+    });
+    window.addEventListener('unhandledrejection', function(e) {
+      const msg = 'PROMISE REJECTION: ' + (e.reason && e.reason.stack ? e.reason.stack : e.reason);
+      console.error(msg);
+      document.documentElement.setAttribute('data-js-rejection', msg);
+    });
+  </script>
 </head>
 <body>
+  <!-- First-load Progress Modal (renders instantly, managed by LoadingModal) -->
+  <div id="loadingModal" class="loading-modal-backdrop">
+    <div class="loading-modal-card">
+      <div class="modal-icon-wrapper">
+        <iconify-icon icon="solar:document-medicine-bold-duotone"></iconify-icon>
+      </div>
+      <h2 class="modal-title">Lug'at tayyorlanmoqda</h2>
+      <p class="modal-desc">
+        20 900+ dan ortiq tibbiy, anatomik va retsept atamalari oflayn xotiraga yuklanmoqda...
+      </p>
+
+      <div class="modal-progress-container">
+        <div class="modal-progress-bar" id="modalProgressBar" style="width: 20%;"></div>
+      </div>
+
+      <div class="modal-progress-info">
+        <span class="modal-status-text" id="modalStatusText">
+          <iconify-icon icon="lucide:loader-2" style="animation: spin 1s linear infinite;"></iconify-icon>
+          <span>Atamalar bazasi o'qilmoqda...</span>
+        </span>
+        <span class="modal-percent-text" id="modalPercentText">20%</span>
+      </div>
+    </div>
+  </div>
+
   <div class="app-wrapper">
     <!-- Header -->
     <header class="site-header">
       <div class="header-container">
         <a href="#" class="brand-logo" id="logoLink">
-          <div class="brand-icon">Rx</div>
+          <div class="brand-icon">
+            <iconify-icon icon="solar:document-medicine-bold-duotone" width="24" height="24"></iconify-icon>
+          </div>
           <div class="brand-title">
-            MedLatin <span class="brand-badge">Offline</span>
+            MedLatin <span class="brand-badge" id="onlineStatusBadge">Online</span>
           </div>
         </a>
 
-        <div class="header-actions">
+        <div class="header-actions" style="display: flex; align-items: center; gap: 0.85rem;">
           <span style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.35rem;">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="#059669">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="#059669">
               <circle cx="12" cy="12" r="10"/>
             </svg>
-            20 700+ atama
+            <span id="totalTermsBadge">20 900+ atama</span>
           </span>
+
+          <!-- Dark/Light Theme Toggle -->
+          <button type="button" id="themeToggleBtn" class="theme-toggle-btn" title="Mavzuni o'zgartirish" aria-label="Mavzuni o'zgartirish">
+            <iconify-icon icon="lucide:sun" class="icon-sun"></iconify-icon>
+            <iconify-icon icon="lucide:moon" class="icon-moon"></iconify-icon>
+          </button>
         </div>
       </div>
     </header>
@@ -56,13 +105,11 @@
       </section>
 
       <!-- Search Section -->
+      <!-- Search Section -->
       <section class="search-container">
         <div class="search-input-wrapper">
           <span class="search-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"/>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-            </svg>
+            <iconify-icon icon="lucide:search" width="22" height="22"></iconify-icon>
           </span>
 
           <input 
@@ -74,71 +121,72 @@
             spellcheck="false"
           >
 
-          <button type="button" id="clearBtn" class="clear-button" title="Tozalash" aria-label="Tozalash">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="6" x2="6" y2="18"/>
-              <line x1="6" y1="6" x2="18" y2="18"/>
-            </svg>
-          </button>
+          <div class="search-actions">
+            <span class="search-shortcut" title="Qidiruv tezkor tugmasi">Ctrl K</span>
+            <button type="button" id="clearBtn" class="clear-button" title="Tozalash" aria-label="Tozalash">
+              <iconify-icon icon="lucide:x" width="16" height="16"></iconify-icon>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Discovery Chips -->
+        <div class="search-discovery-chips">
+          <span class="discovery-label">Tezkor qidiruv:</span>
+          <button type="button" class="discovery-chip" data-query="Rp.">Rp.</button>
+          <button type="button" class="discovery-chip" data-query="D.t.d.N.">D.t.d.N.</button>
+          <button type="button" class="discovery-chip" data-query="Aorta">Aorta</button>
+          <button type="button" class="discovery-chip" data-query="Gastritis">Gastritis</button>
+          <button type="button" class="discovery-chip" data-query="Biceps">Biceps</button>
+          <button type="button" class="discovery-chip" data-query="Cor">Cor</button>
         </div>
       </section>
 
-      <!-- Category Filter Tabs -->
-      <nav class="filters-bar" aria-label="Kategoriyalar">
-        <button type="button" class="filter-btn active" data-category="all" id="filterAll">
-          Barchasi <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="prescription" id="filterRx">
-          Retseptlar <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_system" id="filterSystems">
-          Tana tizimlari <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_region" id="filterRegions">
-          Tana sohalari <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_glossary" id="filterGlossary">
-          Atamalar (Glossariy) <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy" id="filterAnatomy">
-          Barcha Anatomiya <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_muscle" id="filterMuscles">
-          Mushaklar <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_bone" id="filterBones">
-          Suyaklar <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_vessel" id="filterVessels">
-          Qon tomirlari <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_nerve" id="filterNerves">
-          Nervlar <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="anatomy_organ" id="filterOrgans">
-          A'zolar <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="clinical" id="filterClinical">
-          Klinika <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="latin_noun" id="filterNouns">
-          Lotin Otlari <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="latin_adjective" id="filterAdjectives">
-          Sifatlar <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="latin_verb" id="filterVerbs">
-          Fe'llar <span class="filter-count">0</span>
-        </button>
-        <button type="button" class="filter-btn" data-category="general" id="filterGeneral">
-          Barcha Lotincha <span class="filter-count">0</span>
-        </button>
-      </nav>
+      <!-- Category Filter Tabs & Sub-filters -->
+      <section class="filters-section">
+        <nav class="filters-bar" aria-label="Kategoriyalar">
+          <button type="button" class="filter-btn active" data-category="all" id="filterAll">
+            <iconify-icon icon="lucide:layout-grid"></iconify-icon>
+            <span>Barchasi</span>
+            <span class="filter-count">0</span>
+          </button>
+          <button type="button" class="filter-btn" data-category="prescription" id="filterRx">
+            <iconify-icon icon="solar:document-medicine-bold-duotone"></iconify-icon>
+            <span>Retseptlar</span>
+            <span class="filter-count">0</span>
+          </button>
+          <button type="button" class="filter-btn" data-category="anatomy_group" id="filterAnatomyGroup">
+            <iconify-icon icon="lucide:bone"></iconify-icon>
+            <span>Anatomiya</span>
+            <span class="filter-count">0</span>
+          </button>
+          <button type="button" class="filter-btn" data-category="clinical" id="filterClinical">
+            <iconify-icon icon="lucide:stethoscope"></iconify-icon>
+            <span>Klinika</span>
+            <span class="filter-count">0</span>
+          </button>
+          <button type="button" class="filter-btn" data-category="latin_group" id="filterLatinGroup">
+            <iconify-icon icon="lucide:book-open"></iconify-icon>
+            <span>Lotin tili</span>
+            <span class="filter-count">0</span>
+          </button>
+          <button type="button" class="filter-btn" data-category="bookmarks" id="filterBookmarks">
+            <iconify-icon icon="lucide:bookmark"></iconify-icon>
+            <span>Tanlanganlar</span>
+            <span class="filter-count">0</span>
+          </button>
+        </nav>
+
+        <!-- Dynamic Sub-Filters Container -->
+        <div id="subFiltersContainer" class="sub-filters-container" style="display: none;"></div>
+      </section>
 
       <!-- Results Section -->
       <section class="results-section">
         <div class="results-meta">
-          <span id="resultsCount">Natijalar yuklanmoqda...</span>
+          <span id="resultsCount" class="results-count-badge loading">
+            <iconify-icon icon="lucide:loader-2"></iconify-icon>
+            <span>Ma'lumotlar tayyorlanmoqda...</span>
+          </span>
         </div>
 
         <div id="resultsGrid" class="cards-grid">
@@ -159,6 +207,6 @@
   </div>
 
   <!-- App Entry Point -->
-  <script type="module" src="./js/app.js"></script>
+  <script type="module" src="./js/app.js?v=3"></script>
 </body>
 </html>
