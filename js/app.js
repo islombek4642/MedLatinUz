@@ -28,9 +28,9 @@ class MedLatinApp {
     this.sidebarBackdrop = document.getElementById('sidebarBackdrop');
     this.paginationContainer = document.getElementById('paginationContainer');
 
-    // Pagination state (9 cards per page)
+    // Pagination state (6 cards per page)
     this.currentPage = 1;
-    this.itemsPerPage = 9;
+    this.itemsPerPage = 6;
     this.currentResults = [];
 
     // Sub-filters configuration

@@ -229,7 +229,7 @@ export class UIRenderer {
    * @param {number} pageSize
    * @param {Function} onPageChange
    */
-  static renderPagination(container, totalItems, currentPage, pageSize = 9, onPageChange = null) {
+  static renderPagination(container, totalItems, currentPage, pageSize = 6, onPageChange = null) {
     if (!container) return;
     const totalPages = Math.ceil(totalItems / pageSize);
 
