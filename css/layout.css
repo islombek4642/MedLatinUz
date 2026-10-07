@@ -22,6 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.75rem;
 }
 
 .brand-logo {
@@ -29,20 +30,33 @@
   align-items: center;
   gap: 0.75rem;
   text-decoration: none;
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .brand-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-sm);
-  background: linear-gradient(135deg, var(--primary) 0%, var(--accent-teal) 100%);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 1.25rem;
-  box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
+  color: var(--primary);
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), color var(--transition-fast);
+}
+
+.brand-icon svg,
+.brand-icon iconify-icon {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+
+[data-theme="dark"] .brand-icon {
+  color: #38bdf8;
+}
+
+.brand-logo:hover .brand-icon {
+  transform: scale(1.08);
 }
 
 .brand-title {
@@ -52,6 +66,7 @@
   display: flex;
   align-items: center;
   gap: 0.35rem;
+  white-space: nowrap;
 }
 
 .brand-badge {
@@ -64,17 +79,26 @@
   border-radius: var(--radius-full);
 }
 
+.main-layout,
 .main-content {
   flex: 1;
-  max-width: 1000px;
+  max-width: 1050px;
   width: 100%;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 4rem;
+  padding: 2rem 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-section {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .hero-title {

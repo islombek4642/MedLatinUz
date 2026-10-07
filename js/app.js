@@ -22,7 +22,10 @@ class MedLatinApp {
     this.filterButtons = document.querySelectorAll('.filter-btn');
     this.subFiltersContainer = document.getElementById('subFiltersContainer');
     this.themeToggleBtn = document.getElementById('themeToggleBtn');
-    this.discoveryChips = document.querySelectorAll('.discovery-chip');
+    this.sidebar = document.getElementById('appSidebar');
+    this.sidebarToggleBtn = document.getElementById('sidebarToggleBtn');
+    this.sidebarCloseBtn = document.getElementById('sidebarCloseBtn');
+    this.sidebarBackdrop = document.getElementById('sidebarBackdrop');
 
     // Sub-filters configuration
     this.subCategoryDefs = {
@@ -100,16 +103,16 @@ class MedLatinApp {
   updateCategoryCounts() {
     const entries = this.allEntries;
     let prescription = 0;
-    let anatomy_group = 0;
+    let anatomy = 0;
     let clinical = 0;
-    let latin_group = 0;
+    let latin = 0;
 
     for (let i = 0; i < entries.length; i++) {
       const cat = entries[i].category;
       if (cat === 'prescription') prescription++;
       else if (cat === 'clinical') clinical++;
-      else if (cat && cat.startsWith('anatomy')) anatomy_group++;
-      else if (cat && (cat.startsWith('latin') || cat === 'general')) latin_group++;
+      else if (cat === 'anatomy' || (cat && cat.startsWith('anatomy'))) anatomy++;
+      else if (cat === 'latin' || (cat && cat.startsWith('latin')) || cat === 'general') latin++;
     }
 
     const bookmarkCount = BookmarkManager.getAll().length;
@@ -117,9 +120,9 @@ class MedLatinApp {
     const counts = {
       all: entries.length,
       prescription,
-      anatomy_group,
+      anatomy,
       clinical,
-      latin_group,
+      latin,
       bookmarks: bookmarkCount
     };
 
@@ -171,19 +174,66 @@ class MedLatinApp {
         chip.classList.add('active');
         this.currentSubCategory = chip.dataset.subcategory;
         this.performSearch();
+
+        // Close drawer after sub-filter selection
+        this.closeSidebar();
       });
     });
   }
 
+  openSidebar() {
+    if (this.sidebar) this.sidebar.classList.add('open');
+    if (this.sidebarBackdrop) this.sidebarBackdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  closeSidebar() {
+    if (this.sidebar) this.sidebar.classList.remove('open');
+    if (this.sidebarBackdrop) this.sidebarBackdrop.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  toggleSidebar() {
+    if (this.sidebar && this.sidebar.classList.contains('open')) {
+      this.closeSidebar();
+    } else {
+      this.openSidebar();
+    }
+  }
+
+  updatePlaceholder() {
+    if (!this.searchInput) return;
+    if (window.innerWidth < 560) {
+      this.searchInput.placeholder = "Atama qidirish...";
+    } else {
+      this.searchInput.placeholder = "Lotincha yoki o'zbekcha atama kiriting...";
+    }
+  }
+
   attachEvents() {
-    // 1. Theme toggle button
+    // 0. Responsive placeholder
+    this.updatePlaceholder();
+    window.addEventListener('resize', () => this.updatePlaceholder());
+
+    // 1. Sidebar Drawer Toggle Events (Desktop & Mobile)
+    if (this.sidebarToggleBtn) {
+      this.sidebarToggleBtn.addEventListener('click', () => this.toggleSidebar());
+    }
+    if (this.sidebarCloseBtn) {
+      this.sidebarCloseBtn.addEventListener('click', () => this.closeSidebar());
+    }
+    if (this.sidebarBackdrop) {
+      this.sidebarBackdrop.addEventListener('click', () => this.closeSidebar());
+    }
+
+    // 2. Theme toggle button
     if (this.themeToggleBtn) {
       this.themeToggleBtn.addEventListener('click', () => {
         this.themeManager.toggleTheme();
       });
     }
 
-    // 2. Real-time search with 100ms debounce
+    // 3. Real-time search with 100ms debounce
     let debounceTimer = null;
     this.searchInput.addEventListener('input', (e) => {
       this.currentQuery = e.target.value.trim();
@@ -194,7 +244,13 @@ class MedLatinApp {
       }, 100);
     });
 
-    // 3. Clear search button (instant, cancels debounce)
+    this.searchInput.addEventListener('search', () => {
+      this.currentQuery = this.searchInput.value.trim();
+      this.toggleClearButton();
+      this.performSearch();
+    });
+
+    // 4. Clear search button (instant, cancels debounce)
     this.clearBtn.addEventListener('click', () => {
       clearTimeout(debounceTimer);
       this.searchInput.value = '';
@@ -204,20 +260,6 @@ class MedLatinApp {
       this.performSearch();
     });
 
-    // 4. Discovery chips
-    this.discoveryChips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        const query = chip.dataset.query;
-        if (query) {
-          this.searchInput.value = query;
-          this.currentQuery = query;
-          this.toggleClearButton();
-          this.searchInput.focus();
-          this.performSearch();
-        }
-      });
-    });
-
     // 5. Main Category filter buttons
     this.filterButtons.forEach(btn => {
       btn.addEventListener('click', () => {
@@ -225,23 +267,21 @@ class MedLatinApp {
         btn.classList.add('active');
         const cat = btn.dataset.category;
         this.currentCategory = cat;
+        this.currentSubCategory = null;
 
-        if (cat === 'anatomy_group' || cat === 'latin_group') {
-          this.currentSubCategory = null;
-          this.renderSubFilters(cat);
-        } else {
-          if (this.subFiltersContainer) {
-            this.subFiltersContainer.style.display = 'none';
-            this.subFiltersContainer.innerHTML = '';
-          }
-          this.currentSubCategory = null;
+        if (this.subFiltersContainer) {
+          this.subFiltersContainer.style.display = 'none';
+          this.subFiltersContainer.innerHTML = '';
         }
+
+        // Close drawer when category is selected
+        this.closeSidebar();
 
         this.performSearch();
       });
     });
 
-    // 6. Keyboard Shortcuts: Ctrl+K or '/' to focus search, Esc to blur
+    // 6. Keyboard Shortcuts: Ctrl+K or '/' to focus search, Esc to blur/close
     window.addEventListener('keydown', (e) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
@@ -251,14 +291,20 @@ class MedLatinApp {
         e.preventDefault();
         this.searchInput.focus();
         this.searchInput.select();
-      } else if (e.key === 'Escape' && document.activeElement === this.searchInput) {
-        if (this.searchInput.value) {
-          this.searchInput.value = '';
-          this.currentQuery = '';
-          this.toggleClearButton();
-          this.performSearch();
+      } else if (e.key === 'Escape') {
+        if (this.sidebar && this.sidebar.classList.contains('open')) {
+          this.closeSidebar();
+          return;
         }
-        this.searchInput.blur();
+        if (document.activeElement === this.searchInput) {
+          if (this.searchInput.value) {
+            this.searchInput.value = '';
+            this.currentQuery = '';
+            this.toggleClearButton();
+            this.performSearch();
+          }
+          this.searchInput.blur();
+        }
       }
     });
   }
@@ -276,14 +322,15 @@ class MedLatinApp {
     let results = [];
 
     if (this.currentCategory === 'bookmarks') {
-      const bookmarkedIds = new Set(BookmarkManager.getAll());
-      const bookmarkedEntries = this.allEntries.filter(e => bookmarkedIds.has(e.id));
+      const bookmarkedIds = new Set(BookmarkManager.getAll().map(id => String(id)));
+      const bookmarkedEntries = this.allEntries.filter(e => bookmarkedIds.has(String(e.id)));
       if (this.currentQuery) {
         const queryNorm = SearchEngine.normalize(this.currentQuery);
         results = bookmarkedEntries.filter(e => {
           return SearchEngine.normalize(e.latin).includes(queryNorm) ||
-                 SearchEngine.normalize(e.translation_uz).includes(queryNorm) ||
-                 SearchEngine.normalize(e.definition_uz).includes(queryNorm);
+                 SearchEngine.normalize(e.uzbek || e.translation_uz).includes(queryNorm) ||
+                 SearchEngine.normalize(e.english).includes(queryNorm) ||
+                 SearchEngine.normalize(e.definition || e.definition_uz).includes(queryNorm);
         });
       } else {
         results = bookmarkedEntries;

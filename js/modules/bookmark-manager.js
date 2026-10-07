@@ -81,42 +81,46 @@ export class BookmarkManager {
    * @returns {boolean}
    */
   isBookmarked(id) {
-    return this.bookmarks.has(id);
+    if (id === undefined || id === null) return false;
+    return this.bookmarks.has(String(id));
   }
 
   /**
    * Adds an ID to bookmarks
-   * @param {string} id
+   * @param {string|number} id
    * @returns {boolean} true
    */
   add(id) {
-    this.bookmarks.add(id);
+    if (id === undefined || id === null) return false;
+    this.bookmarks.add(String(id));
     this.save();
     return true;
   }
 
   /**
    * Removes an ID from bookmarks
-   * @param {string} id
+   * @param {string|number} id
    * @returns {boolean} false
    */
   remove(id) {
-    this.bookmarks.delete(id);
+    if (id === undefined || id === null) return false;
+    this.bookmarks.delete(String(id));
     this.save();
     return false;
   }
 
   /**
    * Toggles bookmark state
-   * @param {string} id
+   * @param {string|number} id
    * @returns {boolean} true if now bookmarked, false if removed
    */
   toggle(id) {
-    if (this.bookmarks.has(id)) {
-      this.remove(id);
+    const strId = String(id);
+    if (this.bookmarks.has(strId)) {
+      this.remove(strId);
       return false;
     } else {
-      this.add(id);
+      this.add(strId);
       return true;
     }
   }

@@ -1,0 +1,277 @@
+/* MedLatin UZ - Universal Offcanvas Drawer Styles (Desktop & Mobile) */
+
+/* Header Drawer Toggle Button (Icon-only on both Desktop and Mobile) */
+.sidebar-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.sidebar-toggle-btn:hover {
+  background: var(--border-color);
+  color: var(--primary);
+  transform: scale(1.05);
+}
+
+.sidebar-toggle-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.sidebar-toggle-btn iconify-icon {
+  font-size: 1.25rem;
+  transition: transform var(--transition-fast);
+}
+
+/* Sidebar Backdrop (Universal for Desktop & Mobile) */
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 90;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
+  pointer-events: none;
+}
+
+.sidebar-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Offcanvas Sidebar Drawer (Universal) */
+.app-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 315px;
+  max-width: 86vw;
+  height: 100vh;
+  z-index: 100;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--border-color);
+  box-shadow: var(--shadow-float);
+  transform: translateX(-100%);
+  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1rem;
+  overflow-y: auto;
+  gap: 0.5rem;
+}
+
+.app-sidebar.open {
+  transform: translateX(0);
+}
+
+/* Scrollbar polish for drawer */
+.app-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.app-sidebar::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: var(--radius-full);
+}
+
+/* Sidebar Drawer Header */
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 0.35rem;
+}
+
+.sidebar-brand-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.sidebar-brand-title iconify-icon {
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.sidebar-close-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.sidebar-close-btn:hover {
+  background: var(--border-color);
+  color: var(--text-primary);
+  transform: scale(1.05);
+}
+
+/* Navigation List inside Drawer */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.sidebar-nav .filter-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  user-select: none;
+}
+
+.sidebar-nav .filter-btn iconify-icon {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color var(--transition-fast);
+}
+
+.sidebar-nav .filter-label {
+  flex: 1;
+  margin-left: 0.65rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar-nav .filter-count {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  transition: all var(--transition-fast);
+  margin-left: auto;
+}
+
+/* Hover State */
+.sidebar-nav .filter-btn:hover {
+  background: var(--bg-subtle);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+  transform: translateX(2px);
+}
+
+.sidebar-nav .filter-btn:hover iconify-icon {
+  color: var(--primary);
+}
+
+/* Active State */
+.sidebar-nav .filter-btn.active {
+  background: rgba(2, 132, 199, 0.12);
+  border-color: rgba(2, 132, 199, 0.25);
+  color: var(--primary);
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.sidebar-nav .filter-btn.active iconify-icon {
+  color: var(--primary);
+}
+
+.sidebar-nav .filter-btn.active .filter-count {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .sidebar-nav .filter-btn.active {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: rgba(56, 189, 248, 0.3);
+  color: #38bdf8;
+}
+
+[data-theme="dark"] .sidebar-nav .filter-btn.active iconify-icon {
+  color: #38bdf8;
+}
+
+[data-theme="dark"] .sidebar-nav .filter-btn.active .filter-count {
+  background: #38bdf8;
+  color: #0b1120;
+}
+
+/* Sub-Filters / Nested Section in Drawer */
+.sidebar-subfilters-wrapper {
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px dashed var(--border-color);
+}
+
+.sidebar-subfilters-wrapper .sub-filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem;
+  animation: subFiltersFade 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sidebar-subfilters-wrapper .sub-chip {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.45rem 0.65rem;
+  border-radius: 6px;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  font-size: 0.825rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.sidebar-subfilters-wrapper .sub-chip:hover {
+  background: var(--bg-surface);
+  border-color: var(--border-color);
+  color: var(--primary);
+}
+
+.sidebar-subfilters-wrapper .sub-chip.active {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+  font-weight: 600;
+}

@@ -4,7 +4,7 @@
  * Read speed: ~8ms, Write speed: ~15ms with safety timeouts to prevent deadlocks.
  */
 export class DBStorage {
-  static DB_NAME = 'MedLatinDB_v3'; // Isolated clean database name to prevent version blocking
+  static DB_NAME = 'MedLatinDB_v4'; // Upgraded database name to refresh cache with standardized schema
   static DB_VERSION = 1;
   static STORE_NAME = 'cache_store';
   static CACHE_KEY = 'all_entries';

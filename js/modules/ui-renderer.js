@@ -7,36 +7,18 @@ import { BookmarkManager } from './bookmark-manager.js';
 export class UIRenderer {
   static CATEGORY_LABELS = {
     prescription: 'Retsept / Dori',
-    anatomy: 'Asosiy anatomiya',
-    anatomy_system: 'Tana tizimi (System)',
-    anatomy_region: 'Tana sohasi (Region)',
-    anatomy_glossary: 'Anatomik termin (Glossary)',
+    anatomy: 'Anatomiya',
     clinical: 'Klinik tashxis',
-    general: 'Umumiy lotincha',
-    anatomy_organ: "A'zo (Organ)",
-    anatomy_bone: 'Suyak (Bone)',
-    anatomy_nerve: 'Nerv (Nerve)',
-    anatomy_vessel: 'Qon tomiri (Vessel)',
-    anatomy_muscle: 'Mushak (Muscle)',
-    anatomy_gland: 'Bez (Gland)',
-    anatomy_joint: "Bo'g'im (Joint)",
-    anatomy_ligament: 'Boylam (Ligament)',
-    anatomy_tendon: 'Pay (Tendon)',
-    latin_noun: 'Ot (Noun)',
-    latin_adjective: 'Sifat (Adj)',
-    latin_verb: "Fe'l (Verb)",
-    latin_adverb: 'Ravish (Adv)',
-    latin_preposition: "Old qo'shimcha (Prep)",
-    latin_conjunction: "Bog'lovchi (Conj)",
-    latin_interjection: 'Undov (Interj)'
+    latin: 'Lotin tili',
+    general: 'Lotin tili'
   };
 
   /**
    * Sanitizes string for safe HTML injection
    */
   static escapeHtml(str) {
-    if (!str) return '';
-    return str
+    if (str === null || str === undefined) return '';
+    return String(str)
       .replace(/&amp;/g, '&')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
@@ -146,31 +128,42 @@ export class UIRenderer {
     const hasMore = entries.length > limit;
 
     const cardsHtml = visibleEntries.map(item => {
-      const categoryLabel = this.CATEGORY_LABELS[item.category] || item.type_uz || item.pos_uz || item.category;
+      const categoryLabel = this.CATEGORY_LABELS[item.category] || item.category;
       
-      let badgeClass = 'category-general';
+      let badgeClass = 'category-latin';
       if (item.category === 'prescription') badgeClass = 'category-prescription';
       else if (item.category === 'clinical') badgeClass = 'category-clinical';
-      else if (item.category === 'anatomy_system') badgeClass = 'category-system';
-      else if (item.category && item.category.startsWith('anatomy')) badgeClass = 'category-anatomy';
+      else if (item.category === 'anatomy') badgeClass = 'category-anatomy';
 
       const isBookmarked = BookmarkManager.isBookmarked(item.id);
-      const highlightedLatin = SearchEngine.highlightMatch(item.latin, query);
-      const highlightedTranslation = SearchEngine.highlightMatch(item.translation_uz, query);
-      const highlightedDefinition = SearchEngine.highlightMatch(item.definition_uz, query);
+      const uzbekText = item.uzbek || item.translation_uz || '';
+      const defText = item.definition || item.definition_uz || '';
+      const englishText = item.english ? item.english.trim() : '';
 
-      const copyPayload = `${item.latin} - ${item.translation_uz}: ${item.definition_uz}`;
+      const highlightedLatin = SearchEngine.highlightMatch(item.latin, query);
+      const highlightedTranslation = SearchEngine.highlightMatch(uzbekText, query);
+      const highlightedDefinition = SearchEngine.highlightMatch(defText, query);
+      const highlightedEnglish = englishText ? SearchEngine.highlightMatch(englishText, query) : '';
+
+      const copyPayload = `${item.latin}${englishText ? ` (${englishText})` : ''} - ${uzbekText}: ${defText}`;
       const watermarkHtml = item.category === 'prescription' 
         ? '<span class="prescription-watermark" aria-hidden="true">℞</span>' 
         : '';
 
+      const englishHtml = englishText ? `
+        <div class="english-translation" title="Inglizcha nomi">
+          <iconify-icon icon="lucide:languages" width="14" height="14" class="en-icon"></iconify-icon>
+          <span class="en-label">EN:</span>
+          <span class="en-text">${highlightedEnglish}</span>
+        </div>
+      ` : '';
+
       return `
         <article class="word-card" data-id="${this.escapeHtml(item.id)}">
           ${watermarkHtml}
-          <div class="word-card-header">
-            <h3 class="latin-term">${highlightedLatin}</h3>
+          <div class="word-card-meta">
+            <span class="category-badge ${badgeClass}" title="${this.escapeHtml(categoryLabel)}">${categoryLabel}</span>
             <div class="card-actions">
-              <span class="category-badge ${badgeClass}">${categoryLabel}</span>
               <button 
                 type="button" 
                 class="card-action-btn star-btn ${isBookmarked ? 'bookmarked' : ''}" 
@@ -191,11 +184,17 @@ export class UIRenderer {
               </button>
             </div>
           </div>
+
+          <div class="word-card-header">
+            <h3 class="latin-term">${highlightedLatin}</h3>
+          </div>
           
           <div class="uzbek-translation">
-            <iconify-icon icon="lucide:arrow-right" width="18" height="18"></iconify-icon>
-            <span>${highlightedTranslation}</span>
+            <iconify-icon icon="lucide:arrow-right" width="18" height="18" class="translation-arrow"></iconify-icon>
+            <span class="translation-text">${highlightedTranslation}</span>
           </div>
+
+          ${englishHtml}
 
           <div class="definition-box">
             ${highlightedDefinition}
@@ -254,10 +253,11 @@ export class UIRenderer {
   static renderLoading(container) {
     const skeletonHtml = Array.from({ length: 8 }).map(() => `
       <div class="skeleton-card" aria-hidden="true">
-        <div class="skeleton-header">
-          <div class="skeleton-shimmer skeleton-title"></div>
+        <div class="skeleton-meta">
           <div class="skeleton-shimmer skeleton-badge"></div>
+          <div class="skeleton-shimmer skeleton-actions"></div>
         </div>
+        <div class="skeleton-shimmer skeleton-title"></div>
         <div class="skeleton-shimmer skeleton-translation"></div>
         <div class="skeleton-shimmer skeleton-box"></div>
       </div>

@@ -11,6 +11,7 @@
 
   <!-- PWA Manifest -->
   <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚕️</text></svg>">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +42,7 @@
   <div id="loadingModal" class="loading-modal-backdrop">
     <div class="loading-modal-card">
       <div class="modal-icon-wrapper">
-        <iconify-icon icon="solar:document-medicine-bold-duotone"></iconify-icon>
+        <iconify-icon icon="ph:asclepius-bold"></iconify-icon>
       </div>
       <h2 class="modal-title">Lug'at tayyorlanmoqda</h2>
       <p class="modal-desc">
@@ -67,21 +68,28 @@
     <header class="site-header">
       <div class="header-container">
         <a href="#" class="brand-logo" id="logoLink">
-          <div class="brand-icon">
-            <iconify-icon icon="solar:document-medicine-bold-duotone" width="24" height="24"></iconify-icon>
+          <div class="brand-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 256 256" fill="currentColor">
+              <path d="M91.82 60H92a12 12 0 0 0 0-24H60a44.05 44.05 0 0 0-44 44v8a12 12 0 0 0 12 12h20a44.06 44.06 0 0 0 43.82-40M48 76h-7.6A20 20 0 0 1 60 60h7.6A20 20 0 0 1 48 76m176 3v1a44.05 44.05 0 0 1-44 44h-40v72h8a12 12 0 0 0 12-12a11.87 11.87 0 0 0-4-8.95a12 12 0 1 1 16-17.88A36 36 0 0 1 148 220h-8v12a12 12 0 0 1-24 0v-12H92a12 12 0 0 1 0-24h24v-72h-16a12 12 0 0 0-4 23.32A12 12 0 1 1 88 170a36 36 0 0 1 12-70h16V24a12 12 0 0 1 24 0v76h40a20 20 0 0 0 20-20v-1a19.05 19.05 0 0 0-19-19h-17a12 12 0 0 1 0-24h17a43.05 43.05 0 0 1 43 43"/>
+            </svg>
           </div>
           <div class="brand-title">
             MedLatin <span class="brand-badge" id="onlineStatusBadge">Online</span>
           </div>
         </a>
 
-        <div class="header-actions" style="display: flex; align-items: center; gap: 0.85rem;">
-          <span style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.35rem;">
+        <div class="header-actions" style="display: flex; align-items: center; gap: 0.75rem;">
+          <span class="header-stat" style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.35rem;">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="#059669">
               <circle cx="12" cy="12" r="10"/>
             </svg>
             <span id="totalTermsBadge">20 900+ atama</span>
           </span>
+
+          <!-- Sidebar Drawer Toggle (Icon-only) -->
+          <button type="button" id="sidebarToggleBtn" class="sidebar-toggle-btn" title="Bo'limlar va filtrlash" aria-label="Bo'limlarni ochish">
+            <iconify-icon icon="lucide:sliders-horizontal" width="18" height="18"></iconify-icon>
+          </button>
 
           <!-- Dark/Light Theme Toggle -->
           <button type="button" id="themeToggleBtn" class="theme-toggle-btn" title="Mavzuni o'zgartirish" aria-label="Mavzuni o'zgartirish">
@@ -92,105 +100,111 @@
       </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <!-- Hero Section -->
-      <section class="hero-section">
-        <h1 class="hero-title">
-          Shifokorlar yozuvini <span>oson tushuning</span>
-        </h1>
-        <p class="hero-subtitle">
-          Retsept qisqartmalari, 12 ta tana tizimi, anatomik tuzilmalar (mushak, suyak, nerv, tomir), klinik tashxislar va klassik lotincha so'zlarning o'zbekcha izohli lug'ati.
-        </p>
-      </section>
+    <!-- Main Content Layout (Sidebar + Content Area) -->
+    <main class="main-layout">
+      <!-- Backdrop for mobile drawer -->
+      <div id="sidebarBackdrop" class="sidebar-backdrop"></div>
 
-      <!-- Search Section -->
-      <!-- Search Section -->
-      <section class="search-container">
-        <div class="search-input-wrapper">
-          <span class="search-icon">
-            <iconify-icon icon="lucide:search" width="22" height="22"></iconify-icon>
-          </span>
-
-          <input 
-            type="search" 
-            id="searchInput" 
-            class="search-input" 
-            placeholder="Lotincha, inglizcha yoki o'zbekcha so'z kiriting (masalan: Rp., systema, aorta, abactor, Cor, yurak)..."
-            autocomplete="off"
-            spellcheck="false"
-          >
-
-          <div class="search-actions">
-            <span class="search-shortcut" title="Qidiruv tezkor tugmasi">Ctrl K</span>
-            <button type="button" id="clearBtn" class="clear-button" title="Tozalash" aria-label="Tozalash">
-              <iconify-icon icon="lucide:x" width="16" height="16"></iconify-icon>
-            </button>
+      <!-- Left Sidebar Navigation -->
+      <aside id="appSidebar" class="app-sidebar" aria-label="Bo'limlar va filtrlash">
+        <div class="sidebar-header">
+          <div class="sidebar-brand-title">
+            <iconify-icon icon="lucide:layers" width="18" height="18"></iconify-icon>
+            <span>Bo'limlar</span>
           </div>
+          <button type="button" id="sidebarCloseBtn" class="sidebar-close-btn" aria-label="Yopish" title="Yopish">
+            <iconify-icon icon="lucide:x" width="18" height="18"></iconify-icon>
+          </button>
         </div>
 
-        <!-- Quick Discovery Chips -->
-        <div class="search-discovery-chips">
-          <span class="discovery-label">Tezkor qidiruv:</span>
-          <button type="button" class="discovery-chip" data-query="Rp.">Rp.</button>
-          <button type="button" class="discovery-chip" data-query="D.t.d.N.">D.t.d.N.</button>
-          <button type="button" class="discovery-chip" data-query="Aorta">Aorta</button>
-          <button type="button" class="discovery-chip" data-query="Gastritis">Gastritis</button>
-          <button type="button" class="discovery-chip" data-query="Biceps">Biceps</button>
-          <button type="button" class="discovery-chip" data-query="Cor">Cor</button>
-        </div>
-      </section>
-
-      <!-- Category Filter Tabs & Sub-filters -->
-      <section class="filters-section">
-        <nav class="filters-bar" aria-label="Kategoriyalar">
+        <nav class="sidebar-nav" aria-label="Kategoriyalar">
           <button type="button" class="filter-btn active" data-category="all" id="filterAll">
             <iconify-icon icon="lucide:layout-grid"></iconify-icon>
-            <span>Barchasi</span>
+            <span class="filter-label">Barchasi</span>
             <span class="filter-count">0</span>
           </button>
           <button type="button" class="filter-btn" data-category="prescription" id="filterRx">
             <iconify-icon icon="solar:document-medicine-bold-duotone"></iconify-icon>
-            <span>Retseptlar</span>
+            <span class="filter-label">Retseptlar</span>
             <span class="filter-count">0</span>
           </button>
-          <button type="button" class="filter-btn" data-category="anatomy_group" id="filterAnatomyGroup">
+          <button type="button" class="filter-btn" data-category="anatomy" id="filterAnatomy">
             <iconify-icon icon="lucide:bone"></iconify-icon>
-            <span>Anatomiya</span>
+            <span class="filter-label">Anatomiya</span>
             <span class="filter-count">0</span>
           </button>
           <button type="button" class="filter-btn" data-category="clinical" id="filterClinical">
             <iconify-icon icon="lucide:stethoscope"></iconify-icon>
-            <span>Klinika</span>
+            <span class="filter-label">Klinika</span>
             <span class="filter-count">0</span>
           </button>
-          <button type="button" class="filter-btn" data-category="latin_group" id="filterLatinGroup">
+          <button type="button" class="filter-btn" data-category="latin" id="filterLatin">
             <iconify-icon icon="lucide:book-open"></iconify-icon>
-            <span>Lotin tili</span>
+            <span class="filter-label">Lotin tili</span>
             <span class="filter-count">0</span>
           </button>
           <button type="button" class="filter-btn" data-category="bookmarks" id="filterBookmarks">
             <iconify-icon icon="lucide:bookmark"></iconify-icon>
-            <span>Tanlanganlar</span>
+            <span class="filter-label">Tanlanganlar</span>
             <span class="filter-count">0</span>
           </button>
         </nav>
 
-        <!-- Dynamic Sub-Filters Container -->
-        <div id="subFiltersContainer" class="sub-filters-container" style="display: none;"></div>
-      </section>
+        <!-- Dynamic Sub-Filters Container in Sidebar -->
+        <div class="sidebar-subfilters-wrapper">
+          <div id="subFiltersContainer" class="sub-filters-container" style="display: none;"></div>
+        </div>
+      </aside>
 
-      <!-- Results Section -->
-      <section class="results-section">
-        <div class="results-meta">
-          <span id="resultsCount" class="results-count-badge loading">
-            <iconify-icon icon="lucide:loader-2"></iconify-icon>
-            <span>Ma'lumotlar tayyorlanmoqda...</span>
-          </span>
+      <!-- Right Content Area -->
+      <section class="content-area">
+        <!-- Hero Section -->
+        <header class="hero-section">
+          <h1 class="hero-title">
+            Tibbiy lotincha <span>atamalar lug'ati</span>
+          </h1>
+          <p class="hero-subtitle">
+            Lotincha retseptlar, klinik tashxislar va anatomik atamalarning o'zbekcha izohi
+          </p>
+        </header>
+
+        <!-- Search Section -->
+        <div class="search-container">
+          <div class="search-input-wrapper">
+            <span class="search-icon">
+              <iconify-icon icon="lucide:search" width="22" height="22"></iconify-icon>
+            </span>
+
+            <input 
+              type="search" 
+              id="searchInput" 
+              class="search-input" 
+              placeholder="Lotincha yoki o'zbekcha atama kiriting..."
+              autocomplete="off"
+              spellcheck="false"
+            >
+
+            <div class="search-actions">
+              <span class="search-shortcut" title="Qidiruv tezkor tugmasi">Ctrl K</span>
+              <button type="button" id="clearBtn" class="clear-button" title="Tozalash" aria-label="Tozalash">
+                <iconify-icon icon="lucide:x" width="16" height="16"></iconify-icon>
+              </button>
+            </div>
+          </div>
         </div>
 
-        <div id="resultsGrid" class="cards-grid">
-          <!-- Dynamically populated by ui-renderer.js -->
+        <!-- Results Section -->
+        <div class="results-section">
+          <div class="results-meta">
+            <span id="resultsCount" class="results-count-badge loading">
+              <iconify-icon icon="lucide:loader-2"></iconify-icon>
+              <span>Ma'lumotlar tayyorlanmoqda...</span>
+            </span>
+          </div>
+
+          <div id="resultsGrid" class="cards-grid">
+            <!-- Dynamically populated by ui-renderer.js -->
+          </div>
         </div>
       </section>
     </main>

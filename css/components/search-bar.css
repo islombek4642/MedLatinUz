@@ -1,6 +1,7 @@
 /* MedLatin UZ - Search Bar & Discovery Chips Styles */
 .search-container {
-  max-width: 720px;
+  width: 100%;
+  max-width: 840px;
   margin: 0 auto 1.5rem;
   position: relative;
 }
@@ -38,7 +39,7 @@
 
 .search-input {
   width: 100%;
-  padding: 1.1rem 6.5rem 1.1rem 3.4rem;
+  padding: 1.1rem 5.75rem 1.1rem 3.4rem;
   font-size: 1.05rem;
   background: transparent;
   border: none;
@@ -46,9 +47,29 @@
   color: var(--text-primary);
 }
 
+/* Hide native browser search clear (x) buttons to prevent duplicate with custom clear button */
+.search-input::-webkit-search-decoration,
+.search-input::-webkit-search-cancel-button,
+.search-input::-webkit-search-results-button,
+.search-input::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.search-input::-ms-clear,
+.search-input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
 .search-input::placeholder {
   color: var(--text-muted);
   font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .search-actions {
@@ -93,42 +114,4 @@
 
 .clear-button.visible {
   display: flex;
-}
-
-/* Discovery Chips / Popular Search Queries */
-.search-discovery-chips {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-top: 0.85rem;
-  font-size: 0.85rem;
-}
-
-.discovery-label {
-  color: var(--text-muted);
-  font-size: 0.8rem;
-  font-weight: 500;
-  margin-right: 0.25rem;
-}
-
-.discovery-chip {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-color);
-  padding: 0.25rem 0.75rem;
-  border-radius: var(--radius-full);
-  font-size: 0.825rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: all var(--transition-fast);
-  user-select: none;
-}
-
-.discovery-chip:hover {
-  border-color: var(--primary);
-  color: var(--primary);
-  background: var(--primary-light);
-  transform: translateY(-1px);
 }
