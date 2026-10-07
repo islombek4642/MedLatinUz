@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v11';
+const CACHE_NAME = 'medlatin-v12';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -20,6 +20,7 @@ const ASSETS_TO_CACHE = [
   './js/modules/data-loader.js',
   './js/modules/search-engine.js',
   './js/modules/ui-renderer.js',
+  './js/modules/speech-speaker.js',
   './js/modules/theme-manager.js',
   './js/modules/bookmark-manager.js',
   './js/modules/loading-modal.js',

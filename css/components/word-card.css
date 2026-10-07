@@ -72,6 +72,21 @@
   color: var(--primary);
 }
 
+.card-action-btn.speak-btn:hover {
+  color: var(--primary);
+}
+
+.card-action-btn.speak-btn.speaking {
+  color: var(--primary);
+  background: rgba(2, 132, 199, 0.12);
+  animation: pulseSpeak 0.85s ease-in-out infinite alternate;
+}
+
+@keyframes pulseSpeak {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
+}
+
 /* Search Highlight */
 .search-highlight {
   background: rgba(245, 158, 11, 0.28);

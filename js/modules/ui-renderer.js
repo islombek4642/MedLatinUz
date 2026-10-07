@@ -3,6 +3,7 @@
  */
 import { SearchEngine } from './search-engine.js';
 import { BookmarkManager } from './bookmark-manager.js';
+import { SpeechSpeaker } from './speech-speaker.js';
 
 export class UIRenderer {
   static CATEGORY_LABELS = {
@@ -64,6 +65,15 @@ export class UIRenderer {
     container._actionsBound = true;
 
     container.addEventListener('click', (e) => {
+      const speakBtn = e.target.closest('.speak-btn');
+      if (speakBtn) {
+        const text = speakBtn.getAttribute('data-speak-text');
+        if (text) {
+          SpeechSpeaker.speak(text, speakBtn);
+        }
+        return;
+      }
+
       const copyBtn = e.target.closest('.copy-btn');
       if (copyBtn) {
         const text = copyBtn.getAttribute('data-copy-text');
@@ -164,6 +174,15 @@ export class UIRenderer {
           <div class="word-card-meta">
             <span class="category-badge ${badgeClass}" title="${this.escapeHtml(categoryLabel)}">${categoryLabel}</span>
             <div class="card-actions">
+              <button 
+                type="button" 
+                class="card-action-btn speak-btn" 
+                data-speak-text="${this.escapeHtml(item.latin)}" 
+                title="Talaffuzni tinglash" 
+                aria-label="Talaffuzni tinglash"
+              >
+                <iconify-icon icon="lucide:volume-2"></iconify-icon>
+              </button>
               <button 
                 type="button" 
                 class="card-action-btn star-btn ${isBookmarked ? 'bookmarked' : ''}" 
