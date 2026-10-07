@@ -313,14 +313,10 @@ class MedLatinApp {
           e.preventDefault();
           this.currentPage--;
           this.renderCurrentPage();
-          const resultsEl = document.querySelector('.results-section');
-          if (resultsEl) resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
         } else if (e.key === 'ArrowRight' && this.currentPage < totalPages) {
           e.preventDefault();
           this.currentPage++;
           this.renderCurrentPage();
-          const resultsEl = document.querySelector('.results-section');
-          if (resultsEl) resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       }
     });
@@ -397,12 +393,6 @@ class MedLatinApp {
     UIRenderer.renderPagination(this.paginationContainer, total, this.currentPage, this.itemsPerPage, (newPage) => {
       this.currentPage = newPage;
       this.renderCurrentPage();
-
-      // Smooth scroll to results
-      const resultsEl = document.querySelector('.results-section');
-      if (resultsEl) {
-        resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
     });
   }
 
