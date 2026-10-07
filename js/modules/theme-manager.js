@@ -69,6 +69,12 @@ export class ThemeManager {
     if (this.root && this.root.setAttribute) {
       this.root.setAttribute('data-theme', theme);
     }
+    if (typeof document !== 'undefined') {
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+      if (metaTheme) {
+        metaTheme.setAttribute('content', theme === 'dark' ? '#1e293b' : '#ffffff');
+      }
+    }
   }
 
   /**
