@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v12';
+const CACHE_NAME = 'medlatin-v13';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -12,6 +12,7 @@ const ASSETS_TO_CACHE = [
   './css/components/search-bar.css',
   './css/components/filters.css',
   './css/components/word-card.css',
+  './css/components/pagination.css',
   './css/components/theme-toggle.css',
   './css/components/toast.css',
   './css/components/loading-modal.css',

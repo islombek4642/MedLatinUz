@@ -26,6 +26,12 @@ class MedLatinApp {
     this.sidebarToggleBtn = document.getElementById('sidebarToggleBtn');
     this.sidebarCloseBtn = document.getElementById('sidebarCloseBtn');
     this.sidebarBackdrop = document.getElementById('sidebarBackdrop');
+    this.paginationContainer = document.getElementById('paginationContainer');
+
+    // Pagination state (9 cards per page)
+    this.currentPage = 1;
+    this.itemsPerPage = 9;
+    this.currentResults = [];
 
     // Sub-filters configuration
     this.subCategoryDefs = {
@@ -300,6 +306,22 @@ class MedLatinApp {
           }
           this.searchInput.blur();
         }
+      } else if (!['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        // ArrowLeft and ArrowRight page navigation when not typing
+        const totalPages = Math.ceil(this.currentResults.length / this.itemsPerPage);
+        if (e.key === 'ArrowLeft' && this.currentPage > 1) {
+          e.preventDefault();
+          this.currentPage--;
+          this.renderCurrentPage();
+          const resultsEl = document.querySelector('.results-section');
+          if (resultsEl) resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else if (e.key === 'ArrowRight' && this.currentPage < totalPages) {
+          e.preventDefault();
+          this.currentPage++;
+          this.renderCurrentPage();
+          const resultsEl = document.querySelector('.results-section');
+          if (resultsEl) resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       }
     });
   }
@@ -344,11 +366,42 @@ class MedLatinApp {
       `;
     }
 
-    // Render cards with bookmark change callback
-    UIRenderer.renderCards(this.resultsGrid, results, this.currentQuery, 60, (id, isBookmarked) => {
+    this.currentResults = results;
+    this.currentPage = 1;
+    this.renderCurrentPage();
+  }
+
+  renderCurrentPage() {
+    const total = this.currentResults.length;
+    const totalPages = Math.ceil(total / this.itemsPerPage);
+
+    if (this.currentPage > totalPages && totalPages > 0) {
+      this.currentPage = totalPages;
+    }
+    if (this.currentPage < 1) {
+      this.currentPage = 1;
+    }
+
+    const start = (this.currentPage - 1) * this.itemsPerPage;
+    const pageItems = this.currentResults.slice(start, start + this.itemsPerPage);
+
+    // Render cards for the current 9-item page
+    UIRenderer.renderCards(this.resultsGrid, pageItems, this.currentQuery, (id, isBookmarked) => {
       this.updateCategoryCounts();
       if (this.currentCategory === 'bookmarks') {
         this.performSearch();
+      }
+    });
+
+    // Render pagination controls
+    UIRenderer.renderPagination(this.paginationContainer, total, this.currentPage, this.itemsPerPage, (newPage) => {
+      this.currentPage = newPage;
+      this.renderCurrentPage();
+
+      // Smooth scroll to results
+      const resultsEl = document.querySelector('.results-section');
+      if (resultsEl) {
+        resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
   }

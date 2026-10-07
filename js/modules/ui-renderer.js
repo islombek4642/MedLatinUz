@@ -119,14 +119,13 @@ export class UIRenderer {
   }
 
   /**
-   * Renders dictionary word cards into the container with pagination/slice
+   * Renders dictionary word cards into the container
    * @param {HTMLElement} container
    * @param {Array} entries
    * @param {string} query
-   * @param {number} limit
    * @param {Function} onBookmarkChange
    */
-  static renderCards(container, entries, query = '', limit = 60, onBookmarkChange = null) {
+  static renderCards(container, entries, query = '', onBookmarkChange = null) {
     this.bindCardActions(container, onBookmarkChange);
 
     if (!entries || entries.length === 0) {
@@ -134,10 +133,7 @@ export class UIRenderer {
       return;
     }
 
-    const visibleEntries = entries.slice(0, limit);
-    const hasMore = entries.length > limit;
-
-    const cardsHtml = visibleEntries.map(item => {
+    const cardsHtml = entries.map(item => {
       const categoryLabel = this.CATEGORY_LABELS[item.category] || item.category;
       
       let badgeClass = 'category-latin';
@@ -222,27 +218,126 @@ export class UIRenderer {
       `;
     }).join('');
 
-    const moreHtml = hasMore ? `
-      <div class="load-more-container" style="grid-column: 1 / -1; text-align: center; margin-top: 1.5rem;">
-        <p style="color: var(--text-muted); margin-bottom: 0.75rem; font-size: 0.9rem;">
-          Jami ${entries.length.toLocaleString()} ta natijadan dastlabki ${limit} tasi ko'rsatilmoqda.
-        </p>
-        <button type="button" id="loadMoreBtn" class="filter-btn active" style="padding: 0.65rem 1.75rem; font-size: 0.95rem;">
-          Yana 60 tasini ko'rsatish
-        </button>
-      </div>
-    ` : '';
+    container.innerHTML = cardsHtml;
+  }
 
-    container.innerHTML = cardsHtml + moreHtml;
+  /**
+   * Renders modern responsive left/right pagination controls
+   * @param {HTMLElement} container
+   * @param {number} totalItems
+   * @param {number} currentPage
+   * @param {number} pageSize
+   * @param {Function} onPageChange
+   */
+  static renderPagination(container, totalItems, currentPage, pageSize = 9, onPageChange = null) {
+    if (!container) return;
+    const totalPages = Math.ceil(totalItems / pageSize);
 
-    if (hasMore) {
-      const loadMoreBtn = document.getElementById('loadMoreBtn');
-      if (loadMoreBtn) {
-        loadMoreBtn.addEventListener('click', () => {
-          this.renderCards(container, entries, query, limit + 60, onBookmarkChange);
-        });
+    if (totalPages <= 1) {
+      container.innerHTML = '';
+      container.style.display = 'none';
+      return;
+    }
+
+    container.style.display = 'flex';
+    const startItem = (currentPage - 1) * pageSize + 1;
+    const endItem = Math.min(currentPage * pageSize, totalItems);
+
+    // Smart numbered pagination buttons
+    const pageButtons = [];
+    if (totalPages <= 7) {
+      for (let p = 1; p <= totalPages; p++) pageButtons.push(p);
+    } else {
+      pageButtons.push(1);
+      if (currentPage > 3) {
+        pageButtons.push('...');
+      }
+
+      const start = Math.max(2, currentPage - 1);
+      const end = Math.min(totalPages - 1, currentPage + 1);
+
+      for (let p = start; p <= end; p++) {
+        if (!pageButtons.includes(p)) pageButtons.push(p);
+      }
+
+      if (currentPage < totalPages - 2) {
+        pageButtons.push('...');
+      }
+      if (!pageButtons.includes(totalPages)) {
+        pageButtons.push(totalPages);
       }
     }
+
+    const desktopNumbersHtml = pageButtons.map(item => {
+      if (item === '...') {
+        return `<span class="page-ellipsis" aria-hidden="true">…</span>`;
+      }
+      const isActive = item === currentPage;
+      return `
+        <button 
+          type="button" 
+          class="page-btn ${isActive ? 'active' : ''}" 
+          data-page="${item}"
+          ${isActive ? 'aria-current="page"' : ''}
+          title="Sahifa ${item}"
+        >
+          ${item}
+        </button>
+      `;
+    }).join('');
+
+    container.innerHTML = `
+      <div class="pagination-info">
+        <span>Sahifa <strong>${currentPage}</strong> / <strong>${totalPages.toLocaleString()}</strong></span>
+        <span>(${startItem}–${endItem} / ${totalItems.toLocaleString()} ta atama)</span>
+      </div>
+
+      <div class="pagination-controls">
+        <button 
+          type="button" 
+          class="page-btn nav-direction-btn prev-btn" 
+          ${currentPage <= 1 ? 'disabled' : ''} 
+          data-page="${currentPage - 1}"
+          title="Oldingi sahifa"
+          aria-label="Oldingi sahifa"
+        >
+          <iconify-icon icon="lucide:chevron-left"></iconify-icon>
+          <span class="btn-label">Oldingi</span>
+        </button>
+
+        <div class="page-numbers-desktop" style="display: flex; align-items: center; gap: 0.35rem;">
+          ${desktopNumbersHtml}
+        </div>
+
+        <div class="page-numbers-mobile">
+          <span>${currentPage} / ${totalPages}</span>
+        </div>
+
+        <button 
+          type="button" 
+          class="page-btn nav-direction-btn next-btn" 
+          ${currentPage >= totalPages ? 'disabled' : ''} 
+          data-page="${currentPage + 1}"
+          title="Keyingi sahifa"
+          aria-label="Keyingi sahifa"
+        >
+          <span class="btn-label">Keyingi</span>
+          <iconify-icon icon="lucide:chevron-right"></iconify-icon>
+        </button>
+      </div>
+    `;
+
+    // Bind page change events
+    container.querySelectorAll('.page-btn[data-page]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetPage = parseInt(btn.getAttribute('data-page'), 10);
+        if (!isNaN(targetPage) && targetPage >= 1 && targetPage <= totalPages && targetPage !== currentPage) {
+          if (typeof onPageChange === 'function') {
+            onPageChange(targetPage);
+          }
+        }
+      });
+    });
   }
 
   /**
