@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v10';
+const CACHE_NAME = 'medlatin-v11';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -8,6 +8,7 @@ const ASSETS_TO_CACHE = [
   './css/variables.css',
   './css/base.css',
   './css/layout.css',
+  './css/components/sidebar.css',
   './css/components/search-bar.css',
   './css/components/filters.css',
   './css/components/word-card.css',
@@ -26,38 +27,7 @@ const ASSETS_TO_CACHE = [
   './js/workers/search-worker.js',
   './data/dictionary.json',
   './data/dictionary-data.js',
-  'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js',
-  
-  // 4 Core sets
-  './data/prescriptions.json',
-  './data/anatomy.json',
-  './data/clinical.json',
-  './data/general.json',
-
-  // Human body systems, regions & glossary
-  './data/anatomy_systems.json',
-  './data/anatomy_regions.json',
-  './data/anatomy_glossary.json',
-  
-  // 9 Anatomical categories
-  './data/anatomy_organs.json',
-  './data/anatomy_bones.json',
-  './data/anatomy_nerves.json',
-  './data/anatomy_vessels.json',
-  './data/anatomy_muscles.json',
-  './data/anatomy_glands.json',
-  './data/anatomy_joints.json',
-  './data/anatomy_ligaments.json',
-  './data/anatomy_tendons.json',
-
-  // 7 Latin POS categories
-  './data/latin_nouns.json',
-  './data/latin_adjectives.json',
-  './data/latin_verbs.json',
-  './data/latin_adverbs.json',
-  './data/latin_prepositions.json',
-  './data/latin_conjunctions.json',
-  './data/latin_interjections.json'
+  'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js'
 ];
 
 // Install: Cache all static assets and data files

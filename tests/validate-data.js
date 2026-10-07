@@ -5,75 +5,50 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const requiredFiles = [
-  // Original curated sets
-  { file: 'data/prescriptions.json', category: 'prescription' },
-  { file: 'data/anatomy.json', category: 'anatomy' },
-  { file: 'data/clinical.json', category: 'clinical' },
-  { file: 'data/general.json', category: 'general' },
-  
-  // Specific anatomical categories from hhh.html
-  { file: 'data/anatomy_organs.json', category: 'anatomy_organ' },
-  { file: 'data/anatomy_bones.json', category: 'anatomy_bone' },
-  { file: 'data/anatomy_nerves.json', category: 'anatomy_nerve' },
-  { file: 'data/anatomy_vessels.json', category: 'anatomy_vessel' },
-  { file: 'data/anatomy_muscles.json', category: 'anatomy_muscle' },
-  { file: 'data/anatomy_glands.json', category: 'anatomy_gland' },
-  { file: 'data/anatomy_joints.json', category: 'anatomy_joint' },
-  { file: 'data/anatomy_ligaments.json', category: 'anatomy_ligament' },
-  { file: 'data/anatomy_tendons.json', category: 'anatomy_tendon' },
+const dictPath = path.resolve(__dirname, '../data/dictionary.json');
+const bundlePath = path.resolve(__dirname, '../data/dictionary-data.js');
 
-  // Human body systems, regions, and glossary
-  { file: 'data/anatomy_systems.json', category: 'anatomy_system' },
-  { file: 'data/anatomy_regions.json', category: 'anatomy_region' },
-  { file: 'data/anatomy_glossary.json', category: 'anatomy_glossary' },
+console.log('Validating unified dictionary database...');
 
-  // Specific Latin categories from latin.html
-  { file: 'data/latin_nouns.json', category: 'latin_noun' },
-  { file: 'data/latin_adjectives.json', category: 'latin_adjective' },
-  { file: 'data/latin_verbs.json', category: 'latin_verb' },
-  { file: 'data/latin_adverbs.json', category: 'latin_adverb' },
-  { file: 'data/latin_prepositions.json', category: 'latin_preposition' },
-  { file: 'data/latin_conjunctions.json', category: 'latin_conjunction' },
-  { file: 'data/latin_interjections.json', category: 'latin_interjection' }
-];
-
-let totalEntries = 0;
-let errors = [];
-
-for (const { file, category } of requiredFiles) {
-  const fullPath = path.resolve(__dirname, '..', file);
-  if (!fs.existsSync(fullPath)) {
-    errors.push(`Missing file: ${file}`);
-    continue;
-  }
-
-  let content;
-  try {
-    content = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
-  } catch (err) {
-    errors.push(`Invalid JSON in ${file}: ${err.message}`);
-    continue;
-  }
-
-  if (!Array.isArray(content) || content.length === 0) {
-    errors.push(`${file} must contain a non-empty array of entries.`);
-    continue;
-  }
-
-  let sample = content[0];
-  totalEntries += content.length;
-
-  if (!sample.id || !sample.latin || !sample.translation_uz || !sample.definition_uz) {
-    errors.push(`${file}: first sample is missing required fields`);
-  }
-}
-
-if (errors.length > 0) {
-  console.error('Data validation failed with errors:');
-  errors.forEach(e => console.error(' - ' + e));
+if (!fs.existsSync(dictPath)) {
+  console.error('Missing data/dictionary.json');
   process.exit(1);
-} else {
-  console.log(`PASS: All ${requiredFiles.length} data files validated successfully! Total entries: ${totalEntries}`);
-  process.exit(0);
 }
+
+if (!fs.existsSync(bundlePath)) {
+  console.error('Missing data/dictionary-data.js');
+  process.exit(1);
+}
+
+const entries = JSON.parse(fs.readFileSync(dictPath, 'utf8'));
+
+if (!Array.isArray(entries) || entries.length < 20000) {
+  console.error(`Invalid entries count: ${entries.length}`);
+  process.exit(1);
+}
+
+const expectedKeys = ['id', 'latin', 'uzbek', 'english', 'category', 'definition'];
+const validCategories = new Set(['anatomy', 'latin', 'prescription', 'clinical']);
+
+for (let i = 0; i < entries.length; i++) {
+  const item = entries[i];
+  if (item.id !== i + 1) {
+    console.error(`Invalid id at index ${i}: expected ${i + 1}, got ${item.id}`);
+    process.exit(1);
+  }
+  if (!item.latin || !item.uzbek || !item.definition) {
+    console.error(`Missing required text fields at index ${i}`, item);
+    process.exit(1);
+  }
+  if (!validCategories.has(item.category)) {
+    console.error(`Invalid category at index ${i}: ${item.category}`);
+    process.exit(1);
+  }
+  const keys = Object.keys(item);
+  if (keys.some((k, idx) => k !== expectedKeys[idx])) {
+    console.error(`Invalid key order at index ${i}:`, keys);
+    process.exit(1);
+  }
+}
+
+console.log(`PASS: All ${entries.length.toLocaleString()} entries validated successfully with unified 6-key schema!`);

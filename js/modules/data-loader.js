@@ -11,32 +11,6 @@ import { DBStorage } from './db-storage.js';
 export class DataLoader {
   static UNIFIED_FILE = './data/dictionary.json';
 
-  static DATA_FILES = [
-    './data/anatomy_systems.json',
-    './data/anatomy_regions.json',
-    './data/anatomy_glossary.json',
-    './data/prescriptions.json',
-    './data/anatomy.json',
-    './data/clinical.json',
-    './data/general.json',
-    './data/anatomy_organs.json',
-    './data/anatomy_bones.json',
-    './data/anatomy_nerves.json',
-    './data/anatomy_vessels.json',
-    './data/anatomy_muscles.json',
-    './data/anatomy_glands.json',
-    './data/anatomy_joints.json',
-    './data/anatomy_ligaments.json',
-    './data/anatomy_tendons.json',
-    './data/latin_nouns.json',
-    './data/latin_adjectives.json',
-    './data/latin_verbs.json',
-    './data/latin_adverbs.json',
-    './data/latin_prepositions.json',
-    './data/latin_conjunctions.json',
-    './data/latin_interjections.json'
-  ];
-
   /**
    * Loads dictionary entries using Cache-First (IndexedDB) -> Unified JSON -> Fallback
    * @param {Function} onProgress - Optional callback (percent, text)
@@ -85,34 +59,15 @@ export class DataLoader {
         return entries;
       }
     } catch (unifiedErr) {
-      console.warn('Failed to fetch unified dictionary.json, falling back to individual files:', unifiedErr);
+      console.warn('Failed to fetch unified dictionary.json:', unifiedErr);
     }
 
-    // 4. Fallback: Load 23 individual files
-    try {
-      notify(40, "Zaxira fayllar yuklanmoqda...");
-      let loaded = 0;
-      const total = DataLoader.DATA_FILES.length;
-      const fetchPromises = DataLoader.DATA_FILES.map(async file => {
-        const response = await fetch(file);
-        if (!response.ok) {
-          throw new Error(`Failed to load ${file}: HTTP ${response.status}`);
-        }
-        const data = await response.json();
-        loaded++;
-        notify(40 + Math.round((loaded / total) * 35), `${loaded}/${total} ta to'plam yuklandi...`);
-        return data;
-      });
-
-      const results = await Promise.all(fetchPromises);
-      const flat = results.flat();
-      
-      notify(85, "Oflayn xotiraga yozilmoqda...");
-      await DBStorage.saveAll(flat);
-      return flat;
-    } catch (err) {
-      console.error('DataLoader fallback error:', err);
-      throw err;
+    // 4. Fallback: If network fetch failed, check if window.__MEDLATIN_DATA__ is available
+    if (typeof window !== 'undefined' && window.__MEDLATIN_DATA__ && window.__MEDLATIN_DATA__.length >= 20000) {
+      notify(80, "Zaxira to'plamdan yuklandi!");
+      return window.__MEDLATIN_DATA__;
     }
+
+    throw new Error("Lug'at ma'lumotlarini yuklab bo'lmadi. Iltimos, internet aloqasini tekshiring.");
   }
 }
