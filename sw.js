@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medlatin-v13';
+const CACHE_NAME = 'medlatin-v14';
 
 const ASSETS_TO_CACHE = [
   './',
