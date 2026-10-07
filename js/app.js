@@ -133,11 +133,6 @@ class MedLatinApp {
         countEl.textContent = counts[cat].toLocaleString();
       }
     });
-
-    const totalBadge = document.getElementById('totalTermsBadge');
-    if (totalBadge) {
-      totalBadge.textContent = `${entries.length.toLocaleString()}+ atama`;
-    }
   }
 
   renderSubFilters(groupKey) {
