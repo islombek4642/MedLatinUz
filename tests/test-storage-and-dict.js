@@ -16,9 +16,9 @@ const idSet = new Set();
 for (const item of entries) {
   assert.ok(item.id, 'Entry must have id');
   assert.ok(item.latin, `Entry ${item.id} must have latin`);
-  assert.ok(item.translation_uz, `Entry ${item.id} must have translation_uz`);
-  assert.ok(item.definition_uz, `Entry ${item.id} must have definition_uz`);
+  assert.ok(item.uzbek, `Entry ${item.id} must have uzbek`);
   assert.ok(item.category, `Entry ${item.id} must have category`);
+  assert.ok(typeof item.definition === 'string', `Entry ${item.id} must have definition string`);
   assert.ok(!idSet.has(item.id), `Duplicate ID found: ${item.id}`);
   idSet.add(item.id);
 }
